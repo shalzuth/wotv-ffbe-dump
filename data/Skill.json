@@ -22317,7 +22317,7 @@
       "effnm": "ef_com_hit_01",
       "count": 1,
       "cost_type": 0,
-      "cost_ap": 69,
+      "cost_ap": 43,
       "range_s": 1,
       "range_l": 3,
       "range_h": 1,
@@ -22325,7 +22325,6 @@
       "timing": 0,
       "eff_type": 2,
       "target": 12,
-      "hp_bonus": 100,
       "atk_type": 1,
       "atk_base": 1,
       "atk_formula": 0,
@@ -22336,8 +22335,8 @@
       "def_wep": "AF_NKN_LW_KTON_2",
       "force_eq": 1,
       "elem_pri": 1,
-      "eff_val": 68,
-      "eff_val1": 103,
+      "eff_val": 65,
+      "eff_val1": 100,
       "t_buffs": [
         "BUFF_LB_LW_KTON"
       ],
@@ -22353,7 +22352,7 @@
       "effnm": "ef_com_hit_01",
       "count": 1,
       "cost_type": 0,
-      "cost_ap": 69,
+      "cost_ap": 43,
       "range_s": 1,
       "range_l": 3,
       "range_h": 1,
@@ -22361,7 +22360,6 @@
       "timing": 0,
       "eff_type": 2,
       "target": 12,
-      "hp_bonus": 100,
       "atk_type": 1,
       "atk_base": 1,
       "atk_formula": 0,
@@ -22372,8 +22370,8 @@
       "def_wep": "AF_NKN_LW_KTON_2",
       "force_eq": 1,
       "elem_pri": 1,
-      "eff_val": 103,
-      "eff_val1": 143,
+      "eff_val": 100,
+      "eff_val1": 140,
       "t_buffs": [
         "BUFF_LB_LW_KTON_B"
       ],
@@ -22389,7 +22387,7 @@
       "effnm": "ef_LAPSwhis_LB1",
       "count": 1,
       "cost_type": 0,
-      "cost_ap": 69,
+      "cost_ap": 49,
       "eff_s": 2,
       "eff_l": 1,
       "eff_h": 1,
@@ -22400,12 +22398,14 @@
       "target": 1,
       "atk_type": 1,
       "atk_base": 1,
+      "atk_formula": 1,
+      "atk_formula_t1": 20,
       "atk_det": 1,
       "def_wep": "AF_SWO_LW_WHIS_2",
       "force_eq": 1,
       "elem_pri": 1,
-      "eff_val": 70,
-      "eff_val1": 105,
+      "eff_val": 65,
+      "eff_val1": 100,
       "t_buffs": [
         "BUFF_LB_LW_WHIS"
       ]
@@ -22419,7 +22419,7 @@
       "effnm": "ef_LAPSwhis_LB1",
       "count": 1,
       "cost_type": 0,
-      "cost_ap": 69,
+      "cost_ap": 49,
       "eff_s": 2,
       "eff_l": 1,
       "eff_h": 1,
@@ -22430,12 +22430,14 @@
       "target": 1,
       "atk_type": 1,
       "atk_base": 1,
+      "atk_formula": 1,
+      "atk_formula_t1": 20,
       "atk_det": 1,
       "def_wep": "AF_SWO_LW_WHIS_2",
       "force_eq": 1,
       "elem_pri": 1,
-      "eff_val": 105,
-      "eff_val1": 145,
+      "eff_val": 100,
+      "eff_val1": 140,
       "t_buffs": [
         "BUFF_LB_LW_WHIS_B"
       ]
@@ -24361,6 +24363,30 @@
       "target": 0,
       "t_buffs": [
         "BUFF_MA_FFT_ORND"
+      ]
+    },
+    {
+      "iname": "SK_MA_LW_P_WHIS",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_MA_LW_P_WHIS"
+      ]
+    },
+    {
+      "iname": "SK_MA_LW_P_KTON",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_MA_LW_P_KTON"
       ]
     },
     {
@@ -26593,6 +26619,53 @@
       }
     },
     {
+      "iname": "SK_HAT_LW_WHIS_1_1",
+      "slot": 1,
+      "cap": 20,
+      "grow": "SKILL_DEFAULT",
+      "lvup_cost_rate": 100,
+      "motnm": "Artifact/hat_008",
+      "effnm": "ef_wa_hat_008",
+      "cam_dir": 1,
+      "count": 1,
+      "cost_type": 1,
+      "cost_mp": 24,
+      "hp_cost_rate": 100,
+      "hp_cost": 25,
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 1,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_HAT_LW_WHIS_1_1"
+      ]
+    },
+    {
+      "iname": "SK_ARW_LW_KTON_1_1",
+      "slot": 1,
+      "cap": 20,
+      "grow": "SKILL_DEFAULT",
+      "lvup_cost_rate": 100,
+      "motnm": "Artifact/arw_004",
+      "cam_dir": 1,
+      "count": 1,
+      "cost_type": 1,
+      "cost_mp": 24,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_ARM_LW_KTON_1_1",
+        "BUFF_ARM_LW_KTON_1_2"
+      ]
+    },
+    {
       "iname": "SK_ROD_LW_HLNA_1_1",
       "cap": 1,
       "grow": "ARTIFACT_50",
@@ -26746,6 +26819,19 @@
       "target": 0,
       "s_buffs": [
         "BUFF_ROD_LW_MGRT_1_1"
+      ]
+    },
+    {
+      "iname": "SK_HAT_LW_WHIS_1_2",
+      "cap": 1,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_HAT_LW_WHIS_1_2"
       ]
     },
     {
@@ -27045,19 +27131,6 @@
       "target": 0,
       "s_buffs": [
         "BUFF_ARM_LW_KTON_1_1_S"
-      ]
-    },
-    {
-      "iname": "SK_HAT_LW_WHIS_1_1",
-      "cap": 1,
-      "grow": "ARTIFACT_50",
-      "lvup_cost_rate": 100,
-      "type": 6,
-      "timing": 1,
-      "eff_type": 0,
-      "target": 0,
-      "s_buffs": [
-        "BUFF_HAT_LW_WHIS_1_1_S"
       ]
     },
     {

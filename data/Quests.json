@@ -11861,6 +11861,81 @@
       }
     },
     {
+      "iname": "QE_HA_LW_KTON",
+      "title_index": 1,
+      "type": 3,
+      "sect": "SE_WD_010109",
+      "ap": 20,
+      "limit": 2,
+      "ap0": 1,
+      "lv": 56,
+      "open_cond": [
+        "COND_HA_LW_KTON"
+      ],
+      "pexp": 0,
+      "uexp": 5674,
+      "gold": 1500,
+      "jp": 10,
+      "jp_skip": 10,
+      "jpt": 100,
+      "unit_iname": "UN_LW_P_KTON",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_HD_0001",
+        "QM_HD_MM_4_01",
+        "QM_HD_PI_048"
+      ],
+      "map": {
+        "scn": "wez_for/wez_for_006_A_1",
+        "set": "ha/ha_01040307_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_HA_LW_WHIS",
+      "title_index": 1,
+      "type": 3,
+      "sect": "SE_WD_010109",
+      "ap": 20,
+      "limit": 2,
+      "ap0": 1,
+      "lv": 56,
+      "open_cond": [
+        "COND_HA_LW_WHIS"
+      ],
+      "pexp": 0,
+      "uexp": 5674,
+      "gold": 1500,
+      "jp": 10,
+      "jp_skip": 10,
+      "jpt": 100,
+      "unit_iname": "UN_LW_P_WHIS",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_HD_0001",
+        "QM_HD_MM_4_01",
+        "QM_HD_PI_047"
+      ],
+      "map": {
+        "scn": "wez_for/wez_for_007_A_1",
+        "set": "ha/ha_01040305_set",
+        "bgm": "law_201_battle"
+      }
+    },
+    {
       "iname": "QE_CH_LW_ZZAN",
       "title_index": 1,
       "type": 5,
@@ -13879,6 +13954,96 @@
       "map": {
         "scn": "lio_for/lio_for_012_A_1",
         "set": "ch/ch_lq_yerm_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_CH_LW_WHIS",
+      "title_index": 1,
+      "type": 5,
+      "sect": "SE_WD_010109",
+      "ap": 25,
+      "not_search": 1,
+      "ap0": 1,
+      "lv": 40,
+      "open_cond": [
+        "COND_CH_LW_WHIS"
+      ],
+      "pexp": 0,
+      "uexp": 6400,
+      "gold": 1500,
+      "jp": 13,
+      "jp_skip": 13,
+      "jpt": 100,
+      "unit_iname": "UN_LW_P_WHIS",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "item": "IT_PI_LW_WHIS",
+          "type": 0,
+          "num": 15
+        }
+      ],
+      "missions": [
+        "QM_CH_MM_A01",
+        "QM_CH_MM_002",
+        "QM_CH_IM_002",
+        "QM_CH_EM_055"
+      ],
+      "map": {
+        "scn": "lio_cag/lio_cag_001_A_1",
+        "set": "ch/ch_lw_whis_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_CH_LW_KTON",
+      "title_index": 1,
+      "type": 5,
+      "sect": "SE_WD_010109",
+      "ap": 25,
+      "not_search": 1,
+      "ap0": 1,
+      "lv": 40,
+      "open_cond": [
+        "COND_CH_LW_KTON"
+      ],
+      "pexp": 0,
+      "uexp": 6400,
+      "gold": 1500,
+      "jp": 13,
+      "jp_skip": 13,
+      "jpt": 100,
+      "unit_iname": "UN_LW_P_KTON",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "item": "IT_PI_LW_KTON",
+          "type": 0,
+          "num": 15
+        }
+      ],
+      "missions": [
+        "QM_CH_MM_A01",
+        "QM_CH_MM_010",
+        "QM_CH_IM_002",
+        "QM_CH_EM_056"
+      ],
+      "map": {
+        "scn": "wez_for/wez_for_007_A_1",
+        "set": "ch/ch_lw_kton_set",
         "bgm": "law_201_battle"
       },
       "rule": {

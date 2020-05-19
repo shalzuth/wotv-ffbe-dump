@@ -20401,6 +20401,158 @@
       ]
     },
     {
+      "iname": "SK_LAMA_ATK",
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSlama/atk",
+      "effnm": "ef_com_hit_00",
+      "range_s": 0,
+      "range_l": 1,
+      "range_h": 1,
+      "type": 0,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_det": 3,
+      "eff_val": -30,
+      "eff_val1": -30
+    },
+    {
+      "iname": "SK_LAMA_M_01",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSlama/skl_M1",
+      "effnm": "ef_LAPSlama_M01",
+      "count": 5,
+      "cost_type": 1,
+      "cost_mp": 20,
+      "range_s": 1,
+      "range_l": 2,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 0,
+      "target": 11,
+      "atk_type": 1,
+      "atk_det": 0,
+      "eff_val": 0,
+      "eff_val1": 0,
+      "t_buffs": [
+        "BUFF_LAMA_M_01"
+      ]
+    },
+    {
+      "iname": "SK_LAMA_M_01_MAN",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSlama/skl_M1",
+      "effnm": "ef_LAPSlama_M01",
+      "count": 5,
+      "cost_type": 1,
+      "cost_mp": 20,
+      "range_s": 1,
+      "range_l": 2,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 0,
+      "target": 11,
+      "atk_type": 1,
+      "atk_det": 0,
+      "eff_val": 0,
+      "eff_val1": 0,
+      "t_buffs": [
+        "BUFF_LAMA_M_01_MAN",
+        "BUFF_LAMA_M_01_MAN_02"
+      ]
+    },
+    {
+      "iname": "SK_LAMA_M_02",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSlama/skl_M2",
+      "count": 5,
+      "cost_type": 1,
+      "cost_mp": 20,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 0,
+      "target": 0,
+      "atk_type": 1,
+      "atk_det": 0,
+      "eff_val": 0,
+      "eff_val1": 0,
+      "s_buffs": [
+        "BUFF_LAMA_M_02"
+      ]
+    },
+    {
+      "iname": "SK_LAMA_M_03",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSlama/skl_M3",
+      "effnm": "ef_LAPSlama_M03",
+      "count": 5,
+      "cost_type": 0,
+      "cost_ap": 26,
+      "range_s": 10,
+      "range_l": 3,
+      "range_w": 1,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "klsp": [
+        401
+      ],
+      "klspr": 25,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_det": 3,
+      "elem_pri": 1,
+      "eff_val": 30,
+      "eff_val1": 50,
+      "t_buffs": [
+        "BUFF_LAMA_M_03"
+      ]
+    },
+    {
+      "iname": "SK_GL_LAMA_M_03",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSlama/skl_M3",
+      "effnm": "ef_LAPSlama_M03",
+      "count": 5,
+      "cost_type": 0,
+      "cost_ap": 26,
+      "range_s": 10,
+      "range_l": 3,
+      "range_w": 1,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_det": 3,
+      "elem_pri": 1,
+      "eff_val": 30,
+      "eff_val1": 50,
+      "t_buffs": [
+        "BUFF_LAMA_M_03"
+      ]
+    },
+    {
       "iname": "SK_IFRT_ATK",
       "cap": 20,
       "lvup_cost_rate": 100,
@@ -22085,12 +22237,16 @@
       "target": 1,
       "atk_type": 2,
       "atk_base": 3,
+      "atk_formula": 0,
+      "atk_formula_t1": 25,
+      "atk_formula_t2": 10,
+      "atk_formula_t3": 10,
       "atk_det": 5,
       "def_wep": "AF_SWO_LW_MRND_2",
       "force_eq": 1,
       "elem_pri": 1,
-      "eff_val": 65,
-      "eff_val1": 100,
+      "eff_val": 70,
+      "eff_val1": 105,
       "t_buffs": [
         "BUFF_LB_LW_MRND"
       ]
@@ -22115,12 +22271,16 @@
       "target": 1,
       "atk_type": 2,
       "atk_base": 3,
+      "atk_formula": 0,
+      "atk_formula_t1": 25,
+      "atk_formula_t2": 10,
+      "atk_formula_t3": 10,
       "atk_det": 5,
       "def_wep": "AF_SWO_LW_MRND_2",
       "force_eq": 1,
       "elem_pri": 1,
-      "eff_val": 100,
-      "eff_val1": 140,
+      "eff_val": 105,
+      "eff_val1": 145,
       "t_buffs": [
         "BUFF_LB_LW_MRND_B"
       ]
@@ -23390,6 +23550,41 @@
       }
     },
     {
+      "iname": "SK_SMN_LAMA",
+      "slot": 5,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "VISION/LAPSlama",
+      "effnm": "ef_LAPSlama_M03",
+      "ischa": 1,
+      "count": 1,
+      "cost_type": 1,
+      "range_s": 10,
+      "range_l": 3,
+      "range_w": 1,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "klsp": [
+        3
+      ],
+      "klspr": 25,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_rev": 2,
+      "atk_det": 3,
+      "elem": [
+        1
+      ],
+      "eff_val": 65,
+      "eff_val1": 100,
+      "t_buffs": [
+        "BUFF_SMN_LAMA"
+      ]
+    },
+    {
       "iname": "SK_SMN_OGRE",
       "slot": 5,
       "cap": 20,
@@ -24580,6 +24775,18 @@
       "target": 0,
       "t_buffs": [
         "BUFF_MA_LW_P_KTON"
+      ]
+    },
+    {
+      "iname": "SK_MA_LW_DRND",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_MA_LW_DRND"
       ]
     },
     {
@@ -27262,6 +27469,19 @@
       ]
     },
     {
+      "iname": "SK_AXE_LW_DRND_1_1",
+      "cap": 1,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_AXE_LW_DRND_1_1"
+      ]
+    },
+    {
       "iname": "SK_ARM_LW_CMLO_1_1",
       "cap": 1,
       "grow": "ARTIFACT_50",
@@ -28053,6 +28273,60 @@
         "BUFF_VC_LW_NEWYEAR_GSAW"
       ],
       "gdupli": "SK_VC_LW_NEWYEAR_GS"
+    },
+    {
+      "iname": "SK_VC_LW_LAMA_01_GS",
+      "slot": 8,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_LAMA_01_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_LAMA_01_GSAW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_LAMA_01_GSAW"
+      ],
+      "gdupli": "SK_VC_LW_LAMA_01_GS"
+    },
+    {
+      "iname": "SK_VC_LW_GUARD_GS",
+      "slot": 8,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_GUARD_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_GUARD_GSAW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_GUARD_GSAW"
+      ],
+      "gdupli": "SK_VC_LW_GUARD_GS"
     },
     {
       "iname": "SK_VC_LW_HOLYNIGHT_GS",
@@ -29599,6 +29873,60 @@
         "BUFF_VC_LW_NEWYEAR_PAW"
       ],
       "gdupli": "SK_VC_LW_NEWYEAR_P"
+    },
+    {
+      "iname": "SK_VC_LW_LAMA_01_P",
+      "slot": 3,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_LAMA_01_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_LAMA_01_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_LAMA_01_PAW"
+      ],
+      "gdupli": "SK_VC_LW_LAMA_01_P"
+    },
+    {
+      "iname": "SK_VC_LW_GUARD_P",
+      "slot": 3,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_GUARD_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_GUARD_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_GUARD_PAW"
+      ],
+      "gdupli": "SK_VC_LW_GUARD_P"
     },
     {
       "iname": "SK_VC_LW_MOGL_P",

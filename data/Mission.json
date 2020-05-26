@@ -1310,6 +1310,75 @@
       "chk_ver": "M_ST_0016_2"
     },
     {
+      "iname": "M_ST_0006_02",
+      "grpID": "MG_STORY_001",
+      "priority": 100035,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_01060205"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0017"
+    },
+    {
+      "iname": "M_ST_0006_02_2",
+      "grpID": "MG_STORY_001",
+      "priority": 100036,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_01060210"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 500
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_SSR",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_ST_0017_2"
+    },
+    {
       "iname": "M_VIP_LOGB_001",
       "grpID": "MG_VIP_LOGB_01",
       "priority": 1,
@@ -1687,6 +1756,7 @@
       "condition": {
         "type": 6,
         "sval": [
+          "QE_EV_UNITEXP_04",
           "QE_EV_UNITEXP_03",
           "QE_EV_UNITEXP_02",
           "QE_EV_UNITEXP_01"
@@ -4424,6 +4494,316 @@
         }
       ],
       "chk_ver": "M_ART_CRF_04_02"
+    },
+    {
+      "iname": "M_EV_IGNT_01",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200001,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_FIRE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_01"
+    },
+    {
+      "iname": "M_EV_IGNT_02",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200002,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SHINE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_DARK",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_02"
+    },
+    {
+      "iname": "M_EV_IGNT_03",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200003,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_FIRE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_03"
+    },
+    {
+      "iname": "M_EV_IGNT_04",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200004,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SHINE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_DARK",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_04"
+    },
+    {
+      "iname": "M_EV_IGNT_05",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200005,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_02"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        },
+        {
+          "type": 3,
+          "num": 150
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_05"
+    },
+    {
+      "iname": "M_EV_IGNT_06",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200001,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_03"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_LB_EXP_02",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_06"
+    },
+    {
+      "iname": "M_EV_IGNT_07",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200002,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_03"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_LB_EXP_02",
+          "num": 20
+        },
+        {
+          "type": 3,
+          "num": 150
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_07"
+    },
+    {
+      "iname": "M_EV_IGNT_08",
+      "grpID": "MG_EV_IGNT_01",
+      "priority": 200003,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_SB_IGNT_03"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_LB_EXP_02",
+          "num": 30
+        },
+        {
+          "type": 3,
+          "num": 200
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_08"
+    },
+    {
+      "iname": "M_EV_IGNT_09",
+      "grpID": "MG_MU_IGNT_01",
+      "priority": 200001,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_IGNT_03"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_SHINE_03",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_09"
+    },
+    {
+      "iname": "M_EV_IGNT_10",
+      "grpID": "MG_MU_IGNT_01",
+      "priority": 200002,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_IGNT_03"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_LB_EXP_02",
+          "num": 20
+        },
+        {
+          "type": 3,
+          "num": 150
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_10"
+    },
+    {
+      "iname": "M_EV_IGNT_11",
+      "grpID": "MG_MU_IGNT_01",
+      "priority": 200003,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_IGNT_03"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_LB_EXP_02",
+          "num": 20
+        },
+        {
+          "type": 3,
+          "num": 200
+        }
+      ],
+      "chk_ver": "M_EV_IGNT_11"
     },
     {
       "iname": "M_ART_CRF_05_01",
@@ -15729,6 +16109,2523 @@
         }
       ],
       "chk_ver": "M_MONTHLY_0273"
+    },
+    {
+      "iname": "M_MONTHLY_0274",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400401,
+      "condition": {
+        "type": 1,
+        "ival": 20
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0274"
+    },
+    {
+      "iname": "M_MONTHLY_0275",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400402,
+      "condition": {
+        "type": 1,
+        "ival": 40
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0275"
+    },
+    {
+      "iname": "M_MONTHLY_0276",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400403,
+      "condition": {
+        "type": 1,
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0276"
+    },
+    {
+      "iname": "M_MONTHLY_0277",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400404,
+      "condition": {
+        "type": 1,
+        "ival": 80
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0277"
+    },
+    {
+      "iname": "M_MONTHLY_0278",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400405,
+      "condition": {
+        "type": 1,
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0278"
+    },
+    {
+      "iname": "M_MONTHLY_0279",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400406,
+      "condition": {
+        "type": 1,
+        "ival": 120
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0279"
+    },
+    {
+      "iname": "M_MONTHLY_0280",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400407,
+      "condition": {
+        "type": 1,
+        "ival": 140
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0280"
+    },
+    {
+      "iname": "M_MONTHLY_0281",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400408,
+      "condition": {
+        "type": 1,
+        "ival": 160
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0281"
+    },
+    {
+      "iname": "M_MONTHLY_0282",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400409,
+      "condition": {
+        "type": 1,
+        "ival": 180
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0282"
+    },
+    {
+      "iname": "M_MONTHLY_0283",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400410,
+      "condition": {
+        "type": 1,
+        "ival": 200
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0283"
+    },
+    {
+      "iname": "M_MONTHLY_0284",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400411,
+      "condition": {
+        "type": 1,
+        "ival": 220
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0284"
+    },
+    {
+      "iname": "M_MONTHLY_0285",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400412,
+      "condition": {
+        "type": 1,
+        "ival": 240
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0285"
+    },
+    {
+      "iname": "M_MONTHLY_0286",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400413,
+      "condition": {
+        "type": 1,
+        "ival": 260
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0286"
+    },
+    {
+      "iname": "M_MONTHLY_0287",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400414,
+      "condition": {
+        "type": 1,
+        "ival": 280
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0287"
+    },
+    {
+      "iname": "M_MONTHLY_0288",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400415,
+      "condition": {
+        "type": 1,
+        "ival": 300
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0288"
+    },
+    {
+      "iname": "M_MONTHLY_0289",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400416,
+      "condition": {
+        "type": 1,
+        "ival": 320
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0289"
+    },
+    {
+      "iname": "M_MONTHLY_0290",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400417,
+      "condition": {
+        "type": 1,
+        "ival": 340
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0290"
+    },
+    {
+      "iname": "M_MONTHLY_0291",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400418,
+      "condition": {
+        "type": 1,
+        "ival": 360
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0291"
+    },
+    {
+      "iname": "M_MONTHLY_0292",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400419,
+      "condition": {
+        "type": 1,
+        "ival": 380
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0292"
+    },
+    {
+      "iname": "M_MONTHLY_0293",
+      "grpID": "MG_MONTHLY_003_1",
+      "priority": 400420,
+      "condition": {
+        "type": 1,
+        "ival": 400
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0293"
+    },
+    {
+      "iname": "M_MONTHLY_0294",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400421,
+      "condition": {
+        "type": 5,
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0294"
+    },
+    {
+      "iname": "M_MONTHLY_0295",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400422,
+      "condition": {
+        "type": 5,
+        "ival": 20
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_FIRE_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0295"
+    },
+    {
+      "iname": "M_MONTHLY_0296",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400423,
+      "condition": {
+        "type": 5,
+        "ival": 30
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_WATER_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0296"
+    },
+    {
+      "iname": "M_MONTHLY_0297",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400424,
+      "condition": {
+        "type": 5,
+        "ival": 40
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_WIND_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0297"
+    },
+    {
+      "iname": "M_MONTHLY_0298",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400425,
+      "condition": {
+        "type": 5,
+        "ival": 50
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_THUNDER_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0298"
+    },
+    {
+      "iname": "M_MONTHLY_0299",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400426,
+      "condition": {
+        "type": 5,
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_SOIL_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0299"
+    },
+    {
+      "iname": "M_MONTHLY_0300",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400427,
+      "condition": {
+        "type": 5,
+        "ival": 70
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_ICE_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0300"
+    },
+    {
+      "iname": "M_MONTHLY_0301",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400428,
+      "condition": {
+        "type": 5,
+        "ival": 80
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_SHINE_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0301"
+    },
+    {
+      "iname": "M_MONTHLY_0302",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400429,
+      "condition": {
+        "type": 5,
+        "ival": 90
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_DARK_03",
+          "num": 15
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0302"
+    },
+    {
+      "iname": "M_MONTHLY_0303",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400430,
+      "condition": {
+        "type": 5,
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0303"
+    },
+    {
+      "iname": "M_MONTHLY_0304",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400431,
+      "condition": {
+        "type": 5,
+        "ival": 110
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_FIRE_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0304"
+    },
+    {
+      "iname": "M_MONTHLY_0305",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400432,
+      "condition": {
+        "type": 5,
+        "ival": 120
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_WATER_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0305"
+    },
+    {
+      "iname": "M_MONTHLY_0306",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400433,
+      "condition": {
+        "type": 5,
+        "ival": 130
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_WIND_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0306"
+    },
+    {
+      "iname": "M_MONTHLY_0307",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400434,
+      "condition": {
+        "type": 5,
+        "ival": 140
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_THUNDER_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0307"
+    },
+    {
+      "iname": "M_MONTHLY_0308",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400435,
+      "condition": {
+        "type": 5,
+        "ival": 150
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_SOIL_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0308"
+    },
+    {
+      "iname": "M_MONTHLY_0309",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400436,
+      "condition": {
+        "type": 5,
+        "ival": 170
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_ICE_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0309"
+    },
+    {
+      "iname": "M_MONTHLY_0310",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400437,
+      "condition": {
+        "type": 5,
+        "ival": 190
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_SHINE_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0310"
+    },
+    {
+      "iname": "M_MONTHLY_0311",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400438,
+      "condition": {
+        "type": 5,
+        "ival": 210
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_SB_EXP_DARK_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0311"
+    },
+    {
+      "iname": "M_MONTHLY_0312",
+      "grpID": "MG_MONTHLY_003_2",
+      "priority": 400439,
+      "condition": {
+        "type": 5,
+        "ival": 230
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0312"
+    },
+    {
+      "iname": "M_MONTHLY_0313",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200100,
+      "condition": {
+        "type": 9,
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0313"
+    },
+    {
+      "iname": "M_MONTHLY_0314",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200101,
+      "condition": {
+        "type": 9,
+        "ival": 20
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_FIRE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0314"
+    },
+    {
+      "iname": "M_MONTHLY_0315",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200102,
+      "condition": {
+        "type": 9,
+        "ival": 30
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0315"
+    },
+    {
+      "iname": "M_MONTHLY_0316",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200103,
+      "condition": {
+        "type": 9,
+        "ival": 40
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0316"
+    },
+    {
+      "iname": "M_MONTHLY_0317",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200104,
+      "condition": {
+        "type": 9,
+        "ival": 50
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0317"
+    },
+    {
+      "iname": "M_MONTHLY_0318",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200105,
+      "condition": {
+        "type": 9,
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0318"
+    },
+    {
+      "iname": "M_MONTHLY_0319",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200106,
+      "condition": {
+        "type": 9,
+        "ival": 70
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0319"
+    },
+    {
+      "iname": "M_MONTHLY_0320",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200107,
+      "condition": {
+        "type": 9,
+        "ival": 80
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SHINE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0320"
+    },
+    {
+      "iname": "M_MONTHLY_0321",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200108,
+      "condition": {
+        "type": 9,
+        "ival": 90
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_DARK",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0321"
+    },
+    {
+      "iname": "M_MONTHLY_0322",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200109,
+      "condition": {
+        "type": 9,
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0322"
+    },
+    {
+      "iname": "M_MONTHLY_0323",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200110,
+      "condition": {
+        "type": 9,
+        "ival": 110
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_FIRE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0323"
+    },
+    {
+      "iname": "M_MONTHLY_0324",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200111,
+      "condition": {
+        "type": 9,
+        "ival": 120
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0324"
+    },
+    {
+      "iname": "M_MONTHLY_0325",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200112,
+      "condition": {
+        "type": 9,
+        "ival": 130
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0325"
+    },
+    {
+      "iname": "M_MONTHLY_0326",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200113,
+      "condition": {
+        "type": 9,
+        "ival": 140
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0326"
+    },
+    {
+      "iname": "M_MONTHLY_0327",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200114,
+      "condition": {
+        "type": 9,
+        "ival": 150
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0327"
+    },
+    {
+      "iname": "M_MONTHLY_0328",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200115,
+      "condition": {
+        "type": 9,
+        "ival": 160
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0328"
+    },
+    {
+      "iname": "M_MONTHLY_0329",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200116,
+      "condition": {
+        "type": 9,
+        "ival": 170
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SHINE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0329"
+    },
+    {
+      "iname": "M_MONTHLY_0330",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200117,
+      "condition": {
+        "type": 9,
+        "ival": 180
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_DARK",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0330"
+    },
+    {
+      "iname": "M_MONTHLY_0331",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200118,
+      "condition": {
+        "type": 9,
+        "ival": 190
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0331"
+    },
+    {
+      "iname": "M_MONTHLY_0332",
+      "grpID": "MG_MONTHLY_003_3",
+      "priority": 200119,
+      "condition": {
+        "type": 9,
+        "ival": 200
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0332"
+    },
+    {
+      "iname": "M_MONTHLY_0333",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200120,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0333"
+    },
+    {
+      "iname": "M_MONTHLY_0334",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200121,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 6
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0334"
+    },
+    {
+      "iname": "M_MONTHLY_0335",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200122,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 9
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0335"
+    },
+    {
+      "iname": "M_MONTHLY_0336",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200123,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 12
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0336"
+    },
+    {
+      "iname": "M_MONTHLY_0337",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200124,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 15
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0337"
+    },
+    {
+      "iname": "M_MONTHLY_0338",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200125,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 18
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0338"
+    },
+    {
+      "iname": "M_MONTHLY_0339",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200126,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 21
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0339"
+    },
+    {
+      "iname": "M_MONTHLY_0340",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200127,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 24
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0340"
+    },
+    {
+      "iname": "M_MONTHLY_0341",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200128,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 27
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0341"
+    },
+    {
+      "iname": "M_MONTHLY_0342",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200129,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 30
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0342"
+    },
+    {
+      "iname": "M_MONTHLY_0343",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200130,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 33
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0343"
+    },
+    {
+      "iname": "M_MONTHLY_0344",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200131,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 36
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0344"
+    },
+    {
+      "iname": "M_MONTHLY_0345",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200132,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 39
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0345"
+    },
+    {
+      "iname": "M_MONTHLY_0346",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200133,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 42
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0346"
+    },
+    {
+      "iname": "M_MONTHLY_0347",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200134,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 45
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0347"
+    },
+    {
+      "iname": "M_MONTHLY_0348",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200135,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 50
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0348"
+    },
+    {
+      "iname": "M_MONTHLY_0349",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200136,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 55
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0349"
+    },
+    {
+      "iname": "M_MONTHLY_0350",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200137,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0350"
+    },
+    {
+      "iname": "M_MONTHLY_0351",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200138,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 65
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0351"
+    },
+    {
+      "iname": "M_MONTHLY_0352",
+      "grpID": "MG_MONTHLY_003_4",
+      "priority": 200139,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 70
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0352"
+    },
+    {
+      "iname": "M_MONTHLY_0353",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 110,
+      "condition": {
+        "type": 13,
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_ATK",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0353"
+    },
+    {
+      "iname": "M_MONTHLY_0354",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 111,
+      "condition": {
+        "type": 13,
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_MAG",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0354"
+    },
+    {
+      "iname": "M_MONTHLY_0355",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 112,
+      "condition": {
+        "type": 13,
+        "ival": 15
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_DEF",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0355"
+    },
+    {
+      "iname": "M_MONTHLY_0356",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 113,
+      "condition": {
+        "type": 13,
+        "ival": 20
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_MND",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0356"
+    },
+    {
+      "iname": "M_MONTHLY_0357",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 114,
+      "condition": {
+        "type": 13,
+        "ival": 25
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HIT",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0357"
+    },
+    {
+      "iname": "M_MONTHLY_0358",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 115,
+      "condition": {
+        "type": 13,
+        "ival": 30
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_CRI",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0358"
+    },
+    {
+      "iname": "M_MONTHLY_0359",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 116,
+      "condition": {
+        "type": 13,
+        "ival": 35
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_AVO",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0359"
+    },
+    {
+      "iname": "M_MONTHLY_0360",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 117,
+      "condition": {
+        "type": 13,
+        "ival": 40
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HP",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0360"
+    },
+    {
+      "iname": "M_MONTHLY_0361",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 118,
+      "condition": {
+        "type": 13,
+        "ival": 45
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_SPD",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0361"
+    },
+    {
+      "iname": "M_MONTHLY_0362",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 119,
+      "condition": {
+        "type": 13,
+        "ival": 50
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ARENAP_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0362"
+    },
+    {
+      "iname": "M_MONTHLY_0363",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 120,
+      "condition": {
+        "type": 13,
+        "ival": 55
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0363"
+    },
+    {
+      "iname": "M_MONTHLY_0364",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 121,
+      "condition": {
+        "type": 13,
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0364"
+    },
+    {
+      "iname": "M_MONTHLY_0365",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 122,
+      "condition": {
+        "type": 13,
+        "ival": 65
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_DEF",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0365"
+    },
+    {
+      "iname": "M_MONTHLY_0366",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 123,
+      "condition": {
+        "type": 13,
+        "ival": 70
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MND",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0366"
+    },
+    {
+      "iname": "M_MONTHLY_0367",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 124,
+      "condition": {
+        "type": 13,
+        "ival": 80
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0367"
+    },
+    {
+      "iname": "M_MONTHLY_0368",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 125,
+      "condition": {
+        "type": 13,
+        "ival": 90
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0368"
+    },
+    {
+      "iname": "M_MONTHLY_0369",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 126,
+      "condition": {
+        "type": 13,
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_AVO",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0369"
+    },
+    {
+      "iname": "M_MONTHLY_0370",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 127,
+      "condition": {
+        "type": 13,
+        "ival": 110
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0370"
+    },
+    {
+      "iname": "M_MONTHLY_0371",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 128,
+      "condition": {
+        "type": 13,
+        "ival": 120
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_RESET",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0371"
+    },
+    {
+      "iname": "M_MONTHLY_0372",
+      "grpID": "MG_MONTHLY_003_5",
+      "priority": 129,
+      "condition": {
+        "type": 13,
+        "ival": 130
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0372"
+    },
+    {
+      "iname": "M_MONTHLY_0373",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 101,
+      "condition": {
+        "type": 60,
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_FIRE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0373"
+    },
+    {
+      "iname": "M_MONTHLY_0374",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 102,
+      "condition": {
+        "type": 60,
+        "ival": 15
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0374"
+    },
+    {
+      "iname": "M_MONTHLY_0375",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 103,
+      "condition": {
+        "type": 60,
+        "ival": 20
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0375"
+    },
+    {
+      "iname": "M_MONTHLY_0376",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 104,
+      "condition": {
+        "type": 60,
+        "ival": 25
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0376"
+    },
+    {
+      "iname": "M_MONTHLY_0377",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 105,
+      "condition": {
+        "type": 60,
+        "ival": 30
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0377"
+    },
+    {
+      "iname": "M_MONTHLY_0378",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 106,
+      "condition": {
+        "type": 60,
+        "ival": 35
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0378"
+    },
+    {
+      "iname": "M_MONTHLY_0379",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 107,
+      "condition": {
+        "type": 60,
+        "ival": 40
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SHINE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0379"
+    },
+    {
+      "iname": "M_MONTHLY_0380",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 108,
+      "condition": {
+        "type": 60,
+        "ival": 45
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_DARK",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0380"
+    },
+    {
+      "iname": "M_MONTHLY_0381",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 109,
+      "condition": {
+        "type": 60,
+        "ival": 50
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_FIRE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0381"
+    },
+    {
+      "iname": "M_MONTHLY_0382",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 110,
+      "condition": {
+        "type": 60,
+        "ival": 55
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0382"
+    },
+    {
+      "iname": "M_MONTHLY_0383",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 111,
+      "condition": {
+        "type": 60,
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0383"
+    },
+    {
+      "iname": "M_MONTHLY_0384",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 112,
+      "condition": {
+        "type": 60,
+        "ival": 65
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0384"
+    },
+    {
+      "iname": "M_MONTHLY_0385",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 113,
+      "condition": {
+        "type": 60,
+        "ival": 70
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0385"
+    },
+    {
+      "iname": "M_MONTHLY_0386",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 114,
+      "condition": {
+        "type": 60,
+        "ival": 75
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0386"
+    },
+    {
+      "iname": "M_MONTHLY_0387",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 115,
+      "condition": {
+        "type": 60,
+        "ival": 80
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SHINE",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0387"
+    },
+    {
+      "iname": "M_MONTHLY_0388",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 116,
+      "condition": {
+        "type": 60,
+        "ival": 85
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_DARK",
+          "num": 20
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0388"
+    },
+    {
+      "iname": "M_MONTHLY_0389",
+      "grpID": "MG_MONTHLY_003_6",
+      "priority": 117,
+      "condition": {
+        "type": 60,
+        "ival": 90
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0389"
+    },
+    {
+      "iname": "M_MONTHLY_0390",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1001,
+      "condition": {
+        "type": 63,
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0390"
+    },
+    {
+      "iname": "M_MONTHLY_0391",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1002,
+      "condition": {
+        "type": 63,
+        "ival": 6
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0391"
+    },
+    {
+      "iname": "M_MONTHLY_0392",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1003,
+      "condition": {
+        "type": 63,
+        "ival": 9
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0392"
+    },
+    {
+      "iname": "M_MONTHLY_0393",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1004,
+      "condition": {
+        "type": 63,
+        "ival": 12
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_02",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S2_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0393"
+    },
+    {
+      "iname": "M_MONTHLY_0394",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1005,
+      "condition": {
+        "type": 63,
+        "ival": 15
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_02",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S3_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0394"
+    },
+    {
+      "iname": "M_MONTHLY_0395",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1006,
+      "condition": {
+        "type": 63,
+        "ival": 18
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_03",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S4_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0395"
+    },
+    {
+      "iname": "M_MONTHLY_0396",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1007,
+      "condition": {
+        "type": 63,
+        "ival": 21
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_03",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S1_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0396"
+    },
+    {
+      "iname": "M_MONTHLY_0397",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1008,
+      "condition": {
+        "type": 63,
+        "ival": 24
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_03",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S2_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0397"
+    },
+    {
+      "iname": "M_MONTHLY_0398",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1009,
+      "condition": {
+        "type": 63,
+        "ival": 27
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_03",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S3_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0398"
+    },
+    {
+      "iname": "M_MONTHLY_0399",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1010,
+      "condition": {
+        "type": 63,
+        "ival": 30
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_03",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S4_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0399"
+    },
+    {
+      "iname": "M_MONTHLY_0400",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1011,
+      "condition": {
+        "type": 63,
+        "ival": 33
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_04",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S1_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0400"
+    },
+    {
+      "iname": "M_MONTHLY_0401",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1012,
+      "condition": {
+        "type": 63,
+        "ival": 36
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_04",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S2_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0401"
+    },
+    {
+      "iname": "M_MONTHLY_0402",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1013,
+      "condition": {
+        "type": 63,
+        "ival": 39
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_04",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S3_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0402"
+    },
+    {
+      "iname": "M_MONTHLY_0403",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1014,
+      "condition": {
+        "type": 63,
+        "ival": 42
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_04",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S4_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0403"
+    },
+    {
+      "iname": "M_MONTHLY_0404",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1015,
+      "condition": {
+        "type": 63,
+        "ival": 45
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_04",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S1_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0404"
+    },
+    {
+      "iname": "M_MONTHLY_0405",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1016,
+      "condition": {
+        "type": 63,
+        "ival": 50
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_05",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S2_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0405"
+    },
+    {
+      "iname": "M_MONTHLY_0406",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1017,
+      "condition": {
+        "type": 63,
+        "ival": 55
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_05",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S3_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0406"
+    },
+    {
+      "iname": "M_MONTHLY_0407",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1018,
+      "condition": {
+        "type": 63,
+        "ival": 60
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_05",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S4_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0407"
+    },
+    {
+      "iname": "M_MONTHLY_0408",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1019,
+      "condition": {
+        "type": 63,
+        "ival": 65
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_05",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S1_03",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0408"
+    },
+    {
+      "iname": "M_MONTHLY_0409",
+      "grpID": "MG_MONTHLY_003_7",
+      "priority": 1020,
+      "condition": {
+        "type": 63,
+        "ival": 70
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_FOOD_05",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_MONTHLY_0409"
     },
     {
       "iname": "M_GL_DAILY_VID",

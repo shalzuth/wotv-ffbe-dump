@@ -165,6 +165,42 @@
       }
     },
     {
+      "iname": "QE_EV_UNITEXP_04",
+      "type": 2,
+      "sect": "SE_EV_UNITEXP_01",
+      "ap": 20,
+      "ap0": 1,
+      "lv": 80,
+      "o_cond_q": [
+        "QE_EV_UNITEXP_03"
+      ],
+      "pexp": 0,
+      "uexp": 6000,
+      "gold": 1500,
+      "jp": 10,
+      "jp_skip": 10,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_UNITEXP_10",
+        "QM_EV_UNITEXP_11",
+        "QM_EV_UNITEXP_12"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_014_A_1",
+        "set": "ev/ev_unitexp_04_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
       "iname": "QE_EV_GIL_D1",
       "type": 2,
       "sect": "SE_EV_GIL",
@@ -683,6 +719,42 @@
       "map": {
         "scn": "lio_pla/lio_pla_001_A_2",
         "set": "ev/ev_vcexp_03_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_VCEXP_04",
+      "type": 2,
+      "sect": "SE_EV_VCEXP_01",
+      "ap": 20,
+      "ap0": 1,
+      "lv": 80,
+      "o_cond_q": [
+        "QE_EV_VCEXP_03"
+      ],
+      "pexp": 0,
+      "uexp": 6000,
+      "gold": 1500,
+      "jp": 10,
+      "jp_skip": 10,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_VCEXP_04_1",
+        "QM_EV_VCEXP_04_2",
+        "QM_EV_VCEXP_04_3"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_001_A_2",
+        "set": "ev/ev_vcexp_04_set",
         "bgm": "law_201_battle"
       },
       "rule": {
@@ -10608,7 +10680,488 @@
         "Main_01_06_1_10a"
       ],
       "evws": [
-        "Main_01_06_1_99",
+        "Main_01_06_1_99"
+      ],
+      "rule": {
+        "proh": [
+          5
+        ],
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060201",
+      "title_index": 1,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 59,
+      "o_cond_q": [
+        "QE_ST_01060110"
+      ],
+      "pexp": 0,
+      "uexp": 6026,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060201_1",
+        "QM_ST_01060201_2",
+        "QM_ST_01060201_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_001_A_2",
+        "set": "st/st_01060201_set",
+        "eff": [
+          4
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_01a"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060202",
+      "title_index": 2,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 60,
+      "o_cond_q": [
+        "QE_ST_01060201"
+      ],
+      "pexp": 0,
+      "uexp": 6127,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060202_1",
+        "QM_ST_01060202_2",
+        "QM_ST_01060202_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_006_A_2",
+        "set": "st/st_01060202_set",
+        "eff": [
+          4
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_02a"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060203",
+      "title_index": 3,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 60,
+      "o_cond_q": [
+        "QE_ST_01060202"
+      ],
+      "pexp": 0,
+      "uexp": 6127,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060203_1",
+        "QM_ST_01060203_2",
+        "QM_ST_01060203_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_002_A_2",
+        "set": "st/st_01060203_set",
+        "eff": [
+          4
+        ],
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060204",
+      "title_index": 4,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 61,
+      "o_cond_q": [
+        "QE_ST_01060203"
+      ],
+      "pexp": 0,
+      "uexp": 7188,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060204_1",
+        "QM_ST_01060204_2",
+        "QM_ST_01060204_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_007_A_2",
+        "set": "st/st_01060204_set",
+        "eff": [
+          4
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evws": [
+        "Main_01_06_2_04c"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060205",
+      "title_index": 5,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 61,
+      "o_cond_q": [
+        "QE_ST_01060204"
+      ],
+      "pexp": 0,
+      "uexp": 7188,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 50
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060205_1",
+        "QM_ST_01060205_2",
+        "QM_ST_01060205_3"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_001_A_1",
+        "set": "st/st_01060205_set",
+        "eff": [
+          1
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_05a"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ホルン王国"
+    },
+    {
+      "iname": "QE_ST_01060206",
+      "title_index": 6,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 62,
+      "o_cond_q": [
+        "QE_ST_01060205"
+      ],
+      "pexp": 0,
+      "uexp": 7228,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060206_1",
+        "QM_ST_01060206_2",
+        "QM_ST_01060206_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_001_A_2",
+        "set": "st/st_01060206_set",
+        "eff": [
+          3
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_06a"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060207",
+      "title_index": 7,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 63,
+      "o_cond_q": [
+        "QE_ST_01060206"
+      ],
+      "pexp": 0,
+      "uexp": 7268,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060207_1",
+        "QM_ST_01060207_2",
+        "QM_ST_01060207_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_003_A_2",
+        "set": "st/st_01060207_set",
+        "eff": [
+          3
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_07a"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060208",
+      "title_index": 8,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 63,
+      "o_cond_q": [
+        "QE_ST_01060207"
+      ],
+      "pexp": 0,
+      "uexp": 7268,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060208_1",
+        "QM_ST_01060208_2",
+        "QM_ST_01060208_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_006_A_2",
+        "set": "st/st_01060208_set",
+        "eff": [
+          3
+        ],
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060209",
+      "title_index": 9,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 64,
+      "o_cond_q": [
+        "QE_ST_01060208"
+      ],
+      "pexp": 0,
+      "uexp": 7308,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 25
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060209_1",
+        "QM_ST_01060209_2",
+        "QM_ST_01060209_3"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_004_A_2",
+        "set": "st/st_01060209_set",
+        "eff": [
+          3
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_09a"
+      ],
+      "rule": {
+        "lap": 2
+      },
+      "country": "ウェズエット王国"
+    },
+    {
+      "iname": "QE_ST_01060210",
+      "title_index": 10,
+      "type": 1,
+      "sect": "SE_ST_010602",
+      "ap": 6,
+      "ap0": 1,
+      "lv": 65,
+      "o_cond_q": [
+        "QE_ST_01060209"
+      ],
+      "pexp": 0,
+      "uexp": 7695,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 4,
+          "num": 100
+        },
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_ST_01060210_1",
+        "QM_ST_01060210_2",
+        "QM_ST_01060210_3",
+        "QM_ST_01060210_4"
+      ],
+      "map": {
+        "scn": "wez_sno/wez_sno_007_A_2",
+        "set": "st/st_01060210_set",
+        "eff": [
+          3
+        ],
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Main_01_06_2_10a"
+      ],
+      "evws": [
+        "Main_01_06_2_99",
         "to be continued"
       ],
       "rule": {
@@ -16027,6 +16580,79 @@
       }
     },
     {
+      "iname": "QE_SB_IGNT_02",
+      "type": 2,
+      "sect": "SE_SB_02",
+      "ap": 12,
+      "ap0": 1,
+      "lv": 60,
+      "pexp": 0,
+      "uexp": 5933,
+      "gold": 1800,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_SB_IGNT_02_01",
+        "QM_SB_IGNT_02_02",
+        "QM_SB_IGNT_02_03",
+        "QM_SB_IGNT_02_04",
+        "QM_SB_IGNT_02_05"
+      ],
+      "map": {
+        "scn": "ext_sum/ext_sum_001_A_1",
+        "set": "ev/ev_ignt_02_set",
+        "bgm": "law_204_battle_summon_beast"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_SB_IGNT_03",
+      "type": 2,
+      "sect": "SE_SB_02",
+      "ap": 12,
+      "ap0": 1,
+      "lv": 80,
+      "o_cond_q": [
+        "QE_SB_IGNT_02"
+      ],
+      "pexp": 0,
+      "uexp": 10634,
+      "gold": 1800,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_SB_IGNT_03_01",
+        "QM_SB_IGNT_03_02",
+        "QM_SB_IGNT_03_03",
+        "QM_SB_IGNT_03_04",
+        "QM_SB_IGNT_03_05"
+      ],
+      "map": {
+        "scn": "ext_sum/ext_sum_001_A_1",
+        "set": "ev/ev_ignt_03_set",
+        "bgm": "law_204_battle_summon_beast"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
       "iname": "QE_EV_JP_001",
       "type": 2,
       "sect": "SE_EV_JP_001",
@@ -16046,8 +16672,11 @@
         }
       ],
       "map": {
-        "scn": "lio_for/lio_for_011_A_1",
-        "set": "ev/ev_gl_2mdl_jp_set",
+        "scn": "lio_for/lio_for_001_A_1",
+        "set": "ev/ev_jp_001_set",
+        "eff": [
+          1
+        ],
         "bgm": "law_201_battle"
       },
       "rule": {
@@ -16568,7 +17197,7 @@
     {
       "iname": "QE_EV_ART_SCR_01",
       "type": 2,
-      "sect": "SE_EV_ART_SCR_02",
+      "sect": "SE_EV_ART_SCR_01",
       "ap": 12,
       "ap0": 1,
       "lv": 50,
@@ -16601,7 +17230,7 @@
     {
       "iname": "QE_EV_ART_SCR_02",
       "type": 2,
-      "sect": "SE_EV_ART_SCR_02",
+      "sect": "SE_EV_ART_SCR_01",
       "ap": 12,
       "ap0": 1,
       "lv": 50,
@@ -16667,7 +17296,7 @@
     {
       "iname": "QE_MU_EV_SCR_01",
       "type": 4,
-      "sect": "SE_MU_EV_SCR_02",
+      "sect": "SE_MU_EV_SCR_01",
       "ap": 6,
       "not_search": 1,
       "lv": 50,
@@ -16696,7 +17325,7 @@
     {
       "iname": "QE_MU_EV_SCR_02",
       "type": 4,
-      "sect": "SE_MU_EV_SCR_02",
+      "sect": "SE_MU_EV_SCR_01",
       "ap": 6,
       "not_search": 1,
       "lv": 50,
@@ -17761,6 +18390,35 @@
           5
         ],
         "movecnt": 60
+      }
+    },
+    {
+      "iname": "QE_MU_IGNT_03",
+      "type": 4,
+      "sect": "SE_MU_SB_02",
+      "ap": 6,
+      "not_search": 1,
+      "lv": 80,
+      "pexp": 0,
+      "uexp": 10634,
+      "gold": 1800,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "map": {
+        "scn": "ext_sum/ext_sum_001_A_1",
+        "set": "mu/mu_ignt_03_set",
+        "bgm": "law_204_battle_summon_beast"
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
       }
     },
     {

@@ -328,7 +328,7 @@
     {
       "iname": "dmg_atkbuf_max",
       "type": 0,
-      "value": 100
+      "value": 200
     },
     {
       "iname": "dmg_killer_max",
@@ -379,6 +379,21 @@
       "iname": "buf_ct_min",
       "type": 0,
       "value": -50
+    },
+    {
+      "iname": "buf_pdign_max",
+      "type": 0,
+      "value": 90
+    },
+    {
+      "iname": "dmg_hatedown",
+      "type": 0,
+      "value": 2
+    },
+    {
+      "iname": "dmg_hateup",
+      "type": 0,
+      "value": 2
     },
     {
       "iname": "mag_faith_t",
@@ -938,7 +953,7 @@
     {
       "iname": "raid_match_ap_max",
       "type": 0,
-      "value": 100
+      "value": 50
     },
     {
       "iname": "raid_match_cor_value",
@@ -1013,12 +1028,12 @@
     {
       "iname": "raid_daily_free_max",
       "type": 0,
-      "value": 30
+      "value": 20
     },
     {
       "iname": "raid_challenge_boss_count",
       "type": 0,
-      "value": 20
+      "value": 10
     },
     {
       "iname": "raid_recover_item_iname",
@@ -1028,12 +1043,12 @@
     {
       "iname": "raid_follow_bonus_item_iname",
       "type": 2,
-      "value": "IT_EC_FF14_1"
+      "value": "IT_EC_RAID_02"
     },
     {
       "iname": "raid_coin_item_iname",
       "type": 2,
-      "value": "IT_EC_FF14_1"
+      "value": "IT_EC_RAID_02"
     },
     {
       "iname": "raid_agent_max",
@@ -1126,14 +1141,24 @@
       "value": 70
     },
     {
-      "iname": "barracks_limit_faith",
-      "type": 0,
-      "value": 30
-    },
-    {
       "iname": "barracks_default_unit_count",
       "type": 0,
       "value": 1
+    },
+    {
+      "iname": "barracks_settings_faith_default",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "barracks_upper_limit_faith",
+      "type": 0,
+      "value": 70
+    },
+    {
+      "iname": "barracks_lower_limit_faith",
+      "type": 0,
+      "value": 30
     },
     {
       "iname": "guild_barrack_slot_max",
@@ -1411,9 +1436,49 @@
       "value": 14
     },
     {
+      "iname": "comeback_period",
+      "type": 0,
+      "value": 7
+    },
+    {
       "iname": "quest_reset_cost",
       "type": 1,
       "value": "50,100"
+    },
+    {
+      "iname": "support_daily_limit_count",
+      "type": 0,
+      "value": 10
+    },
+    {
+      "iname": "guildbattle_latest_opponent_save_count",
+      "type": 0,
+      "value": 5
+    },
+    {
+      "iname": "cstdmg",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "tower_hp_rate_denominator",
+      "type": 0,
+      "value": 1000000
+    },
+    {
+      "iname": "guidance_supporter_player_rank",
+      "type": 0,
+      "value": 10
+    },
+    {
+      "iname": "guidance_supporter_unit_iname",
+      "type": 2,
+      "value": "UN_LW_P_ELDE"
+    },
+    {
+      "iname": "guidance_supporter_unit_level",
+      "type": 0,
+      "value": 30
     },
     {
       "iname": "video_nrg_maxuse",

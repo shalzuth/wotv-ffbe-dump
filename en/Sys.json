@@ -58,11 +58,11 @@
     },
     {
       "key": "FOLLOW_MEDAL_TITLE",
-      "value": "Follow Medal Rewards"
+      "value": "Assist Bonus"
     },
     {
       "key": "FOLLOW_MEDAL_DESC",
-      "value": "You have acquired {0} follower medal(s). <br><br>*Rewards received directly."
+      "value": "You have acquired {0} medal(s).<br><br>*Rewards are received directly."
     },
     {
       "key": "GUIDANCE_SKIP_TITLE",
@@ -85,16 +85,12 @@
       "value": "{0}."
     },
     {
-      "key": "TIPS",
-      "value": "Tips"
+      "key": "ACTIVEGUIDE_DIALOG_TITLE",
+      "value": "{0}"
     },
     {
-      "key": "LOADING",
-      "value": "Loading..."
-    },
-    {
-      "key": "CONNECTING",
-      "value": "Connecting..."
+      "key": "ACTIVEGUIDE_DIALOG_MSG",
+      "value": "{0}"
     },
     {
       "key": "STORAGE_SPACE_TITLE",
@@ -158,7 +154,7 @@
     },
     {
       "key": "PLAYER_NAME_INPUT_DESC",
-      "value": "Enter your player name."
+      "value": "Enter your player name.<br>(This can be changed later.)"
     },
     {
       "key": "PLAYER_NAME_INPUT_DESC_FIRST",
@@ -225,12 +221,20 @@
       "value": "Play as a debug user?"
     },
     {
-      "key": "DEBUG_SELECT_TUTORIAL_TITLE",
-      "value": "Confirm Skip"
+      "key": "SKIP_TUTORIAL_BATTLE_TITLE",
+      "value": "Skip the tutorial?"
     },
     {
-      "key": "DEBUG_SELECT_TUTORIAL",
-      "value": "Play the opening tutorial battle?"
+      "key": "SKIP_TUTORIAL_BATTLE_DESC",
+      "value": "The following will be skipped and downloading will commence.<br>・Tutorial Battle<br>・Opening Movie<br><br>*The Opening Movie can be<br>viewed later via Story Memories."
+    },
+    {
+      "key": "SKIP_TUTORIAL_YES",
+      "value": "Skip"
+    },
+    {
+      "key": "SKIP_TUTORIAL_NO",
+      "value": "Begin Tutorial"
     },
     {
       "key": "TERMS_SELECT_TITLE",
@@ -505,6 +509,18 @@
       "value": "Auto:"
     },
     {
+      "key": "FORMAT_ARG",
+      "value": "{0}"
+    },
+    {
+      "key": "PERIOD",
+      "value": "Duration:"
+    },
+    {
+      "key": "PERIOD_REWARD",
+      "value": "Reward Expires:"
+    },
+    {
       "key": "VALUE_SLASH",
       "value": "/"
     },
@@ -637,8 +653,40 @@
       "value": "–"
     },
     {
+      "key": "VALUE_TO_LARGE_SPACE",
+      "value": " – "
+    },
+    {
       "key": "VALUE_STATUS_PLUS",
       "value": "({0})"
+    },
+    {
+      "key": "VALUE_HOURS_MINUITES_SECONDS_COLON_FORMAT",
+      "value": "{0}:{1}:{2}"
+    },
+    {
+      "key": "VALUE_DAYS_SLASH_FORMAT",
+      "value": "{0}/{1}"
+    },
+    {
+      "key": "VALIE_DATE_FORMAT_MDHMM",
+      "value": "H:mm, M/d"
+    },
+    {
+      "key": "VALUE_VALIDITY_SECOND",
+      "value": "Valid for {0} more second(s)."
+    },
+    {
+      "key": "VALUE_VALIDITY_MINUTE",
+      "value": "Valid for {0} more minute(s)."
+    },
+    {
+      "key": "VALUE_VALIDITY_HOUR",
+      "value": "Valid for {0} more hour(s)."
+    },
+    {
+      "key": "VALUE_VALIDITY_DAY",
+      "value": "Valid for {0} more day(s)."
     },
     {
       "key": "NEED_GIL",
@@ -773,8 +821,16 @@
       "value": "Paid"
     },
     {
+      "key": "BUY_CURRENCY_EX",
+      "value": "[Paid]"
+    },
+    {
       "key": "FREE_CURRENCY",
       "value": "Free"
+    },
+    {
+      "key": "FREE_CURRENCY_EX",
+      "value": "[Free]"
     },
     {
       "key": "HAVE_LAPIS",
@@ -783,6 +839,18 @@
     {
       "key": "USE_LAPIS_CAUTION",
       "value": "*Visiore will be consumed starting with your Free Visiore."
+    },
+    {
+      "key": "TIPS",
+      "value": "Tips"
+    },
+    {
+      "key": "LOADING",
+      "value": "Loading..."
+    },
+    {
+      "key": "CONNECTING",
+      "value": "Connecting..."
     },
     {
       "key": "MATCHING",
@@ -805,6 +873,10 @@
       "value": "SOLD OUT"
     },
     {
+      "key": "CLOSED",
+      "value": "Closed"
+    },
+    {
       "key": "ITEM_LIMIT_TITLE",
       "value": "Item Limit Exceeded"
     },
@@ -819,6 +891,22 @@
     {
       "key": "SEND_GIFT_DESC",
       "value": "Item limit has been reached. <br>The following items were sent to your Gift Box."
+    },
+    {
+      "key": "LIMIT_SECOND",
+      "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> second(s)"
+    },
+    {
+      "key": "LIMIT_MINUTES",
+      "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> minute(s)"
+    },
+    {
+      "key": "LIMIT_HOUR",
+      "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> hour(s)"
+    },
+    {
+      "key": "LIMIT_DAY",
+      "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> day(s)"
     },
     {
       "key": "BADGE_YOU",
@@ -839,6 +927,10 @@
     {
       "key": "BADGE_USED",
       "value": "In Use"
+    },
+    {
+      "key": "STAMP_GET",
+      "value": "Got it!"
     },
     {
       "key": "INVALID_BACKKEY",
@@ -1497,8 +1589,16 @@
       "value": "Total MAG"
     },
     {
+      "key": "STATUS_HP_TOTAL",
+      "value": "Total HP"
+    },
+    {
       "key": "STATUS_LEVEL",
       "value": "Lv."
+    },
+    {
+      "key": "STATUS_LEVEL_EX",
+      "value": "Unit Lv."
     },
     {
       "key": "STATUS_JOBLEVEL",
@@ -1613,6 +1713,10 @@
       "value": "Amount Acquired"
     },
     {
+      "key": "ITEM_TARGET_LIST",
+      "value": "Target List"
+    },
+    {
       "key": "ABILITY_STATUS_RANGE_L",
       "value": "Range"
     },
@@ -1694,11 +1798,11 @@
     },
     {
       "key": "ABILITY_COMMAND_MAIN",
-      "value": "Main Command"
+      "value": "Main Ability"
     },
     {
       "key": "ABILITY_COMMAND_SUB",
-      "value": "Sub Command"
+      "value": "Sub Ability"
     },
     {
       "key": "ABILITY_COMMAND_SUPPORT",
@@ -1877,6 +1981,10 @@
       "value": "Clear"
     },
     {
+      "key": "QUEST_COMPLETE",
+      "value": "Complete"
+    },
+    {
       "key": "QUEST_TRY_LIMIT",
       "value": "Attempts"
     },
@@ -1898,7 +2006,7 @@
     },
     {
       "key": "QUEST_FIRST_NONE",
-      "value": "First attempt costs nothing"
+      "value": "First try is free"
     },
     {
       "key": "QUEST_RECOMMEND_TITLE",
@@ -1919,6 +2027,14 @@
     {
       "key": "QUEST_CLOSE_MSG",
       "value": "{0} [{1}] cannot be challenged yet."
+    },
+    {
+      "key": "QUEST_LAP_TITLE",
+      "value": "Repeat Commences in"
+    },
+    {
+      "key": "QUEST_LAP_MSG",
+      "value": "Tap to cancel"
     },
     {
       "key": "QUEST_CONDITION_AMOUNT",
@@ -1987,6 +2103,10 @@
     {
       "key": "QUEST_DETAIL_FIRST_REWARD_TITLE",
       "value": "First Time Completion Rewards"
+    },
+    {
+      "key": "QUEST_DETAIL_CLEAR_REWARD_TITLE",
+      "value": "Completion Rewards"
     },
     {
       "key": "QUEST_DETAIL_REWARD_TITLE",
@@ -2334,6 +2454,10 @@
     },
     {
       "key": "READY",
+      "value": "Ready"
+    },
+    {
+      "key": "READY_EX",
       "value": "Ready!"
     },
     {
@@ -2423,6 +2547,10 @@
     {
       "key": "PARTYEDITOR_BTN_UNIT_SET",
       "value": "Initial Placement"
+    },
+    {
+      "key": "PARTYEDITOR_BTN_AUTOLAP",
+      "value": "Auto Repeat"
     },
     {
       "key": "PARTYEDITOR_BTN_GO",
@@ -2645,6 +2773,14 @@
       "value": "Settings OFF"
     },
     {
+      "key": "；編成画面 - オート周回",
+      "value": ""
+    },
+    {
+      "key": "PARTYEDITOR_AUTOLAP_TITLE",
+      "value": "Auto Repeat"
+    },
+    {
       "key": "MAP_EFFECT_TITLE",
       "value": "Map Effect"
     },
@@ -2853,6 +2989,10 @@
       "value": "None"
     },
     {
+      "key": "UNIT_TOOLTIP_ABILITY_USED",
+      "value": "Available Abilities"
+    },
+    {
       "key": "HARD_RESET_CHECK_TITLE",
       "value": "Attempt Reset"
     },
@@ -2910,6 +3050,10 @@
     },
     {
       "key": "MULTI_ROOM_FIRST_COMMENT",
+      "value": "Thank you for joining!"
+    },
+    {
+      "key": "MULTI_ROOM_COMMENT_NONE",
       "value": "Thank you for joining!"
     },
     {
@@ -3173,6 +3317,14 @@
       "value": "The claim period has expired."
     },
     {
+      "key": "MISSION_TIMEOUT_TRY_TITLE",
+      "value": "This mission is not available at this time."
+    },
+    {
+      "key": "MISSION_TIMEOUT_TRY_DESC",
+      "value": "This mission has expired. Unable to attempt."
+    },
+    {
       "key": "FIRE",
       "value": "Fire"
     },
@@ -3243,6 +3395,14 @@
     {
       "key": "NOTIFY_STAMINA_MAX",
       "value": "NRG fully restored!"
+    },
+    {
+      "key": "NOTIFY_RUNOUT_FOOD",
+      "value": "Replenish provisions at the Guild Barracks!"
+    },
+    {
+      "key": "NOTIFY_CHOCOBO_ITEM_MAX",
+      "value": "Collect items found during Chocobo Expedition!"
     },
     {
       "key": "SUPPORT_TITLE",
@@ -3321,6 +3481,10 @@
       "value": "Opinions & Requests [{0}]"
     },
     {
+      "key": "SUPPORT_MAIL_SUBJECT_05",
+      "value": "Report User [{0}]"
+    },
+    {
       "key": "SUPPORT_MAIL_BODY_TEMPLATE",
       "value": "Please enter <br>→<br><br><br><br>{0}-----There is no need to edit the following----<br>"
     },
@@ -3363,14 +3527,6 @@
     {
       "key": "DATA_CONNECT_CAUTION_DESC",
       "value": "-Performing a data transfer will allow you to play with the same data over several devices, or after purchasing a new device.<br>-Purchased and Free Visiore cannot be transferred between devices operating on different platforms. If your new devices is on the same platform, then transfer is possible. (Normal Visiore can be transferred between any platform)<br>-If the device you perform a data transfer onto already has [WAR OF THE VISIONS FINAL FANTASY BRAVE EXVIUS] installed, <br>please be aware that the data transfer will overwrite and delete any player data already on the device.<br>The player data from several accounts on different devices cannot be consolidated into a single account.<br>-All optional settings will be reset to default.<br>-If game data is found to have been in violation of the rules, your account may be frozen or terminated.<br><br>*If you choose to sell or trade your device, please take the following steps after performing a data transfer to ensure your backup data does not remain on the old device.<br><br>[How to remove backup data]<br>Once you have confirmed the data has been transferred to the new device successfully, on the old device, please tap \"remove account\" on the title screen, or under data backup on the in-game menu.<br>Once your account has been removed, please delete [WAR OF THE VISIONS FINAL FANTASY BRAVE EXVIUS]<br>from the old device."
-    },
-    {
-      "key": "DATA_CONNECT_ERROR_TITLE",
-      "value": "ID or Transfer Password is incorrect. <br>Confirm your ID and Transfer Password on the source device and try inputting them again."
-    },
-    {
-      "key": "DATA_CONNECT_SUCCESS_TITLE",
-      "value": "Data transfer complete. <br>The game will be restarted from your previous data."
     },
     {
       "key": "DELETE_DOWNLOAD_DATA_TITLE",
@@ -3523,6 +3679,38 @@
     {
       "key": "_TEMP_LAPIS_LACK_DESC",
       "value": "Insufficient Visiore."
+    },
+    {
+      "key": "LAPIS_RIGHT_LIMITED",
+      "value": "For {0} day(s) only"
+    },
+    {
+      "key": "LAPIS_RIGHT_PURCHESED",
+      "value": "Purchased"
+    },
+    {
+      "key": "LAPIS_CHECK_RIGHT_TITLE",
+      "value": "Confirm Purchase"
+    },
+    {
+      "key": "LAPIS_CHECK_RIGHT_BTN",
+      "value": "Purchase"
+    },
+    {
+      "key": "BUY_RIGHT_FINISH_TITLE",
+      "value": "Purchase Complete"
+    },
+    {
+      "key": "BUY_RIGHT_FINISH_DESC",
+      "value": "Purchased<br>{0}."
+    },
+    {
+      "key": "BUY_RIGHT_APPEAL_DESC",
+      "value": "<line-height=32>{0}<br>is now available for purchase!"
+    },
+    {
+      "key": "BUY_RIGHT_APPEAL_BTN",
+      "value": "Purchase"
     },
     {
       "key": "GIL_LACK_TITLE",
@@ -3765,6 +3953,58 @@
       "value": "Character Quest"
     },
     {
+      "key": "AUTOLAP_SALLY_TITLE",
+      "value": "Embark with Auto Repeat"
+    },
+    {
+      "key": "AUTOLAP_SALLY_DESC",
+      "value": "When playing with Auto Repeat, Initial Placement is off and Companions are not included."
+    },
+    {
+      "key": "TOWER_QUEST_TYPE_NORMAL",
+      "value": "Normal"
+    },
+    {
+      "key": "TOWER_QUEST_TYPE_EX",
+      "value": "Ex"
+    },
+    {
+      "key": "TOWER_SCORE_TOTAL_ACTION",
+      "value": "Total Actions Performed"
+    },
+    {
+      "key": "TOWER_SCORE_UNIT_DEAD",
+      "value": "Total KO'd Units"
+    },
+    {
+      "key": "TOWER_SCORE_GIVEUP",
+      "value": "Number of Retreats"
+    },
+    {
+      "key": "TOWER_SCORE_HEAL",
+      "value": "Complete Restores Used"
+    },
+    {
+      "key": "TOWER_SCORE_CHALLENGE",
+      "value": "Attempts"
+    },
+    {
+      "key": "TOWER_SCORE_LOSE",
+      "value": "Total Loses"
+    },
+    {
+      "key": "TOWER_SCORE_RESET",
+      "value": "Number of Battle Resets"
+    },
+    {
+      "key": "TOWER_RANKING_SPEED",
+      "value": "Speed Ranking"
+    },
+    {
+      "key": "TOWER_RANKING_TECHNICAL",
+      "value": "Technique Ranking"
+    },
+    {
       "key": "DENY",
       "value": "Deny"
     },
@@ -3818,7 +4058,7 @@
     },
     {
       "key": "LANGUAGE_SELECT_CONTENT",
-      "value": "Please select your preferred language."
+      "value": "Please select your preferred language.<br>(This can be changed later.)"
     },
     {
       "key": "LANGUAGE_SELECT_CONFIRM_TITLE",
@@ -3870,7 +4110,7 @@
     },
     {
       "key": "DLC_CHECK_WW_DESC",
-      "value": "DLC Data <color=#F0C040>(Approximately {0} MB)</color><br>A <color=#F0C040>Wi-Fi connection</color> is recommended."
+      "value": "DLC Data <color=#F0C040>(Approximately {0}MB)</color><br>A <color=#F0C040>Wi-Fi connection</color> is recommended.<br>(This can be changed later.)"
     },
     {
       "key": "DLC_CHECK_WW_TITLE_VO_EN",
@@ -4021,30 +4261,6 @@
       "value": "Settings"
     },
     {
-      "key": "QUEST_LAP_TITLE",
-      "value": "Until Repeat Begins:"
-    },
-    {
-      "key": "QUEST_LAP_MSG",
-      "value": "Tap to cancel"
-    },
-    {
-      "key": "PARTYEDITOR_BTN_AUTOLAP",
-      "value": "Auto Repeat"
-    },
-    {
-      "key": "PARTYEDITOR_AUTOLAP_TITLE",
-      "value": "Auto Repeat"
-    },
-    {
-      "key": "AUTOLAP_SALLY_TITLE",
-      "value": "Embark with Auto Repeat"
-    },
-    {
-      "key": "AUTOLAP_SALLY_DESC",
-      "value": "Auto Repeat does not feature Initial Placement or Companions."
-    },
-    {
       "key": "DAY_TEXT",
       "value": ""
     },
@@ -4069,72 +4285,20 @@
       "value": ""
     },
     {
-      "key": "ACTIVEGUIDE_DIALOG_TITLE",
-      "value": "{0}"
+      "key": "DEBUG_SELECT_TUTORIAL_TITLE",
+      "value": "Confirm Skip"
     },
     {
-      "key": "ACTIVEGUIDE_DIALOG_MSG",
-      "value": "{0}."
+      "key": "DEBUG_SELECT_TUTORIAL",
+      "value": "Play the opening tutorial battle?"
     },
     {
-      "key": "SKIP_TUTORIAL_BATTLE_TITLE",
-      "value": "Skip the tutorial?"
+      "key": "DATA_CONNECT_ERROR_TITLE",
+      "value": "ID or Transfer Password is incorrect.<br>Confirm your ID and Transfer Password on the source device and try inputting them again."
     },
     {
-      "key": "SKIP_TUTORIAL_BATTLE_DESC",
-      "value": "The following will be skipped and downloading will commence.<br>・Tutorial Battle<br>・Opening Movie<br><br>The Opening Movie can be viewed later via Story Memories."
-    },
-    {
-      "key": "SKIP_TUTORIAL_YES",
-      "value": "Skip"
-    },
-    {
-      "key": "SKIP_TUTORIAL_NO",
-      "value": "Begin Tutorial"
-    },
-    {
-      "key": "VALUE_HOURS_MINUITES_SECONDS_COLON_FORMAT",
-      "value": "{0}:{1}:{2}"
-    },
-    {
-      "key": "VALUE_DAYS_SLASH_FORMAT",
-      "value": "{0}/{1}"
-    },
-    {
-      "key": "BUY_CURRENCY_EX",
-      "value": "[Paid]"
-    },
-    {
-      "key": "FREE_CURRENCY_EX",
-      "value": "[Free]"
-    },
-    {
-      "key": "ITEM_TARGET_LIST",
-      "value": "Target List"
-    },
-    {
-      "key": "READY_EX",
-      "value": "Ready!"
-    },
-    {
-      "key": "；編成画面 - オート周回",
-      "value": ""
-    },
-    {
-      "key": "MISSION_TIMEOUT_TRY_TITLE",
-      "value": "This mission is not available at this time."
-    },
-    {
-      "key": "MISSION_TIMEOUT_TRY_DESC",
-      "value": "This mission has expired. Unable to attempt."
-    },
-    {
-      "key": "NOTIFY_RUNOUT_FOOD",
-      "value": "Replenish provisions at the Guild Barracks!"
-    },
-    {
-      "key": "NOTIFY_CHOCOBO_ITEM_MAX",
-      "value": "Collect items found during Chocobo Expedition!"
+      "key": "DATA_CONNECT_SUCCESS_TITLE",
+      "value": "Data transfer complete.<br>The game will resume from your previous data."
     },
     {
       "key": "SNS_ACCOUNT_LIMIT_REACHED",

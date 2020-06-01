@@ -182,7 +182,7 @@
     },
     {
       "key": "SK_LW_PLD_M_3",
-      "value": "Deals Dmg (L) to targets within range & increases chance of being targeted for 3 turns."
+      "value": "Deals Dmg (L) to targets within range & increases chance of being targeted."
     },
     {
       "key": "SK_LW_PLD_R_1",
@@ -302,7 +302,7 @@
     },
     {
       "key": "SK_LW_MGK_S_2",
-      "value": "Deals Dmg (S) to targets within range based on caster's MAG stat & increases chance of being targeted for 3 turns."
+      "value": "Deals Dmg (S) to targets within range based on caster's MAG stat & increases chance of being targeted."
     },
     {
       "key": "SK_LW_MGK_R_1",
@@ -710,7 +710,7 @@
     },
     {
       "key": "SK_LW_NIN_S_2_INIT",
-      "value": "Decreases chance of being targeted for 3 turns."
+      "value": "Decreases chance of being targeted."
     },
     {
       "key": "SK_LW_NIN_M_3",
@@ -782,7 +782,7 @@
     },
     {
       "key": "SK_LW_NIN_S_2",
-      "value": "Decreases chance of being targeted for 3 turns."
+      "value": "Decreases chance of being targeted."
     },
     {
       "key": "SK_LW_LAN_ATK",
@@ -2034,7 +2034,7 @@
     },
     {
       "key": "SK_LW_VIK_P_1_2",
-      "value": "Raises Max HP/ATK & lowers Acquired AP."
+      "value": "Raises Max HP/ATK."
     },
     {
       "key": "SK_LW_VIK_P_2_2",
@@ -2210,7 +2210,7 @@
     },
     {
       "key": "SK_LW_WGN_M_1",
-      "value": "Significantly raises Missile ATK of allies within range around self for 3 turns & Raises own DEF Piercing Rate for 3 turns."
+      "value": "Significantly raises Missile ATK of allies within range around self for 3 turns & raises own DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_WGN_M_2",
@@ -2262,7 +2262,7 @@
     },
     {
       "key": "SK_LW_WGN_M_1_SUB",
-      "value": "Significantly raises Missile ATK of allies within range around self for 3 turns & Raises own DEF Piercing Rate for 3 turns."
+      "value": "Significantly raises Missile ATK of allies within range around self for 3 turns & raises own DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_WGN_M_2_SUB",
@@ -2530,7 +2530,7 @@
     },
     {
       "key": "SK_ARMN_M_02",
-      "value": "Chance of inflicting Petrify on target."
+      "value": "Chance of inflicting Petrify on enemy."
     },
     {
       "key": "SK_ARMN_M_03",
@@ -2785,28 +2785,40 @@
       "value": "Deals Dmg (M) to enemies within area around self based on caster's MAG stat & chance of inflicting Poison for 3 turns & chance of inflicting Petrify."
     },
     {
-      "key": "SK_LAMA_ATK",
+      "key": "SK_CSLI_ATK",
       "value": ""
     },
     {
-      "key": "SK_LAMA_M_01",
-      "value": "Chance of inflicting Charm on target for 3 turns."
+      "key": "SK_CSLI_M_01",
+      "value": "Deals Dmg (S) to target."
     },
     {
-      "key": "SK_LAMA_M_01_MAN",
-      "value": "High chance of inflicting Charm on target for 3 turns (only affects male units)."
+      "key": "SK_CSLI_M_02",
+      "value": "Deals Dmg (S) to target & absorbs Dmg dealt."
     },
     {
-      "key": "SK_LAMA_M_02",
-      "value": "Raises own Evasion Rate for 3 turns."
+      "key": "SK_CSLI_M_03",
+      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Charm for 3 turns."
     },
     {
-      "key": "SK_LAMA_M_03",
-      "value": "Deals Dmg (M) to enemies within range & Mars Killer & chance of inflicting Confusion for 3 turns."
+      "key": "SK_CSLI_M_03_QE",
+      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Charm for 3 turns."
     },
     {
-      "key": "SK_GL_LAMA_M_03",
-      "value": "Deals Dmg (M) to enemies within range & chance of inflicting Confusion for 3 turns."
+      "key": "SK_SLIM_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_SLIM_M_01",
+      "value": "Deals Dmg (S) to target."
+    },
+    {
+      "key": "SK_SLIM_M_02",
+      "value": "Deals Dmg (S) to target & absorbs Dmg dealt."
+    },
+    {
+      "key": "SK_SLIM_M_03",
+      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Poison for 3 turns."
     },
     {
       "key": "SK_IFRT_ATK",
@@ -2949,6 +2961,50 @@
       "value": "Deals Dmg (L) to targets within range & 1-panel Knockback."
     },
     {
+      "key": "SK_LAMA_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LAMA_M_01",
+      "value": "Chance of inflicting Charm on target for 3 turns."
+    },
+    {
+      "key": "SK_LAMA_M_01_MAN",
+      "value": "High chance of inflicting Charm on target for 3 turns (only affects male units)."
+    },
+    {
+      "key": "SK_LAMA_M_02",
+      "value": "Raises own Evasion Rate for 3 turns."
+    },
+    {
+      "key": "SK_LAMA_M_03",
+      "value": "Deals Dmg (M) to enemies within range & Mars Killer & chance of inflicting Confusion for 3 turns."
+    },
+    {
+      "key": "SK_GL_LAMA_M_03",
+      "value": "Deals Dmg (M) to enemies within range & chance of inflicting Confusion for 3 turns."
+    },
+    {
+      "key": "SK_TSLP_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_TSLP_M_01",
+      "value": "Deals Wind Magic Dmg (S) to target enemy."
+    },
+    {
+      "key": "SK_TSLP_M_02",
+      "value": "Deals Wind Magic Dmg (S) to enemies within target area."
+    },
+    {
+      "key": "SK_TSLP_M_03",
+      "value": "Bestows a barrier on self that reduces Dmg by N% 3 times."
+    },
+    {
+      "key": "SK_TSLP_M_04",
+      "value": "Deals Wind Magic Dmg (L) to enemies within target area."
+    },
+    {
       "key": "SK_LW_E_VIK_ATK",
       "value": ""
     },
@@ -3014,11 +3070,11 @@
     },
     {
       "key": "SK_LB_LW_ELDE",
-      "value": "Increases own chance of being targeted for 3 turns & bestows a barrier that reduces all Dmg (3 times)."
+      "value": "Increases own chance of being targeted & bestows a barrier that reduces Dmg (3 times)."
     },
     {
       "key": "SK_LB_LW_ELDE_B",
-      "value": "Increases own chance of being targeted for 3 turns & bestows a barrier that reduces all Dmg (5 times)."
+      "value": "Increases own chance of being targeted & bestows a barrier that reduces Dmg (5 times)."
     },
     {
       "key": "SK_LB_LW_STRN",
@@ -3030,11 +3086,11 @@
     },
     {
       "key": "SK_LB_LW_ROBB",
-      "value": "Deals Dmg (L) to target after movement to target panel & decreases chance of being targeted for 1 turn."
+      "value": "Deals Dmg (L) to target after movement to target panel & decreases chance of being targeted."
     },
     {
       "key": "SK_LB_LW_ROBB_B",
-      "value": "Deals Dmg (XL) to target after movement to target panel & decreases chance of being targeted for 3 turns."
+      "value": "Deals Dmg (XL) to target after movement to target panel & decreases chance of being targeted."
     },
     {
       "key": "SK_LB_LW_ENBT",
@@ -3114,7 +3170,7 @@
     },
     {
       "key": "SK_LB_LW_WHIS_B",
-      "value": "Deals Dmg (L) to targets within area around self & lowers Bravery."
+      "value": "Deals Dmg (XL) to targets within area around self & lowers Bravery."
     },
     {
       "key": "SK_LB_LW_MACR",
@@ -3123,6 +3179,14 @@
     {
       "key": "SK_LB_LW_MACR_B",
       "value": "Deals 2-Hit Dmg (XL) to target & significantly raises own All Attack Res for 1 turn."
+    },
+    {
+      "key": "SK_LB_LW_LUCA",
+      "value": "Deals 2-Hit Dmg (L) to target & chance of inflicting status ailments (Immobilize/Disable) for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_LUCA_B",
+      "value": "Deals 2-Hit Dmg (XL) to target & high chance of inflicting status ailments (Immobilize/Disable) for 3 turns."
     },
     {
       "key": "SK_LB_LW_YERM",
@@ -3139,14 +3203,6 @@
     {
       "key": "SK_LB_FFT_ORND",
       "value": "Deals Dmg (L) to targets within range & bestows Haste on self for 3 turns."
-    },
-    {
-      "key": "SK_LB_LW_LUCA",
-      "value": "Deals 2-Hit Dmg (L) to target & chance of inflicting status ailments (Immobilize/Disable) for 3 turns."
-    },
-    {
-      "key": "SK_LB_LW_LUCA_B",
-      "value": "Deals 2-Hit Dmg (XL) to target & high chance of inflicting status ailments (Immobilize/Disable) for 3 turns."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -3197,16 +3253,20 @@
       "value": "Evokes Zuu, deals Wind Dmg (L) to targets within area around self & 1-panel Knockback."
     },
     {
-      "key": "SK_SMN_LAMA",
-      "value": "Evokes Lamia Queen, deals Fire Dmg (L) to targets within range & Ice Eater & chance of inflicting Confusion for 3 turns."
-    },
-    {
       "key": "SK_SMN_OGRE",
       "value": "Evokes Ogre, deals Lightning Dmg (L) to target."
     },
     {
       "key": "SK_SMN_BOMB",
       "value": "Evokes Bomb, deals Fire Dmg (L) to targets within area around self & KO's self after dealing Dmg based on own HP."
+    },
+    {
+      "key": "SK_SMN_LAMA",
+      "value": "Evokes Lamia Queen, deals Fire Dmg (L) to targets within range & Ice Eater & chance of inflicting Confusion for 3 turns."
+    },
+    {
+      "key": "SK_SMN_TSLP",
+      "value": "Evokes Tetra Sylphid, deals Wind Dmg (Max) to targets within range & activates temporary Map Effects (raises allies' Evasion Rate & significantly lowers enemies' Wind Res)."
     },
     {
       "key": "SK_US_POTION",
@@ -3274,7 +3334,7 @@
     },
     {
       "key": "SK_US_HOLYTORCH",
-      "value": "Removes all Debuffs from ally."
+      "value": "Removes Haste, Regen, Protect, Shell, Float from enemy."
     },
     {
       "key": "SK_US_HERODRINK",
@@ -3359,6 +3419,10 @@
     {
       "key": "SK_MA_LW_GLMS",
       "value": "Slash ATK +10, AGI +10%"
+    },
+    {
+      "key": "SK_MA_LW_GLMS_2",
+      "value": "HP +1,000, Accuracy Rate +15, Slash ATK +10, AGI +10%"
     },
     {
       "key": "SK_MA_LW_MACR",
@@ -3541,6 +3605,10 @@
       "value": "ATK +10%, Earth Eater +15%"
     },
     {
+      "key": "SK_MA_LW_P_ADLD",
+      "value": "MAG +25%, DEX +10%"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Slash ATK +2"
     },
@@ -3666,7 +3734,7 @@
     },
     {
       "key": "SK_ACC_LW_MACR_1_1",
-      "value": "Recovers HP (M) of allies within area around self & bestows a barrier on allies within range that reduces Dmg for 3 turns (3 times)."
+      "value": "Recovers HP (M) of allies within area around self & bestows a barrier on allies within range that reduces Dmg (3 times)."
     },
     {
       "key": "SK_BLT_LW_YERM_1_1",
@@ -3687,6 +3755,14 @@
     {
       "key": "SK_ARW_LW_KTON_1_1",
       "value": "Raises own Move/Jump by 1 for 3 turns & decreases chance of being targeted."
+    },
+    {
+      "key": "SK_ARM_LW_LUCA_1_1",
+      "value": "Raises Range by 1 for 3 turns & raises AGI."
+    },
+    {
+      "key": "SK_SWO_LW_ADLD_1_1",
+      "value": ""
     },
     {
       "key": "SK_ROD_LW_HLNA_1_1",
@@ -3842,6 +3918,14 @@
     },
     {
       "key": "SK_LW_SWO_007_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AF_ICE_PA_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AF_ICE_PA_5",
       "value": ""
     },
     {
@@ -4045,22 +4129,6 @@
       "value": ""
     },
     {
-      "key": "SK_VC_LW_LAMA_01_GS",
-      "value": ""
-    },
-    {
-      "key": "SK_VC_LW_LAMA_01_GSAW",
-      "value": ""
-    },
-    {
-      "key": "SK_VC_LW_GUARD_GS",
-      "value": ""
-    },
-    {
-      "key": "SK_VC_LW_GUARD_GSAW",
-      "value": ""
-    },
-    {
       "key": "SK_VC_LW_HOLYNIGHT_GS",
       "value": ""
     },
@@ -4165,6 +4233,22 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_LAMA_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LAMA_01_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GUARD_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_GUARD_GSAW",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_CACT_GS",
       "value": ""
     },
@@ -4258,6 +4342,26 @@
     },
     {
       "key": "SK_VC_LW_MIRROR_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LILS_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LILS_GSAW",
       "value": ""
     },
     {
@@ -4626,6 +4730,26 @@
     },
     {
       "key": "SK_VC_LW_MIRROR_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_TSLP_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LILS_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_LILS_PAW",
       "value": ""
     },
     {
@@ -5078,6 +5202,18 @@
     },
     {
       "key": "SK_BTL_INV_POISON",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_INV_HPDOWN",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_INV_MKBT",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_INV_CTDOWN",
       "value": "Quest-balancing skill"
     },
     {

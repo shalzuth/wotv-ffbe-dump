@@ -1901,6 +1901,75 @@
       "chk_ver": "M_ST_0025_2"
     },
     {
+      "iname": "M_ST_0009_02",
+      "grpID": "MG_STORY_001",
+      "priority": 100053,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_01090205"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0026"
+    },
+    {
+      "iname": "M_ST_0009_02_2",
+      "grpID": "MG_STORY_001",
+      "priority": 100054,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_01090210"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 500
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_SSR",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_ST_0026_2"
+    },
+    {
       "iname": "M_VIP_LOGB_001",
       "grpID": "MG_VIP_LOGB_01",
       "priority": 1,
@@ -3235,6 +3304,407 @@
         }
       ],
       "chk_ver": "M_DAILY_005_07_2"
+    },
+    {
+      "iname": "M_DAILY_006_01_1",
+      "grpID": "MG_DAILY_006_1",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_01_1"
+    },
+    {
+      "iname": "M_DAILY_006_01_2",
+      "grpID": "MG_DAILY_006_1",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_DARK_05",
+          "QE_EV_AW_DARK_04",
+          "QE_EV_AW_DARK_03",
+          "QE_EV_AW_DARK_02",
+          "QE_EV_AW_DARK_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_01_2"
+    },
+    {
+      "iname": "M_DAILY_006_01_3",
+      "grpID": "MG_DAILY_006_1",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "5-29"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_01_3"
+    },
+    {
+      "iname": "M_DAILY_006_02_1",
+      "grpID": "MG_DAILY_006_2",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_02_1"
+    },
+    {
+      "iname": "M_DAILY_006_02_2",
+      "grpID": "MG_DAILY_006_2",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_SHIN_05",
+          "QE_EV_AW_SHIN_04",
+          "QE_EV_AW_SHIN_03",
+          "QE_EV_AW_SHIN_02",
+          "QE_EV_AW_SHIN_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_02_2"
+    },
+    {
+      "iname": "M_DAILY_006_02_3",
+      "grpID": "MG_DAILY_006_2",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "5-29"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_02_3"
+    },
+    {
+      "iname": "M_DAILY_006_03_1",
+      "grpID": "MG_DAILY_006_3",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_03_1"
+    },
+    {
+      "iname": "M_DAILY_006_03_2",
+      "grpID": "MG_DAILY_006_3",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_03_2"
+    },
+    {
+      "iname": "M_DAILY_006_03_3",
+      "grpID": "MG_DAILY_006_3",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "5-29"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_03_3"
+    },
+    {
+      "iname": "M_DAILY_006_04_1",
+      "grpID": "MG_DAILY_006_4",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_04_1"
+    },
+    {
+      "iname": "M_DAILY_006_04_2",
+      "grpID": "MG_DAILY_006_4",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GIL_03",
+          "QE_EV_GIL_D3",
+          "QE_EV_GIL_02",
+          "QE_EV_GIL_D2",
+          "QE_EV_GIL_01",
+          "QE_EV_GIL_D1"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_04_2"
+    },
+    {
+      "iname": "M_DAILY_006_04_3",
+      "grpID": "MG_DAILY_006_4",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "5-29"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_04_3"
+    },
+    {
+      "iname": "M_DAILY_006_05_1",
+      "grpID": "MG_DAILY_006_5",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_05_1"
+    },
+    {
+      "iname": "M_DAILY_006_05_2",
+      "grpID": "MG_DAILY_006_5",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_05_2"
+    },
+    {
+      "iname": "M_DAILY_006_05_3",
+      "grpID": "MG_DAILY_006_5",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "5-29"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_05_3"
+    },
+    {
+      "iname": "M_DAILY_006_06_1",
+      "grpID": "MG_DAILY_006_6",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_06_1"
+    },
+    {
+      "iname": "M_DAILY_006_06_2",
+      "grpID": "MG_DAILY_006_6",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_FIRE_05",
+          "QE_EV_AW_FIRE_04",
+          "QE_EV_AW_FIRE_03",
+          "QE_EV_AW_FIRE_02",
+          "QE_EV_AW_FIRE_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_06_2"
+    },
+    {
+      "iname": "M_DAILY_006_06_3",
+      "grpID": "MG_DAILY_006_6",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "5-29"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_06_3"
     },
     {
       "iname": "M_DAILY_ST_01",
@@ -8415,7 +8885,7 @@
     },
     {
       "iname": "M_ART_SCR_01",
-      "grpID": "MG_EV_ART_SCR_01",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200053,
       "condition": {
         "type": 6,
@@ -8450,7 +8920,7 @@
     },
     {
       "iname": "M_ART_SCR_02",
-      "grpID": "MG_EV_ART_SCR_01",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200054,
       "condition": {
         "type": 6,
@@ -8485,7 +8955,7 @@
     },
     {
       "iname": "M_ART_SCR_03",
-      "grpID": "MG_EV_ART_SCR_01",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200055,
       "condition": {
         "type": 6,
@@ -8520,7 +8990,7 @@
     },
     {
       "iname": "M_ART_SCR_04",
-      "grpID": "MG_EV_ART_SCR_01",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200056,
       "condition": {
         "type": 6,
@@ -8555,7 +9025,7 @@
     },
     {
       "iname": "M_ART_SCR_05",
-      "grpID": "MG_EV_ART_SCR_01",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200057,
       "condition": {
         "type": 6,
@@ -8594,7 +9064,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_01",
-      "grpID": "MG_MU_ART_SCR_01",
+      "grpID": "MG_MU_ART_SCR_NO",
       "priority": 200058,
       "condition": {
         "type": 9,
@@ -8644,7 +9114,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_02",
-      "grpID": "MG_MU_ART_SCR_01",
+      "grpID": "MG_MU_ART_SCR_NO",
       "priority": 200059,
       "condition": {
         "type": 9,
@@ -8679,7 +9149,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_03",
-      "grpID": "MG_MU_ART_SCR_01",
+      "grpID": "MG_MU_ART_SCR_NO",
       "priority": 200060,
       "condition": {
         "type": 9,
@@ -8718,7 +9188,7 @@
     },
     {
       "iname": "M_ART_SCR_06",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_01",
       "priority": 200090,
       "condition": {
         "type": 6,
@@ -8753,7 +9223,7 @@
     },
     {
       "iname": "M_ART_SCR_07",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_01",
       "priority": 200091,
       "condition": {
         "type": 6,
@@ -8788,7 +9258,7 @@
     },
     {
       "iname": "M_ART_SCR_08",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_01",
       "priority": 200092,
       "condition": {
         "type": 6,
@@ -8823,7 +9293,7 @@
     },
     {
       "iname": "M_ART_SCR_09",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_01",
       "priority": 200093,
       "condition": {
         "type": 6,
@@ -8858,7 +9328,7 @@
     },
     {
       "iname": "M_ART_SCR_10",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_01",
       "priority": 200094,
       "condition": {
         "type": 6,
@@ -8897,7 +9367,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_04",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_01",
       "priority": 200095,
       "condition": {
         "type": 9,
@@ -8947,7 +9417,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_05",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_01",
       "priority": 200096,
       "condition": {
         "type": 9,
@@ -8982,7 +9452,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_06",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_01",
       "priority": 200097,
       "condition": {
         "type": 9,
@@ -9021,7 +9491,7 @@
     },
     {
       "iname": "M_ART_SCR_11",
-      "grpID": "MG_EV_ART_SCR_02",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200098,
       "condition": {
         "type": 6,
@@ -9056,7 +9526,7 @@
     },
     {
       "iname": "M_ART_SCR_12",
-      "grpID": "MG_EV_ART_SCR_02",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200099,
       "condition": {
         "type": 6,
@@ -9091,7 +9561,7 @@
     },
     {
       "iname": "M_ART_SCR_13",
-      "grpID": "MG_EV_ART_SCR_02",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200100,
       "condition": {
         "type": 6,
@@ -9126,7 +9596,7 @@
     },
     {
       "iname": "M_ART_SCR_14",
-      "grpID": "MG_EV_ART_SCR_02",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200101,
       "condition": {
         "type": 6,
@@ -9161,7 +9631,7 @@
     },
     {
       "iname": "M_ART_SCR_15",
-      "grpID": "MG_EV_ART_SCR_02",
+      "grpID": "MG_EV_ART_SCR_NO",
       "priority": 200102,
       "condition": {
         "type": 6,
@@ -9200,7 +9670,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_07",
-      "grpID": "MG_MU_ART_SCR_02",
+      "grpID": "MG_MU_ART_SCR_NO",
       "priority": 200103,
       "condition": {
         "type": 9,
@@ -9250,7 +9720,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_08",
-      "grpID": "MG_MU_ART_SCR_02",
+      "grpID": "MG_MU_ART_SCR_NO",
       "priority": 200104,
       "condition": {
         "type": 9,
@@ -9285,7 +9755,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_09",
-      "grpID": "MG_MU_ART_SCR_02",
+      "grpID": "MG_MU_ART_SCR_NO",
       "priority": 200105,
       "condition": {
         "type": 9,
@@ -9324,7 +9794,7 @@
     },
     {
       "iname": "M_ART_SCR_16",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200106,
       "condition": {
         "type": 6,
@@ -9359,7 +9829,7 @@
     },
     {
       "iname": "M_ART_SCR_17",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200107,
       "condition": {
         "type": 6,
@@ -9394,7 +9864,7 @@
     },
     {
       "iname": "M_ART_SCR_18",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200108,
       "condition": {
         "type": 6,
@@ -9429,7 +9899,7 @@
     },
     {
       "iname": "M_ART_SCR_19",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200109,
       "condition": {
         "type": 6,
@@ -9464,7 +9934,7 @@
     },
     {
       "iname": "M_ART_SCR_20",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200110,
       "condition": {
         "type": 6,
@@ -9503,7 +9973,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_10",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_02",
       "priority": 200111,
       "condition": {
         "type": 9,
@@ -9553,7 +10023,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_11",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_02",
       "priority": 200112,
       "condition": {
         "type": 9,
@@ -9588,7 +10058,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_12",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_02",
       "priority": 200113,
       "condition": {
         "type": 9,
@@ -9627,7 +10097,7 @@
     },
     {
       "iname": "M_ART_SCR_21",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200114,
       "condition": {
         "type": 6,
@@ -9662,7 +10132,7 @@
     },
     {
       "iname": "M_ART_SCR_22",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200115,
       "condition": {
         "type": 6,
@@ -9697,7 +10167,7 @@
     },
     {
       "iname": "M_ART_SCR_23",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200116,
       "condition": {
         "type": 6,
@@ -9732,7 +10202,7 @@
     },
     {
       "iname": "M_ART_SCR_24",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200117,
       "condition": {
         "type": 6,
@@ -9767,7 +10237,7 @@
     },
     {
       "iname": "M_ART_SCR_25",
-      "grpID": "MG_EV_ART_SCR_NO",
+      "grpID": "MG_EV_ART_SCR_02",
       "priority": 200117,
       "condition": {
         "type": 6,
@@ -9806,7 +10276,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_13",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_02",
       "priority": 200118,
       "condition": {
         "type": 9,
@@ -9856,7 +10326,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_14",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_02",
       "priority": 200119,
       "condition": {
         "type": 9,
@@ -9891,7 +10361,7 @@
     },
     {
       "iname": "M_MU_ART_SCR_15",
-      "grpID": "MG_MU_ART_SCR_NO",
+      "grpID": "MG_MU_ART_SCR_02",
       "priority": 200120,
       "condition": {
         "type": 9,

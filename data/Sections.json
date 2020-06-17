@@ -194,6 +194,14 @@
       ]
     },
     {
+      "iname": "SE_WD_010202",
+      "chap": "CH_WD_0102",
+      "skip_ticket": "IT_TICKET_STORY",
+      "o_cond_q": [
+        "QE_ST_01040310"
+      ]
+    },
+    {
       "iname": "SE_SB_01"
     },
     {
@@ -512,6 +520,26 @@
       "iname": "SE_EV_BEGN_2001",
       "limit": 1,
       "hurl": "ev_begn_2001"
+    },
+    {
+      "iname": "SE_EV_VKTR_01",
+      "limit": 1,
+      "hurl": "ev_vktr_01"
+    },
+    {
+      "iname": "SE_EV_THLA",
+      "hurl": "ev_thla_01"
+    },
+    {
+      "iname": "SE_EV_THLA_EX",
+      "hurl": "ev_thla_ex_01",
+      "o_cond_q": [
+        "QE_EV_THLA_05"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_THLA_EX",
+      "hurl": "ev_thla_ex_01"
     }
   ]
 }

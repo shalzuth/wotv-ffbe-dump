@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 270
+    "angle": 270,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -265,7 +267,7 @@
       "iname": "UN_GM_TREASURE",
       "side": 1,
       "dead": 0,
-      "lv": 0,
+      "lv": 1,
       "rare": 0,
       "awake": 1,
       "rank": 0,
@@ -1148,6 +1150,67 @@
       "raid_type": 0,
       "dispOrder": 0,
       "referenceGObjName": ""
+    },
+    {
+      "name": "",
+      "x": 9,
+      "y": 4,
+      "dir": 3,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "enemy_id": 28,
+      "iname": "UN_GM_TREASURE",
+      "side": 1,
+      "dead": 0,
+      "lv": 1,
+      "rare": 0,
+      "awake": 1,
+      "rank": 0,
+      "elem": 0,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "QE_EV_VC_EXP_SSR",
+      "crystal": "",
+      "steal": "",
+      "stealValue": 100,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "referenceGObjName": ""
     }
   ],
   "arena": [],
@@ -1191,7 +1254,7 @@
             "num": 1,
             "secret": 0
           },
-          "weight": 2
+          "weight": 15
         },
         {
           "drop_data": {
@@ -1200,7 +1263,16 @@
             "num": 1,
             "secret": 0
           },
-          "weight": 8
+          "weight": 70
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_VC_EXP_04",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 15
         }
       ]
     },
@@ -1238,6 +1310,22 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_VC_EXP_03",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "QE_EV_VC_EXP_SSR",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_VC_EXP_04",
             "num": 1,
             "secret": 0
           },

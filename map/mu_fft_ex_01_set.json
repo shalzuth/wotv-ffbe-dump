@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 270
+    "angle": 270,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -1447,7 +1449,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FFT_1",
+            "iname": "IT_EC_FFT_3",
             "num": 180,
             "secret": 0
           },
@@ -1456,7 +1458,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FFT_1",
+            "iname": "IT_EC_FFT_3",
             "num": 200,
             "secret": 0
           },
@@ -1465,11 +1467,54 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_EC_FFT_1",
+            "iname": "IT_EC_FFT_3",
             "num": 215,
             "secret": 0
           },
           "weight": 5
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "iname": "HOST",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_AF_FFT_SWO_001",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 3
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_AF_MAT_SAP_01",
+            "num": 3,
+            "secret": 0
+          },
+          "weight": 64
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_AF_MAT_HEART_01",
+            "num": 3,
+            "secret": 0
+          },
+          "weight": 20
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_AF_AW_SWORD",
+            "num": 3,
+            "secret": 0
+          },
+          "weight": 13
         }
       ]
     }

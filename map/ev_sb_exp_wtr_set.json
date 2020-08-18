@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": false,
-    "angle": 0
+    "angle": 0,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -1326,7 +1328,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_EV_SB_EXP_WTR",
+      "drop": "conf",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -1506,6 +1508,22 @@
             "secret": 0
           },
           "weight": 1
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "conf",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_SB_EXP_WATER_04",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 100
         }
       ]
     }

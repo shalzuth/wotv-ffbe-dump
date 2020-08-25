@@ -1150,6 +1150,86 @@
       ]
     },
     {
+      "iname": "VC_LW_SCAL",
+      "type": 0,
+      "icon": "LAPSScal",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_SCAL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_SCAL_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_SCAL_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_SCAL_GSMAX",
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_STAFF",
+          "self_buff": "SK_VC_LW_SCAL_P",
+          "add_self_buff_awake": "SK_VC_LW_SCAL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_SCAL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_STAFF",
+          "self_buff": "SK_VC_LW_SCAL_PVA"
+        }
+      ],
+      "status": [
+        {
+          "hp": 30,
+          "atk": 0,
+          "mag": 47,
+          "luk": 6
+        },
+        {
+          "hp": 232,
+          "atk": 0,
+          "mag": 186,
+          "luk": 20
+        }
+      ]
+    },
+    {
+      "iname": "VC_FFCC_MV1",
+      "type": 0,
+      "collaboType": 1,
+      "icon": "FFCCMv1",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_FFCC_MV1",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_FFCC_MV1_GS",
+      "add_card_skill_buff_awake": "SK_VC_FFCC_MV1_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_FFCC_MV1_GSMAX",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_FFCC_MV1_P",
+          "add_self_buff_awake": "SK_VC_FFCC_MV1_PAW",
+          "add_self_buff_lvmax": "SK_VC_FFCC_MV1_PMAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "atk": 5,
+          "mag": 42
+        },
+        {
+          "hp": 278,
+          "atk": 18,
+          "mag": 171
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -2149,6 +2229,78 @@
           "atk": 84,
           "mag": 46,
           "luk": 16
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_TNBR",
+      "type": 0,
+      "icon": "LAPSTnbr",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_TNBR",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_TNBR_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_TNBR_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_TNBR_P",
+          "add_self_buff_awake": "SK_VC_LW_TNBR_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 36,
+          "ap": 7,
+          "atk": 23,
+          "mag": 0
+        },
+        {
+          "hp": 292,
+          "ap": 25,
+          "atk": 94,
+          "mag": 0
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_TNBR"
+    },
+    {
+      "iname": "VC_FFCC_MV2",
+      "type": 0,
+      "collaboType": 1,
+      "icon": "FFCCMv2",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_FFCC_MV2",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_FFCC_MV2_GS",
+      "add_card_skill_buff_awake": "SK_VC_FFCC_MV2_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_FFCC_MV2_P",
+          "add_self_buff_awake": "SK_VC_FFCC_MV2_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 23,
+          "atk": 20,
+          "mag": 14
+        },
+        {
+          "hp": 211,
+          "atk": 81,
+          "mag": 56
         }
       ]
     },

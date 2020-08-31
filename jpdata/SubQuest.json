@@ -1016,9 +1016,9 @@
       "achieve_condition": {
         "type": 26,
         "sval": [
-          "Event-Friend_20200701",
           "Event-Friend_20200801",
-          "Event-Friend_20200901"
+          "Event-Friend_20200901",
+          "Event-Friend_20201001"
         ],
         "ival": 1
       },
@@ -1038,6 +1038,65 @@
         }
       ],
       "chk_ver": "SQ_WD_010207_02"
+    },
+    {
+      "iname": "SQ_WD_010208_03",
+      "section": "SE_WD_010208",
+      "open_condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "achieve_condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 100
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 10
+        },
+        {
+          "type": 2,
+          "num": 10000
+        }
+      ],
+      "chk_ver": "SQ_WD_010208_03"
+    },
+    {
+      "iname": "SQ_WD_010208_01",
+      "section": "SE_WD_010208",
+      "open_condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "achieve_condition": {
+        "type": 86,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 100
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 10
+        },
+        {
+          "type": 2,
+          "num": 10000
+        }
+      ],
+      "chk_ver": "SQ_WD_010208_01"
     }
   ]
 }

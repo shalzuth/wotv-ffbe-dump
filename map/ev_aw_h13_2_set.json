@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": false,
-    "angle": 0
+    "angle": 0,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -1068,7 +1070,7 @@
       "iname": "UN_GM_TREASURE",
       "side": 1,
       "dead": 0,
-      "lv": 1,
+      "lv": 0,
       "rare": 0,
       "awake": 1,
       "rank": 0,
@@ -1363,12 +1365,21 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_CAL_5",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
             "secret": 0
           },
-          "weight": 2562
+          "weight": 2551
         }
       ]
     }

@@ -1230,6 +1230,48 @@
       ]
     },
     {
+      "iname": "VC_LW_LVAT",
+      "type": 0,
+      "icon": "LAPSLvat",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_LVAT",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_LVAT_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_LVAT_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_LVAT_GSMAX",
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_SWORD",
+          "self_buff": "SK_VC_LW_LVAT_P",
+          "add_self_buff_awake": "SK_VC_LW_LVAT_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_LVAT_PMAX"
+        },
+        {
+          "buff_cond": "VLC_SWORD",
+          "self_buff": "SK_VC_LW_LVAT_PVA"
+        }
+      ],
+      "status": [
+        {
+          "hp": 39,
+          "atk": 42,
+          "def": 2
+        },
+        {
+          "hp": 306,
+          "atk": 164,
+          "def": 4
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_LVAT"
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -2301,6 +2343,42 @@
           "hp": 211,
           "atk": 81,
           "mag": 56
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_ASSASIN",
+      "type": 0,
+      "icon": "LAPSAssn",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_ASSASIN",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_ASSASIN_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_ASSASIN_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_ASSASIN_P",
+          "add_self_buff_awake": "SK_VC_LW_ASSASIN_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 23,
+          "atk": 21,
+          "mag": 21,
+          "spd": 1
+        },
+        {
+          "hp": 187,
+          "atk": 86,
+          "mag": 86,
+          "spd": 3
         }
       ]
     },

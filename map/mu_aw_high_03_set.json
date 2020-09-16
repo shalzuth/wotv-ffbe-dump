@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": false,
-    "angle": 0
+    "angle": 0,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -377,6 +379,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -494,6 +497,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -611,6 +615,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -723,6 +728,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -800,6 +806,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -877,6 +884,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -954,6 +962,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -1031,6 +1040,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -1092,6 +1102,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     }
   ],
@@ -1641,12 +1652,48 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_CAL_5",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_STRN_5",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_GRSR_5",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_LSWL_5",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
             "secret": 0
           },
-          "weight": 2375
+          "weight": 2331
         }
       ]
     },
@@ -1672,6 +1719,409 @@
             "secret": 0
           },
           "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "iname": "HOST",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_ALL_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 2230
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_SWORD_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_LSWORD_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_JSWORD_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_FIST_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_SPEAR_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_SSWORD_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_KUNAI_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_BOW_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_GUN_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_STAFF_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MACE_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_WAR_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_KNT_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_PLD_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_SWN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MNK_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_SAM_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LAN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_THI_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_NIN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_HUN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GUN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_WHM_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_BLM_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_RDM_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_GRM_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_TIM_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MGK_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_CLR_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_GLMS_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_DRG_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_IM_ANGEL_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 100
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_IM_DRAGON_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 100
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_VIK_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_AXE_05",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 410
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_WGN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_ASS_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_RAIN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MST_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_CAL_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_STRN_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_GRSR_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_LSWL_5",
+            "num": 2,
+            "secret": 0
+          },
+          "weight": 11
         }
       ]
     }

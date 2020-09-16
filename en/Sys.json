@@ -226,7 +226,7 @@
     },
     {
       "key": "SKIP_TUTORIAL_BATTLE_DESC",
-      "value": "The following will be skipped and downloading will commence.<br>・Tutorial Battle<br>・Opening Movie<br><br>*The Opening Movie can be<br>viewed later via Story Memories."
+      "value": "The following will be skipped and downloading will commence.<br>・Tutorial Battle (cannot be played later)<br>・Opening Movie (can be viewed later via Story Memories)<br><br>*If you are unfamiliar with tactical games, playing the Tutorial Battle is recommended."
     },
     {
       "key": "SKIP_TUTORIAL_YES",
@@ -521,6 +521,22 @@
       "value": "Reward Expires:"
     },
     {
+      "key": "AGGREGATE",
+      "value": "Calculating..."
+    },
+    {
+      "key": "AGGREGATE_RANKING",
+      "value": "Calculating rankings..."
+    },
+    {
+      "key": "PERIOD_RANKING_VIEW",
+      "value": "Rankings Period:"
+    },
+    {
+      "key": "DATE_CURRENT",
+      "value": "Current"
+    },
+    {
       "key": "VALUE_SLASH",
       "value": "/"
     },
@@ -645,6 +661,18 @@
       "value": "#"
     },
     {
+      "key": "VALUE_RANK_ASSIGNMENT",
+      "value": "Rank {0}"
+    },
+    {
+      "key": "VALUE_POINT",
+      "value": "Pt"
+    },
+    {
+      "key": "VALUE_POINTS",
+      "value": "Pts"
+    },
+    {
       "key": "VALUE_TO",
       "value": "–"
     },
@@ -670,7 +698,7 @@
     },
     {
       "key": "VALIE_DATE_FORMAT_MDHMM",
-      "value": "H:mm, M/d"
+      "value": "M/d, H:mm"
     },
     {
       "key": "VALUE_VALIDITY_SECOND",
@@ -1994,7 +2022,7 @@
     },
     {
       "key": "UNITLIST_CONFIRM＿OTHER_PARTY_DESC",
-      "value": "This unit is already in another party <br>({0}).<br>Select anyway?<br>(This will remove the unit<br>from the other party.)"
+      "value": "This unit is already in another party<br>({0}).<br>Select anyway?<br>(This will remove the unit<br>from the other party.)"
     },
     {
       "key": "NETHERBEAST_SYNCHRO",
@@ -2329,6 +2357,14 @@
       "value": "Party Formation"
     },
     {
+      "key": "MATCH_CONNECT_AUTO_TITLE",
+      "value": "Finish Battle Settings"
+    },
+    {
+      "key": "MATCH_CONNECT_AUTO_DESC",
+      "value": "Speed-up settings for the match are based on the settings of the player on the blue side of the Matching screen."
+    },
+    {
       "key": "SELECTLIST_REMOVE",
       "value": "Remove"
     },
@@ -2603,6 +2639,10 @@
     {
       "key": "PARTYEDITOR_BTN_RECENT",
       "value": "Most Recent Cleared Formation"
+    },
+    {
+      "key": "PARTYEDITOR_BTN_HIGH_SCORE",
+      "value": "Quest High Score"
     },
     {
       "key": "PARTYEDITOR_BTN_AUTOBATTLE",
@@ -2977,8 +3017,12 @@
       "value": "Battle {0}"
     },
     {
-      "key": "SKIP_SETTING_DESC",
+      "key": "SKIP_SETTING_DESC_AP",
       "value": "Use a Skip Ticket and NRG to skip this quest?"
+    },
+    {
+      "key": "SKIP_SETTING_DESC_ITEM",
+      "value": "Use a Skip Ticket and items to skip this quest?"
     },
     {
       "key": "SKIP_RESET_DESC",
@@ -3945,6 +3989,14 @@
       "value": "You don't have enough orbs. <br>Do you want to restore them?"
     },
     {
+      "key": "ITEM_LACK_LAP_TITLE",
+      "value": "Not enough items"
+    },
+    {
+      "key": "ITEM_LACK_LAP_DESC",
+      "value": "Not enough {0}.<br>Ending Auto Repeat."
+    },
+    {
       "key": "REWARD_RECEIVE",
       "value": "Claim Rewards"
     },
@@ -4262,7 +4314,7 @@
     },
     {
       "key": "GACHA_STATUS_DETAIL_VISION_FIRST",
-      "value": "*You can obtain an esper for free the first time"
+      "value": "*You can only obtain an esper the first time"
     },
     {
       "key": "VISION_DETAIL_STATUS",
@@ -4277,6 +4329,14 @@
       "value": "Bestowed Effects"
     },
     {
+      "key": "VISION_DETAIL_ADD_LIMITED_EFF",
+      "value": "Limited Bestowed Effects"
+    },
+    {
+      "key": "VISION_DETAIL_ABILITY_CHANGE",
+      "value": "Ability Change"
+    },
+    {
       "key": "VISION_DETAIL_AWAKE_BONUS",
       "value": "Awakening Bonus"
     },
@@ -4287,6 +4347,50 @@
     {
       "key": "VISION_DETAIL_AWAKE",
       "value": "Awaken"
+    },
+    {
+      "key": "VISION_DETAIL_CONDITION_ADD_LIMITED_EFF",
+      "value": "Boost for units meeting specific conditions"
+    },
+    {
+      "key": "VISION_DETAIL_CONDITION_ABILITY_CHANGE",
+      "value": "Ability change for units meeting specific conditions"
+    },
+    {
+      "key": "VISION_DETAIL_ABILITY_CHANGE_DESC",
+      "value": "Changed from {0} to {1}"
+    },
+    {
+      "key": "VISION_DETAIL_ABILITY_START_TURN_DESC",
+      "value": "For {0} turn(s) after battle commences: {1}"
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_TITLE",
+      "value": "Units Meeting Specific Conditions"
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_MAINJOB",
+      "value": "Eligible Job (Main): "
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_JOB",
+      "value": "Eligible Job (Main/Sub): "
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_BIRTH",
+      "value": "Eligible Affiliation:"
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_SEX",
+      "value": "Eligible Gender:"
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_UNIT",
+      "value": "Eligible Unit:"
+    },
+    {
+      "key": "BUFF_LIMITED_CONDITION_ELEMENT",
+      "value": "Eligible Element:"
     },
     {
       "key": "NETHERBEAST_DETAIL_STATUS",
@@ -4811,6 +4915,86 @@
     {
       "key": "YEAR_TEXT",
       "value": "yr"
+    },
+    {
+      "key": "GL_AP_HELP_TITLE",
+      "value": "Amazon Prime-Exclusive Rewards"
+    },
+    {
+      "key": "GL_AP_HELP_DESC",
+      "value": "This reward is exclusive to Amazon Prime subscribers.<br>You will need to subscribe to Amazon Prime to be entitled to claim the rewards within the validity period of the event.<br>Your Amazon Prime account will automatically bind to your game account when you log in with Amazon. You can unbind the account after you log in to your Amazon Prime account.<br>Login session will expire after approximately 55 minutes in the game. You will need to log in again when the login session expires.<br>Rewards that are claimed with your Amazon Prime account will not be able to be claimed in this game again using another game account.<br>Claimed rewards will be sent to Presents (Unlimited)."
+    },
+    {
+      "key": "GL_AP_WARNING_DESC",
+      "value": "You must be an Amazon Prime subscriber to be entitled to Amazon Prime-Exclusive Rewards.<br><br>Reward status will be refreshed after login."
+    },
+    {
+      "key": "GL_AP_STATUS_CLAIM",
+      "value": "Claim"
+    },
+    {
+      "key": "GL_AP_STATUS_CLAIMED",
+      "value": "Claimed"
+    },
+    {
+      "key": "GL_AP_STATUS_COMING_SOON",
+      "value": "Coming Soon"
+    },
+    {
+      "key": "GL_AP_STATUS_EXPIRED",
+      "value": "Expired"
+    },
+    {
+      "key": "GL_AP_STATUS_LOGIN",
+      "value": "Log in with Amazon"
+    },
+    {
+      "key": "GL_AP_STATUS_UNBIND",
+      "value": "Unbind"
+    },
+    {
+      "key": "GL_AP_STATUS_SIGNED_IN",
+      "value": "Account Signed In"
+    },
+    {
+      "key": "GL_AP_DESC_PREFIX",
+      "value": "Reward availability period:<br>"
+    },
+    {
+      "key": "GL_AP_UNBIND_TITLE",
+      "value": "Unbind Amazon Prime"
+    },
+    {
+      "key": "GL_AP_UNBIND_DESC",
+      "value": "Unbind Amazon Prime account from game account?"
+    },
+    {
+      "key": "GL_AP_CLAIM_TITLE",
+      "value": "Reward Details"
+    },
+    {
+      "key": "GL_AP_CLAIM_DESC",
+      "value": "Reward claimed.<br><br>Reward will be available<br>in your Present box."
+    },
+    {
+      "key": "GL_AP_NOT_SUB_DESC",
+      "value": "<color=#FF0000>You are not an Amazon Prime subscriber.</color>"
+    },
+    {
+      "key": "GL_AP_FAIL_BIND_DESC",
+      "value": "<color=#FF0000>Failed to bind Amazon Prime account.</color>"
+    },
+    {
+      "key": "GL_AP_FAIL_UNBIND_DESC",
+      "value": "<color=#FF0000>Failed to unbind Amazon Prime account. Please try again later.</color>"
+    },
+    {
+      "key": "GL_TWITCHOFFER_REWARD",
+      "value": "Amazon Prime-Exclusive Rewards"
+    },
+    {
+      "key": "SKIP_SETTING_DESC",
+      "value": "Use a Skip Ticket and NRG to skip this quest?"
     },
     {
       "key": "RECOMMEND_TEAM_CAUTION",

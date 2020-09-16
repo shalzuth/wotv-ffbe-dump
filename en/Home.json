@@ -42,7 +42,7 @@
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_MATCH",
-      "value": "Commence Battle"
+      "value": "Commence Battle: From"
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_AGGREGATE",
@@ -50,19 +50,19 @@
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_PREPARATION",
-      "value": "Preparing Next Battle"
+      "value": "Preparing Next Battle: Until"
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_START_AT_FMT",
-      "value": "From MM/dd HH:mm"
+      "value": "MM/dd, HH:mm"
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_END_AT_FMT",
-      "value": "Until MM/dd HH:mm"
+      "value": "MM/dd, HH:mm"
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_NEXT_AT_FMT",
-      "value": "Until MM/dd HH:mm"
+      "value": "MM/dd, HH:mm"
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_END",
@@ -3757,10 +3757,6 @@
       "value": "Room Leader"
     },
     {
-      "key": "MULTI_ROOM_RESET",
-      "value": "Disband Room <br>(Resettable)"
-    },
-    {
       "key": "MULTI_ROOM_DISSOLVE_CHECK_TITLE",
       "value": "Disband Room"
     },
@@ -6081,6 +6077,10 @@
       "value": "In Battle"
     },
     {
+      "key": "GUILD_LEAGUE_BANNER_ABSTENTION",
+      "value": "Limited<br>Guild Battle Underway!"
+    },
+    {
       "key": "GUILD_LEAGUE_DURATION_MATCHING",
       "value": "Battle commences in"
     },
@@ -6146,7 +6146,7 @@
     },
     {
       "key": "GUILD_LIMITED_DURATION_END_FMT",
-      "value": "MM/dd HH:mm"
+      "value": "MM/dd, HH:mm"
     },
     {
       "key": "GUILD_CHAT_NEW_MEMBER",
@@ -7041,6 +7041,10 @@
       "value": "Outside of Event Period"
     },
     {
+      "key": "GUILD_BATTLE_STATE_PRE",
+      "value": "Preparing"
+    },
+    {
       "key": "GUILD_BATTLE_STATE_NO_PARTICIPATION",
       "value": "Not Participating"
     },
@@ -7099,6 +7103,14 @@
     {
       "key": "GUILD_BATTLE_ALREADY",
       "value": "Complete"
+    },
+    {
+      "key": "GUILD_BATTLE_STATE_PRE_SUB",
+      "value": "Preparing Next Battle: Until"
+    },
+    {
+      "key": "GUILD_BATTLE_STATE_PRE_TIME_FMT",
+      "value": "MM/dd, HH:mm"
     },
     {
       "key": "GUILD_BATTLE_DEFFENCE_SETTING",
@@ -7453,8 +7465,24 @@
       "value": "Select an opposing party to attack"
     },
     {
-      "key": "GUILD_BATTLE_TARGET_SELECT_TITLE_SUPPORT",
-      "value": "Select a party to support"
+      "key": "GUILD_BATTLE_TARGET_SELECT_TITLE_SUPPORT_PLAYER",
+      "value": "Select an allied Attacking Party to apply the effect"
+    },
+    {
+      "key": "GUILD_BATTLE_TARGET_SELECT_TITLE_SUPPORT_ENEMY",
+      "value": "Select an opposing Defending Party to apply the effect"
+    },
+    {
+      "key": "GUILD_BATTLE_LIMITED_REWARD_TITLE",
+      "value": "Ranking Rewards"
+    },
+    {
+      "key": "GUILD_BATTLE_LIMITED_REWARD_CAUTION",
+      "value": "Rewards are sent to your Present Box."
+    },
+    {
+      "key": "GUILD_BATTLE_LIMITED_REWARD_DESC",
+      "value": "You reached rank <br><color=#FFF080>{1}</color> in the Limited Guild Battle."
     },
     {
       "key": "GUILD_BATTLE_EVENT_DETAIL_TITLE",
@@ -7538,23 +7566,23 @@
     },
     {
       "key": "GM_ARENA_WEEKLY_RANKING",
-      "value": "Rank ${ranking} Arena Weekly Ranking Rewards for ${month}/${day}"
+      "value": "Arena Weekly Ranking Rank ${ranking} Rewards for ${month}/${day}"
     },
     {
       "key": "GM_ARENA_DAILY_RANKING",
-      "value": "Rank ${ranking} Arena Daily Ranking Rewards for ${month}/${day}"
+      "value": "Arena Daily Ranking Rank ${ranking} Rewards for ${month}/${day}"
     },
     {
       "key": "GM_ARENA_PREVIOUS_RANKING",
       "value": "Unclaimed Arena Rewards"
     },
     {
-      "key": "GM_CLASSMATCH_RANKING_REWARD",
-      "value": "${season} Class Match Diamond Master ${ranking} Ranking Rewards"
-    },
-    {
       "key": "GM_CLASSMATCH_SEASON_REWARD",
       "value": "${season} Class Match ${class} Rewards"
+    },
+    {
+      "key": "GM_CLASSMATCH_RANKING_REWARD",
+      "value": "Class Match Diamond Master Rank ${ranking} Rewards for ${season}"
     },
     {
       "key": "GM_CONTINUATION_PACK_REWARD",
@@ -7626,15 +7654,39 @@
     },
     {
       "key": "GM_LIMITED_GUILD_BATTLE_ENTRY_REWARD",
-      "value": "Reward for entering ${entry_count} total battles during the Limited Guild Battle starting ${period}"
+      "value": "Reward for entering ${entry_count} total Limited Guilt Battles"
     },
     {
       "key": "GM_LIMITED_GUILD_BATTLE_BATTLE_REWARD",
-      "value": "Reward for the Limited Guild Battle starting ${period}"
+      "value": "Reward for Limited Guild Battles"
     },
     {
       "key": "GM_LIMITED_GUILD_BATTLE_RANKING_REWARD",
-      "value": "Reward for ranking no. ${ranking} during the Limited Guild Battle starting ${period}"
+      "value": "Reward for ranking no. ${ranking} in Limited Guild Battles"
+    },
+    {
+      "key": "GM_POINTQUEST_HIGHSCORE",
+      "value": "${caption} High Score Reward"
+    },
+    {
+      "key": "GM_POINTQUEST_ACCUMSCORE",
+      "value": "${caption} Accumulated Score Reward"
+    },
+    {
+      "key": "GM_POINTQUEST_ACCUMSCORE_RANKING_REWARD",
+      "value": "Accumulated Score Rank ${ranking} Rewards for ${period}"
+    },
+    {
+      "key": "GM_POINTQUEST_HIGHSCORE_RANKING_REWARD",
+      "value": "High Score Rank ${ranking} Rewards for ${period}"
+    },
+    {
+      "key": "GM_POINTQUEST_ACCUMSCORE_RANKING_GUILD_REWARD",
+      "value": "Guild Accumulated Score Rank ${ranking} Rewards for ${period}"
+    },
+    {
+      "key": "GM_POINTQUEST_HIGHSCORE_RANKING_GUILD_REWARD",
+      "value": "Guild High Score Rank ${ranking} Rewards for ${period}"
     },
     {
       "key": "QUEST_APPEAL_AP",
@@ -7658,11 +7710,55 @@
     },
     {
       "key": "QUEST_APPEAL_UNIT_JP",
-      "value": "Unit JP & Item Drops x2"
+      "value": "Unit JP & Item Drops UP"
     },
     {
       "key": "QUEST_APPEAL_ARTI_PROFICIENCY",
       "value": "Equipment Proficiency UP"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_AP",
+      "value": "NRG Cost"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_DROP_RATE",
+      "value": "Drop Rate"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_DROP_AMOUNT",
+      "value": "Drops"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_PLAYER_EXP",
+      "value": "Player EXP"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_UNIT_EXP",
+      "value": "Unit EXP"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_UNIT_JP",
+      "value": "Unit JP"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_ARTI_PROFICIENCY",
+      "value": "Equipment Proficiency"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_CHALLENGE_LIMIT",
+      "value": "Attempts"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_GIL",
+      "value": "Payout"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_DESC_TIMES",
+      "value": " x{0}"
+    },
+    {
+      "key": "QUEST_CAMPAIGN_COND_AND",
+      "value": "or"
     },
     {
       "key": "TOWER_QUEST_TITLE",
@@ -8001,12 +8097,292 @@
       "value": "Transaction still in progress. <br>Please check again later."
     },
     {
-      "key": "VISION_ILLUSTRATOR",
-      "value": "Illustrator"
+      "key": "POINTQUEST_RANKING_TITLE",
+      "value": "Ranking"
+    },
+    {
+      "key": "POINTQUEST_RANKING_SELF",
+      "value": "Personal"
+    },
+    {
+      "key": "POINTQUEST_RANKING_GUILD",
+      "value": "Guild"
+    },
+    {
+      "key": "POINTQUEST_RANKING_TOTAL",
+      "value": "Accumulated Score"
+    },
+    {
+      "key": "POINTQUEST_RANKING_HIGH_SCORE",
+      "value": "Total High Scores"
+    },
+    {
+      "key": "POINTQUEST_RANKING_HIGH_SCORE_TITLE",
+      "value": "High Score:"
+    },
+    {
+      "key": "POINTQUEST_EVENT_DETAIL",
+      "value": "Event Details"
+    },
+    {
+      "key": "POINTQUEST_BANNER_QUEST",
+      "value": "Quests"
+    },
+    {
+      "key": "POINTQUEST_BANNER_BOSS",
+      "value": "Boss Battles"
+    },
+    {
+      "key": "POINTQUEST_EVENTGACHA",
+      "value": "Event Evocations"
+    },
+    {
+      "key": "POINTQUEST_PROGRESS",
+      "value": "Progress Points"
+    },
+    {
+      "key": "POINTQUEST_TAB_HARD",
+      "value": "Hard"
+    },
+    {
+      "key": "POINTQUEST_TAB_NORMAL",
+      "value": "Normal"
+    },
+    {
+      "key": "POINTQUEST_BOSS_CONDITION_TITLE",
+      "value": "Boss Battle Unlock Conditions"
+    },
+    {
+      "key": "POINTQUEST_BOSS_CONDITION_DESC_NORMAL",
+      "value": "Unlocked when all normal quests are completed."
+    },
+    {
+      "key": "POINTQUEST_BOSS_CONDITION_DESC_HARD",
+      "value": "Unlocked when all hard quests are completed."
+    },
+    {
+      "key": "POINTQUEST_TOP_APPEAL",
+      "value": "Complete the quests and<br>get a boss battle ticket!"
+    },
+    {
+      "key": "POINTQUEST_ENTRY_BADGE_OPEN",
+      "value": "Event Active"
+    },
+    {
+      "key": "POINTQUEST_ENTRY_BADGE_END",
+      "value": "<cspace=-0.09em>Event Ended"
+    },
+    {
+      "key": "POINTQUEST_ENTRY_LIMIT_END",
+      "value": "Rankings"
+    },
+    {
+      "key": "POINTQUEST_BOSS_MISSION",
+      "value": "Missions"
+    },
+    {
+      "key": "POINTQUEST_BOSS_HINT",
+      "value": "Strategy Hints"
+    },
+    {
+      "key": "POINTQUEST_BOSS_TITLE_HARD",
+      "value": "Hard Boss Battle"
+    },
+    {
+      "key": "POINTQUEST_BOSS_TITLE_NORMAL",
+      "value": "Normal Boss Battle"
+    },
+    {
+      "key": "POINTQUEST_BOSS_REWARD",
+      "value": "Completion Rewards"
+    },
+    {
+      "key": "POINTQUEST_BOSS_CHALLENGE",
+      "value": "Challenge!"
+    },
+    {
+      "key": "POINTQUEST_RANKING_GUILDTOTAL",
+      "value": "Guild Total"
+    },
+    {
+      "key": "POINTQUEST_RANKING_GUILDSCORE",
+      "value": "Guild Total High Scores"
+    },
+    {
+      "key": "POINTQUEST_RANKING_PLAYERTOTAL",
+      "value": "Personal Total"
+    },
+    {
+      "key": "POINTQUEST_RANKING_PLAYERSCORE",
+      "value": "Personal Total High Scores"
+    },
+    {
+      "key": "POINTQUEST_RANKING_GUILDMEMBER",
+      "value": "Affiliated Guild"
+    },
+    {
+      "key": "POINTQUEST_RANKING_GUILDTOP",
+      "value": "Top Guild"
+    },
+    {
+      "key": "POINTQUEST_RANKING_MINE",
+      "value": "Own"
+    },
+    {
+      "key": "POINTQUEST_RANKING_TOP",
+      "value": "Top"
+    },
+    {
+      "key": "POINTQUEST_RANKING_TOTALPOINT",
+      "value": "Accumulated Score"
+    },
+    {
+      "key": "POINTQUEST_RANKING_SCOREPOINT",
+      "value": "Total High Scores"
+    },
+    {
+      "key": "POINTQUEST_RANKING_AGGREGATE",
+      "value": "Total Hours"
+    },
+    {
+      "key": "POINTQUEST_HIGHSCORE_TITLE",
+      "value": "Quest High Score"
+    },
+    {
+      "key": "POINTQUEST_HIGHSCORE_POINT",
+      "value": "High Score"
+    },
+    {
+      "key": "POINTQUEST_GACHA_LINEUP_CURRENT",
+      "value": "Current Lineup"
+    },
+    {
+      "key": "POINTQUEST_GACHA_LINEUP_ALL",
+      "value": "All Lineups"
+    },
+    {
+      "key": "POINTQUEST_GACHA_RESIDUE",
+      "value": "Remaining Rewards"
+    },
+    {
+      "key": "POINTQUEST_GACHA_RESIDUE_SHORT",
+      "value": "Left"
+    },
+    {
+      "key": "POINTQUEST_GACHA_REWARD_AMOUNT",
+      "value": "Number of Rewards"
+    },
+    {
+      "key": "POINTQUEST_GACHA_SINGLE",
+      "value": "One-Time Exchange"
+    },
+    {
+      "key": "POINTQUEST_GACHA_MULTI",
+      "value": "{0}-Time Exchange"
+    },
+    {
+      "key": "POINTQUEST_GACHA_FEATURE",
+      "value": "Main Rewards"
+    },
+    {
+      "key": "POINTQUEST_GACHA_FEATURE_BADGE",
+      "value": "Main<br>Rewards"
+    },
+    {
+      "key": "POINTQUEST_GACHA_LINEUP_CURRENT_LAP",
+      "value": "(Repeat {0})"
+    },
+    {
+      "key": "POINTQUEST_GACHA_LINEUP_CURRENT_LAP_END",
+      "value": "(From Repeat {0})"
+    },
+    {
+      "key": "POINTQUEST_GACHA_LINEUP_ALL_TAB",
+      "value": "Repeat {0}"
+    },
+    {
+      "key": "POINTQUEST_GACHA_LINEUP_ALL_TAB_END",
+      "value": "From Repeat {0}"
+    },
+    {
+      "key": "POINTQUEST_GACHA_MEDAL_LACK_TITLE",
+      "value": "Insufficient Medals"
+    },
+    {
+      "key": "POINTQUEST_GACHA_MEDAL_LACK_DESC",
+      "value": "This exchange requires more medals."
+    },
+    {
+      "key": "POINTQUEST_GACHA_RESET_CHECK_TITLE",
+      "value": "Reset Lineup"
+    },
+    {
+      "key": "POINTQUEST_GACHA_RESET_CHECK_DESC",
+      "value": "Items remain in this lineup. Are you sure you want to reset?"
+    },
+    {
+      "key": "POINTQUEST_GACHA_ALL_RESET_CHECK_DESC",
+      "value": "Reset the lineup?"
+    },
+    {
+      "key": "POINTQUEST_GACHA_RESET_FINISH_TITLE",
+      "value": "Reset Lineup"
+    },
+    {
+      "key": "POINTQUEST_GACHA_RESET_FINISH_DESC",
+      "value": "The lineup has been reset."
+    },
+    {
+      "key": "POINTQUEST_MODE_NORMAL",
+      "value": "Normal "
+    },
+    {
+      "key": "POINTQUEST_MODE_HARD",
+      "value": "Hard "
+    },
+    {
+      "key": "POINTQUEST_MODE_EXTRA",
+      "value": "Extra "
+    },
+    {
+      "key": "POINTQUEST_BOSS",
+      "value": "Boss"
+    },
+    {
+      "key": "POINTQUEST_WARN_EXPOSE_TO_CLEAR",
+      "value": "Clear {0} to unlock."
+    },
+    {
+      "key": "POINTQUEST_WARN_EXPOSED",
+      "value": "{0}<br>{1} unlocked."
+    },
+    {
+      "key": "POINTQUEST_WARN_CAN_CHALLENGE",
+      "value": "You can now attempt <br>{0}<br>{1}."
+    },
+    {
+      "key": "POINTQUEST_WARN_TITLE",
+      "value": "Function unlocked"
     },
     {
       "key": "GL_GACHA_BONUS_GAUGE_TITLE",
       "value": "Summon Bonus"
+    },
+    {
+      "key": "MULTI_ROOM_RESET",
+      "value": "Disband Room <br>(Resettable)"
+    },
+    {
+      "key": "GL_GLOBAL_MAIN_GUILDBATTLE_TIME",
+      "value": "To Guild Battle: Until"
+    },
+    {
+      "key": "GUILD_BATTLE_TARGET_SELECT_TITLE_SUPPORT",
+      "value": "Select a party to support"
+    },
+    {
+      "key": "VISION_ILLUSTRATOR",
+      "value": "Illustrator"
     },
     {
       "key": "SERVER_Normal_gacha_A_NAME",
@@ -9087,6 +9463,10 @@
     {
       "key": "SERVER_GachaschedulesTicketTitle_IT_US_10_U_SSR_UR_01",
       "value": "MR+ Guaranteed 10x Summon Ticket"
+    },
+    {
+      "key": "GL_GLOBAL_MAIN_GUILDBATTLE_TIME",
+      "value": "To Guild Battle: Until"
     }
   ]
 }

@@ -422,6 +422,11 @@
     "End": "0x4",
     "Release": "0x5"
   },
+  "EChainBirst": {
+    "None": "0x0",
+    "Attack": "0x1",
+    "Element": "0x2"
+  },
   "ESelectType": {
     "All": "0x64",
     "Cross": "0x0",
@@ -1042,7 +1047,8 @@
   "Json_MapDropDataList_EType": {
     "Treasuer": "0x0",
     "Crystal": "0x1",
-    "Steal": "0x2"
+    "Steal": "0x2",
+    "MultiHost": "0x3"
   },
   "EMapBreakAIType": {
     "NONE": "0x0",
@@ -1219,7 +1225,9 @@
   },
   "SkillEffect_EHitEffectIndex": {
     "Whole": "0x0",
-    "Target": "0x1"
+    "Target": "0x1",
+    "WholeSub1": "0x2",
+    "WholeSub2": "0x3"
   },
   "SkillEffect_EOption": {
     "AlwaysDispHit": "0x0",
@@ -1609,6 +1617,17 @@
     "Cancel": "0x8",
     "End": "0x9"
   },
+  "SaveAutoLapData_LapType": {
+    "NoLimited": "0x0",
+    "Limited": "0x1",
+    "RootItem": "0x2"
+  },
+  "SaveAutoLapData_EFlag": {
+    "AutoCure": "0x0",
+    "StopFever": "0x1",
+    "StopShop": "0x2",
+    "StopRaid": "0x3"
+  },
   "SaveItemSortData_SortType": {
     "Rarity": "0x0",
     "Amount": "0x1"
@@ -1617,6 +1636,12 @@
     "Default": "0x0",
     "Low": "0x1",
     "High": "0x2"
+  },
+  "SaveOptionData_EPowerSaveMode": {
+    "Off": "0x0",
+    "Second_30": "0x1",
+    "Second_60": "0x2",
+    "Second_180": "0x3"
   },
   "CustomSound_EFlag": {
     "None": "0x0",
@@ -1796,10 +1821,11 @@
   "QuestDropDataList_ELoadType": {
     "None": "0x0",
     "Unit": "0x1",
-    "Artifact": "0x2",
+    "ArtifactItem": "0x2",
     "NetherBeast": "0x3",
     "VisionCard": "0x4",
-    "Max": "0x5"
+    "Artifact": "0x5",
+    "Max": "0x6"
   },
   "EGachaUseItemType": {
     "None": "0xFFFFFFFFFFFFFFFF",
@@ -1807,7 +1833,8 @@
     "Lapis": "0x1",
     "PaymentLapis": "0x2",
     "Ticket": "0x3",
-    "Video": "0x4"
+    "Video": "0x4",
+    "Free": "0x5"
   },
   "ETutorialGachaState": {
     "None": "0xFFFFFFFFFFFFFFFF",
@@ -1895,21 +1922,29 @@
     "SlotSupport": "0x5",
     "Max": "0x6"
   },
+  "PlayerData_QRCodeType": {
+    "Campaign": "0x0",
+    "Multi": "0x1",
+    "Collabo": "0x2",
+    "None": "0xFFFFFFFFFFFFFFFF"
+  },
+  "PlayerData_QRCodeStatus": {
+    "Success": "0x1",
+    "None": "0xFFFFFFFFFFFFFFFF"
+  },
   "PlayerData_EPayingPlayerStatus": {
     "No": "0x0",
     "Yes": "0x1"
-  },
-  "EChatMessageType": {
-    "Text": "0x1",
-    "Stamp": "0x2",
-    "Guild": "0x3",
-    "Match": "0x4",
-    "System": "0x2710"
   },
   "EChatCategory": {
     "World": "0x0",
     "Room": "0x1",
     "Guild": "0x2"
+  },
+  "PointquestData_eOpenStatus": {
+    "Opened": "0x0",
+    "Closed": "0x1",
+    "Sealed": "0x2"
   },
   "PresentDataList_EType": {
     "NonLimited": "0x0",
@@ -2006,6 +2041,15 @@
     "Clone": "0xC",
     "NotUse": "0xD",
     "NotUseTmp": "0xE"
+  },
+  "SkillData_ENotUseFlag": {
+    "All": "0x0",
+    "Quest": "0x1",
+    "Multi": "0x2",
+    "Duel": "0x3",
+    "GuildBattle": "0x4",
+    "Tower": "0x5",
+    "Mask": "0x3E"
   },
   "DebugCheckMovieScene_Phase": {
     "NONE": "0x0",
@@ -2336,7 +2380,13 @@
     "Sell": "0x2",
     "Max": "0x3"
   },
-  "VisionCardEquipConditionParam_EParamType": {
+  "VisionCardBuffParam_ECondFlags": {
+    "None": "0x0",
+    "Uncond": "0x1",
+    "Cond": "0x2",
+    "All": "0x3"
+  },
+  "VisionCardLimitedConditionParam_EParamType": {
     "None": "0x0",
     "Birth": "0x1",
     "Sex": "0x2",
@@ -2783,56 +2833,6 @@
     "FirstFriendMaxNum": "0x4",
     "FriendMaxNumPre": "0x5",
     "IsActiveRiseFriendNum": "0x6"
-  },
-  "GachaDataDisplay_EDisplayType": {
-    "None": "0x0",
-    "SwitchObjectFreeNum": "0x1",
-    "SwitchObjectTimeUntilFree": "0x2",
-    "SwitchObjectTimeLimit": "0x3",
-    "SwitchObjectStepUp": "0x4",
-    "RemainFreeNum": "0x5",
-    "RemainTimeFreeGacha": "0x6",
-    "RemainTimeLimitGacha": "0x7",
-    "SwitchButtonObjectNormal": "0x8",
-    "SwitchButtonObjectRare": "0x9",
-    "SwitchButtonObjectPayment": "0xA",
-    "UseNum": "0xB",
-    "SwitchButtonObjectFreeInfo": "0xC",
-    "SwitchButtonObjectPaymentInfo": "0xD",
-    "SetButtonTitleName": "0xE",
-    "SwitchObjectSetLimit": "0xF",
-    "SetTextLimit": "0x10",
-    "SwitchObjectImageBg": "0x11",
-    "SwitchObjectPickupBg": "0x12",
-    "SetRareOrPickupMessage": "0x13",
-    "SwitchObjectNewGet": "0x14",
-    "GachaTitle": "0x15",
-    "GachaHistoryTime": "0x16",
-    "SwitchObjectStepBonus": "0x17",
-    "SwitchObjectStepLapisDiscount": "0x18",
-    "StepNum": "0x19",
-    "StepMaxNum": "0x1A",
-    "StepBonusLapisNum": "0x1B",
-    "SwitchButtonObjectTicketInfo": "0x1C",
-    "SwitchObjectUseLapis": "0x1D",
-    "SwitchObjectUseTicket": "0x1E",
-    "ResultUseNum": "0x1F",
-    "SwitchButtonObjectResultFreeInfo": "0x20",
-    "SwitchObjectResultUseLapis": "0x21",
-    "SwitchObjectResultUseTicket": "0x22",
-    "GachaTitleFromButtonParam": "0x23",
-    "SwitchObjectGachaTopButtonGauge": "0x24",
-    "GachaTopGaugeBonusMessage": "0x25",
-    "SwitchObjectSetGaugeSlider": "0x26",
-    "SetGachaGaugePercent": "0x27",
-    "SwitchObjectGachaTopButtonGaugeMax": "0x28",
-    "SwitchObjectGachaResultGauge": "0x29",
-    "SwitchObjectGachaResultGaugeSlider": "0x2A",
-    "SetGachaResultGaugeBeforePercent": "0x2B",
-    "SetGachaResultGaugeBonusMessage": "0x2C",
-    "SetGachaResultGaugeCautionMessage": "0x2D",
-    "SwitchButtonObjectVideoads": "0x2E",
-    "SwitchButtonObjectVideoadsDisabled": "0x2F"
   },
   "GuildAttendRewardInfoParamDisplay_EDisplayType": {
     "None": "0x0",
@@ -3636,11 +3636,6 @@
     "RemainingDate": "0x5",
     "CheckDate": "0x6"
   },
-  "PartParamDisplay_EDisplayType": {
-    "None": "0x0",
-    "Name": "0x1",
-    "Title": "0x2"
-  },
   "QuestParamDisplay_EDisplayType": {
     "None": "0x0",
     "Name": "0x1",
@@ -4038,18 +4033,6 @@
     "RankMatchRankParamPriority": "0xD",
     "CategoryFlag": "0xE"
   },
-  "GachaTextureDisplay_EDisplayType": {
-    "None": "0x0",
-    "Banner": "0x1",
-    "GachaTopBG": "0x2",
-    "GachaFlag": "0x3",
-    "CountoryBG": "0x4",
-    "CountoryUpperBG": "0x5",
-    "CountoryLowerBG": "0x6",
-    "Emblem": "0x7",
-    "UnitCountoryBG": "0x8",
-    "GachaInfoID": "0x9"
-  },
   "ShopTextureDisplay_EDisplayType": {
     "None": "0x0",
     "LimitedMenusBanner": "0x1",
@@ -4101,7 +4084,8 @@
     "DropSecretOff": "0xD",
     "DropSecretOn": "0xE",
     "DropSecretBtnOff": "0xF",
-    "CurrencyNum": "0x10"
+    "CurrencyNum": "0x10",
+    "HostBonusOn": "0x11"
   },
   "UnitParamDisplay_EDisplayType": {
     "None": "0x0",
@@ -4258,10 +4242,6 @@
     "None": "0x0",
     "WeatherElementArray": "0x1"
   },
-  "WorldQuestAreaParamDisplay_EDisplayType": {
-    "None": "0x0",
-    "IsEnable": "0x1"
-  },
   "ItemExchangeLimitedQuantityParam_EPeriodType": {
     "None": "0xFFFFFFFFFFFFFFFF",
     "Daily": "0x0",
@@ -4417,7 +4397,9 @@
     "Beginner": "0x15",
     "Tower": "0x16",
     "TowerExtra": "0x17",
-    "Max": "0x18"
+    "LimitedGuildBattle": "0x18",
+    "PointQuest": "0x19",
+    "Max": "0x1A"
   },
   "MasterParam_EQuestResultType": {
     "None": "0x0",
@@ -4480,7 +4462,9 @@
     "GuildDefence": "0x6",
     "Tower": "0x7",
     "TowerExtra": "0x8",
-    "Max": "0x9"
+    "LimitedGuildAttack": "0x9",
+    "LimitedGuildDefence": "0xA",
+    "Max": "0xB"
   },
   "MasterParam_ERewardType": {
     "None": "0xFFFFFFFFFFFFFFFF",
@@ -4494,7 +4478,8 @@
     "NBeast": "0x7",
     "VisionCard": "0x8",
     "VipExp": "0x9",
-    "Max": "0xA"
+    "RandomItem": "0xA",
+    "Max": "0xB"
   },
   "MasterParam_EMapEffectType": {
     "AddCT": "0x0",
@@ -4959,7 +4944,8 @@
     "CharaQuest": "0x26",
     "ItemExchange": "0x27",
     "Tower": "0x28",
-    "Max": "0x29"
+    "Pointquest": "0x29",
+    "Max": "0x2A"
   },
   "MasterParam_EHomeBadgeType": {
     "SearchChocobo": "0xD",
@@ -5079,7 +5065,8 @@
     "Battle": "0x3",
     "Aggregate": "0x4",
     "Result": "0x5",
-    "Max": "0x6"
+    "SentGift": "0x6",
+    "Max": "0x7"
   },
   "MasterParam_EChatCategoryType": {
     "Begginer": "0x0",
@@ -5093,7 +5080,9 @@
     "Emblem": "0x1",
     "Status": "0x2",
     "League": "0x3",
-    "Max": "0x4"
+    "Action": "0x4",
+    "Period": "0x5",
+    "Max": "0x6"
   },
   "MasterParam_EPresentsBadgeType": {
     "Unreceive": "0x0",
@@ -5212,6 +5201,53 @@
     "ArtifactList": "0x4",
     "Max": "0x5"
   },
+  "MasterParam_EGuildBattleResult": {
+    "None": "0x0",
+    "Win": "0x1",
+    "Lose": "0x2",
+    "Draw": "0x3",
+    "Max": "0x4"
+  },
+  "MasterParam_EGuildBattleActionType": {
+    "ToAllyAttacker": "0x1",
+    "ToAllyDefender": "0x2",
+    "ToEnemyAttacker": "0x3",
+    "ToEnemyDefender": "0x4",
+    "Max": "0x5"
+  },
+  "MasterParam_EGuildBattleAction": {
+    "Scout": "0x1",
+    "RecoveryActionCount": "0x2",
+    "RecoveryAbilityUses": "0x3",
+    "Max": "0x4"
+  },
+  "MasterParam_EPlatform": {
+    "all": "0x0",
+    "googleplay": "0x1",
+    "appstore": "0x2",
+    "amazonappstore": "0x3",
+    "dmmgamesstore": "0x4",
+    "windowsstore": "0x5",
+    "aumarket": "0x6",
+    "andapp": "0x7",
+    "Max": "0x8"
+  },
+  "MasterParam_ELimitedGuildBattleEntryStatus": {
+    "Target": "0x0",
+    "LeaderInactive": "0x1",
+    "InsufficientMembers": "0x2",
+    "InsufficientLeague": "0x4",
+    "Max": "0x5"
+  },
+  "MasterParam_EChatMessageType": {
+    "Text": "0x1",
+    "Stamp": "0x2",
+    "GuildRecruitment": "0x3",
+    "FriencMatchInvitation": "0x4",
+    "SystemMessage": "0x2710",
+    "GuildBattleLog": "0x2711",
+    "Max": "0x2712"
+  },
   "EAdventureRapidType": {
     "Coin": "0x1",
     "Ticket_2": "0xB",
@@ -5235,6 +5271,10 @@
     "StaminaOnly": "0x0",
     "NoStamina": "0x1",
     "StaminaWith": "0x2"
+  },
+  "PartyRuleIgnoreFlags": {
+    "None": "0x0",
+    "IgnoreHpZero": "0x1"
   },
   "GiftTypes": {
     "Item": "0x1",
@@ -5263,7 +5303,8 @@
     "DropNum": "0x4",
     "ApRate": "0x5",
     "ExpPlayer": "0x6",
-    "WholeChallengeLimit": "0x7"
+    "WholeChallengeLimit": "0x7",
+    "GilRate": "0x8"
   },
   "ChapterParam_EFlag": {
     "None": "0x0",
@@ -5337,6 +5378,11 @@
   "SectionParam_EFlag": {
     "None": "0x0",
     "Hide": "0x1"
+  },
+  "RandomItemParam_RandomItemDrawNum": {
+    "None": "0x0",
+    "On": "0x1",
+    "Off": "0x2"
   },
   "EStatusAttack": {
     "None": "0x0",
@@ -5841,7 +5887,8 @@
     "CtTarget": "0x3F",
     "Value": "0x64",
     "KillerValue": "0x65",
-    "Damage": "0x66"
+    "Damage": "0x66",
+    "DamageValue": "0x67"
   },
   "EAttackFormula": {
     "Default": "0x0",
@@ -5909,7 +5956,8 @@
   "ECastType": {
     "None": "0x0",
     "Chant": "0x1",
-    "Jump": "0x2"
+    "Jump": "0x2",
+    "Charge": "0x3"
   },
   "ETargetLockType": {
     "Target": "0x0",
@@ -5955,15 +6003,16 @@
     "AreaSkill": "0x7",
     "Laser": "0x8",
     "Changing": "0x9",
-    "PhyAttack": "0xA",
-    "MagAttack": "0xB",
-    "CalcBraveFaith": "0xC",
-    "CalcNBeastBraveFaith": "0xD",
-    "EnableRangeBuff": "0xE",
-    "EnableEffectBuff": "0xF",
-    "ForceEquip": "0x10",
-    "CameraDirection": "0x11",
-    "ForceDuplicate": "0x12"
+    "CtAverage": "0xA",
+    "PhyAttack": "0xB",
+    "MagAttack": "0xC",
+    "CalcBraveFaith": "0xD",
+    "CalcNBeastBraveFaith": "0xE",
+    "EnableRangeBuff": "0xF",
+    "EnableEffectBuff": "0x10",
+    "ForceEquip": "0x11",
+    "CameraDirection": "0x12",
+    "ForceDuplicate": "0x13"
   },
   "SkillSequenceParam_EFlag": {
     "None": "0x0",
@@ -5988,6 +6037,48 @@
     "AutoSelfEffects": "0x4",
     "AutoEffects": "0x5",
     "Projectile": "0x6"
+  },
+  "EStrengthType": {
+    "None": "0x0",
+    "SelfSideKncoout": "0x1",
+    "EnemySideKncoout": "0x2",
+    "SelfActionCount": "0x32",
+    "SelfDamageCount": "0x33",
+    "SelfHeigt": "0x34",
+    "SelfLevel": "0x35",
+    "SelfCt": "0x36",
+    "TargetActionCount": "0x46",
+    "TargetDamageCount": "0x47",
+    "TargetHeight": "0x48",
+    "TargetLevel": "0x49",
+    "TargetCt": "0x4A"
+  },
+  "EStrengthFormula": {
+    "Linear": "0x0",
+    "ReverseLinear": "0x1",
+    "Fix": "0x2",
+    "DecayLinear": "0x3",
+    "DecayReverseLinear": "0x4",
+    "ModuloLinear": "0x14",
+    "ModuloReverseLinear": "0x15",
+    "ModuloFix": "0x16",
+    "ModuloDecayLinear": "0x17",
+    "ModuloDecayReverseLinear": "0x18"
+  },
+  "EStrengthDst": {
+    "Effect": "0x0",
+    "Rate": "0x1",
+    "Hit": "0x2",
+    "Avoid": "0x3",
+    "Critical": "0x4",
+    "CriticalHit": "0x5",
+    "CriticalAvoid": "0x6",
+    "BuffEffect": "0x7",
+    "BuffRate": "0x8"
+  },
+  "EStrengthCalc": {
+    "Add": "0x0",
+    "Mul": "0x1"
   },
   "ESpecies": {
     "None": "0x0",
@@ -6055,7 +6146,8 @@
     "Summon": "0x1",
     "Stopped": "0x2",
     "KnockBack": "0x3",
-    "HasVoice": "0x4"
+    "Changing": "0x4",
+    "HasVoice": "0x5"
   },
   "EUnitTag": {
     "None": "0x0",
@@ -6540,7 +6632,8 @@
     "NBeast": "0x7",
     "VisionCard": "0x8",
     "VipExp": "0x9",
-    "Video": "0xA"
+    "RandomItem": "0xA",
+    "Video": "0x63"
   },
   "UIIconDataArrayDisplay_EDisplayType": {
     "None": "0x0",
@@ -6628,18 +6721,23 @@
     "Magic": "0x6",
     "Hp": "0x7",
     "Mp": "0x8",
-    "Speed": "0x9",
-    "Hit": "0xA",
-    "Avoid": "0xB",
-    "Critical": "0xC",
-    "Avoid_Critical": "0xD",
-    "Job_Level": "0xE",
-    "Cost": "0xF",
-    "Awake": "0x10",
-    "LimitBreak": "0x11",
-    "Intimacy": "0x12",
-    "Name": "0x13",
-    "Artifact_Type": "0x14"
+    "Ap": "0x9",
+    "Speed": "0xA",
+    "Hit": "0xB",
+    "Avoid": "0xC",
+    "Defence": "0xD",
+    "Mind": "0xE",
+    "Dexterity": "0xF",
+    "Luck": "0x10",
+    "Critical": "0x11",
+    "Avoid_Critical": "0x12",
+    "Job_Level": "0x13",
+    "Cost": "0x14",
+    "Awake": "0x15",
+    "LimitBreak": "0x16",
+    "Intimacy": "0x17",
+    "Name": "0x18",
+    "Artifact_Type": "0x19"
   },
   "UISortView_ESortOrderType": {
     "Ascending": "0x0",
@@ -6672,19 +6770,18 @@
     "Shop": "0x5",
     "Item": "0x6"
   },
-  "UILobbyCircleMove_Phase": {
-    "None": "0x0",
-    "Begin": "0x1",
-    "Touch": "0x2",
-    "Move": "0x3",
-    "Release": "0x4",
-    "End": "0x5"
-  },
   "UILobbyQuestNode_EQuestOpen": {
     "NONE": "0x0",
     "CLOSE": "0x1",
     "OPEN": "0x2",
     "OPENED": "0x3"
+  },
+  "LobbyTouchPhase": {
+    "None": "0x0",
+    "Touch": "0x1",
+    "DragStart": "0x2",
+    "Dragging": "0x3",
+    "DragEnd": "0x4"
   },
   "UINetherBeastStatus_EDispType": {
     "Equip": "0x0",
@@ -6875,6 +6972,16 @@
     "Friend": "0x0",
     "Guild": "0x1",
     "Chat": "0x2"
+  },
+  "PowerSaveView_EFrameRate": {
+    "Default": "0x0",
+    "FPS20": "0x1",
+    "FPS10": "0x2"
+  },
+  "TalkCheckView_EResult": {
+    "None": "0x0",
+    "YES": "0x1",
+    "NO": "0x2"
   },
   "TutorialView_EAPIType": {
     "EndAPI": "0x0",
@@ -7143,7 +7250,8 @@
   "GuildRankingView_DispType": {
     "League": "0x0",
     "GuildBattleContribution": "0x1",
-    "GuildContribution": "0x2"
+    "GuildContribution": "0x2",
+    "Limited": "0x3"
   },
   "GuildRankingView_LeagueRankingType": {
     "Top": "0x0",
@@ -7189,6 +7297,16 @@
     "Attack": "0x0",
     "Defense": "0x1"
   },
+  "GuildBattlePlayerList_PlayerType": {
+    "Player": "0x0",
+    "Enemy": "0x1"
+  },
+  "GuildBattlePlayerList_ContentSortPulldown_SortType": {
+    "Star": "0x0",
+    "PAttack": "0x1",
+    "MAttack": "0x2",
+    "Rank": "0x3"
+  },
   "GuildBattleResultView_EPhase": {
     "Wait": "0x0",
     "Unit": "0x1",
@@ -7202,9 +7320,12 @@
     "Dirc": "0x1",
     "End": "0x2"
   },
-  "GuildBattleView_PlayerType": {
-    "Player": "0x0",
-    "Enemy": "0x1"
+  "GuildBattleTargetSelectView_ESelectType": {
+    "None": "0x0",
+    "AttackTarget": "0x1",
+    "SupportTarget": "0x2",
+    "SupportTarget_PlayerParty": "0x3",
+    "SupportTarget_EnemyParty": "0x4"
   },
   "GuildBattleView_DispType": {
     "Normal": "0x0",
@@ -7214,12 +7335,6 @@
     "Win": "0x0",
     "Draw": "0x1",
     "Lose": "0x2"
-  },
-  "GuildBattleView_ContentSortPulldown_SortType": {
-    "Star": "0x0",
-    "PAttack": "0x1",
-    "MAttack": "0x2",
-    "Rank": "0x3"
   },
   "HomeRootView_ETargetType": {
     "None": "0x0",
@@ -7263,6 +7378,7 @@
     "Exchange": "0x26",
     "Tower": "0x27",
     "TowerChapter": "0x28",
+    "PointQuest": "0x29",
     "StorySection": "0x64",
     "EventSection": "0x65",
     "WorldArea": "0x66",
@@ -7324,12 +7440,24 @@
     "Heal": "0x2",
     "Attack": "0x3"
   },
-  "PartyEditorView_ERegisterType": {
+  "BulkPartyEditorView_DispType": {
     "None": "0x0",
-    "Back": "0x1",
-    "Go": "0x2",
-    "Rename": "0x3",
-    "Skip": "0x4"
+    "GuildBattleAttack": "0x1",
+    "GuildBattleDefence": "0x2"
+  },
+  "PartyCopyView_EDispType": {
+    "None": "0x0",
+    "Copy": "0x1",
+    "Paste": "0x2"
+  },
+  "UIPartySelect_EDispPartyType": {
+    "Quest": "0x0",
+    "Duel": "0x1",
+    "Multi": "0x2",
+    "Guild": "0x3",
+    "MultiOther": "0x4",
+    "Tower": "0x5",
+    "Max": "0x6"
   },
   "RecommendType": {
     "Total": "0x0",
@@ -7343,29 +7471,6 @@
     "AttackTypeMagic": "0x8",
     "AttackTypeNone": "0x9",
     "Hp": "0xA"
-  },
-  "BulkPartyEditorView_DispType": {
-    "None": "0x0",
-    "GuildBattleAttack": "0x1",
-    "GuildBattleDefence": "0x2"
-  },
-  "PartyCopyView_EDispType": {
-    "None": "0x0",
-    "Copy": "0x1",
-    "Paste": "0x2"
-  },
-  "UIGuildBattlePartySelect_EDispType": {
-    "Guild": "0x0",
-    "Max": "0x1"
-  },
-  "UIPartySelect_EDispPartyType": {
-    "Quest": "0x0",
-    "Duel": "0x1",
-    "Multi": "0x2",
-    "Guild": "0x3",
-    "MultiOther": "0x4",
-    "Tower": "0x5",
-    "Max": "0x6"
   },
   "RecommendTeamView_EConnectType": {
     "None": "0x0",
@@ -7663,6 +7768,26 @@
     "GuildBattle": "0x3",
     "Max": "0x4"
   },
+  "PointQuestAggregateView_EScore": {
+    "Win": "0x0",
+    "OverKill": "0x1",
+    "Damaged": "0x2",
+    "KillUnit": "0x3",
+    "Action": "0x4",
+    "ItemUse": "0x5",
+    "WeakAttack": "0x6",
+    "ElementWeakAttack": "0x7",
+    "KilledUnit": "0x8",
+    "AttackChain": "0x9",
+    "ElementChain": "0xA",
+    "Magnification": "0xB",
+    "Score": "0xC",
+    "HiScore": "0xD",
+    "TotalHiScore": "0xE",
+    "TotalScore": "0xF",
+    "OldHiScore": "0x10",
+    "OldTotalHiScore": "0x11"
+  },
   "BeginnerQuestView_ETab": {
     "None": "0x0",
     "Quest": "0x1",
@@ -7717,9 +7842,10 @@
   "ResultItemView_EPhase": {
     "WaitOpen": "0x0",
     "WaitStart": "0x1",
-    "Direction": "0x2",
-    "WaitEnd": "0x3",
-    "End": "0x4"
+    "WaitPointQuest": "0x2",
+    "Direction": "0x3",
+    "WaitEnd": "0x4",
+    "End": "0x5"
   },
   "ResultMissionView_EPhase": {
     "Idle": "0x0",
@@ -7778,6 +7904,12 @@
     "IsAnotherDirection": "0x75",
     "IsTower": "0x76",
     "IsTowerEx": "0x77",
+    "IsBattleEnd": "0x78",
+    "IsSignal": "0x79",
+    "IsBoss": "0x7A",
+    "IsPointQuest": "0x7B",
+    "IsAutoLap": "0x7C",
+    "IsRetryPointQuest": "0x7D",
     "IsMultiRaid": "0xC8",
     "IsMultiPvp": "0xC9",
     "IsMultiQuest": "0xCA",
@@ -7953,6 +8085,18 @@
     "None": "0x0",
     "Default": "0x1"
   },
+  "TaskNode_HomeRollbackTargetSet_EControllerType": {
+    "None": "0x0",
+    "Default": "0x1"
+  },
+  "TaskNode_HomeRollbackViewTarget_EControllerType": {
+    "None": "0x0",
+    "Default": "0x1"
+  },
+  "TaskNode_HomeRollbackViewTargetExist_EControllerType": {
+    "None": "0x0",
+    "Default": "0x1"
+  },
   "TaskNode_MovieView_ELoadMode": {
     "Default": "0x0",
     "Resources": "0x1"
@@ -8007,7 +8151,10 @@
     "IsGetFriendList": "0x15",
     "IsGetBlackList": "0x16",
     "IsRankPartyEmpty": "0x17",
-    "IsGuildBattleResult": "0x18"
+    "IsGuildBattleResult": "0x18",
+    "IsLimitedGuildBattle": "0x19",
+    "IsAllGetVisionCard": "0x1A",
+    "IsLimitedGuildBattleLookReward": "0x1B"
   },
   "TaskNode_PunLeaveRoom_ELeaveType": {
     "None": "0x0",
@@ -8161,6 +8308,11 @@
     "Daily": "0x1",
     "Weekly": "0x2"
   },
+  "WebAPI_GuildInfoWrap_Mode": {
+    "None": "0x0",
+    "CopyEvent": "0x1",
+    "CopyEvent_Change": "0x2"
+  },
   "SNSAccountManager_SNSType": {
     "None": "0x0",
     "AppleID": "0x1",
@@ -8170,65 +8322,8 @@
   "SNSAccountManager_LoginStatus": {
     "Success": "0x0",
     "Failed": "0x1",
-    "Canceled": "0x2"
-  },
-  "ViewModels_EStatusParamKey": {
-    "None": "0x0",
-    "Hp": "0x1",
-    "Mp": "0x2",
-    "Ap": "0x3",
-    "Atk": "0x4",
-    "Def": "0x5",
-    "Mag": "0x6",
-    "Mnd": "0x7",
-    "Spd": "0x8",
-    "Dex": "0x9",
-    "Brave": "0xA",
-    "Faith": "0xB",
-    "Mov": "0xC",
-    "Jmp": "0xD",
-    "Range": "0xE",
-    "Luk": "0xF",
-    "Cost": "0x10",
-    "OtherHit": "0x11",
-    "OtherAvoid": "0x12",
-    "OtherCrtHit": "0x13",
-    "OtherCrtAvoid": "0x14",
-    "OtherRange": "0x15",
-    "OtherCost": "0x16",
-    "AttackSlash": "0x17",
-    "AttackPierce": "0x18",
-    "AttackBlow": "0x19",
-    "AttackShot": "0x1A",
-    "AttackMagic": "0x1B",
-    "ElemFire": "0x1C",
-    "ElemIce": "0x1D",
-    "ElemWind": "0x1E",
-    "ElemEarth": "0x1F",
-    "ElemThunder": "0x20",
-    "ElemWater": "0x21",
-    "ElemShine": "0x22",
-    "ElemDark": "0x23",
-    "CondPoison": "0x24",
-    "CondBlinded": "0x25",
-    "CondSleep": "0x26",
-    "CondMute": "0x27",
-    "CondParalysis": "0x28",
-    "CondConfusion": "0x29",
-    "CondPetrification": "0x2A",
-    "CondFrog": "0x2B",
-    "CondCharm": "0x2C",
-    "CondSlow": "0x2D",
-    "CondStop": "0x2E",
-    "CondDontMove": "0x2F",
-    "CondDontAction": "0x30",
-    "CondBerserk": "0x31",
-    "CondDoom": "0x32"
-  },
-  "ViewModels_BuffParamModelData_EArrow": {
-    "NONE": "0x0",
-    "UP": "0x1",
-    "DOWN": "0x2"
+    "Canceled": "0x2",
+    "Proceeding": "0x3"
   },
   "Tower_TowerResultExhibit_EDispType": {
     "None": "0x0",
@@ -8258,6 +8353,65 @@
     "Clear": "0x2",
     "Current": "0x3",
     "Challenge": "0x4"
+  },
+  "ViewModels_EStatusParamKey": {
+    "None": "0x0",
+    "Hp": "0x1",
+    "Mp": "0x2",
+    "Ap": "0x3",
+    "Atk": "0x4",
+    "Def": "0x5",
+    "Mag": "0x6",
+    "Mnd": "0x7",
+    "Spd": "0x8",
+    "Dex": "0x9",
+    "Brave": "0xA",
+    "Faith": "0xB",
+    "Mov": "0xC",
+    "Jmp": "0xD",
+    "Range": "0xE",
+    "Luk": "0xF",
+    "Cost": "0x10",
+    "Hate": "0x11",
+    "OtherHit": "0x12",
+    "OtherAvoid": "0x13",
+    "OtherCrtHit": "0x14",
+    "OtherCrtAvoid": "0x15",
+    "OtherRange": "0x16",
+    "OtherCost": "0x17",
+    "AttackSlash": "0x18",
+    "AttackPierce": "0x19",
+    "AttackBlow": "0x1A",
+    "AttackShot": "0x1B",
+    "AttackMagic": "0x1C",
+    "ElemFire": "0x1D",
+    "ElemIce": "0x1E",
+    "ElemWind": "0x1F",
+    "ElemEarth": "0x20",
+    "ElemThunder": "0x21",
+    "ElemWater": "0x22",
+    "ElemShine": "0x23",
+    "ElemDark": "0x24",
+    "CondPoison": "0x25",
+    "CondBlinded": "0x26",
+    "CondSleep": "0x27",
+    "CondMute": "0x28",
+    "CondParalysis": "0x29",
+    "CondConfusion": "0x2A",
+    "CondPetrification": "0x2B",
+    "CondFrog": "0x2C",
+    "CondCharm": "0x2D",
+    "CondSlow": "0x2E",
+    "CondStop": "0x2F",
+    "CondDontMove": "0x30",
+    "CondDontAction": "0x31",
+    "CondBerserk": "0x32",
+    "CondDoom": "0x33"
+  },
+  "ViewModels_BuffParamModelData_EArrow": {
+    "NONE": "0x0",
+    "UP": "0x1",
+    "DOWN": "0x2"
   },
   "Exhibits_ArenaPlayerExhibits_EArenaPlayerDisplayType": {
     "None": "0x0",
@@ -8315,7 +8469,146 @@
     "ArtifactAwake": "0x10",
     "ArtiExpSlider": "0x11",
     "ArtiAbilityExpSlider": "0x12",
-    "ArtifactFavEquip": "0x13"
+    "ArtifactFavEquip": "0x13",
+    "ArtifactOtherText": "0x14"
+  },
+  "Exhibits_BattleBuffExhibit_EDisplayType": {
+    "None": "0x0",
+    "StatusName": "0x1",
+    "Name": "0x2",
+    "Value": "0x3",
+    "Rate": "0x4",
+    "BuffName": "0x5",
+    "BuffExpr": "0x6",
+    "BuffGrant": "0x7",
+    "InvalidPlusAtTimeSaving": "0x8",
+    "InvalidPlusAtNegativeValue": "0x9",
+    "BuffTarget": "0xA",
+    "BuffType": "0xB",
+    "BuffStatusArrow": "0xC",
+    "StatusCondition": "0xD"
+  },
+  "Exhibits_BattleCoreExhibit_EDisplayType": {
+    "None": "0x0",
+    "QuestData": "0x1",
+    "SummonPoint": "0x2",
+    "SummonButton": "0x3",
+    "LeaderSkillName": "0x4",
+    "LeaderSkillExpr": "0x5",
+    "FriendSkillName": "0x6",
+    "FriendSkillExpr": "0x7",
+    "WinConditionName": "0x8",
+    "LoseConditionName": "0x9",
+    "DropItemCount": "0xA",
+    "DropItem": "0xB",
+    "GainItem": "0xC",
+    "OptionAuto": "0xD",
+    "OptionDoubleSpeed": "0xE",
+    "OptionDoubleSpeedText": "0xF",
+    "ActionCount": "0x10",
+    "MenuMapEff": "0x11",
+    "OptionActiveAuto": "0x12",
+    "OptionActiveAutoFirst": "0x13",
+    "OptionActiveDoubleSpeed": "0x14",
+    "OptionActiveGiveup": "0x15",
+    "OptionActiveSkip": "0x16",
+    "OptionActiveMission": "0x17",
+    "OptionActiveGetItem": "0x18",
+    "OptionActiveActLimit": "0x19",
+    "OptionActiveMenuOnTutorial": "0x1A",
+    "OptionActiveMulti": "0x1B",
+    "OptionActiveMultiRaid": "0x1C",
+    "ArrangementActiveMapEff": "0x1D",
+    "OptionInteractiveGiveup": "0x1E",
+    "OptionDeactivePvp": "0x1F",
+    "QuestGuidance": "0x20",
+    "IsMultiIntractiveFalse": "0x21",
+    "RoomBattleSpeed": "0x22",
+    "RoomBattleSpeedEnable": "0x23",
+    "RoomBattleSpeedDisable": "0x24",
+    "RoomBattleAutoEnable": "0x25",
+    "RoomBattleAutoDisable": "0x26",
+    "RoomUserAutoSetting": "0x27",
+    "RoomAutoSetting_ButtonIntaractiveFalse": "0x28",
+    "IsMatchIntractiveFalse": "0x29"
+  },
+  "Exhibits_BattleSkillExhibit_EDisplayType": {
+    "None": "0x0",
+    "Name": "0x1",
+    "Rank": "0x2",
+    "MaxRank": "0x3",
+    "AttackType": "0x4",
+    "AttackDetail": "0x5",
+    "Cost": "0x6",
+    "CostType": "0x7",
+    "CostMP": "0x8",
+    "CostAP": "0x9",
+    "Description": "0xA",
+    "CastTime": "0xB",
+    "Count": "0xC",
+    "MaxCount": "0xD",
+    "NoUse": "0xE",
+    "Range": "0xF",
+    "RangeHeight": "0x10",
+    "Height": "0x11",
+    "SwitchLeaderAbility": "0x12",
+    "ActivateMp": "0x13",
+    "ActivateAp": "0x14",
+    "ActivateLB": "0x15",
+    "ActivateCast": "0x16",
+    "Element": "0x17",
+    "SlotType": "0x18",
+    "AttackRange": "0x19"
+  },
+  "Exhibits_BattleTextMeshSheetExhibit_EDisplayType": {
+    "None": "0x0",
+    "ActionCount": "0x1"
+  },
+  "Exhibits_BattleUnitInfoExhibit_EDisplayType": {
+    "None": "0x0",
+    "OrgHp": "0x1",
+    "OrgMaxHp": "0x2",
+    "Hp": "0x3",
+    "MaxHp": "0x4",
+    "OrgMp": "0x5",
+    "OrgMaxMp": "0x6",
+    "Mp": "0x7",
+    "MaxMp": "0x8",
+    "OrgAp": "0x9",
+    "OrgMaxAp": "0xA",
+    "Ap": "0xB",
+    "MaxAp": "0xC",
+    "OrgCt": "0xD",
+    "OrgMaxCt": "0xE",
+    "Ct": "0xF",
+    "MaxCt": "0x10",
+    "Height": "0x11",
+    "Value": "0x12",
+    "Hit": "0x13",
+    "DispHit": "0x14",
+    "Critical": "0x15",
+    "Counter": "0x16",
+    "AttackChain": "0x17",
+    "ElementChain": "0x18",
+    "AttackChainType": "0x19",
+    "ElementChainType": "0x1A",
+    "AttackChainSelf": "0x1B",
+    "ElementChainSelf": "0x1C",
+    "AttackChainTypeSelf": "0x1D",
+    "ElementChainTypeSelf": "0x1E",
+    "DispBackAttack": "0x1F",
+    "DispSideAttack": "0x20",
+    "DispAttackChain": "0x21",
+    "DispElementChain": "0x22",
+    "DispSwitchChain": "0x23",
+    "DispAttackChainSelf": "0x24",
+    "DispElementChainSelf": "0x25",
+    "DispSwitchChainSelf": "0x26",
+    "DispIsDefault": "0x27",
+    "DispIsSimple": "0x28",
+    "DispIsNormalMode": "0x29",
+    "Description": "0x2A",
+    "Name": "0x2B"
   },
   "Exhibits_ChatLogParamValueExhibit_EKey": {
     "None": "0x0",
@@ -8389,6 +8682,83 @@
     "LimitedAreaDisplay": "0x1B",
     "LimitedAreaRestTime": "0x1C"
   },
+  "Exhibits_GachaParamValueExhibit_EKey": {
+    "None": "0x0",
+    "SwitchImageBg": "0x1",
+    "SwitchImagePickupBg": "0x2",
+    "SwitchObjectUseLapis": "0x3",
+    "SwitchObjectUseGil": "0x4",
+    "SwitchObjectUseTicket": "0x5",
+    "SwitchObjectFreeNum": "0x6",
+    "SwitchObjectSetGaugeSlider": "0x7",
+    "SwitchObjectGachaTopButtonGaugeMax": "0x8",
+    "SwitchObjectGachaTopButtonGauge": "0x9",
+    "SwitchObjectStepBonus": "0xA",
+    "SwitchObjectStepLapisDiscount": "0xB",
+    "SwitchObjectTimeUntilFree": "0xC",
+    "SwitchObjectTimeLimit": "0xD",
+    "SwitchObjectSetLimit": "0xE",
+    "SwitchObjectGachaResultGauge": "0xF",
+    "SwitchObjectGachaResultGaugeSlider": "0x10",
+    "SwitchObjectResultUseLapis": "0x11",
+    "SwitchObjectResultUseTicket": "0x12",
+    "SwitchObjectUntilFree": "0x13",
+    "TopBGTexture": "0x14",
+    "GaugeRarity": "0x15",
+    "GachaInfoID": "0x16",
+    "BannerTexture": "0x17",
+    "CountoryBG": "0x18",
+    "CountoryUpperBG": "0x19",
+    "CountoryLowerBG": "0x1A",
+    "Emblem": "0x1B",
+    "TopUnitBG": "0x1C",
+    "UnitImage": "0x1D",
+    "GachaFlag": "0x1E",
+    "SetButtonTitleName": "0x1F",
+    "UseNum": "0x20",
+    "RemainFreeNum": "0x21",
+    "GachaTopGaugeBonusMessage": "0x22",
+    "SetGachaGaugePercent": "0x23",
+    "StepNum": "0x24",
+    "StepMaxNum": "0x25",
+    "StepBonusLapisNum": "0x26",
+    "RemainTimeFreeGacha": "0x27",
+    "RemainTimeLimitGacha": "0x28",
+    "SetTextLimit": "0x29",
+    "GachaTitle": "0x2A",
+    "GachaHistoryTime": "0x2B",
+    "SetGachaResultGaugeCautionMessage": "0x2C",
+    "SetGachaResultGaugeBeforePercent": "0x2D",
+    "SetGachaResultGaugeBonusMessage": "0x2E",
+    "ResultUseNum": "0x2F",
+    "SwitchButtonObjectNormal": "0x30",
+    "SwitchButtonObjectRare": "0x31",
+    "SwitchButtonObjectPayment": "0x32",
+    "SwitchButtonObjectFreeInfo": "0x33",
+    "SwitchButtonObjectTicketInfo": "0x34",
+    "SwitchButtonObjectPaymentInfo": "0x35",
+    "SwitchButtonObjectResultFreeInfo": "0x36",
+    "PaidLapisNum": "0x37",
+    "GachaUnitName": "0x38",
+    "GachaUnitProfile": "0x39",
+    "GachaUnitRarity": "0x3A",
+    "GachaUniqeWords": "0x3B",
+    "GachaUnitElement": "0x3C",
+    "SwitchButtonObjectVideoads": "0x3D",
+    "SwitchButtonObjectVideoadsDisabled": "0x3E",
+    "SwitchButtonObjectIsVideoAdsButton": "0x3F"
+  },
+  "Exhibits_GuildBattleEndLogExhibit_EKey": {
+    "None": "0x0",
+    "GuildName": "0x1",
+    "MatchDate": "0x2",
+    "LeftStar": "0x3",
+    "RightStar": "0x4",
+    "Win": "0x5",
+    "Lose": "0x6",
+    "Draw": "0x7",
+    "NotBye": "0x8"
+  },
   "Exhibits_GuildBattleEndLogExhibits_EGuildBattleEndLogDisplayType": {
     "None": "0x0",
     "GuildName": "0x1",
@@ -8399,6 +8769,127 @@
     "Lose": "0x6",
     "Draw": "0x7",
     "NotBye": "0x8"
+  },
+  "Exhibits_GuildBattleExhibit_EKey": {
+    "None": "0x0",
+    "GuildName": "0x1",
+    "MemberNum": "0x2",
+    "MemberNumMax": "0x3",
+    "TrophyNum": "0x4",
+    "GuildHpGauge": "0x5",
+    "Win": "0x6",
+    "Draw": "0x7",
+    "Lose": "0x8",
+    "PlayerTotalAcquisitionStarNum": "0x9",
+    "EnemyTotalAcquisitionStarNum": "0xA",
+    "BattleLeagueName": "0xB",
+    "LeagueName": "0xC",
+    "IsPlayerMyself": "0xD",
+    "IsPlayerMyselfWithEditEnable": "0xE",
+    "IsPlayerMyselfWithUnitEnable": "0xF",
+    "IsUnLockArti": "0x10",
+    "IsLockArti": "0x11",
+    "Leader": "0x12",
+    "SubLeader": "0x13",
+    "PlayerName": "0x14",
+    "PlayerRank": "0x15",
+    "TotalPhysicAttack": "0x16",
+    "TotalMagicAttack": "0x17",
+    "TotalPhysicAttackDetail": "0x18",
+    "TotalMagicAttackDetail": "0x19",
+    "RemainAttackNum": "0x1A",
+    "MaxAttackNum": "0x1B",
+    "AcquisitionStarNum": "0x1C",
+    "HpDisable": "0x1D",
+    "Mp": "0x1E",
+    "Ap": "0x1F",
+    "HpGauge": "0x20",
+    "MpGauge": "0x21",
+    "ApGauge": "0x22",
+    "LastLogin": "0x23",
+    "LastLoginUnit": "0x24",
+    "ContributionRankingStatue": "0x25",
+    "ContributionRankingBattle": "0x26",
+    "IsUnitEnable": "0x27",
+    "IsUnitDisable": "0x28",
+    "BattleStartTime": "0x29",
+    "BattleEndTime": "0x2A",
+    "NextMatchingTime": "0x2B",
+    "NextMatchingDateTime": "0x2C",
+    "MapName": "0x2D",
+    "GuildBattleOutsidePeriod": "0x2E",
+    "GuildBattleStatusNoneOFF": "0x2F",
+    "GuildBattleStatusNoneON": "0x30",
+    "GuildBattleStatusMatchingON": "0x31",
+    "GuildBattleStatusPreparationON": "0x32",
+    "GuildBattleStatusMatchingCompleteON": "0x33",
+    "GuildBattleStatusBattleON": "0x34",
+    "GuildBattleStatusBattleAggregateON": "0x35",
+    "GuildBattleStatusBattleEndON": "0x36",
+    "GuildBattleStatusMatchingCompleteAfterON_IncludeBye": "0x37",
+    "GuildBattleStatusMatchingCompleteAfterON": "0x38",
+    "GuildBattleStatusMatchingCompleteBeforeON": "0x39",
+    "GuildBattleStatusTarget": "0x3A",
+    "GuildBattleStatusLeaderNonActive": "0x3B",
+    "GuildBattleStatusLackOfMember": "0x3C",
+    "LimitedGuildBattleStatusLeaderNonActive": "0x3D",
+    "LimitedGuildBattleStatusLackOfMember": "0x3E",
+    "LimitedGuildBattleStatusLackOfLeague": "0x3F",
+    "LimitedGuildBattleStatusAbstention": "0x40",
+    "LimitedGuildBattleStatusAbstentionOff": "0x41",
+    "GuildBattleStatusBye": "0x42",
+    "GuildBattleStatusByeOff": "0x43",
+    "GuildBattleStatusBattleSuperiorityPlayer": "0x44",
+    "GuildBattleStatusBattleSuperiorityEnemy": "0x45",
+    "GuildBattleEnemyEnabled": "0x46",
+    "UnknownPlayerDisable": "0x47",
+    "UnknownPlayerEnable": "0x48",
+    "AlreadyOrDisableBattleBtnOff": "0x49",
+    "AlreadyOrDisableBattle": "0x4A",
+    "AlreadyBattle": "0x4B",
+    "NowGuildHaveTrophy": "0x4C",
+    "IncreaseOrDecreaseTrophy": "0x4D",
+    "TrophyPlusMinus": "0x4E",
+    "GuildRobbedStarNum": "0x4F",
+    "GuildRobbedStarPercent": "0x50",
+    "PlayerRobbedStarNum": "0x51",
+    "PlayerRemainStarNum": "0x52",
+    "PlayerAttackNum": "0x53",
+    "PlayerDefenseNum": "0x54",
+    "TotalDameage": "0x55",
+    "GuildLeagueRankUp": "0x56",
+    "GuildLeagueRankDown": "0x57",
+    "GuildLogOff": "0x58",
+    "GuildBattlePeriod": "0x59",
+    "GuildBattleRewardReciveTerm": "0x5A",
+    "NextGuildBattlePeriod": "0x5B",
+    "NextGuildBattlePeriodBtnDisable": "0x5C",
+    "NextGuildBattlePeriodObjectOff": "0x5D",
+    "GuildBattlePartyUneditable": "0x5E",
+    "TotalHpDetail": "0x5F",
+    "Bye_On": "0x60",
+    "LimitedGuildBattleOn": "0x61",
+    "LimitedGuildBattleOff": "0x62",
+    "LimitedGuildBattlePoint": "0x63",
+    "LimitedGuildBattleCannotEntry_On": "0x64",
+    "AbstentionLeagueCondition": "0x65",
+    "AbstentionMemberCondition": "0x66",
+    "AbstentionLeaderCondition": "0x67",
+    "EndTrophyStarBye": "0x68",
+    "LimitedGuildBattleTitle": "0x69",
+    "LimitedGuildBattlePeriodName": "0x6A",
+    "MyPartyLeaderUnitIcon": "0x6B",
+    "GuildBattlePartyName": "0x6C",
+    "TotalPhysicAttackOfPlayer": "0x6D",
+    "TotalMagicAttackOfPlayer": "0x6E",
+    "LimitedGuildBattleScore_Ally": "0x6F",
+    "LimitedGuildBattleScore_Enemy": "0x70",
+    "MapThumbnailGuildBattle": "0x71",
+    "GuildBattleResultUntil": "0x72",
+    "GuildBattleResultUntilText": "0x73",
+    "LimitedGuildBattleRank": "0x74",
+    "LimitedGuildBattleScore": "0x75",
+    "LeagueRank": "0x76"
   },
   "Exhibits_GuildBattleExhibits_EGuildBattleDisplayType": {
     "None": "0x0",
@@ -8488,6 +8979,23 @@
     "GuildBattlePartyUneditable": "0x54",
     "TotalHpDetail": "0x55"
   },
+  "Exhibits_GuildBattleLogExhibit_EKey": {
+    "None": "0x0",
+    "OffenseObjectOn": "0x1",
+    "DeffenseObjectOn": "0x2",
+    "StarIncDec": "0x3",
+    "StarGetDisplay": "0x4",
+    "StarNothingDisplay": "0x5",
+    "AttackEnemyDesc": "0x6",
+    "AttackResult": "0x7",
+    "MySelfObjectOn": "0x8",
+    "GuildMemberObjectOn": "0x9",
+    "LeftUnitIcon": "0xA",
+    "RightUnitIcon": "0xB",
+    "SupportObjectOn": "0xC",
+    "SupportObjectOff": "0xD",
+    "SupportDesc": "0xE"
+  },
   "Exhibits_GuildBattleLogExhibits_EGuildBattleLogDisplayType": {
     "None": "0x0",
     "OffenseObjectOn": "0x1",
@@ -8499,6 +9007,21 @@
     "AttackResult": "0x7",
     "MySelfObjectOn": "0x8",
     "GuildMemberObjectOn": "0x9"
+  },
+  "Exhibits_GuildBattlePlayerExhibit_EKey": {
+    "None": "0x0",
+    "UserName": "0x1",
+    "UserRank": "0x2",
+    "LastLogin": "0x3",
+    "TitleName": "0x4",
+    "Contribution": "0x5",
+    "DefencePriority": "0x6",
+    "LeaderDisplayON": "0x7",
+    "SubLeaderDisplayON": "0x8",
+    "TotalPhysic": "0x9",
+    "TotalMagic": "0xA",
+    "IsMySelf": "0xB",
+    "AvailPartyNum": "0xC"
   },
   "Exhibits_GuildBattlePlayerExhibits_EGuildBattlePlayerDisplayType": {
     "None": "0x0",
@@ -8514,6 +9037,43 @@
     "TotalMagic": "0xA",
     "IsMySelf": "0xB"
   },
+  "Exhibits_GuildBattleStatusExhibit_EKey": {
+    "None": "0x0",
+    "TopCenter": "0x1",
+    "TopEnemy": "0x2",
+    "Right": "0x3",
+    "Center": "0x4",
+    "GuildView": "0x5"
+  },
+  "Exhibits_AppealBannerParamExhibit_EKey": {
+    "None": "0x0",
+    "Banner": "0x1",
+    "FlagBgSprite": "0x2",
+    "CategoryFlag": "0x3"
+  },
+  "Exhibits_PresentDataExhibit_EKey": {
+    "None": "0x0",
+    "Title": "0x1",
+    "Expr": "0x2",
+    "Amount": "0x3",
+    "Received": "0x4",
+    "ShouldDisplayAmount": "0x5",
+    "ElapsedTimeSince": "0x6",
+    "ShouldDisplayDeadline": "0x7",
+    "ReceiptDeadline": "0x8",
+    "HasItem": "0x9",
+    "HasArtifact": "0xA",
+    "HasUnit": "0xB",
+    "HasNBeast": "0xC",
+    "HasVisionCard": "0xD",
+    "HasGil": "0xE",
+    "HasLapis": "0xF",
+    "HasPlayerExp": "0x10",
+    "HasStamina": "0x11",
+    "HasRoyalEXP": "0x12",
+    "IsMultiple": "0x13",
+    "IconSprite": "0x14"
+  },
   "Exhibits_ItemExchangeParamValueExhibit_EKey": {
     "None": "0x0",
     "ExchangeText": "0x1",
@@ -8528,17 +9088,33 @@
     "None": "0x0",
     "IsItemType": "0x1",
     "Icon": "0x2",
-    "InvNum": "0x3",
-    "NumOrObtain": "0x4",
-    "Num": "0x5",
-    "NeedNum": "0x6",
-    "Other": "0x7",
-    "Name": "0x8",
-    "Expr": "0x9",
-    "Flavor": "0xA",
-    "GainExp": "0xB",
-    "GetParamTitle": "0xC",
-    "HummerValue": "0xD"
+    "IconS": "0x3",
+    "InvNum": "0x4",
+    "NumOrObtain": "0x5",
+    "Num": "0x6",
+    "NeedNum": "0x7",
+    "Other": "0x8",
+    "Name": "0x9",
+    "Expr": "0xA",
+    "Flavor": "0xB",
+    "GainExp": "0xC",
+    "GetParamTitle": "0xD",
+    "HummerValue": "0xE",
+    "IsDispOFFNumLessOneInvNum": "0xF",
+    "IsDispOFFNumOrObtain": "0x10",
+    "IsDispOFFNumLessOneNum": "0x11",
+    "IsDispOFFNumLessOneNeedNum": "0x12"
+  },
+  "Exhibits_LobbyQuestParamExhibit_EKey": {
+    "None": "0x0",
+    "Image": "0x1",
+    "AppealText": "0x2",
+    "EventType": "0x3",
+    "Title": "0x4",
+    "Desc": "0x5",
+    "IsOpen": "0x6",
+    "IsChallenge": "0x7",
+    "NewIcon": "0x8"
   },
   "Exhibits_MissionDataExhibit_EContentType": {
     "None": "0x0",
@@ -8605,7 +9181,59 @@
     "JobSub1Icon": "0x1A",
     "JobSub2Icon": "0x1B",
     "JobMainBg": "0x1C",
-    "JobSubBg": "0x1D"
+    "JobSubBg": "0x1D",
+    "UnitIconSmall": "0x1E",
+    "Num": "0x1F",
+    "SynchroSortTypeName": "0x20"
+  },
+  "Exhibits_BattleOptionExhibit_EDisplayType": {
+    "None": "0x0",
+    "BgmVolume": "0x1",
+    "BgmSliderVolume": "0x2",
+    "SeVolume": "0x3",
+    "SeSliderVolume": "0x4",
+    "VoiceVolume": "0x5",
+    "VoiceSliderVolume": "0x6",
+    "BattleSpeedEnable": "0x7",
+    "BattleSpeedDisable": "0x8",
+    "BattleSpeedEnable_Spe": "0x9",
+    "BattleSpeedEnable_SpeNoCheck": "0xA",
+    "BattleSpeedDisable_Spe": "0xB",
+    "BattleSpeedEnable_Rank": "0xC",
+    "BattleSpeedEnable_OpenRank": "0xD",
+    "AutoLaps_DisableButton": "0xE",
+    "AutoLaps_AP": "0xF",
+    "AutoLaps_CureCount": "0x10",
+    "AutoLaps_CureCountSlider": "0x11",
+    "AutoLaps_Count": "0x12",
+    "AutoLaps_ItemCount": "0x13",
+    "AutoLaps_IsLimited": "0x14",
+    "AutoLaps_IsRootItem": "0x15",
+    "AutoLaps_IsLimitedNoActive": "0x16",
+    "AutoLaps_IsRootItemNoActive": "0x17",
+    "AutoLaps_IsLimitedNoFade": "0x18",
+    "AutoLaps_IsRootItemNoFade": "0x19",
+    "AutoLaps_IsLimitedUpButton": "0x1A",
+    "AutoLaps_IsLimitedDownButton": "0x1B",
+    "AutoLaps_IsRootItemUpButton": "0x1C",
+    "AutoLaps_IsRootItemDownButton": "0x1D",
+    "AutoLaps_IsCureUpButton": "0x1E",
+    "AutoLaps_IsCureDownButton": "0x1F",
+    "AutoLaps_IsCureEnable": "0x20",
+    "AutoLaps_IsCureDisable": "0x21",
+    "AutoLaps_IsItemEnable": "0x22",
+    "AutoLaps_IsItemDisable": "0x23",
+    "AutoLaps_AP_Lap": "0x24",
+    "AutoLaps_AP_Item": "0x25",
+    "DispOffInBattle": "0x26",
+    "AutoLaps_DisableOff": "0x27"
+  },
+  "Exhibits_OtherIconExhibit_EKey": {
+    "None": "0x0",
+    "Amount": "0x1",
+    "ShouldDisplayAmount": "0x2",
+    "ShouldDisplayMultiple": "0x3",
+    "IconSprite": "0x4"
   },
   "Exhibits_OtherPlayerExhibits_EOtherPlayerDisplayType": {
     "None": "0x0",
@@ -8675,6 +9303,26 @@
     "WorldAreaImageLeft": "0x5",
     "Badge": "0x6"
   },
+  "Exhibits_EventParamExhibit_EKey": {
+    "None": "0x0",
+    "SmallBanner": "0x1",
+    "SmallBannerInMemory": "0x2",
+    "MediumBanner": "0x3",
+    "StartDate": "0x4",
+    "EndDate": "0x5",
+    "RemainingDate": "0x6",
+    "IsRemainingDate": "0x7",
+    "IsPlayerCountLimit": "0x8",
+    "PlayerCountLimit": "0x9",
+    "PlayerCountNow": "0xA",
+    "CanAddPlayCount": "0xB",
+    "IsPlayEnabled": "0xC",
+    "IsPointQuest": "0xD",
+    "PointQuestPeriod": "0xE",
+    "IsPointQuestOpened": "0xF",
+    "IsPointQuestAggregating": "0x10",
+    "IsPointQuestResult": "0x11"
+  },
   "Exhibits_PartParamExhibit_EKey": {
     "None": "0x0",
     "Name": "0x1",
@@ -8686,19 +9334,63 @@
   },
   "Exhibits_QuestParamExhibit_EKey": {
     "None": "0x0",
-    "Ap": "0x1",
-    "APFree": "0x2",
-    "NewIcon": "0x3",
-    "ClearIcon": "0x4",
-    "BattleTitle": "0x5",
-    "Name": "0x6",
-    "CurrentQuestMissionNum": "0x7",
-    "MaxQuestMissionNum": "0x8",
-    "IsCompleted": "0x9",
-    "IsIncompleted": "0xA",
-    "LongContents": "0xB",
-    "ShortContents": "0xC",
-    "MissionStar": "0xD"
+    "Name": "0x1",
+    "Title": "0x2",
+    "Title_Name": "0x3",
+    "BattleTitle": "0x4",
+    "PlayerExp": "0x5",
+    "UnitExp": "0x6",
+    "Ap": "0x7",
+    "Gold": "0x8",
+    "CharLimit": "0x9",
+    "Info": "0xA",
+    "ForceUnit": "0xB",
+    "LimitUnit": "0xC",
+    "LimitDamage": "0xD",
+    "LimitNoCont": "0xE",
+    "ChangeUnit": "0xF",
+    "ItemNotUsed": "0x10",
+    "AutoProhibit": "0x11",
+    "Weather": "0x12",
+    "Cost": "0x13",
+    "IsSetCost": "0x14",
+    "RecommendLv": "0x15",
+    "PlayCount": "0x16",
+    "MaxPlayCount": "0x17",
+    "HavePlayCount": "0x18",
+    "HavePlayCountWithoutSection": "0x19",
+    "LimitedXTimesForADay": "0x1A",
+    "MapName": "0x1B",
+    "MapBuffText": "0x1C",
+    "NewIcon": "0x1D",
+    "ClearIcon": "0x1E",
+    "MaxPlayerNumSolo": "0x1F",
+    "MaxPlayerNumTwo": "0x20",
+    "MaxPlayerNumFour": "0x21",
+    "MaxPlayerNum": "0x22",
+    "IsDisableCond": "0x23",
+    "IsSameQuestType": "0x24",
+    "APFree": "0x25",
+    "IsCondition": "0x26",
+    "IsConditionOrCountLimit": "0x27",
+    "ForceUnitAllName": "0x28",
+    "NonActiveQuestOn": "0x29",
+    "ActiveQuestOn": "0x2A",
+    "DisableEventPlayerIfDisabled": "0x2B",
+    "ActiveFirstReward": "0x2C",
+    "ActiveNoFirstReward": "0x2D",
+    "ActiveQuestMission": "0x2E",
+    "ActiveNoQuestMission": "0x2F",
+    "ActiveFirstRewardOrQuestMission": "0x30",
+    "DuelQuestNameInPartyEdit": "0x31",
+    "CurrentQuestMissionNum": "0x32",
+    "MaxQuestMissionNum": "0x33",
+    "IsCompleted": "0x34",
+    "IsIncompleted": "0x35",
+    "LongContents": "0x36",
+    "ShortContents": "0x37",
+    "MissionStar": "0x38",
+    "IsQuestBeginner": "0x39"
   },
   "Exhibits_SectionParamExhibit_EKey": {
     "None": "0x0",
@@ -8732,6 +9424,23 @@
     "None": "0x0",
     "SmallBanner": "0x1",
     "MediumBanner": "0x2"
+  },
+  "Exhibits_MultiRecePlayerExhibit_EKey": {
+    "None": "0x0",
+    "MultiPlayerName": "0x1",
+    "RaidPlayerUnitIcon": "0x2",
+    "RaidPlayerDamage": "0x3",
+    "RaidPlayerLoginTime_Value": "0x4",
+    "RaidPlayerLoginTime_Unit": "0x5",
+    "IsMyPlayerData": "0x6",
+    "IsNotMyPlayerData": "0x7",
+    "IsFriendPlayerData": "0x8",
+    "IsGuildPlayerData": "0x9",
+    "RaidGetPoint": "0xA",
+    "RaidTotalGetPoint": "0xB",
+    "IsGuildPlayerAndNotFriend": "0xC",
+    "UnitImage": "0xD",
+    "Max": "0xE"
   },
   "Exhibits_RaidBossValueExhibit_EKey": {
     "None": "0x0",
@@ -8905,15 +9614,20 @@
     "Rarity": "0x16",
     "LvMax": "0x17",
     "UnitIconMedium": "0x18",
-    "UnitIconBg": "0x19",
-    "JobMainIcon": "0x1A",
-    "JobSub1Icon": "0x1B",
-    "JobSub2Icon": "0x1C",
-    "JobMainBg": "0x1D",
-    "JobSubBg": "0x1E",
-    "UnitIconSmall": "0x1F",
-    "SynchroLv": "0x20",
-    "SynchroRate": "0x21"
+    "UnitImage": "0x19",
+    "UnitIconBg": "0x1A",
+    "JobMainIcon": "0x1B",
+    "JobSub1Icon": "0x1C",
+    "JobSub2Icon": "0x1D",
+    "JobMainBg": "0x1E",
+    "JobSubBg": "0x1F",
+    "UnitIconSmall": "0x20",
+    "SynchroLv": "0x21",
+    "SynchroRate": "0x22",
+    "Side": "0x23",
+    "Num": "0x24",
+    "SortTypeName": "0x25",
+    "IntimacySortTypeName": "0x26"
   },
   "Exhibits_VisionCardParamValueExhibit_EKey": {
     "None": "0x0",
@@ -8939,14 +9653,155 @@
     "Jp": "0x14",
     "Element": "0x15",
     "Rarity": "0x16",
-    "UnitIconMedium": "0x17",
-    "UnitIconBg": "0x18",
-    "Amount": "0x19",
-    "LvMax": "0x1A",
-    "Atk": "0x1B",
-    "Mag": "0x1C",
-    "Buffs": "0x1D",
-    "PartyAbility": "0x1E"
+    "Cost": "0x17",
+    "UnitIconMedium": "0x18",
+    "UnitIconBg": "0x19",
+    "Illust": "0x1A",
+    "FlavorText": "0x1B",
+    "Illustrator": "0x1C",
+    "Amount": "0x1D",
+    "LvMax": "0x1E",
+    "Atk": "0x1F",
+    "Mag": "0x20",
+    "Buffs": "0x21",
+    "PartyAbility": "0x22",
+    "ExpSlider": "0x23",
+    "NeedExp": "0x24",
+    "URDisplay": "0x25",
+    "SSRDisplay": "0x26",
+    "Num": "0x27"
+  },
+  "Exhibits_VisionCardParamValueExhibitList_EAwakeDisplayType": {
+    "Normal": "0x0",
+    "HaveBlank": "0x1"
+  },
+  "Exhibits_BoxGachaExhibit_EKey": {
+    "None": "0x0",
+    "UnitMessage": "0x1",
+    "RewardTotalMaxNum": "0x2",
+    "RewardRemainNum": "0x3",
+    "OneExchangeMedalNum": "0x4",
+    "MultipleExchangeNum": "0x5",
+    "MultipleExchangeUseMedalNum": "0x6",
+    "RetryExchangeNum": "0x7",
+    "RetryExchangeMedalNum": "0x8",
+    "TopBanner": "0x9",
+    "OneExchangeButton": "0xA",
+    "MultipleExchangeButton": "0xB",
+    "ResetButton": "0xC",
+    "ResultRetryButton": "0xD"
+  },
+  "Exhibits_BoxGachaItemExhibit_EKey": {
+    "None": "0x0",
+    "RewardMaxNum": "0x1",
+    "RewardRemainNum": "0x2",
+    "OnFeature": "0x3",
+    "OffFeature": "0x4",
+    "OnDisableGetAllItems": "0x5"
+  },
+  "Exhibits_PointquestBossExhibit_EKey": {
+    "None": "0x0",
+    "CurrentBossHp": "0x1",
+    "MaxBossHp": "0x2",
+    "CurrentBossHpRate": "0x3",
+    "ChallengeItemNum": "0x4",
+    "IsNormal": "0x5",
+    "IsEnoughItem": "0x6"
+  },
+  "Exhibits_PointquestGaugeExhibit_EKey": {
+    "None": "0x0",
+    "CurrentPoint": "0x1",
+    "MaxPoint": "0x2",
+    "CurrentScale": "0x3",
+    "AwardPosition": "0x4",
+    "AwardScale": "0x5",
+    "AwardIcon": "0x6",
+    "IsReceived": "0x7",
+    "IsAchieved": "0x8"
+  },
+  "Exhibits_PointquestParamExhibit_EKey": {
+    "None": "0x0",
+    "OpenedPeriod": "0x1",
+    "BrowsingPeriod": "0x2",
+    "UnitImage": "0x3",
+    "UnitSerifText": "0x4",
+    "IsOpened": "0x5",
+    "IsAggregating": "0x6",
+    "IsBrowsing": "0x7",
+    "FrontImage": "0x8",
+    "LogoImage": "0x9",
+    "RemainedTime": "0xA",
+    "RemainedBrowsingTime": "0xB",
+    "BannerImage": "0xC",
+    "IsRankingEvent": "0xD",
+    "IsBossOpened": "0xE",
+    "IsHardBossOpened": "0xF",
+    "IsHardOpened": "0x10",
+    "IsHardRevealed": "0x11",
+    "PlayedIsInteractable": "0x12"
+  },
+  "Exhibits_PointquestQuestExtExhibit_EKey": {
+    "None": "0x0",
+    "IsNormal": "0x1",
+    "IsHard": "0x2",
+    "HighscorePoint": "0x3"
+  },
+  "Exhibits_PointquestRankerExhibit_EKey": {
+    "None": "0x0",
+    "RankingPlayer": "0x1",
+    "RankingGuild": "0x2",
+    "RankingPlayerRank": "0x3",
+    "RankingScore": "0x4",
+    "RankingRanking": "0x5",
+    "RankingRankingTime": "0x6",
+    "RankingRankingBGKey": "0x7",
+    "RankingGuildEmblem": "0x8",
+    "RankingLeaderIcon": "0x9",
+    "RankingIsMyself": "0xA",
+    "RankingIsTotalScore": "0xB",
+    "RankingSwitchLabel": "0xC",
+    "SelfTotalScore": "0xD",
+    "SelfTotalRanking": "0xE",
+    "SelfHighScore": "0xF",
+    "SelfHighRanking": "0x10",
+    "GuildTotalScore": "0x11",
+    "GuildfTotalRanking": "0x12",
+    "GuildHighScore": "0x13",
+    "GuildHighRanking": "0x14",
+    "GuildRankingAccumTime": "0x15",
+    "IsValidAccumTime": "0x16"
+  },
+  "Exhibits_PointquestResultExhibit_EDispType": {
+    "None": "0x0",
+    "Win": "0x1",
+    "Damaged": "0x2",
+    "OverKill": "0x3",
+    "KillUnit": "0x4",
+    "Action": "0x5",
+    "ItemUse": "0x6",
+    "WeakAttack": "0x7",
+    "ElementWeakAttack": "0x8",
+    "KilledUnit": "0x9",
+    "AttackChain": "0xA",
+    "ElementChain": "0xB",
+    "TryCount": "0xC",
+    "Maginification": "0xD",
+    "Score": "0xE",
+    "HiScore": "0xF",
+    "TotalHiScore": "0x10",
+    "TotalScore": "0x11",
+    "RewardHiScore": "0x12",
+    "DispHiScoreReward": "0x13",
+    "DispTotalScoreReward": "0x14"
+  },
+  "Exhibits_RandomItemExhibit_EKey": {
+    "None": "0x0",
+    "Icon": "0x1",
+    "Rarity": "0x2",
+    "Name": "0x3",
+    "Desc": "0x4",
+    "Num": "0x5",
+    "AmountObject": "0x6"
   },
   "Exhibits_TowerPeriodParamExhibit_EKey": {
     "None": "0x0",
@@ -8993,5 +9848,34 @@
     "TowerScoreScore": "0x24",
     "TowerScoreScoreEval": "0x25",
     "RankBG": "0x26"
+  },
+  "PointQuest_eMode": {
+    "Normal": "0x0",
+    "Hard": "0x1",
+    "Extra": "0x2",
+    "Extra2": "0x3",
+    "Max": "0x4"
+  },
+  "PointQuest_eRankerType": {
+    "GuildTotal": "0x0",
+    "GuildHiscore": "0x1",
+    "RankerTotal": "0x2",
+    "RankerHiscore": "0x3",
+    "TopGuildTotal": "0x4",
+    "TopGuildHiscore": "0x5",
+    "TopRankerTotal": "0x6",
+    "TopRankerHiscore": "0x7",
+    "MAX": "0x8"
+  },
+  "PointQuest_eRankingAttribute": {
+    "TotalPoint": "0x0",
+    "HiscorePoint": "0x1"
+  },
+  "PointQuest_eStatus": {
+    "None": "0x0",
+    "Closed": "0x1",
+    "Opened": "0x2",
+    "Aggregating": "0x3",
+    "Result": "0x4"
   }
 }

@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 315
+    "angle": 315,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -337,6 +339,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -414,6 +417,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -451,7 +455,7 @@
       "iname": "UN_GM_TREASURE",
       "side": 1,
       "dead": 0,
-      "lv": 1,
+      "lv": 0,
       "rare": 0,
       "awake": 1,
       "rank": 0,
@@ -475,6 +479,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     }
   ],
@@ -537,7 +542,7 @@
             "num": 1,
             "secret": 0
           },
-          "weight": 1050
+          "weight": 950
         },
         {
           "drop_data": {
@@ -546,7 +551,7 @@
             "num": 1,
             "secret": 0
           },
-          "weight": 1050
+          "weight": 950
         },
         {
           "drop_data": {
@@ -601,103 +606,15 @@
             "secret": 0
           },
           "weight": 2100
-        }
-      ]
-    },
-    {
-      "type": 0,
-      "iname": "QE_ST_01010103",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_ALL",
-            "num": 2,
-            "secret": 0
-          },
-          "weight": 1000
         },
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_PLD",
+            "iname": "IT_JB_MM_LW_GRSR",
             "num": 1,
             "secret": 0
           },
-          "weight": 250
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_JSWORD_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1860
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_AF_MAT_HEART_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1190
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_AF_MAT_LIQUID_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1190
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_IM_ANGEL_1",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 400
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_STAFF_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1860
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_MM_WHM",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 250
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_EM_WIND_1",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 2000
+          "weight": 200
         }
       ]
     },

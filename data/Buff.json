@@ -2844,27 +2844,6 @@
       "val21": -20
     },
     {
-      "iname": "BUFF_LW_LSWL_M_2",
-      "turn": 3,
-      "timing": 2,
-      "chktgt": 0,
-      "chktiming": 1,
-      "type1": 43,
-      "calc1": 3,
-      "val1": -18,
-      "val11": -38
-    },
-    {
-      "iname": "BUFF_LW_LSWL_S_3",
-      "timing": 2,
-      "chktgt": 0,
-      "chktiming": 1,
-      "type1": 142,
-      "calc1": 32,
-      "type2": 95,
-      "calc2": 31
-    },
-    {
       "iname": "BUFF_LW_RAIN_P_1",
       "timing": 0,
       "chktgt": 0,
@@ -3654,6 +3633,62 @@
       "calc2": 2,
       "val2": 3,
       "val21": 12
+    },
+    {
+      "iname": "BUFF_LW_LSWL_M_2",
+      "turn": 3,
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 1,
+      "type1": 43,
+      "calc1": 3,
+      "val1": -18,
+      "val11": -38
+    },
+    {
+      "iname": "BUFF_LW_LSWL_S_2",
+      "turn": 1,
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 2,
+      "type1": 21,
+      "calc1": 2,
+      "val1": 70,
+      "val11": 100,
+      "type2": 314,
+      "calc2": 1,
+      "val2": 10,
+      "val21": 20
+    },
+    {
+      "iname": "BUFF_LW_LSWL_S_3",
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 1,
+      "type1": 142,
+      "calc1": 32,
+      "type2": 95,
+      "calc2": 31
+    },
+    {
+      "iname": "BUFF_LW_LWSL_P_1_S",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 21,
+      "calc1": 2,
+      "val1": 10,
+      "val11": 30
+    },
+    {
+      "iname": "BUFF_LW_LWSL_P_2_S",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 314,
+      "calc1": 1,
+      "val1": 10,
+      "val11": 40
     },
     {
       "iname": "BUFF_BTL_GETSP_1-999_U",
@@ -5074,6 +5109,16 @@
       "calc1": 1,
       "val1": 5000,
       "val11": 10000
+    },
+    {
+      "iname": "BUFF_LB_LW_LSWL",
+      "timing": 1,
+      "chktgt": 0,
+      "chktiming": 2,
+      "type1": 314,
+      "calc1": 1,
+      "val1": 20,
+      "val11": 40
     },
     {
       "iname": "BUFF_SMN_MABR",
@@ -6650,6 +6695,20 @@
       "val21": 10
     },
     {
+      "iname": "BUFF_MA_LW_LSWL",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 61,
+      "calc1": 1,
+      "val1": 5,
+      "val11": 5,
+      "type2": 155,
+      "calc2": 1,
+      "val2": 15,
+      "val21": 15
+    },
+    {
       "iname": "BUFF_MA_LW_GRSR",
       "timing": 0,
       "chktgt": 0,
@@ -6662,6 +6721,16 @@
       "calc2": 3,
       "val2": 10,
       "val21": 10
+    },
+    {
+      "iname": "BUFF_MA_LW_RRIR",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 158,
+      "calc1": 1,
+      "val1": 50,
+      "val11": 50
     },
     {
       "iname": "BUFF_VC_LW_GLEM_GS",
@@ -12513,6 +12582,17 @@
       "val11": 35
     },
     {
+      "iname": "BUFF_CLT_LW_LSWL_1_1",
+      "turn": 3,
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 2,
+      "type1": 158,
+      "calc1": 1,
+      "val1": 20,
+      "val11": 40
+    },
+    {
       "iname": "BUFF_ARM_LW_GRSR_1_1",
       "timing": 2,
       "chktgt": 0,
@@ -12532,6 +12612,28 @@
       "calc1": 3,
       "val1": 5,
       "val11": 15
+    },
+    {
+      "iname": "BUFF_BOW_LW_RRIR_1_1",
+      "rate": 200,
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 123,
+      "calc1": 30,
+      "id1": "BUFF_BOW_LW_RRIR_1_1_EN"
+    },
+    {
+      "iname": "BUFF_BOW_LW_RRIR_1_1_EN",
+      "rate": 15,
+      "turn": 5,
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 1,
+      "type1": 102,
+      "calc1": 30,
+      "val1": 4,
+      "val11": 4
     },
     {
       "iname": "BUFF_FFT_SWO_002_2",
@@ -25980,6 +26082,16 @@
       "chktgt": 0,
       "chktiming": 0,
       "type1": 47,
+      "calc1": 1,
+      "val1": 20,
+      "val11": 20
+    },
+    {
+      "iname": "BUFF_GVG_004",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 62,
       "calc1": 1,
       "val1": 20,
       "val11": 20

@@ -1901,6 +1901,75 @@
       "chk_ver": "M_ST_0025_2"
     },
     {
+      "iname": "M_ST_0009_02",
+      "grpID": "MG_STORY_001",
+      "priority": 100053,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_01090205"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0026"
+    },
+    {
+      "iname": "M_ST_0009_02_2",
+      "grpID": "MG_STORY_001",
+      "priority": 100054,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_01090210"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 500
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_SSR",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_ST_0026_2"
+    },
+    {
       "iname": "M_VIP_LOGB_001",
       "grpID": "MG_VIP_LOGB_01",
       "priority": 1,
@@ -3045,6 +3114,474 @@
         }
       ],
       "chk_ver": "M_DAILY_003_07_2"
+    },
+    {
+      "iname": "M_DAILY_006_01_1",
+      "grpID": "MG_DAILY_006_1",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_01_1"
+    },
+    {
+      "iname": "M_DAILY_006_01_2",
+      "grpID": "MG_DAILY_006_1",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_WTR_05",
+          "QE_EV_AW_WTR_04",
+          "QE_EV_AW_WTR_03",
+          "QE_EV_AW_WTR_02",
+          "QE_EV_AW_WTR_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_01_2"
+    },
+    {
+      "iname": "M_DAILY_006_01_3",
+      "grpID": "MG_DAILY_006_1",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_01_3"
+    },
+    {
+      "iname": "M_DAILY_006_02_1",
+      "grpID": "MG_DAILY_006_2",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_02_1"
+    },
+    {
+      "iname": "M_DAILY_006_02_2",
+      "grpID": "MG_DAILY_006_2",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_DARK_05",
+          "QE_EV_AW_DARK_04",
+          "QE_EV_AW_DARK_03",
+          "QE_EV_AW_DARK_02",
+          "QE_EV_AW_DARK_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_02_2"
+    },
+    {
+      "iname": "M_DAILY_006_02_3",
+      "grpID": "MG_DAILY_006_2",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_02_3"
+    },
+    {
+      "iname": "M_DAILY_006_03_1",
+      "grpID": "MG_DAILY_006_3",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_03_1"
+    },
+    {
+      "iname": "M_DAILY_006_03_2",
+      "grpID": "MG_DAILY_006_3",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_SHIN_05",
+          "QE_EV_AW_SHIN_04",
+          "QE_EV_AW_SHIN_03",
+          "QE_EV_AW_SHIN_02",
+          "QE_EV_AW_SHIN_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_03_2"
+    },
+    {
+      "iname": "M_DAILY_006_03_3",
+      "grpID": "MG_DAILY_006_3",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_03_3"
+    },
+    {
+      "iname": "M_DAILY_006_04_1",
+      "grpID": "MG_DAILY_006_4",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_04_1"
+    },
+    {
+      "iname": "M_DAILY_006_04_2",
+      "grpID": "MG_DAILY_006_4",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_04_2"
+    },
+    {
+      "iname": "M_DAILY_006_04_3",
+      "grpID": "MG_DAILY_006_4",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_04_3"
+    },
+    {
+      "iname": "M_DAILY_006_05_1",
+      "grpID": "MG_DAILY_006_5",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_05_1"
+    },
+    {
+      "iname": "M_DAILY_006_05_2",
+      "grpID": "MG_DAILY_006_5",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GIL_03",
+          "QE_EV_GIL_D3",
+          "QE_EV_GIL_02",
+          "QE_EV_GIL_D2",
+          "QE_EV_GIL_01",
+          "QE_EV_GIL_D1"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_05_2"
+    },
+    {
+      "iname": "M_DAILY_006_05_3",
+      "grpID": "MG_DAILY_006_5",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_05_3"
+    },
+    {
+      "iname": "M_DAILY_006_06_1",
+      "grpID": "MG_DAILY_006_6",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_06_1"
+    },
+    {
+      "iname": "M_DAILY_006_06_2",
+      "grpID": "MG_DAILY_006_6",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_UNITEXP_04",
+          "QE_EV_UNITEXP_03",
+          "QE_EV_UNITEXP_02",
+          "QE_EV_UNITEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_DAILY_006_06_2"
+    },
+    {
+      "iname": "M_DAILY_006_06_3",
+      "grpID": "MG_DAILY_006_6",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_DAILY_006_06_3"
+    },
+    {
+      "iname": "M_GL_DAILY_006_07_1",
+      "grpID": "MG_GL_DAILY_006_7",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_VCEXP_04",
+          "QE_EV_VCEXP_03",
+          "QE_EV_VCEXP_02",
+          "QE_EV_VCEXP_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_006_07_1"
+    },
+    {
+      "iname": "M_GL_DAILY_006_07_2",
+      "grpID": "MG_GL_DAILY_006_7",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_AW_FIRE_05",
+          "QE_EV_AW_FIRE_04",
+          "QE_EV_AW_FIRE_03",
+          "QE_EV_AW_FIRE_02",
+          "QE_EV_AW_FIRE_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_006_07_2"
+    },
+    {
+      "iname": "M_GL_DAILY_006_07_3",
+      "grpID": "MG_GL_DAILY_006_7",
+      "priority": 100,
+      "condition": {
+        "type": 12,
+        "sval": [
+          "0-24"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_ACTP_02",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_006_07_3"
     },
     {
       "iname": "M_MONDAY_0001",

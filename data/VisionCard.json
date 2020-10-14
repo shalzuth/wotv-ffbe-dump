@@ -922,6 +922,51 @@
       "first_bonus_unit": "UN_LW_S_FNRR"
     },
     {
+      "iname": "VC_LW_TITN",
+      "type": 0,
+      "icon": "LAPSTitn",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_TITN",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_TITN_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_TITN_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_TITN_GSMAX",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_TITN_P",
+          "add_self_buff_awake": "SK_VC_LW_TITN_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_TITN_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_LAN_WATER_SOIL",
+          "self_buff": "SK_GL_VC_LW_TITN_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_TITN_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_TITN_P2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 36,
+          "atk": 29,
+          "mag": 16,
+          "dex": 11
+        },
+        {
+          "hp": 283,
+          "atk": 112,
+          "mag": 62,
+          "dex": 43
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_TITN"
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -1745,6 +1790,42 @@
           "hp": 268,
           "atk": 91,
           "mag": 89
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_KING",
+      "type": 0,
+      "icon": "LAPSKing",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_KING",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_KING_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_KING_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_KING_P",
+          "add_self_buff_awake": "SK_VC_LW_KING_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 28,
+          "ap": 8,
+          "atk": 23,
+          "mag": 6
+        },
+        {
+          "hp": 226,
+          "ap": 30,
+          "atk": 95,
+          "mag": 24
         }
       ]
     },

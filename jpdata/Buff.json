@@ -4322,7 +4322,9 @@
       "chktgt": 0,
       "chktiming": 1,
       "type1": 142,
-      "calc1": 32
+      "calc1": 32,
+      "type2": 95,
+      "calc2": 31
     },
     {
       "iname": "BUFF_LW_ARC_S_1",
@@ -6833,7 +6835,9 @@
       "chktgt": 0,
       "chktiming": 1,
       "type1": 142,
-      "calc1": 32
+      "calc1": 32,
+      "type2": 95,
+      "calc2": 31
     },
     {
       "iname": "BUFF_LB_LW_RARD",
@@ -6845,6 +6849,18 @@
       "calc1": 3,
       "val1": -18,
       "val11": -38
+    },
+    {
+      "iname": "BUFF_LB_LW_RIRY_01",
+      "rate": 67,
+      "turn": 3,
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 2,
+      "type1": 84,
+      "calc1": 21,
+      "val1": 15,
+      "val11": 25
     },
     {
       "iname": "BUFF_SMN_THDG",
@@ -8914,6 +8930,70 @@
       "calc2": 1,
       "val2": 15,
       "val21": 15
+    },
+    {
+      "iname": "BUFF_MA_LW_RIRY_01",
+      "conds": [
+        14
+      ],
+      "continues": [
+        14
+      ],
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 1,
+      "calc1": 2,
+      "val1": 10,
+      "val11": 10,
+      "type2": 45,
+      "calc2": 1,
+      "val2": 15,
+      "val21": 15
+    },
+    {
+      "iname": "BUFF_MA_LW_RIRY_01_S",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 321,
+      "calc1": 1,
+      "val1": 20,
+      "val11": 20
+    },
+    {
+      "iname": "BUFF_MA_LW_CRIS",
+      "conds": [
+        16
+      ],
+      "continues": [
+        16
+      ],
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 1,
+      "calc1": 2,
+      "val1": 10,
+      "val11": 10,
+      "type2": 47,
+      "calc2": 1,
+      "val2": 10,
+      "val21": 10
+    },
+    {
+      "iname": "BUFF_MA_LW_CRIS_S",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 1,
+      "calc1": 2,
+      "val1": 20,
+      "val11": 20,
+      "type2": 311,
+      "calc2": 1,
+      "val2": 10,
+      "val21": 10
     },
     {
       "iname": "BUFF_VC_LW_GLEM_GS",
@@ -15478,6 +15558,17 @@
       "val21": 1
     },
     {
+      "iname": "BUFF_ACC_LW_RIRY_01_1_1",
+      "rate": 200,
+      "timing": 2,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 104,
+      "calc1": 11,
+      "val1": 10,
+      "val11": 20
+    },
+    {
       "iname": "BUFF_HAT_LW_WHIS_1_2",
       "timing": 0,
       "chktgt": 0,
@@ -16044,6 +16135,16 @@
       "calc1": 2,
       "val1": 30,
       "val11": 30
+    },
+    {
+      "iname": "BUFF_GUN_LW_CRIS_1_1",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 180,
+      "calc1": 1,
+      "val1": -6,
+      "val11": -6
     },
     {
       "iname": "BUFF_ARM_LW_BYLO_1_1",
@@ -16743,6 +16844,7 @@
     },
     {
       "iname": "BUFF_WTH_SUN",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16753,6 +16855,7 @@
     },
     {
       "iname": "BUFF_WTH_HEAVYRAIN1",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16763,6 +16866,7 @@
     },
     {
       "iname": "BUFF_WTH_HEAVYRAIN2",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16773,6 +16877,7 @@
     },
     {
       "iname": "BUFF_WTH_HEAVYRAIN3",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16783,6 +16888,7 @@
     },
     {
       "iname": "BUFF_WTH_FIRE",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16793,6 +16899,7 @@
     },
     {
       "iname": "BUFF_WTH_FIRE02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16807,6 +16914,7 @@
     },
     {
       "iname": "BUFF_WTH_FIRE03",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16817,6 +16925,7 @@
     },
     {
       "iname": "BUFF_WTH_FIRE04",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16827,6 +16936,7 @@
     },
     {
       "iname": "BUFF_WTH_ICE",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16837,6 +16947,7 @@
     },
     {
       "iname": "BUFF_WTH_ICE02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16851,6 +16962,7 @@
     },
     {
       "iname": "BUFF_WTH_WIND",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16861,6 +16973,7 @@
     },
     {
       "iname": "BUFF_WTH_WIND02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16871,6 +16984,7 @@
     },
     {
       "iname": "BUFF_WTH_WIND03_NOT_WIND",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16885,6 +16999,7 @@
     },
     {
       "iname": "BUFF_WTH_WIND03_WIND",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16899,6 +17014,7 @@
     },
     {
       "iname": "BUFF_WTH_SOIL",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16909,6 +17025,7 @@
     },
     {
       "iname": "BUFF_WTH_SOIL02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16923,6 +17040,7 @@
     },
     {
       "iname": "BUFF_WTH_THUN",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16933,6 +17051,7 @@
     },
     {
       "iname": "BUFF_WTH_THUN02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16947,6 +17066,7 @@
     },
     {
       "iname": "BUFF_WTH_WATR",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16957,6 +17077,7 @@
     },
     {
       "iname": "BUFF_WTH_WATR02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16971,6 +17092,7 @@
     },
     {
       "iname": "BUFF_WTH_WATR03",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16981,6 +17103,7 @@
     },
     {
       "iname": "BUFF_WTH_WATR04_NOT_WATER",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -16995,6 +17118,7 @@
     },
     {
       "iname": "BUFF_WTH_WATR04_WATER",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17009,6 +17133,7 @@
     },
     {
       "iname": "BUFF_WTH_SHIN",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17019,6 +17144,7 @@
     },
     {
       "iname": "BUFF_WTH_SHIN02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17033,6 +17159,7 @@
     },
     {
       "iname": "BUFF_WTH_DARK",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17043,6 +17170,7 @@
     },
     {
       "iname": "BUFF_WTH_DARK02",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17057,6 +17185,7 @@
     },
     {
       "iname": "BUFF_WTH_DARK03",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17067,6 +17196,7 @@
     },
     {
       "iname": "BUFF_WTH_DARK04",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17077,6 +17207,7 @@
     },
     {
       "iname": "BUFF_WTH_NONE",
+      "turn": 1,
       "timing": 10,
       "chktgt": 0,
       "chktiming": 20,
@@ -17178,6 +17309,20 @@
       "calc1": 1,
       "val1": 20,
       "val11": 20
+    },
+    {
+      "iname": "BUFF_ARENA_00010",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 64,
+      "calc1": 3,
+      "val1": 20,
+      "val11": 20,
+      "type2": 23,
+      "calc2": 2,
+      "val2": 30,
+      "val21": 30
     },
     {
       "iname": "BUFF_GVG_001",
@@ -17289,6 +17434,20 @@
       "val31": -50
     },
     {
+      "iname": "BUFF_CLASSMATCH_005",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 64,
+      "calc1": 3,
+      "val1": 50,
+      "val11": 50,
+      "type2": 65,
+      "calc2": 3,
+      "val2": 50,
+      "val21": 50
+    },
+    {
       "iname": "BUFF_FREEMATCH_004",
       "rate": 200,
       "timing": 0,
@@ -17302,6 +17461,20 @@
       "calc3": 1,
       "val3": -50,
       "val31": -50
+    },
+    {
+      "iname": "BUFF_FREEMATCH_005",
+      "timing": 0,
+      "chktgt": 0,
+      "chktiming": 0,
+      "type1": 64,
+      "calc1": 3,
+      "val1": 50,
+      "val11": 50,
+      "type2": 65,
+      "calc2": 3,
+      "val2": 50,
+      "val21": 50
     },
     {
       "iname": "BUFF_INTIMACY_01",

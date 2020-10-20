@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 315
+    "angle": 315,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -264,67 +266,6 @@
   "enemy": [
     {
       "name": "",
-      "x": 4,
-      "y": 9,
-      "dir": 0,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 3,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 10,
-      "iname": "UN_GM_TREASURE",
-      "side": 1,
-      "dead": 0,
-      "lv": 1,
-      "rare": 0,
-      "awake": 1,
-      "rank": 0,
-      "elem": 0,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 1,
-      "fixdir": 0,
-      "drop": "QE_EV_FF14_05T",
-      "crystal": "",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "",
       "x": 9,
       "y": 6,
       "dir": 1,
@@ -367,7 +308,7 @@
       "ctrl": 0,
       "nottar": 1,
       "fixdir": 0,
-      "drop": "QE_EV_FF14_05T",
+      "drop": "QE_EV_FF14_05",
       "crystal": "",
       "steal": "",
       "stealValue": 100,
@@ -382,6 +323,7 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     },
     {
@@ -428,7 +370,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_EV_FF14_05",
+      "drop": "MEDAL",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -484,13 +426,14 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
       "referenceGObjName": ""
     }
   ],
   "arena": [],
   "wcond": {
     "timing": 0,
-    "expr": "",
+    "expr": "QE_EV_FF14_EX",
     "list": [
       {
         "self": {
@@ -519,81 +462,6 @@
     {
       "type": 1,
       "iname": "CRYSTAL_00",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 50
-        },
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 50
-        }
-      ]
-    },
-    {
-      "type": 1,
-      "iname": "CRYSTAL",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 50
-        },
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 50
-        }
-      ]
-    },
-    {
-      "type": 1,
-      "iname": "CRYSTAL",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 50
-        },
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 50
-        }
-      ]
-    },
-    {
-      "type": 1,
-      "iname": "CRYSTAL",
       "num": 1,
       "drop_list": [
         {
@@ -674,40 +542,6 @@
             "secret": 0
           },
           "weight": 1000
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        }
-      ]
-    },
-    {
-      "type": 1,
-      "iname": "CRYSTAL",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 50
-        },
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 50
         }
       ]
     },
@@ -720,7 +554,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_EC_FF14_1",
-            "num": 24,
+            "num": 12,
             "secret": 0
           },
           "weight": 15
@@ -729,7 +563,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_EC_FF14_1",
-            "num": 30,
+            "num": 15,
             "secret": 0
           },
           "weight": 70
@@ -738,7 +572,7 @@
           "drop_data": {
             "type": 0,
             "iname": "IT_EC_FF14_1",
-            "num": 36,
+            "num": 18,
             "secret": 0
           },
           "weight": 15
@@ -746,27 +580,54 @@
       ]
     },
     {
-      "type": 1,
-      "iname": "CRYSTAL",
+      "type": 0,
+      "iname": "MEDAL",
       "num": 1,
       "drop_list": [
         {
           "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
+            "type": 0,
+            "iname": "IT_EC_FF14_1_R",
+            "num": 62,
             "secret": 0
           },
-          "weight": 50
+          "weight": 25
         },
         {
           "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL_01",
-            "num": 1,
+            "type": 0,
+            "iname": "IT_EC_FF14_1_R",
+            "num": 64,
             "secret": 0
           },
-          "weight": 50
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_EC_FF14_1_R",
+            "num": 67,
+            "secret": 0
+          },
+          "weight": 20
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_EC_FF14_1_R",
+            "num": 68,
+            "secret": 0
+          },
+          "weight": 15
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_EC_FF14_1_R",
+            "num": 70,
+            "secret": 0
+          },
+          "weight": 10
         }
       ]
     }

@@ -530,7 +530,7 @@
     },
     {
       "key": "PERIOD_RANKING_VIEW",
-      "value": "Rankings Period:"
+      "value": "Ranking Period:"
     },
     {
       "key": "DATE_CURRENT",
@@ -613,6 +613,10 @@
       "value": " "
     },
     {
+      "key": "VALUE_STORY_PERIOD",
+      "value": "{0} until cleared"
+    },
+    {
       "key": "VALUE_SECONDS_AGO",
       "value": "second(s) ago"
     },
@@ -665,12 +669,12 @@
       "value": "Rank {0}"
     },
     {
-      "key": "VALUE_POINTS",
-      "value": "Pts"
-    },
-    {
       "key": "VALUE_POINT",
       "value": "Pt"
+    },
+    {
+      "key": "VALUE_POINTS",
+      "value": "Pts"
     },
     {
       "key": "VALUE_TO",
@@ -1462,7 +1466,7 @@
     },
     {
       "key": "CAUTION_AGGREGATE",
-      "value": "Calculating rankings."
+      "value": "Calculating rankings..."
     },
     {
       "key": "CAUTION_NOT_SUBQUEST",
@@ -1745,6 +1749,14 @@
       "value": "Held:"
     },
     {
+      "key": "ITEM_AMOUNT_LIMIT_OVER",
+      "value": "Limit"
+    },
+    {
+      "key": "ITEM_AMOUNT_LIMIT_OVER_VALUE",
+      "value": "Limit: <space=0.3em><size=1.3em>{0}</size>"
+    },
+    {
       "key": "ITEM_AMOUNT_TICKET",
       "value": ""
     },
@@ -1981,6 +1993,18 @@
       "value": "Details"
     },
     {
+      "key": "ARTIFACT_LIMIT_OVER_TITLE",
+      "value": "There are items at max capacity."
+    },
+    {
+      "key": "ARTIFACT_LIMIT_OVER_DESC_RESULT",
+      "value": "The following item could not be claimed as a reward as it is at max capacity."
+    },
+    {
+      "key": "ARTIFACT_LIMIT_OVER_DESC_SHOP",
+      "value": "The following item could not be claimed as it is at max capacity."
+    },
+    {
       "key": "INTIMACY_BONUS_TITLE",
       "value": "Affinity Bonus"
     },
@@ -2022,7 +2046,7 @@
     },
     {
       "key": "UNITLIST_CONFIRM＿OTHER_PARTY_DESC",
-      "value": "This unit is already in another party<br>({0}).<br>Select anyway?<br>(This will remove the unit<br>from the other party.)"
+      "value": "This unit is already in another party ({0}).<br>Select anyway?<br>(This will remove the unit<br>from the other party.)"
     },
     {
       "key": "NETHERBEAST_SYNCHRO",
@@ -2358,7 +2382,7 @@
     },
     {
       "key": "MATCH_CONNECT_AUTO_TITLE",
-      "value": "Finish Battle Settings"
+      "value": "Battle Settings Complete"
     },
     {
       "key": "MATCH_CONNECT_AUTO_DESC",
@@ -2899,6 +2923,10 @@
     {
       "key": "PARTYEDITOR_AUTOBATTLE_DISABLE",
       "value": "Settings OFF"
+    },
+    {
+      "key": "；編成画面 - オート周回",
+      "value": ""
     },
     {
       "key": "PARTYEDITOR_AUTOLAP_TITLE",
@@ -3753,6 +3781,10 @@
       "value": "Ability Effects"
     },
     {
+      "key": "OPTION_JPBOOST",
+      "value": "Use JP Acquisition UP item"
+    },
+    {
       "key": "OPTION_EFFECT",
       "value": "Area Effects Display"
     },
@@ -3838,7 +3870,7 @@
     },
     {
       "key": "OPTION_LAP_CAPRICIOUS",
-      "value": "Whimsy Shop found"
+      "value": "Whimsy Shop Found"
     },
     {
       "key": "OPTION_LAP_RAID",
@@ -4023,6 +4055,54 @@
     {
       "key": "CLASSMATCH_REWARD_PROM_DESC",
       "value": "Class promotion rewards claimed."
+    },
+    {
+      "key": "CLASSMATCH_OPEN_TITLE",
+      "value": "Now Active"
+    },
+    {
+      "key": "CLASSMATCH_ENABLE_BATTLE_TITLE",
+      "value": "Battle Ongoing"
+    },
+    {
+      "key": "CLASSMATCH_ENABLE_BATTLE_DESC",
+      "value": "Ends in <color=#FFF080>{0}</color> hour(s)"
+    },
+    {
+      "key": "CLASSMATCH_ENABLE_BATTLE_MINUTES",
+      "value": "Ends in <color=#FFF080>{0}</color> minute(s)"
+    },
+    {
+      "key": "CLASSMATCH_ENABLE_BATTLE_SECOND",
+      "value": "Ends in <color=#FFF080>{0}</color> second(s)"
+    },
+    {
+      "key": "CLASSMATCH_CLOSE_TITLE",
+      "value": "Battle Over"
+    },
+    {
+      "key": "CLASSMATCH_NEXT_BATTLE_TITLE",
+      "value": "Waiting for Next Battle"
+    },
+    {
+      "key": "CLASSMATCH_BATTLE_PERIOD",
+      "value": "{0}<space=10> – <space=5>{1}"
+    },
+    {
+      "key": "CLASSMATCH_GET_REWARD_TITLE",
+      "value": "Claim Rewards"
+    },
+    {
+      "key": "CLASSMATCH_GET_REWARD_DESC",
+      "value": "Until <space=5>{0}"
+    },
+    {
+      "key": "CLASSMATCH_PERIOD_OUTSIDE_TITLE",
+      "value": "[Event Not Active]"
+    },
+    {
+      "key": "CLASSMATCH_PERIOD_OUTSIDE_DESC",
+      "value": "Please wait until the next event."
     },
     {
       "key": "PRESENT_CAP_OVER_TITLE",
@@ -4298,7 +4378,7 @@
     },
     {
       "key": "GACHA_STATUS_DETAIL_UNIT_CAUTION",
-      "value": "*Awaken {0}★/Limit Break {1}/When Lv. and all Job Lvs. are maxed out"
+      "value": "*When Awakened to {0}★/Limit Break {1}/Unit Lv. and all Job Lvs. are at Max"
     },
     {
       "key": "GACHA_STATUS_DETAIL_VISION_TITLE",
@@ -4410,11 +4490,11 @@
     },
     {
       "key": "NETHERBEAST_DETAIL_ABILITY_BORD",
-      "value": "Esper Training Boards "
+      "value": "Esper Training Board"
     },
     {
       "key": "NETHERBEAST_DETAIL_ENHANCE_TITLE",
-      "value": "Enhancing Espers "
+      "value": "Esper Enhance"
     },
     {
       "key": "NETHERBEAST_DETAIL_ENHANCE_BULK",
@@ -4450,7 +4530,7 @@
     },
     {
       "key": "UNIT_DETAIL_ABILITY_BORD",
-      "value": "Ability Boards"
+      "value": "Ability Board"
     },
     {
       "key": "UNIT_DETAIL_ABILITY_SET",
@@ -4526,7 +4606,7 @@
     },
     {
       "key": "UNIT_DETAIL_PANEL_UNIT_ENHANCE_CAUTION_MAX",
-      "value": "Unit's level maxed out."
+      "value": "Unit's Lv. is maxed out."
     },
     {
       "key": "UNIT_DETAIL_PANEL_UNIT_ENHANCE_CAUTION_OVER",
@@ -4917,6 +4997,10 @@
       "value": "yr"
     },
     {
+      "key": "POWER_SAVE_ITEM",
+      "value": "{0} Acquired: {1}/{2}"
+    },
+    {
       "key": "GL_AP_HELP_TITLE",
       "value": "Amazon Prime-Exclusive Rewards"
     },
@@ -4978,7 +5062,7 @@
     },
     {
       "key": "GL_AP_NOT_SUB_DESC",
-      "value": "<color=#FF0000>You are not an Amazon Prime subscriber.</color>"
+      "value": "<color=#FF0000>You are not a Prime member.<br>Please join Prime and log in with your Amazon account to claim this content.</color>"
     },
     {
       "key": "GL_AP_FAIL_BIND_DESC",

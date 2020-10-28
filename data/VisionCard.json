@@ -967,6 +967,100 @@
       "first_bonus_unit": "UN_LW_S_TITN"
     },
     {
+      "iname": "VC_LW_VKTR",
+      "type": 0,
+      "icon": "LAPSVktr",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_VKTR",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_VKTR_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_VKTR_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_VKTR_GSMAX",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_VKTR_P",
+          "add_self_buff_awake": "SK_VC_LW_VKTR_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_VKTR_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_GRSR_VKTR",
+          "self_buff": "SK_GL_VC_LW_VKTR_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_VKTR_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_VKTR_P2MAX"
+        },
+        {
+          "buff_cond": "VLC_GL_MONT",
+          "self_buff": "SK_GL_VC_LW_VKTR_P3",
+          "add_self_buff_awake": "SK_GL_VC_LW_VKTR_P3AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_VKTR_P3MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 39,
+          "atk": 32,
+          "dex": 14,
+          "luk": 6
+        },
+        {
+          "hp": 305,
+          "atk": 125,
+          "dex": 55,
+          "luk": 22
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_HALL",
+      "type": 0,
+      "icon": "LAPSHall",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_HALL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_HALL_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_HALL_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_HALL_GSMAX",
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_LSWO",
+          "self_buff": "SK_VC_LW_HALL_P",
+          "add_self_buff_awake": "SK_VC_LW_HALL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_HALL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_HALL_ORDR",
+          "self_buff": "SK_GL_VC_LW_HALL_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_HALL_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_HALL_P2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 47,
+          "mp": 0,
+          "ap": 6,
+          "atk": 34
+        },
+        {
+          "hp": 372,
+          "ap": 20,
+          "atk": 134
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -1828,6 +1922,41 @@
           "mag": 24
         }
       ]
+    },
+    {
+      "iname": "VC_LW_BLMN",
+      "type": 0,
+      "icon": "LAPSBlmn",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_BLMN",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_BLMN_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_BLMN_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_BLMN_P",
+          "add_self_buff_awake": "SK_VC_LW_BLMN_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 44,
+          "atk": 11,
+          "mag": 18
+        },
+        {
+          "hp": 352,
+          "atk": 45,
+          "mag": 72
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_BLMN"
     },
     {
       "iname": "VC_LW_CACT",

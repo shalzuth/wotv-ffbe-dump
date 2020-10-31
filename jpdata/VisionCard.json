@@ -1358,6 +1358,88 @@
       "first_bonus_unit": "UN_LW_S_TYPN"
     },
     {
+      "iname": "VC_LW_HALL",
+      "type": 0,
+      "icon": "LAPSHall",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_HALL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_HALL_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_HALL_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_HALL_GSMAX",
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_LSWO",
+          "self_buff": "SK_VC_LW_HALL_P",
+          "add_self_buff_awake": "SK_VC_LW_HALL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_HALL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_LSWO",
+          "self_buff": "SK_VC_LW_HALL_PVA"
+        }
+      ],
+      "status": [
+        {
+          "hp": 47,
+          "ap": 6,
+          "atk": 34
+        },
+        {
+          "hp": 372,
+          "ap": 20,
+          "atk": 134
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_RAMD",
+      "type": 0,
+      "icon": "LAPSRamd",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_RAMD",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_RAMD_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_RAMD_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_RAMD_GSMAX",
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_LANCE",
+          "self_buff": "SK_VC_LW_RAMD_P",
+          "add_self_buff_awake": "SK_VC_LW_RAMD_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_RAMD_PMAX"
+        },
+        {
+          "buff_cond": "VLC_LANCE",
+          "self_buff": "SK_VC_LW_RAMD_PVA"
+        }
+      ],
+      "status": [
+        {
+          "hp": 36,
+          "atk": 40,
+          "mnd": 2
+        },
+        {
+          "hp": 285,
+          "atk": 158,
+          "mnd": 4
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -2541,6 +2623,80 @@
           "atk": 104,
           "mag": 52,
           "dex": 20
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_MRLT",
+      "type": 0,
+      "icon": "LAPSMrlt",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_MRLT",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_MRLT_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_MRLT_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_MRLT_P",
+          "add_self_buff_awake": "SK_VC_LW_MRLT_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "atk": 31,
+          "mag": 7
+        },
+        {
+          "hp": 280,
+          "atk": 126,
+          "mag": 28
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_MRLT"
+    },
+    {
+      "iname": "VC_LW_OOOO",
+      "type": 0,
+      "icon": "LAPSOooo",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_OOOO",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_OOOO_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_OOOO_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_OOOO_P",
+          "add_self_buff_awake": "SK_VC_LW_OOOO_PAW"
+        },
+        {
+          "buff_cond": "VLC_OOOO_SIMR",
+          "self_buff": "SK_VC_LW_OOOO_P_2",
+          "add_self_buff_awake": "SK_VC_LW_OOOO_P_2AW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "atk": 22,
+          "luk": 7
+        },
+        {
+          "hp": 284,
+          "atk": 88,
+          "luk": 26
         }
       ]
     },

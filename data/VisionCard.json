@@ -1061,6 +1061,51 @@
       ]
     },
     {
+      "iname": "VC_LW_AGON",
+      "type": 0,
+      "icon": "LAPSAgon",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_AGON",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_AGON_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_AGON_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_AGON_GSMAX",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_AGON_P",
+          "add_self_buff_awake": "SK_VC_LW_AGON_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_AGON_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_SWORD_THU_WIN",
+          "self_buff": "SK_GL_VC_LW_AGON_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_AGON_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_AGON_P2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 38,
+          "atk": 38,
+          "mag": 8,
+          "dex": 8
+        },
+        {
+          "hp": 298,
+          "atk": 148,
+          "mag": 30,
+          "dex": 28
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_AGON"
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -1957,6 +2002,40 @@
         }
       ],
       "first_bonus_unit": "UN_LW_S_BLMN"
+    },
+    {
+      "iname": "VC_LW_GUREN",
+      "type": 0,
+      "icon": "LAPSGuren",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_GUREN",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_GUREN_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_GUREN_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_GUREN_P",
+          "add_self_buff_awake": "SK_VC_LW_GUREN_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "atk": 17,
+          "mag": 21
+        },
+        {
+          "hp": 285,
+          "atk": 70,
+          "mag": 85
+        }
+      ]
     },
     {
       "iname": "VC_LW_CACT",

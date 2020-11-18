@@ -2,7 +2,7 @@
   "infos": [
     {
       "key": "FILE_LOAD_FAILED",
-      "value": "<size=22>Failed to read file. <br><br>The data may have been corrupted. Please proceed to Delete Downloaded Data from the Title screen.</size>"
+      "value": "<size=22>Failed to read file.<br><br>The data may have been corrupted. Please proceed to reinstall the application.</size>"
     },
     {
       "key": "RESUME_TITLE",
@@ -342,7 +342,7 @@
     },
     {
       "key": "CONFIG",
-      "value": "Settings"
+      "value": "Set"
     },
     {
       "key": "APPROVAL",
@@ -509,6 +509,10 @@
       "value": "Auto:"
     },
     {
+      "key": "ABILITY_CUT",
+      "value": "Produce"
+    },
+    {
       "key": "FORMAT_ARG",
       "value": "{0}"
     },
@@ -645,6 +649,10 @@
       "value": "Last Played"
     },
     {
+      "key": "VALUE_LOGIN_PLAY",
+      "value": "Latest login"
+    },
+    {
       "key": "VALUE_MORE",
       "value": "{0} or more"
     },
@@ -723,6 +731,10 @@
     {
       "key": "NEED_GIL",
       "value": "Cost"
+    },
+    {
+      "key": "NEED_JP",
+      "value": "Necessary JP"
     },
     {
       "key": "GET_GIL",
@@ -839,10 +851,6 @@
     {
       "key": "BUY_LAPIS",
       "value": "Purchase Visiore"
-    },
-    {
-      "key": "POWER_SAVE",
-      "value": "Touch the crystal to exit energy-saving mode"
     },
     {
       "key": "ACT_SPECIFIED_COMMERCIAL_TRANSACTIONS",
@@ -1501,6 +1509,10 @@
       "value": "No rewards."
     },
     {
+      "key": "CAUTION_NOT_ENHANCE_ABILITY",
+      "value": "You have no abilities that can be enhanced."
+    },
+    {
       "key": "ERROR_CONNECT_TITLE",
       "value": "Connection Lost"
     },
@@ -1843,6 +1855,10 @@
     {
       "key": "ABILITY_STATUS_DETAIL_ON",
       "value": "Advanced Settings: On"
+    },
+    {
+      "key": "ABILITY_STATUS_DETAIL_CAUTION",
+      "value": "Equipment Abilities and Evocation Magic can be turned ON/OFF while equipping to units in Formations."
     },
     {
       "key": "ABILITY_CAPTION_LEADER",
@@ -3217,6 +3233,42 @@
       "value": "Your attempts have been reset. <br>You can embark {0} more time(s) today."
     },
     {
+      "key": "EVENT_RESET_CHECK_TITLE",
+      "value": "Add Attempts"
+    },
+    {
+      "key": "EVENT_RESET_CHECK_DESC",
+      "value": "Consume <color=#FFF080>{0} Visiore</color> and increase your <color=#FFF080>attempts by {1}</color>?"
+    },
+    {
+      "key": "EVENT_RESET_CHECK_LIMIT",
+      "value": "(Times you can add today: {0}/{1})"
+    },
+    {
+      "key": "EVENT_RESET_CHECK_APPEAL",
+      "value": "At <color=#FFF080>Royal Rank  {0}</color>, you can add <color=#FFF080>1 additional attempt</color>."
+    },
+    {
+      "key": "EVENT_RESET_CHECK_OVER_DESC",
+      "value": "Addition limit reached for the corresponding quest today."
+    },
+    {
+      "key": "EVENT_RESET_CHECK_OVER_CONDITION",
+      "value": "Once you reach <color=#FFF080>Royal Rank {0}</color>, you can add <color=#FFF080>up to {1} time(s) a day</color>."
+    },
+    {
+      "key": "EVENT_RESET_CHECK_OVER",
+      "value": "You have exceeded the max number of additions for the day."
+    },
+    {
+      "key": "EVENT_RESET_FINISH_TITLE",
+      "value": "Add Attempts"
+    },
+    {
+      "key": "EVENT_RESET_FINISH_DESC",
+      "value": "Added {0} attempt(s)."
+    },
+    {
       "key": "GUILD_BATTLE_RANK_UP_DESC",
       "value": "Guild League promoted to {0}."
     },
@@ -3501,6 +3553,10 @@
       "value": "Time Remaining"
     },
     {
+      "key": "RAID_ENCOUNT_STOCK",
+      "value": "Encounter!"
+    },
+    {
       "key": "RAID_BOSS_TYPE_NORMAL",
       "value": "Normal"
     },
@@ -3782,7 +3838,7 @@
     },
     {
       "key": "OPTION_JPBOOST",
-      "value": "Use JP Acquisition UP item"
+      "value": "Use JP Acquisition UP Item"
     },
     {
       "key": "OPTION_EFFECT",
@@ -4062,7 +4118,7 @@
     },
     {
       "key": "CLASSMATCH_ENABLE_BATTLE_TITLE",
-      "value": "Battle Ongoing"
+      "value": "Ready for Battle"
     },
     {
       "key": "CLASSMATCH_ENABLE_BATTLE_DESC",
@@ -4082,7 +4138,7 @@
     },
     {
       "key": "CLASSMATCH_NEXT_BATTLE_TITLE",
-      "value": "Waiting for Next Battle"
+      "value": "Next Battle"
     },
     {
       "key": "CLASSMATCH_BATTLE_PERIOD",
@@ -4090,7 +4146,7 @@
     },
     {
       "key": "CLASSMATCH_GET_REWARD_TITLE",
-      "value": "Claim Rewards"
+      "value": "Reward Claim Period"
     },
     {
       "key": "CLASSMATCH_GET_REWARD_DESC",
@@ -4519,6 +4575,10 @@
     {
       "key": "UNIT_DETAIL_INTIMACY",
       "value": "Affinity"
+    },
+    {
+      "key": "UNIT_DETAIL_INTIMACY_SYNCHRO",
+      "value": "Affinity/Resonance"
     },
     {
       "key": "UNIT_DETAIL_STATUS_DETAIL",
@@ -4997,12 +5057,120 @@
       "value": "yr"
     },
     {
+      "key": "POWER_SAVE_DESC",
+      "value": "Touch the Crystal to exit Energy-Saving Mode"
+    },
+    {
+      "key": "POWER_SAVE_AUTO",
+      "value": "Auto Repeat active"
+    },
+    {
+      "key": "POWER_SAVE_AUTOEND",
+      "value": "Auto Repeat complete"
+    },
+    {
+      "key": "POWER_SAVE_AUTOSTOP",
+      "value": "Auto Repeat paused"
+    },
+    {
       "key": "POWER_SAVE_ITEM",
       "value": "{0} Acquired: {1}/{2}"
     },
     {
+      "key": "POWER_SAVE_STACK",
+      "value": "Encounter x"
+    },
+    {
+      "key": "POWER_SAVE_NOW",
+      "value": "Current"
+    },
+    {
+      "key": "POWER_SAVE_ROUND",
+      "value": "{1}/{2} laps"
+    },
+    {
+      "key": "POWER_SAVE_RAIDBOSS",
+      "value": "Raid Boss"
+    },
+    {
+      "key": "POWER_SAVE_RARE_RAIDBOSS",
+      "value": "Rare Raid Boss"
+    },
+    {
+      "key": "JPBOOST_TITLE",
+      "value": "Select Unit(s) to Use JP Acquisition UP Item"
+    },
+    {
+      "key": "JPBOOST_USE",
+      "value": "Uses Today"
+    },
+    {
+      "key": "JPBOOST_SORTIE",
+      "value": "Confirm and Embark"
+    },
+    {
+      "key": "JPBOOST_UPPER_LIMIT_TITLE",
+      "value": "Max Uses"
+    },
+    {
+      "key": "JPBOOST_UPPER_LIMIT_DESC",
+      "value": "Limit reached on the number of uses for today.<br>You cannot use this item.<br><br>The counter will be reset at 00:00, World Time (PST)."
+    },
+    {
+      "key": "JPBOOST_UPPER_LIMIT_YES",
+      "value": "Embark"
+    },
+    {
+      "key": "JPBOOST_UPPER_LIMIT_NO",
+      "value": "Cancel"
+    },
+    {
+      "key": "JPBOOST_OVER_LIMIT_TITLE",
+      "value": "Max Uses"
+    },
+    {
+      "key": "JPBOOST_OVER_LIMIT_DESC",
+      "value": "Limit reached on the number of uses for today.<br>You cannot use items that have reached their limit."
+    },
+    {
+      "key": "JPBOOST_OVER_LIMIT_YES",
+      "value": "Embark"
+    },
+    {
+      "key": "JPBOOST_OVER_LIMIT_NO",
+      "value": "Cancel"
+    },
+    {
+      "key": "JPBOOST_RESETLAPIS_TITLE",
+      "value": "Reset Uses"
+    },
+    {
+      "key": "JPBOOST_RESETLAPIS_DESC",
+      "value": "Consume <color=#FFF080>{0} Visiore</color> and <color=#FFF080>use"
+    },
+    {
+      "key": "JPBOOST_RESETLAPIS_RANK",
+      "value": "At Royal Rank {0}, you can reset {1} more time(s)."
+    },
+    {
       "key": "JPBOOST_RESET_DESC",
       "value": "Limit reached on the number of resets for today."
+    },
+    {
+      "key": "JPBOOST_RESET_COMPLETE",
+      "value": "The number of uses has been reset."
+    },
+    {
+      "key": "JPBOOST_AUTOITEM_VALUE_ADD",
+      "value": "{0}"
+    },
+    {
+      "key": "JPBOOST_AUTOITEM_VALUE_MUL",
+      "value": "{0}%"
+    },
+    {
+      "key": "JPBOOST_AUTOITEM_AMOUNT",
+      "value": " UP"
     },
     {
       "key": "GL_AP_HELP_TITLE",
@@ -5010,11 +5178,11 @@
     },
     {
       "key": "GL_AP_HELP_DESC",
-      "value": "This reward is exclusive to Amazon Prime subscribers.<br>You will need to subscribe to Amazon Prime to be entitled to claim the rewards within the validity period of the event.<br>Your Amazon Prime account will automatically bind to your game account when you log in with Amazon. You can unbind the account after you log in to your Amazon Prime account.<br>Login session will expire after approximately 55 minutes in the game. You will need to log in again when the login session expires.<br>Rewards that are claimed with your Amazon Prime account will not be able to be claimed in this game again using another game account.<br>Claimed rewards will be sent to Presents (Unlimited)."
+      "value": "This reward is exclusive to Prime members.<br>Please go to amazon.com/WOTV to learn more.<br>You will need to subscribe to Amazon Prime to be entitled to claim the rewards within the validity period of the event.<br>Your Amazon Prime account will automatically bind to your game account when you log in with Amazon. You can unbind the account after you log in to your Amazon Prime account.<br>Login session will expire after approximately 55 minutes in the game. You will need to log in again when the login session expires.<br>Rewards that are claimed with your Amazon Prime account will not be able to be claimed in this game again using another game account.<br>Claimed rewards will be sent to Presents (Unlimited)."
     },
     {
       "key": "GL_AP_WARNING_DESC",
-      "value": "You must be an Amazon Prime subscriber to be entitled to Amazon Prime-Exclusive Rewards.<br><br>Reward status will be refreshed after login."
+      "value": "You must be a Prime member to be entitled to Amazon Prime-Exclusive Rewards.<br>Please go to amazon.com/WOTV to learn more.<br><br>Reward status will be refreshed after login."
     },
     {
       "key": "GL_AP_STATUS_CLAIM",
@@ -5066,7 +5234,7 @@
     },
     {
       "key": "GL_AP_NOT_SUB_DESC",
-      "value": "<color=#FF0000>You are not a Prime member.<br>Please join Prime and log in with your Amazon account to claim this content.</color>"
+      "value": "<color=#FF0000>You are not a Prime member.<br>Please join Prime and log in with your Amazon account to claim this content.<br>Please go to amazon.com/WOTV to learn more.</color>"
     },
     {
       "key": "GL_AP_FAIL_BIND_DESC",
@@ -5087,6 +5255,18 @@
     {
       "key": "GL_LAPIS_CAUTION_MYCARD_POP_DESC",
       "value": "List of purchased items could not be acquired.<br>*Restart the application and attempt once again."
+    },
+    {
+      "key": "GL_CLASSMATCH_SCHEDULE_START_AT_FMT",
+      "value": "HH:mm"
+    },
+    {
+      "key": "GL_CLASSMATCH_SCHEDULE_END_AT_FMT",
+      "value": "HH:mm"
+    },
+    {
+      "key": "POWER_SAVE",
+      "value": "Touch the crystal to exit energy-saving mode"
     },
     {
       "key": "SKIP_SETTING_DESC",

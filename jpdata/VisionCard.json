@@ -1922,6 +1922,109 @@
       ]
     },
     {
+      "iname": "VC_LW_OMEG",
+      "type": 0,
+      "icon": "LAPSOmeg",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_OMEG",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_DARK",
+          "card_skill": "SK_VC_LW_OMEG_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_OMEG_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_OMEG_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_DARK",
+          "card_skill": "SK_VC_LW_OMEG_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_OMEG_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_OMEG_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_DARK",
+          "self_buff": "SK_VC_LW_OMEG_P",
+          "add_self_buff_awake": "SK_VC_LW_OMEG_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_OMEG_PMAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "atk": 36,
+          "mnd": 2,
+          "spd": 1
+        },
+        {
+          "hp": 276,
+          "atk": 142,
+          "mnd": 5,
+          "spd": 3
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_OMEG"
+    },
+    {
+      "iname": "VC_LW_ROBB",
+      "type": 0,
+      "icon": "LAPSRobb",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_ROBB",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_SHINE",
+          "card_skill": "SK_VC_LW_ROBB_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_ROBB_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ROBB_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_SHINE",
+          "card_skill": "SK_VC_LW_ROBB_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ROBB_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ROBB_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_SHINE",
+          "self_buff": "SK_VC_LW_ROBB_P",
+          "add_self_buff_awake": "SK_VC_LW_ROBB_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_ROBB_PMAX"
+        },
+        {
+          "buff_cond": "VLC_JSWORD",
+          "self_buff": "SK_VC_LW_ROBB_PVA"
+        }
+      ],
+      "status": [
+        {
+          "hp": 39,
+          "atk": 39,
+          "luk": 8
+        },
+        {
+          "hp": 306,
+          "atk": 152,
+          "luk": 28
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",

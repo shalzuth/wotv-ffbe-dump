@@ -469,36 +469,64 @@
       "value": "Faith Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistFire",
+      "key": "BUFF_OtherDebuffResistFireR",
       "value": "Fire Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistIce",
+      "key": "BUFF_OtherDebuffResistIceR",
       "value": "Ice Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistWind",
+      "key": "BUFF_OtherDebuffResistWindR",
       "value": "Wind Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistEarth",
+      "key": "BUFF_OtherDebuffResistEarthR",
       "value": "Earth Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistThunder",
+      "key": "BUFF_OtherDebuffResistThunderR",
       "value": "Lightning Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistWater",
+      "key": "BUFF_OtherDebuffResistWaterR",
       "value": "Water Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistShine",
+      "key": "BUFF_OtherDebuffResistShineR",
       "value": "Light Debuff Res"
     },
     {
-      "key": "BUFF_OtherDebuffResistDark",
+      "key": "BUFF_OtherDebuffResistDarkR",
       "value": "Dark Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistSlashR",
+      "value": "Slash Res Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistPierceR",
+      "value": "Pierce Res Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistBlowR",
+      "value": "Strike Res Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistShotR",
+      "value": "Missile Res Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistMagicR",
+      "value": "Magic Res Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistAttackR",
+      "value": "All Attack Res Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistElementR",
+      "value": "All Element Debuff Res"
     },
     {
       "key": "BUFF_OtherBuffTurn",
@@ -554,7 +582,7 @@
     },
     {
       "key": "BUFF_OtherApCostCut",
-      "value": "AP Cost"
+      "value": "AP Cost Rate"
     },
     {
       "key": "BUFF_OtherTpDmgAvoid",
@@ -574,7 +602,7 @@
     },
     {
       "key": "BUFF_OtherPosSlashIgnore",
-      "value": "Slash Res Piercing Rate"
+      "value": "Slash Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegSlashIgnore",
@@ -582,7 +610,7 @@
     },
     {
       "key": "BUFF_OtherPosPierceIgnore",
-      "value": "Pierce Res Piercing Rate"
+      "value": "Pierce Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegPierceIgnore",
@@ -590,7 +618,7 @@
     },
     {
       "key": "BUFF_OtherPosBlowIgnore",
-      "value": "Strike Res Piercing Rate"
+      "value": "Strike Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegBlowIgnore",
@@ -598,7 +626,7 @@
     },
     {
       "key": "BUFF_OtherPosShotIgnore",
-      "value": "Missile Res Piercing Rate"
+      "value": "Missile Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegShotIgnore",
@@ -606,7 +634,7 @@
     },
     {
       "key": "BUFF_OtherPosMagicIgnore",
-      "value": "Magic Res Piercing Rate"
+      "value": "Magic Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegMagicIgnore",
@@ -614,7 +642,7 @@
     },
     {
       "key": "BUFF_OtherPosFireIgnore",
-      "value": "Fire Res Piercing Rate"
+      "value": "Fire Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegFireIgnore",
@@ -622,7 +650,7 @@
     },
     {
       "key": "BUFF_OtherPosIceIgnore",
-      "value": "Ice Res Piercing Rate"
+      "value": "Ice Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegIceIgnore",
@@ -630,7 +658,7 @@
     },
     {
       "key": "BUFF_OtherPosWindIgnore",
-      "value": "Wind Res Piercing Rate"
+      "value": "Wind Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegWindIgnore",
@@ -638,7 +666,7 @@
     },
     {
       "key": "BUFF_OtherPosEarthIgnore",
-      "value": "Earth Res Piercing Rate"
+      "value": "Earth Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegEarthIgnore",
@@ -646,7 +674,7 @@
     },
     {
       "key": "BUFF_OtherPosThunderIgnore",
-      "value": "Lightning Res Piercing Rate"
+      "value": "Lightning Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegThunderIgnore",
@@ -654,7 +682,7 @@
     },
     {
       "key": "BUFF_OtherPosWaterIgnore",
-      "value": "Water Res Piercing Rate"
+      "value": "Water Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegWaterIgnore",
@@ -662,7 +690,7 @@
     },
     {
       "key": "BUFF_OtherPosShineIgnore",
-      "value": "Light Res Piercing Rate"
+      "value": "Light Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegShineIgnore",
@@ -670,7 +698,7 @@
     },
     {
       "key": "BUFF_OtherPosDarkIgnore",
-      "value": "Dark Res Piercing Rate"
+      "value": "Dark Attack Res Piercing Rate"
     },
     {
       "key": "BUFF_OtherNegDarkIgnore",
@@ -1211,6 +1239,38 @@
     {
       "key": "BUFF_ExeShield6",
       "value": "Shield ({0} turn(s) or {1} HP)"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistFire",
+      "value": "Fire Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistIce",
+      "value": "Ice Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistWind",
+      "value": "Wind Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistEarth",
+      "value": "Earth Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistThunder",
+      "value": "Lightning Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistWater",
+      "value": "Water Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistShine",
+      "value": "Light Debuff Res"
+    },
+    {
+      "key": "BUFF_OtherDebuffResistDark",
+      "value": "Dark Debuff Res"
     }
   ]
 }

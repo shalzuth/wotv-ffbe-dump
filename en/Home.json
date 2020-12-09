@@ -42,7 +42,7 @@
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_ABSTENTION",
-      "value": "<line-height=20>Limited<br><size=15>Guild Battle Underway!"
+      "value": "Limited<br>Guild Battle Underway!"
     },
     {
       "key": "GLOBAL_MAIN_LIMITED_GUILDBATTLE_MATCHING",
@@ -1125,6 +1125,14 @@
       "value": "Stat Bonus"
     },
     {
+      "key": "ABILITY_BOARD_MODE_ABILITYSET",
+      "value": "Ability Set for Each Mode"
+    },
+    {
+      "key": "ABILITY_BOARD_MODE_SET",
+      "value": "Set for Each Mode"
+    },
+    {
       "key": "ABILITY_BOARD_OPEN_DESC",
       "value": "Unlock this Ability."
     },
@@ -1501,6 +1509,10 @@
       "value": "Equipment Proficiency<br>EXP"
     },
     {
+      "key": "QUEST_ICON_ARTIPROFICIENCY_TITLE_EX",
+      "value": "Equipment Proficiency EXP"
+    },
+    {
       "key": "QUEST_ICON_INTIMACY_TITLE",
       "value": "Affinity EXP"
     },
@@ -1510,6 +1522,10 @@
     },
     {
       "key": "QUEST_ICON_DROPRATE_PIECE_TITLE",
+      "value": "Shard Drop Rate"
+    },
+    {
+      "key": "QUEST_ICON_DROPRATE_PIECE_TITLE_EX",
       "value": "Shard Drop Rate"
     },
     {
@@ -1625,6 +1641,10 @@
       "value": "Day/Training"
     },
     {
+      "key": "EVENTQUEST_CHAPTER_TAB_KEY",
+      "value": "Key Quest"
+    },
+    {
       "key": "EVENTQUEST_LIMIT_MINUTES",
       "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> min."
     },
@@ -1637,8 +1657,12 @@
       "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> day(s)"
     },
     {
+      "key": "EVENTQUEST_LIMIT_SECONDS",
+      "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> second(s)"
+    },
+    {
       "key": "EVENTQUEST_SECTION_LIMIT",
-      "value": "Attempts"
+      "value": "Total Attempts"
     },
     {
       "key": "EVENTQUEST_SECTION_LIMIT_ALERT_TITLE",
@@ -1667,6 +1691,50 @@
     {
       "key": "EVENTQUEST_OUTOFTERM",
       "value": "This quest is outside of the event period."
+    },
+    {
+      "key": "KEYQUEST_OUTOFTERM_TITLE",
+      "value": "Outside of Event Period"
+    },
+    {
+      "key": "KEYQUEST_OUTOFTERM_DESC",
+      "value": "Key Quest not active."
+    },
+    {
+      "key": "KEYQUEST_OPEN_TITLE",
+      "value": "Unlock Key Quest"
+    },
+    {
+      "key": "KEYQUEST_OPEN_CHECK_DESC",
+      "value": "<line-height=1.4em>Consume <color=#F0C040>{1}</color> <color=#F0C040>{0}</color> <br>to unlock <color=#F0C040>{2}</color> Quest(s)."
+    },
+    {
+      "key": "KEYQUEST_LACK_AMOUNT_DESC",
+      "value": "You don't have enough Keys."
+    },
+    {
+      "key": "KEYQUEST_COOL_TIME_DESC",
+      "value": "Keys can be used again<br>in <color=#F0C040>{0}</color>."
+    },
+    {
+      "key": "KEYQUEST_REOPEN_DESC",
+      "value": "<line-height=1.4em>Consume <color=#F0C040>{1}</color> <color=#F0C040>{0}</color> again <br>and unlock <color=#F0C040>{2}</color> Quest(s)?"
+    },
+    {
+      "key": "KEYQUEST_CLOSED_TITLE",
+      "value": "Complete Key Quest"
+    },
+    {
+      "key": "KEYQUEST_CLOSED_DESC",
+      "value": "Quest has been closed."
+    },
+    {
+      "key": "KEYQUEST_LIMIT_OVER_TITLE",
+      "value": "Waiting for Quest Count Reset"
+    },
+    {
+      "key": "KEYQUEST_LIMIT_OVER_DESC",
+      "value": "Limit reached on the number of Quests you can play. <br>(Resets daily at 00:00, World Time (PST)). <br>Please play Key Quests after the reset."
     },
     {
       "key": "WORLDQUEST_SUB_TITLE",
@@ -1917,12 +1985,24 @@
       "value": "Insufficient materials."
     },
     {
-      "key": "ARTI_CRAFT_ITEM_TITLE",
-      "value": "Crafting Materials"
+      "key": "ARTI_CRAFT_MAKE_TITLE",
+      "value": "Crafting Materials to Be Consumed"
+    },
+    {
+      "key": "ARTI_CRAFT_MAKE_VALUE_TITLE",
+      "value": "Crafting"
+    },
+    {
+      "key": "ARTI_CRAFT_ENHANCE_TITLE",
+      "value": "Awakening/Enhancing Materials Necessary for Crafting"
     },
     {
       "key": "ARTI_CRAFT_START",
       "value": "Craft"
+    },
+    {
+      "key": "ARTI_USE_CRAFTED",
+      "value": "Use Crafted Equipment Items as Materials"
     },
     {
       "key": "ARTI_DISASSEMBLY_TITLE",
@@ -2101,6 +2181,26 @@
       "value": "Equipment Type: <color=#F0C040>{0}</color>"
     },
     {
+      "key": "ARTI_TYPE_SELECT_TITLE",
+      "value": "Select Equipment Type"
+    },
+    {
+      "key": "ARTI_TYPE_SELECT_DESC",
+      "value": "Select the equipment type to be inherited by the crafted equipment."
+    },
+    {
+      "key": "ARTI_TYPE_SELECT_CAUTION",
+      "value": "<line-height=24>If crafting is interrupted without selecting the Equipment Type, you may be unable to craft normally."
+    },
+    {
+      "key": "ARTI_TYPE_SELECT_FINISH_TITLE",
+      "value": "Equipment Type Selected"
+    },
+    {
+      "key": "ARTI_TYPE_SELECT_FINISH_DESC",
+      "value": "Equipment Type: <color=#F0C040>{0}</color>"
+    },
+    {
       "key": "SHOP_BADGE_DISCOUNT",
       "value": "{0}%<br><size=16>OFF"
     },
@@ -2127,6 +2227,10 @@
     {
       "key": "SHOP_LIMITED_DAY",
       "value": "<size=1.25em>{0}</size> LEFT TODAY"
+    },
+    {
+      "key": "SHOP_LIMITED_FREE",
+      "value": "Unlimited Number"
     },
     {
       "key": "SHOP_SOLDOUT",
@@ -2161,6 +2265,10 @@
       "value": "Buy"
     },
     {
+      "key": "SHOP_FREE_CAUTION",
+      "value": "The maximum number that can be purchased at one time is 999."
+    },
+    {
       "key": "SHOP_EXCHANGE_CHECK_TITLE",
       "value": "Confirm Exchange"
     },
@@ -2175,6 +2283,10 @@
     {
       "key": "SHOP_EXCHANGE",
       "value": "Exchange"
+    },
+    {
+      "key": "SHOP_EXCHANGE_FREE_CAUTION",
+      "value": "The maximum number that can be exchanged at one time is 999."
     },
     {
       "key": "SHOP_ICON_DESC",
@@ -4441,6 +4553,10 @@
       "value": "Previous Results"
     },
     {
+      "key": "GACHA_SKIP",
+      "value": "Skip Animation"
+    },
+    {
       "key": "GACHA_TICKET",
       "value": "Ticket Summon List"
     },
@@ -4606,7 +4722,7 @@
     },
     {
       "key": "GACHA_RESULT_REDRAW_DESC",
-      "value": "<line-height=1.2em>You cannot get your previous results back if you cancel or retry while summoning.<br>You cannot undo your final summon results."
+      "value": "<line-height=1.2em>You cannot cancel or get your previous results back while summoning.<br>You cannot undo your final summon results."
     },
     {
       "key": "GACHA_RESULT_TAP_DESC",
@@ -4654,7 +4770,7 @@
     },
     {
       "key": "GACHA_RESULT_REDRAW_DECIDE_DESC",
-      "value": "Confirm the Retry Summon?"
+      "value": "Would you like to confirm the current result of the Retry Summon?"
     },
     {
       "key": "GACHA_BONUS_TITLE",
@@ -4691,6 +4807,26 @@
     {
       "key": "GACHA_WAIT_NEXT_TIME_DESC",
       "value": "Summon can be performed again at {0}:00."
+    },
+    {
+      "key": "MEDAL_CHANGE_TITLE",
+      "value": "Confirm"
+    },
+    {
+      "key": "MEDAL_CHANGE_DESC_CHANGED",
+      "value": "<line-height=32>Unit shards and vision card shards that exceeded the max amount have been converted into Soul Medals and Vision Medals."
+    },
+    {
+      "key": "MEDAL_CHANGE_DESC_CHECK",
+      "value": "<line-height=32>Unit shards and vision card shards that exceed the max amount will be converted into Soul Medals and Vision Medals. Proceed?"
+    },
+    {
+      "key": "GL_MEDAL_CHANGE_SOUL",
+      "value": "Soul Medal"
+    },
+    {
+      "key": "GL_MEDAL_CHANGE_VISION",
+      "value": "Vision Medal"
     },
     {
       "key": "ITEM_LIST_TITLE",
@@ -6201,6 +6337,10 @@
       "value": "Event Active"
     },
     {
+      "key": "GUILD_LIMITED_GROUP",
+      "value": "{0} Group"
+    },
+    {
       "key": "GUILD_COMMENT_FIRST",
       "value": "Anyone is welcome to join!"
     },
@@ -6407,10 +6547,6 @@
     {
       "key": "GUILD_STATUE_DISABLE_DATE",
       "value": "{0} {1} –"
-    },
-    {
-      "key": "GUILD_CHAT_COLOR_TAG",
-      "value": "<color=orange>{0}</color>"
     },
     {
       "key": "GUILD_RECRUIT_COMMENT_TITLE",
@@ -7685,6 +7821,14 @@
       "value": "Casting from {0}<br>Party's ability use count restored"
     },
     {
+      "key": "GUILD_BATTLE_LOG_BUFF_TO",
+      "value": "{2} to {0}<br>{1} Party has activated {2} on {0} Party"
+    },
+    {
+      "key": "GUILD_BATTLE_LOG_BUFF_FROM",
+      "value": "{2} from {0}<br>{0} Party has activated {2} on {1} Party"
+    },
+    {
       "key": "GUILD_BATTLE_END_LOG_TITLE",
       "value": "Battle Records"
     },
@@ -7766,7 +7910,7 @@
     },
     {
       "key": "GUILD_BATTLE_SUPPORT_USE_DESC",
-      "value": "<color=#F0C040>{0}</color>of<br><color=#F0C040>{1}</color>of<br>{2}"
+      "value": "Apply \\\"{2}\\\" to <br><color=#F0C040>{0}</color>'s <color=#F0C040>{1}</color>?"
     },
     {
       "key": "GUILD_BATTLE_SUPPORT_REWARD_TITLE",
@@ -7795,6 +7939,10 @@
     {
       "key": "GUILD_BATTLE_LIMITED_REWARD_DESC",
       "value": "You reached rank <br><color=#FFF080>{1}</color> in the Limited Guild Battle."
+    },
+    {
+      "key": "GL_GUILD_BATTLE_LIMITED_DESC",
+      "value": "<line-height=26>Tap your own party (You), then Attack or Support."
     },
     {
       "key": "GUILD_BATTLE_EVENT_DETAIL_TITLE",
@@ -7930,7 +8078,7 @@
     },
     {
       "key": "GM_INVITATION_MISSION_REWARD",
-      "value": "Here is the reward for friends playing with Friend Invite."
+      "value": "Reward for Friends Playing with Friend Invite"
     },
     {
       "key": "GM_LOGINBONUS_REWARD",
@@ -7966,7 +8114,7 @@
     },
     {
       "key": "GM_LIMITED_GUILD_BATTLE_ENTRY_REWARD",
-      "value": "Reward for entering ${entry_count} total Limited Guilt Battles"
+      "value": "Reward for entering ${entry_count} total Limited Guild Battles"
     },
     {
       "key": "GM_LIMITED_GUILD_BATTLE_BATTLE_REWARD",
@@ -7999,6 +8147,10 @@
     {
       "key": "GM_POINTQUEST_HIGHSCORE_RANKING_GUILD_REWARD",
       "value": "Guild High Score Rank ${ranking} Rewards for ${period}"
+    },
+    {
+      "key": "GM_GOOGLEPLAYPOINT",
+      "value": "Google Play Points Reward"
     },
     {
       "key": "QUEST_APPEAL_AP",
@@ -8222,7 +8374,7 @@
     },
     {
       "key": "TOWER_RETRY_CAUTION",
-      "value": "<line-height=33>*Completion Rewards for each floor may differ from the first run after resetting.<br><line-height=12><br><line-height=33>*Please note that the first-playthrough rewards from uncleared Ex-Quests become unobtainable after resetting."
+      "value": "<line-height=33> *Completion Rewards for each floor may differ from the first run after resetting. <br><line-height=12><br><line-height=33>*The number of Ex-Quest clears does not change even after resetting. <br>You can attempt to earn the same reward even after resetting."
     },
     {
       "key": "TOWER_RETRY_BTN_RETRY",
@@ -8323,14 +8475,6 @@
     {
       "key": "GL_TIME_TITLE",
       "value": "World Time"
-    },
-    {
-      "key": "GL_CHAT_TIME_NORMAL",
-      "value": "{1}/{0} {2}:{3} (World Time)"
-    },
-    {
-      "key": "GL_CHAT_TIME_DAYLIGHTSAVING",
-      "value": "{1}/{0} {2}:{3} (World Time)"
     },
     {
       "key": "EVENT_RESET_IN",
@@ -8653,6 +8797,10 @@
       "value": "Main Reward"
     },
     {
+      "key": "POINTQUEST_GACHA_NUM_CHANGE",
+      "value": "Switch Amount"
+    },
+    {
       "key": "POINTQUEST_GACHA_LINEUP_CURRENT_LAP",
       "value": "(Tier {0})"
     },
@@ -8667,10 +8815,6 @@
     {
       "key": "POINTQUEST_GACHA_LINEUP_ALL_TAB_END",
       "value": "From Tier {0}"
-    },
-    {
-      "key": "POINTQUEST_GACHA_NUM_CHANGE",
-      "value": "Switch Amount"
     },
     {
       "key": "POINTQUEST_GACHA_MEDAL_LACK_TITLE",
@@ -8899,6 +9043,46 @@
     {
       "key": "AWARD_REMOVE_DESC",
       "value": "Remove Title?"
+    },
+    {
+      "key": "GL_MENU_WEBSITES_TITLE",
+      "value": "Official Site"
+    },
+    {
+      "key": "GL_MENU_WEBSITES_ITEM_WEBSITE",
+      "value": "Website"
+    },
+    {
+      "key": "GL_MENU_WEBSITES_ITEM_YOUTUBE",
+      "value": "YouTube Channel"
+    },
+    {
+      "key": "GL_MENU_WEBSITES_ITEM_FB",
+      "value": "Facebook"
+    },
+    {
+      "key": "GL_CONTINPACK_LIMITED_ENDDATE_FMT",
+      "value": "Ends in ${day} d ${hour} hr ${min} min ${sec} sec"
+    },
+    {
+      "key": "GL_CONTINPACK_LIMITED_ENDDATE_OVER",
+      "value": "No Longer Available"
+    },
+    {
+      "key": "GL_CHECKSETVIEW_ENDDATEOVER_DIALOG_TITLE",
+      "value": "Unavailable for Purchase"
+    },
+    {
+      "key": "GL_CHECKSETVIEW_ENDDATEOVER_DIALOG_DESC",
+      "value": "This item is no longer available for purchase."
+    },
+    {
+      "key": "ARTI_CRAFT_ITEM_TITLE",
+      "value": "Crafting Materials"
+    },
+    {
+      "key": "GUILD_CHAT_COLOR_TAG",
+      "value": "<color=orange>{0}</color>"
     },
     {
       "key": "GUILD_BATTLE_TARGET_SELECT_TITLE_SUPPORT",

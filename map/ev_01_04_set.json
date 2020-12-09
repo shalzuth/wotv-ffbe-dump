@@ -1,7 +1,9 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 315
+    "angle": 315,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
@@ -14,6 +16,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -41,6 +48,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -68,6 +80,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -95,6 +112,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -122,6 +144,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -149,6 +176,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -176,6 +208,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -203,6 +240,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "",
         "wait_e": 0,
@@ -232,6 +274,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV5",
         "wait_e": 0,
@@ -297,6 +344,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -309,6 +358,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV1",
         "wait_e": 0,
@@ -369,6 +423,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -381,6 +437,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV2",
         "wait_e": 0,
@@ -441,6 +502,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -453,6 +516,11 @@
       "brave": 0,
       "faith": 0,
       "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
       "ai": {
         "iname": "AI_ENEMY_ATK_LV1",
         "wait_e": 0,
@@ -508,6 +576,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     }
   ],
@@ -538,31 +608,7 @@
       }
     ]
   },
-  "gcond": [
-    {
-      "cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 11,
-              "json": "{\"side\":0,\"tag\":\"\",\"target\":\"SWT\",\"isCurrent\":true}"
-            },
-            "childs": []
-          }
-        ]
-      },
-      "mapEv": {
-        "type": 1,
-        "typeval": "string={\"Datas\":[{\"Type\":10,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":true,\"ParamJson\":\"{\\\"m_Tags\\\":[\\\"SWT\\\"]}\"},{\"Type\":6,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MoveType\\\":0,\\\"m_CameraPosName\\\":\\\"camera_position\\\",\\\"m_CameraLookAtName\\\":\\\"camera_target\\\",\\\"m_AnmCurve\\\":{\\\"serializedVersion\\\":\\\"2\\\",\\\"m_Curve\\\":[{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.0,\\\"value\\\":0.0,\\\"inSlope\\\":0.3702973425388336,\\\"outSlope\\\":0.3702973425388336,\\\"tangentMode\\\":0,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.3333333432674408,\\\"outWeight\\\":0.19325841963291169},{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.5,\\\"value\\\":1.0,\\\"inSlope\\\":0.08110202848911286,\\\"outSlope\\\":0.08110202848911286,\\\"tangentMode\\\":0,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.13932585716247559,\\\"outWeight\\\":0.3333333432674408}],\\\"m_PreInfinity\\\":2,\\\"m_PostInfinity\\\":2,\\\"m_RotationOrder\\\":4},\\\"m_AnmCurveTime\\\":1.5}\"},{\"Type\":1,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_ObjectName\\\":\\\"bg_mdl_lio_for_008_gimic\\\",\\\"m_AnmName\\\":\\\"break\\\"}\"},{\"Type\":5,\"IsActiveSameTime\":false,\"Delay\":1.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_Range\\\":[{\\\"x\\\":2,\\\"y\\\":2},{\\\"x\\\":2,\\\"y\\\":3},{\\\"x\\\":2,\\\"y\\\":4},{\\\"x\\\":3,\\\"y\\\":1},{\\\"x\\\":3,\\\"y\\\":2},{\\\"x\\\":3,\\\"y\\\":3},{\\\"x\\\":3,\\\"y\\\":4},{\\\"x\\\":3,\\\"y\\\":5},{\\\"x\\\":4,\\\"y\\\":1},{\\\"x\\\":4,\\\"y\\\":2},{\\\"x\\\":4,\\\"y\\\":3},{\\\"x\\\":4,\\\"y\\\":4},{\\\"x\\\":4,\\\"y\\\":5},{\\\"x\\\":5,\\\"y\\\":1},{\\\"x\\\":5,\\\"y\\\":2},{\\\"x\\\":5,\\\"y\\\":3},{\\\"x\\\":5,\\\"y\\\":4},{\\\"x\\\":5,\\\"y\\\":5},{\\\"x\\\":5,\\\"y\\\":6},{\\\"x\\\":6,\\\"y\\\":1},{\\\"x\\\":6,\\\"y\\\":2},{\\\"x\\\":6,\\\"y\\\":3},{\\\"x\\\":6,\\\"y\\\":4},{\\\"x\\\":6,\\\"y\\\":5},{\\\"x\\\":7,\\\"y\\\":3},{\\\"x\\\":7,\\\"y\\\":4},{\\\"x\\\":8,\\\"y\\\":3},{\\\"x\\\":8,\\\"y\\\":4},{\\\"x\\\":9,\\\"y\\\":3},{\\\"x\\\":9,\\\"y\\\":4},{\\\"x\\\":10,\\\"y\\\":3},{\\\"x\\\":10,\\\"y\\\":4},{\\\"x\\\":11,\\\"y\\\":3},{\\\"x\\\":11,\\\"y\\\":4}],\\\"m_Immediate\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"lio_for_008_A_1_breaked\\\",\\\"m_IsDelete\\\":true}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":3,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MeshName\\\":\\\"before_break\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":3,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MeshName\\\":\\\"breaked\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0}"
-      },
-      "invokeMax": 1,
-      "deadTags": [
-        "SWT"
-      ]
-    }
-  ],
+  "gcond": [],
   "drop_table_list": [
     {
       "type": 1,

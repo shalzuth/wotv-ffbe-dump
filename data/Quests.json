@@ -27563,6 +27563,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 5,
       "pexp": 0,
@@ -27600,6 +27601,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 10,
       "o_cond_q": [
@@ -27640,6 +27642,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 20,
       "o_cond_q": [
@@ -27678,6 +27681,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 30,
       "o_cond_q": [
@@ -27719,6 +27723,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 40,
       "o_cond_q": [
@@ -27757,6 +27762,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 42,
       "o_cond_q": [
@@ -27797,6 +27803,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 42,
       "o_cond_q": [
@@ -27837,6 +27844,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 45,
       "o_cond_q": [
@@ -27875,6 +27883,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 48,
       "o_cond_q": [
@@ -27916,6 +27925,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_01",
       "ap": 6,
+      "not_search": 1,
       "ap0": 1,
       "lv": 48,
       "o_cond_q": [
@@ -27954,6 +27964,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_EX",
       "ap": 12,
+      "not_search": 1,
       "ap0": 1,
       "lv": 50,
       "o_cond_q": [
@@ -28001,6 +28012,7 @@
       "type": 2,
       "sect": "SE_EV_FF4_01_EX",
       "ap": 12,
+      "not_search": 1,
       "ap0": 1,
       "lv": 80,
       "o_cond_q": [
@@ -33885,7 +33897,7 @@
     {
       "iname": "QE_EV_ART_SCR_02",
       "type": 2,
-      "sect": "SE_EV_ART_SCR_00",
+      "sect": "SE_EV_ART_SCR_02",
       "ap": 12,
       "ap0": 1,
       "lv": 50,
@@ -33984,7 +33996,7 @@
     {
       "iname": "QE_EV_ART_SCR_05",
       "type": 2,
-      "sect": "SE_EV_ART_SCR_00",
+      "sect": "SE_EV_ART_SCR_02",
       "ap": 12,
       "ap0": 1,
       "lv": 50,
@@ -34046,7 +34058,7 @@
     {
       "iname": "QE_MU_EV_SCR_02",
       "type": 4,
-      "sect": "SE_MU_EV_SCR_00",
+      "sect": "SE_MU_EV_SCR_02",
       "ap": 6,
       "not_search": 1,
       "lv": 50,
@@ -34133,7 +34145,7 @@
     {
       "iname": "QE_MU_EV_SCR_05",
       "type": 4,
-      "sect": "SE_MU_EV_SCR_00",
+      "sect": "SE_MU_EV_SCR_02",
       "ap": 6,
       "not_search": 1,
       "lv": 50,
@@ -35725,6 +35737,180 @@
       "map": {
         "scn": "wez_cav/wez_cav_001_A_1",
         "set": "ra/raid_ev_10_06_set",
+        "bgm": "law_205_n010_battle_Multi"
+      },
+      "rule": {
+        "proh": [
+          3,
+          5,
+          6
+        ],
+        "movecnt": 20
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      }
+    },
+    {
+      "iname": "QE_RAID_EV_12_01",
+      "type": 8,
+      "ap": 1,
+      "lv": 10,
+      "pexp": 0,
+      "uexp": 0,
+      "gold": 0,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "map": {
+        "scn": "ext_sum/ext_sum_002_A_1",
+        "set": "ra/raid_ev_12_01_set",
+        "bgm": "law_205_n010_battle_Multi"
+      },
+      "rule": {
+        "proh": [
+          3,
+          5,
+          6
+        ],
+        "movecnt": 20
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      }
+    },
+    {
+      "iname": "QE_RAID_EV_12_02",
+      "type": 8,
+      "ap": 1,
+      "lv": 40,
+      "pexp": 0,
+      "uexp": 0,
+      "gold": 0,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "map": {
+        "scn": "ext_sum/ext_sum_002_A_1",
+        "set": "ra/raid_ev_12_02_set",
+        "bgm": "law_205_n010_battle_Multi"
+      },
+      "rule": {
+        "proh": [
+          3,
+          5,
+          6
+        ],
+        "movecnt": 20
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      }
+    },
+    {
+      "iname": "QE_RAID_EV_12_03",
+      "type": 8,
+      "ap": 1,
+      "lv": 60,
+      "pexp": 0,
+      "uexp": 0,
+      "gold": 0,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "map": {
+        "scn": "ext_sum/ext_sum_002_A_1",
+        "set": "ra/raid_ev_12_03_set",
+        "bgm": "law_205_n010_battle_Multi"
+      },
+      "rule": {
+        "proh": [
+          3,
+          5,
+          6
+        ],
+        "movecnt": 20
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      }
+    },
+    {
+      "iname": "QE_RAID_EV_12_04",
+      "type": 8,
+      "ap": 1,
+      "lv": 10,
+      "pexp": 0,
+      "uexp": 0,
+      "gold": 0,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "map": {
+        "scn": "lio_was/lio_was_007_N_1",
+        "set": "ra/raid_ev_12_04_set",
+        "bgm": "law_205_n010_battle_Multi"
+      },
+      "rule": {
+        "proh": [
+          3,
+          5,
+          6
+        ],
+        "movecnt": 20
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      }
+    },
+    {
+      "iname": "QE_RAID_EV_12_05",
+      "type": 8,
+      "ap": 1,
+      "lv": 40,
+      "pexp": 0,
+      "uexp": 0,
+      "gold": 0,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "map": {
+        "scn": "lio_was/lio_was_007_N_1",
+        "set": "ra/raid_ev_12_05_set",
+        "bgm": "law_205_n010_battle_Multi"
+      },
+      "rule": {
+        "proh": [
+          3,
+          5,
+          6
+        ],
+        "movecnt": 20
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      }
+    },
+    {
+      "iname": "QE_RAID_EV_12_06",
+      "type": 8,
+      "ap": 1,
+      "lv": 60,
+      "pexp": 0,
+      "uexp": 0,
+      "gold": 0,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 100,
+      "map": {
+        "scn": "lio_was/lio_was_007_N_1",
+        "set": "ra/raid_ev_12_06_set",
         "bgm": "law_205_n010_battle_Multi"
       },
       "rule": {

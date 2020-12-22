@@ -308,7 +308,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_STRN_01",
+      "drop": "QE_CH_LW_DEAN",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -365,6 +365,7 @@
       "raid_type": 0,
       "dispOrder": 0,
       "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -411,7 +412,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_STRN_01",
+      "drop": "QE_CH_LW_DEAN",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -442,11 +443,6 @@
           "rate": 0
         },
         {
-          "iname": "SK_LW_WAR_M_3",
-          "rank": 10,
-          "rate": 100
-        },
-        {
           "iname": "SK_LW_WAR_M_4",
           "rank": 10,
           "rate": 100
@@ -473,6 +469,7 @@
       "raid_type": 0,
       "dispOrder": 0,
       "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -514,12 +511,12 @@
       "rare": 0,
       "awake": 5,
       "rank": 5,
-      "elem": 3,
+      "elem": 7,
       "search": 0,
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_STRN_01",
+      "drop": "QE_CH_LW_DEAN",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -535,12 +532,12 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_MGK_WIND_M_4",
+          "iname": "SK_LW_MGK_SHIN_M_4",
           "rank": 10,
           "rate": 100
         },
         {
-          "iname": "SK_LW_MGK_WIND_S_1",
+          "iname": "SK_LW_MGK_SHIN_S_1",
           "rank": 10,
           "rate": 100
         },
@@ -575,7 +572,7 @@
           "rate": 0
         },
         {
-          "iname": "SK_LW_MGK_WIND_P_1",
+          "iname": "SK_LW_MGK_DARK_P_1",
           "rank": 10,
           "rate": 100
         },
@@ -611,6 +608,7 @@
       "raid_type": 0,
       "dispOrder": 0,
       "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -652,12 +650,12 @@
       "rare": 0,
       "awake": 5,
       "rank": 5,
-      "elem": 3,
+      "elem": 7,
       "search": 0,
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_STRN_01",
+      "drop": "QE_CH_LW_DEAN",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -673,12 +671,12 @@
           "rate": 100
         },
         {
-          "iname": "SK_LW_MGK_WIND_M_4",
+          "iname": "SK_LW_MGK_SHIN_M_4",
           "rank": 10,
           "rate": 100
         },
         {
-          "iname": "SK_LW_MGK_WIND_S_1",
+          "iname": "SK_LW_MGK_SHIN_S_1",
           "rank": 10,
           "rate": 100
         },
@@ -713,7 +711,7 @@
           "rate": 0
         },
         {
-          "iname": "SK_LW_MGK_WIND_P_1",
+          "iname": "SK_LW_MGK_DARK_P_1",
           "rank": 10,
           "rate": 100
         },
@@ -749,6 +747,7 @@
       "raid_type": 0,
       "dispOrder": 0,
       "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -790,12 +789,12 @@
       "rare": 0,
       "awake": 5,
       "rank": 5,
-      "elem": 5,
+      "elem": 8,
       "search": 0,
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_STRN_01",
+      "drop": "QE_CH_LW_DEAN",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -877,6 +876,7 @@
       "raid_type": 0,
       "dispOrder": 0,
       "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -923,7 +923,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_STRN_01",
+      "drop": "QE_CH_LW_DEAN",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -1000,6 +1000,343 @@
       "raid_type": 0,
       "dispOrder": 0,
       "pts": 0,
+      "shield": false,
+      "referenceGObjName": ""
+    },
+    {
+      "name": "",
+      "x": 3,
+      "y": 7,
+      "dir": 0,
+      "ct_calc": 0,
+      "ct_val": 1500,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_ATK_LV3",
+        "wait_e": -1,
+        "search": 8,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": [
+          {
+            "self": {
+              "type": 19,
+              "json": "{\"side\":1,\"count\":4}"
+            },
+            "childs": []
+          }
+        ]
+      },
+      "wait_m": 0,
+      "parent": "",
+      "enemy_id": 52,
+      "iname": "UN_LW_E_ELEM_06",
+      "side": 1,
+      "dead": 0,
+      "lv": 40,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 7,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "QE_CH_LW_DEAN",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_BTL_JOB_BLM_1_15_U",
+          "rank": 8,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_M_13",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_M_14",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_R_01",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HP_100-99900_U",
+          "rank": 1,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MAG_1-999_U",
+          "rank": 40,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_SPD_1-999_U",
+          "rank": 25,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_DEX_1-999_U",
+          "rank": 20,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": ""
+    },
+    {
+      "name": "",
+      "x": 3,
+      "y": 5,
+      "dir": 0,
+      "ct_calc": 0,
+      "ct_val": 1500,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_ATK_LV3",
+        "wait_e": -1,
+        "search": 8,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": [
+          {
+            "self": {
+              "type": 19,
+              "json": "{\"side\":1,\"count\":4}"
+            },
+            "childs": []
+          }
+        ]
+      },
+      "wait_m": 0,
+      "parent": "",
+      "enemy_id": 53,
+      "iname": "UN_LW_E_ELEM_06",
+      "side": 1,
+      "dead": 0,
+      "lv": 40,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 7,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "QE_CH_LW_DEAN",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_BTL_JOB_BLM_1_15_U",
+          "rank": 8,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_M_13",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_M_14",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_R_01",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HP_100-99900_U",
+          "rank": 1,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MAG_1-999_U",
+          "rank": 40,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_SPD_1-999_U",
+          "rank": 25,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_DEX_1-999_U",
+          "rank": 20,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": ""
+    },
+    {
+      "name": "",
+      "x": 5,
+      "y": 6,
+      "dir": 0,
+      "ct_calc": 0,
+      "ct_val": 1500,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_ATK_LV3",
+        "wait_e": -1,
+        "search": 8,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": [
+          {
+            "self": {
+              "type": 19,
+              "json": "{\"side\":1,\"count\":4}"
+            },
+            "childs": []
+          }
+        ]
+      },
+      "wait_m": 0,
+      "parent": "",
+      "enemy_id": 54,
+      "iname": "UN_LW_E_ELEM_06",
+      "side": 1,
+      "dead": 0,
+      "lv": 40,
+      "rare": 0,
+      "awake": 6,
+      "rank": 5,
+      "elem": 7,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "QE_CH_LW_DEAN",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_BTL_JOB_BLM_1_15_U",
+          "rank": 8,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_M_13",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_M_14",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_ELEM_R_01",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HP_100-99900_U",
+          "rank": 1,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MAG_1-999_U",
+          "rank": 40,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_SPD_1-999_U",
+          "rank": 25,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_DEX_1-999_U",
+          "rank": 20,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     }
   ],
@@ -1509,7 +1846,7 @@
     },
     {
       "type": 0,
-      "iname": "QE_CH_LW_STRN_01",
+      "iname": "QE_CH_LW_DEAN",
       "num": 1,
       "drop_list": [
         {
@@ -1524,7 +1861,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_LW_STRN_3",
+            "iname": "IT_JB_MM_LW_DEAN_3",
             "num": 1,
             "secret": 0
           },
@@ -1533,7 +1870,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_SAP_01",
+            "iname": "IT_AF_MAT_LIQUID_01",
             "num": 1,
             "secret": 0
           },
@@ -1542,7 +1879,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_SAND_01",
+            "iname": "IT_AF_MAT_HEART_01",
             "num": 1,
             "secret": 0
           },
@@ -1551,7 +1888,16 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_LW_BSW_001",
+            "iname": "IT_JB_IM_DRAGON_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 150
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_SWORD_03",
             "num": 1,
             "secret": 0
           },
@@ -1560,7 +1906,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_LSWORD_03",
+            "iname": "IT_AF_LW_SWO_001",
             "num": 1,
             "secret": 0
           },
@@ -1577,21 +1923,412 @@
         },
         {
           "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_IM_DRAGON_3",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 150
-        },
-        {
-          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
             "secret": 0
           },
           "weight": 3330
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
         }
       ]
     }

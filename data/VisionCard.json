@@ -1252,6 +1252,150 @@
       ]
     },
     {
+      "iname": "VC_LW_DEAN",
+      "type": 0,
+      "collaboType": 2,
+      "icon": "LAPSDean",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_DEAN",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_DEAN_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_DEAN_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_DEAN_GSMAX",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_DEAN_P",
+          "add_self_buff_awake": "SK_VC_LW_DEAN_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_DEAN_PMAX"
+        },
+        {
+          "buff_cond": "VLC_DEAN",
+          "self_buff": "SK_VC_LW_DEAN_P2",
+          "add_self_buff_awake": "SK_VC_LW_DEAN_P2AW",
+          "add_self_buff_lvmax": "SK_VC_LW_DEAN_P2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 48,
+          "atk": 41
+        },
+        {
+          "hp": 378,
+          "atk": 162
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_GRSR2",
+      "type": 0,
+      "icon": "LAPSGrsr2",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_GRSR2",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_GRSR2_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_GRSR2_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_GRSR2_GSMAX",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_GRSR2_P",
+          "add_self_buff_awake": "SK_VC_LW_GRSR2_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_GRSR2_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_GRSR",
+          "self_buff": "SK_GL_VC_LW_GRSR2_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_GRSR2_PAW2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_GRSR2_PMAX2"
+        },
+        {
+          "buff_cond": "VLC_GL_KADI",
+          "self_buff": "SK_GL_VC_LW_GRSR2_P3",
+          "add_self_buff_awake": "SK_GL_VC_LW_GRSR2_PAW3",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_GRSR2_PMAX3"
+        }
+      ],
+      "status": [
+        {
+          "hp": 37,
+          "atk": 32,
+          "mag": 20
+        },
+        {
+          "hp": 288,
+          "atk": 126,
+          "mag": 78
+        }
+      ]
+    },
+    {
+      "iname": "VC_LW_SCAL",
+      "type": 0,
+      "icon": "LAPSScal",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_SCAL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_skill": "SK_VC_LW_SCAL_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_SCAL_GS_AW",
+      "add_card_skill_buff_lvmax": "SK_VC_LW_SCAL_GSMAX",
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_STAFF",
+          "self_buff": "SK_VC_LW_SCAL_P",
+          "add_self_buff_awake": "SK_VC_LW_SCAL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_SCAL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_STAFF",
+          "self_buff": "SK_VC_LW_SCAL_PVA"
+        },
+        {
+          "buff_cond": "VLC_GL_SCAL",
+          "self_buff": "SK_GL_VC_LW_SCAL_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_SCAL_PAW2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SCAL_PMAX2"
+        },
+        {
+          "buff_cond": "VLC_GL_RRIR",
+          "self_buff": "SK_GL_VC_LW_SCAL_P3",
+          "add_self_buff_awake": "SK_GL_VC_LW_SCAL_PAW3",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SCAL_PMAX3"
+        }
+      ],
+      "status": [
+        {
+          "hp": 30,
+          "atk": 0,
+          "mag": 47,
+          "luk": 6
+        },
+        {
+          "hp": 232,
+          "atk": 0,
+          "mag": 186,
+          "luk": 20
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -2293,6 +2437,43 @@
           "luk": 16
         }
       ]
+    },
+    {
+      "iname": "VC_LW_TNBR",
+      "type": 0,
+      "icon": "LAPSTnbr",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_TNBR",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_skill": "SK_VC_LW_TNBR_GS",
+      "add_card_skill_buff_awake": "SK_VC_LW_TNBR_GSAW",
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_TNBR_P",
+          "add_self_buff_awake": "SK_VC_LW_TNBR_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 36,
+          "ap": 7,
+          "atk": 23,
+          "mag": 0
+        },
+        {
+          "hp": 292,
+          "ap": 25,
+          "atk": 94,
+          "mag": 0
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_TNBR"
     },
     {
       "iname": "VC_LW_CACT",

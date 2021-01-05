@@ -15329,7 +15329,7 @@
       "selfsel": 1,
       "type": 1,
       "timing": 0,
-      "eff_type": 0,
+      "eff_type": 1,
       "target": 0,
       "def_wep": "AF_LW_GBL_INIT",
       "barrier": {
@@ -15371,12 +15371,44 @@
       "atk_det": 1,
       "def_wep": "AF_LW_GBL_INIT",
       "elem_pri": 1,
-      "ct_type": 1,
+      "ct_type": 3,
       "ct_lock": 3,
       "eff_val": 90,
       "ct_spd": 120,
       "eff_val1": 125,
       "ct_spd1": 200
+    },
+    {
+      "iname": "SK_LW_TNCR_M_4_B",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "FF14tncr/skl_M4",
+      "effnm": "ef_FF14tncr_M04",
+      "collaboType": 1,
+      "cam_dir": 1,
+      "count": 3,
+      "cost_type": 0,
+      "cost_ap": 28,
+      "range_s": 10,
+      "range_l": 2,
+      "range_w": 1,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 10,
+      "atk_formula_t2": 10,
+      "atk_formula_t3": 5,
+      "atk_det": 1,
+      "def_wep": "AF_LW_GBL_INIT",
+      "elem_pri": 1,
+      "eff_val": 90,
+      "eff_val1": 125
     },
     {
       "iname": "SK_LW_TNCR_M_2",
@@ -38614,6 +38646,24 @@
       ]
     },
     {
+      "iname": "SK_MA_FF14_TNCR_2",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_MA_FF14_MV1_2"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_TNCR_M_4",
+          "skill_after": "SK_LW_TNCR_M_4_B"
+        }
+      ]
+    },
+    {
       "iname": "SK_MA_LW_HLNA",
       "slot": 7,
       "cap": 1,
@@ -39598,6 +39648,18 @@
       "target": 0,
       "t_buffs": [
         "BUFF_MA_LW_NIVL"
+      ]
+    },
+    {
+      "iname": "SK_MA_LW_RVAL",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_MA_LW_RVAL"
       ]
     },
     {
@@ -43771,6 +43833,19 @@
       ]
     },
     {
+      "iname": "SK_ROD_LW_RVAL_1_1",
+      "cap": 1,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_ROD_LW_RVAL_1_1"
+      ]
+    },
+    {
       "iname": "SK_VC_LW_GLEM_GS",
       "slot": 8,
       "cap": 99,
@@ -46318,6 +46393,46 @@
         "BUFF_VC_LW_TNBR_GSAW"
       ],
       "gdupli": "SK_VC_LW_TNBR_GS"
+    },
+    {
+      "iname": "SK_VC_FF14_MV3_GS",
+      "slot": 8,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_FF14_MV3_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_FF14_MV3_GSAW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_FF14_MV3_GSAW"
+      ],
+      "gdupli": "SK_VC_FF14_MV3_GS"
+    },
+    {
+      "iname": "SK_VC_FF14_MV3_GSMAX",
+      "slot": 8,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_FF14_MV3_GSMAX"
+      ],
+      "gdupli": "SK_VC_FF14_MV3_GS"
     },
     {
       "iname": "SK_VC_LW_TITN_P",
@@ -49660,6 +49775,46 @@
         "BUFF_VC_LW_ORDR_PAW"
       ],
       "gdupli": "SK_VC_LW_ORDR_P"
+    },
+    {
+      "iname": "SK_VC_FF14_MV3_P",
+      "slot": 3,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_FF14_MV3_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_FF14_MV3_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_FF14_MV3_PAW"
+      ],
+      "gdupli": "SK_VC_FF14_MV3_P"
+    },
+    {
+      "iname": "SK_VC_FF14_MV3_PMAX",
+      "slot": 3,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_FF14_MV3_PMAX"
+      ],
+      "gdupli": "SK_VC_FF14_MV3_P"
     },
     {
       "iname": "SK_BTL_HP_100-99900_U",

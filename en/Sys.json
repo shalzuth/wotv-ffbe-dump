@@ -2,7 +2,7 @@
   "infos": [
     {
       "key": "FILE_LOAD_FAILED",
-      "value": "<size=22>Failed to read file.<br><br>The data may have been corrupted. Please proceed to reinstall the application.</size>"
+      "value": "<size=22>Failed to read file. <br><br>The data may have been corrupted. Please proceed to Delete Downloaded Data from the Title screen.</size>"
     },
     {
       "key": "RESUME_TITLE",
@@ -398,7 +398,7 @@
     },
     {
       "key": "BUY",
-      "value": "Purchase"
+      "value": "Buy"
     },
     {
       "key": "SELL",
@@ -455,6 +455,10 @@
     {
       "key": "COLON_L",
       "value": ":"
+    },
+    {
+      "key": "SPACE",
+      "value": ""
     },
     {
       "key": "LIMIT_NONE",
@@ -733,6 +737,18 @@
       "value": ","
     },
     {
+      "key": "VALUE_CHANGE_DAILY",
+      "value": "Daily"
+    },
+    {
+      "key": "VALUE_CHANGE_WEEKLY",
+      "value": "Weekly"
+    },
+    {
+      "key": "VALUE_CHANGE_MONTHLY",
+      "value": "Monthly"
+    },
+    {
       "key": "NEED_GIL",
       "value": "Cost"
     },
@@ -766,10 +782,18 @@
     },
     {
       "key": "FREELAPIS",
-      "value": "Free Visiore"
+      "value": "[Free] Visiore"
     },
     {
       "key": "FREELAPIS_DESC",
+      "value": "Used to summon units, purchase items in the Shop, and recover your NRG."
+    },
+    {
+      "key": "PAIDLAPIS",
+      "value": "[Paid] Visiore"
+    },
+    {
+      "key": "PAIDLAPIS_DESC",
       "value": "Used to summon units, purchase items in the Shop, and recover your NRG."
     },
     {
@@ -863,6 +887,14 @@
     {
       "key": "BUY_LAPIS",
       "value": "Purchase Visiore"
+    },
+    {
+      "key": "UNIT",
+      "value": "Unit"
+    },
+    {
+      "key": "VISION",
+      "value": "Vision Card"
     },
     {
       "key": "ACT_SPECIFIED_COMMERCIAL_TRANSACTIONS",
@@ -963,6 +995,22 @@
     {
       "key": "LIMIT_DAY",
       "value": "Ends in <size=1.2em><color=#F0C040>{0}</color></size> day(s)"
+    },
+    {
+      "key": "LIMIT_SECOND_NEW_LINE",
+      "value": "<line-height=1.25em>Ends in <size=1.2em><br><color=#F0C040>{0}</color></size> second(s)"
+    },
+    {
+      "key": "LIMIT_MINUTES_NEW_LINE",
+      "value": "<line-height=1.25em>Ends in <size=1.2em><br><color=#F0C040>{0}</color></size> minute(s)"
+    },
+    {
+      "key": "LIMIT_HOUR_NEW_LINE",
+      "value": "<line-height=1.25em>Ends in <size=1.2em><br><color=#F0C040>{0}</color></size> hour(s)"
+    },
+    {
+      "key": "LIMIT_DAY_NEW_LINE",
+      "value": "<line-height=1.25em>Ends in <size=1.2em><br><color=#F0C040>{0}</color></size> day(s)"
     },
     {
       "key": "BADGE_YOU",
@@ -1418,7 +1466,7 @@
     },
     {
       "key": "FILTER_TITLE_ITEM_UNIT",
-      "value": "Units"
+      "value": "Unit"
     },
     {
       "key": "FILTER_TITLE_ITEM_ARTIFACT",
@@ -2846,15 +2894,35 @@
     },
     {
       "key": "PARTYEDITOR_GUILD_LIMITED_CAUTION",
-      "value": "<line-height=22>*You cannot set the same units, equipment, espers, and vision cards in multiple Attack or Defense Parties."
+      "value": "<line-height=20>*You cannot set the same units, equipment, espers, and vision cards in multiple Attack or Defense Parties."
     },
     {
       "key": "PARTYEDITOR_GUILD_LIMITED_HELP",
       "value": "<line-height=1.1em><cspace=-0.05em>What are Limited<br>Guild Battles?"
     },
     {
+      "key": "PARTYEDITOR_GUILD_LIMITED_SCHEDULE",
+      "value": "<line-height=1.1em>Schedule & Party"
+    },
+    {
+      "key": "PARTYEDITOR_GUILD_LIMITED_SCHEDULE_TITLE",
+      "value": "Schedule & Party"
+    },
+    {
       "key": "PARTYEDITOR_GUILD_LIMITED_DISABLE",
       "value": "Outside of Event Period"
+    },
+    {
+      "key": "PARTYEDITOR_GUILD_LIMITED_SCHEDULE_AGENDA",
+      "value": "Battle Schedule {0}"
+    },
+    {
+      "key": "PARTYEDITOR_GUILD_LIMITED_SCHEDULE_OFFENSE",
+      "value": "Attack {0}"
+    },
+    {
+      "key": "PARTYEDITOR_GUILD_LIMITED_SCHEDULE_DEFENSE",
+      "value": "Defense {0}"
     },
     {
       "key": "PARTYEDITOR_TAB_QUEST",
@@ -3182,7 +3250,7 @@
     },
     {
       "key": "RECOMMEND_TEAM_RECOMMEND_VISION",
-      "value": "Vision Cards"
+      "value": "Vision Card"
     },
     {
       "key": "RECOMMEND_TEAM_RECOMMEND_NBEAST",
@@ -3930,7 +3998,7 @@
     },
     {
       "key": "OPTION_AUTOROTATION_DESC",
-      "value": "The camera will rotate automatically when it becomes the turn of a unit who is hidden behind an obstacle."
+      "value": "*The camera will rotate automatically when it becomes the turn of a unit who is hidden behind an obstacle."
     },
     {
       "key": "OPTION_ABILITY",
@@ -3959,6 +4027,14 @@
     {
       "key": "OPTION_VOICE",
       "value": "Voices"
+    },
+    {
+      "key": "OPTION_ADVICE",
+      "value": "Recommended Abilities"
+    },
+    {
+      "key": "OPTION_ADVICE_DESC",
+      "value": "*When set to ON, a mark will be displayed on recommended Abilities when selecting an Ability during manual play."
     },
     {
       "key": "OPTION_SPEEDUP_TITLE",
@@ -4118,7 +4194,7 @@
     },
     {
       "key": "LAPIS_CHECK_RIGHT_BTN",
-      "value": "Purchase"
+      "value": "Buy"
     },
     {
       "key": "BUY_RIGHT_FINISH_TITLE",
@@ -4454,7 +4530,7 @@
     },
     {
       "key": "AUTOLAP_RESULT_APCANCEL",
-      "value": "Auto Repeat has been canceled due to 0 NRG."
+      "value": "Auto Repeat has been canceled due to insufficient NRG."
     },
     {
       "key": "AUTOLAP_RESULT_AROUNDTIMES",
@@ -4773,6 +4849,18 @@
       "value": "Set"
     },
     {
+      "key": "UNIT_DETAIL_DRESS_SET",
+      "value": "Change Appearance of Weapon"
+    },
+    {
+      "key": "UNIT_DETAIL_DRESS_TITLE",
+      "value": "Change Appearance of Weapon When Equipped"
+    },
+    {
+      "key": "UNIT_DETAIL_DRESS_BADGE",
+      "value": "Appearance Only"
+    },
+    {
       "key": "UNIT_DETAIL_PANEL_UNIT_ENHANCE_TITLE",
       "value": "Enhancing Materials"
     },
@@ -4891,6 +4979,10 @@
     {
       "key": "ARTI_STATUS_LB_ENHANCE",
       "value": "equipped"
+    },
+    {
+      "key": "ARTI_STATUS_DRESS_DESC",
+      "value": "This setting only applies to appearance.<br>The performance of this weapon will not be reflected in the stats."
     },
     {
       "key": "TRUST_MASTER_TITLE",
@@ -5411,6 +5503,10 @@
     {
       "key": "GL_CHAT_TIME_DAYLIGHTSAVING",
       "value": "{1}/{0} {2}:{3} (World Time)"
+    },
+    {
+      "key": "GL_PARTYEDITOR_NEXT_USE",
+      "value": "Next"
     },
     {
       "key": "POWER_SAVE",

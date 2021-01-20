@@ -379,6 +379,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -416,7 +418,7 @@
       "iname": "UN_LW_E_SO_02_KNT",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 4,
@@ -506,6 +508,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -543,7 +547,7 @@
       "iname": "UN_LW_E_SO_02_KNT",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 4,
@@ -633,6 +637,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -670,7 +676,7 @@
       "iname": "UN_LW_E_SO_02_LAN",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 5,
@@ -785,6 +791,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -822,7 +830,7 @@
       "iname": "UN_LW_E_SO_02_LAN",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 5,
@@ -937,6 +945,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -974,7 +984,7 @@
       "iname": "UN_LW_E_SO_02_HUN",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 4,
@@ -1059,6 +1069,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -1096,7 +1108,7 @@
       "iname": "UN_LW_E_00_BLM",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 5,
@@ -1176,6 +1188,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -1213,7 +1227,7 @@
       "iname": "UN_LW_E_SO_02_MNK",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 4,
@@ -1313,6 +1327,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -1350,7 +1366,7 @@
       "iname": "UN_LW_E_SO_02_MNK",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 4,
@@ -1450,6 +1466,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     },
     {
@@ -1487,7 +1505,7 @@
       "iname": "UN_LW_E_SO_02_MNK",
       "side": 1,
       "dead": 0,
-      "lv": 75,
+      "lv": 0,
       "rare": 0,
       "awake": 5,
       "rank": 4,
@@ -1587,6 +1605,8 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
       "referenceGObjName": ""
     }
   ],
@@ -1705,12 +1725,21 @@
         },
         {
           "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
+            "type": 0,
+            "iname": "IT_JB_MM_MMC_3",
+            "num": 1,
             "secret": 0
           },
-          "weight": 0
+          "weight": 30
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_MMC_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 30
         },
         {
           "drop_data": {
@@ -1804,15 +1833,6 @@
         },
         {
           "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        },
-        {
-          "drop_data": {
             "type": 0,
             "iname": "IT_JB_EM_FIRE_3",
             "num": 1,
@@ -1854,7 +1874,7 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 3815
+          "weight": 3755
         }
       ]
     }

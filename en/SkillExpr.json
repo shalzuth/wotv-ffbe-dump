@@ -518,7 +518,7 @@
     },
     {
       "key": "SK_LW_MNK_M_4",
-      "value": "Deals Dmg (M) to targets within range (does not affect targets with Float status)."
+      "value": "Deals Dmg (M) to targets within range & Piercing (does not affect targets with Float status)."
     },
     {
       "key": "SK_LW_MNK_S_3",
@@ -566,7 +566,7 @@
     },
     {
       "key": "SK_LW_SAM_M_4",
-      "value": "Deals Dmg (L) to targets within range & bestows Machina/Stone Killer."
+      "value": "Deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
     },
     {
       "key": "SK_LW_SAM_S_4",
@@ -606,7 +606,7 @@
     },
     {
       "key": "SK_LW_SAM_M_4_SUB",
-      "value": "Deals Dmg (L) to targets within range & bestows Machina/Stone Killer."
+      "value": "Deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
     },
     {
       "key": "SK_LW_SAM_S_4_SUB",
@@ -3330,7 +3330,7 @@
     },
     {
       "key": "SK_LW_MKN_WIND_M_1_SUB",
-      "value": "Deals Fire Dmg (L) to targets within range based on caster's MAG stat & bestows Ice Eater."
+      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater."
     },
     {
       "key": "SK_LW_MKN_SOIL_M_1_SUB",
@@ -4285,6 +4285,14 @@
       "value": "Deals Non-Elemental Dmg (S) to target based on caster's MAG stat & absorbs Dmg dealt."
     },
     {
+      "key": "SK__ELEM_M_17",
+      "value": "Deals Dark Dmg (S) to target based on caster's MAG stat."
+    },
+    {
+      "key": "SK__ELEM_M_18",
+      "value": "Deals Dark Dmg (M) to targets within range based on caster's MAG stat."
+    },
+    {
       "key": "SK_FF14BOSS_ATK",
       "value": ""
     },
@@ -4729,6 +4737,26 @@
       "value": "Lowers Magic Res of targets within range for 3 turns, then deals Dark Dmg (L) based on caster's MAG stat."
     },
     {
+      "key": "SK_DABL_ATK_R",
+      "value": ""
+    },
+    {
+      "key": "SK_DABL_M_01_R",
+      "value": "Deals Dark Dmg (M) to target based on caster's MAG stat."
+    },
+    {
+      "key": "SK_DABL_M_02_R",
+      "value": "Deals Dmg (S) to targets within range based on a set percentage of target's Max HP & Guaranteed Hit."
+    },
+    {
+      "key": "SK_DABL_M_03_R",
+      "value": "Recovers HP (M) of allies within range."
+    },
+    {
+      "key": "SK_DABL_M_04_R",
+      "value": "Lowers Magic Res of targets within range for 3 turns, then deals Dark Dmg (L) based on caster's MAG stat."
+    },
+    {
       "key": "SK_MDFY_ATK",
       "value": ""
     },
@@ -5093,6 +5121,10 @@
       "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Confusion for 3 turns."
     },
     {
+      "key": "SK_CSLI_02_M_03_RA",
+      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Confusion for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Deals Dmg (L) to targets within range."
     },
@@ -5343,6 +5375,14 @@
     {
       "key": "SK_LB_LW_RARD",
       "value": "Lowers target's Strike Attack Res for 3 turns, then deals Dmg (L)."
+    },
+    {
+      "key": "SK_LB_LW_VNLA_01",
+      "value": "Lowers target's Earth Res for 3 turns, then deals Dmg (L)."
+    },
+    {
+      "key": "SK_LB_LW_VKTR_01",
+      "value": "Deals 2-Hit Dmg (L) to targets within range & chance of inflicting Blind for 3 turns & decreases chance of being targeted."
     },
     {
       "key": "SK_SMN_IFRT",
@@ -5989,6 +6029,14 @@
       "value": "Light Unit Allies' Max HP +10%/Light Attack +10, own MAG +20%/Accuracy Rate +15"
     },
     {
+      "key": "SK_MA_LW_VNLA_01",
+      "value": "Earth Unit Allies' Max HP +10%/Earth Attack +15, own ATK +20%"
+    },
+    {
+      "key": "SK_MA_LW_VKTR_01",
+      "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own AP Consumption -20%"
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Slash ATK +2"
     },
@@ -6079,6 +6127,26 @@
     {
       "key": "SK_LW_PIERCEMAGIC_5",
       "value": "Magic Attack Res Piercing Rate +10"
+    },
+    {
+      "key": "SK_LW_PIERCEDEF_1",
+      "value": "DEF Piercing Rate +2"
+    },
+    {
+      "key": "SK_LW_PIERCEDEF_2",
+      "value": "DEF Piercing Rate +3"
+    },
+    {
+      "key": "SK_LW_PIERCEDEF_3",
+      "value": "DEF Piercing Rate +5"
+    },
+    {
+      "key": "SK_LW_PIERCEDEF_4",
+      "value": "DEF Piercing Rate +10"
+    },
+    {
+      "key": "SK_LW_PIERCEDEF_5",
+      "value": "DEF Piercing Rate +20"
     },
     {
       "key": "SK_LW_SWO_003_1",
@@ -6503,6 +6571,14 @@
     {
       "key": "SK_ROD_LW_ELSI_1_1",
       "value": ""
+    },
+    {
+      "key": "SK_ACC_LW_VNLA_01_1",
+      "value": "Raises own Move by 1 for 1 turn & significantly raises own Accuracy Rate."
+    },
+    {
+      "key": "SK_ACC_LW_VKTR_01_1",
+      "value": "Raises own and allies' Jump by 1 for 1 turn."
     },
     {
       "key": "SK_ACC_LW_MONT_ARENA",
@@ -9033,6 +9109,62 @@
       "value": "Quest-balancing skill"
     },
     {
+      "key": "SK_BTL_RES_POISON_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_DARKN_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_SLEEP_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_SILENCE_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_PARA_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_CONFU_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_CHARM_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_STONE_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_TOAD_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_SLOW_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_STOP_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_DACT_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_DMOV_1_100_U2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_BERSK_1_100_U2",
+      "value": ""
+    },
+    {
       "key": "SK_BTL_RES_POISON_1_100_D",
       "value": "Quest-balancing skill"
     },
@@ -9103,6 +9235,62 @@
     {
       "key": "SK_BTL_RES_BERSK_1_100_D",
       "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_RES_POISON_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_DARKN_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_SLEEP_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_SILENCE_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_PARA_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_CONFU_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_CHARM_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_STONE_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_TOAD_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_SLOW_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_STOP_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_DACT_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_DMOV_1_100_D2",
+      "value": ""
+    },
+    {
+      "key": "SK_BTL_RES_BERSK_1_100_D2",
+      "value": ""
     },
     {
       "key": "SK_BTL_FAP_1-999_U",
@@ -9491,6 +9679,10 @@
     {
       "key": "SK_BTL_INV_DOOM",
       "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_INV_DOOM2",
+      "value": ""
     },
     {
       "key": "SK_BTL_INV_POISON",

@@ -518,10 +518,25 @@
       ]
     },
     {
+      "iname": "GuildRookieJoin",
+      "act": "HOME",
+      "trg": 2,
+      "value1": 8,
+      "trg_sub": 13,
+      "tuto": 49,
+      "desc_unit": "UN_LW_TU_RAMD",
+      "desc_emo": 1,
+      "skip": 1,
+      "desc_unit_skip": "UN_LW_TU_RAMD",
+      "desc_emo_skip": 1,
+      "tips": 0
+    },
+    {
       "iname": "GuildJoin",
       "act": "HOME",
       "trg": 2,
       "value1": 10,
+      "trg_sub": 12,
       "tuto": 30,
       "desc_unit": "UN_LW_TU_RAMD",
       "desc_emo": 1,
@@ -544,6 +559,28 @@
       "tips_imgs": [
         "gid_gld_lby_01",
         "gid_gld_lby_02"
+      ]
+    },
+    {
+      "iname": "GuildAttendanceRookie",
+      "act": "GUILD_LOBBY_ROOKIE",
+      "trg": 100,
+      "tuto": 50,
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_GU_EXP_S2_01",
+          "num": 3
+        }
+      ],
+      "desc_unit": "UN_LW_TU_RAMD",
+      "desc_emo": 1,
+      "skip": 1,
+      "desc_unit_skip": "UN_LW_TU_RAMD",
+      "desc_emo_skip": 1,
+      "tips": 1,
+      "tips_imgs": [
+        "gid_gld_rok_01"
       ]
     },
     {
@@ -871,7 +908,24 @@
       "desc_emo_skip": 0,
       "tips": 1,
       "tips_imgs": [
-        "gid_btr_01"
+        "gid_slq_01",
+        "gid_slq_02"
+      ]
+    },
+    {
+      "iname": "DraftMatch",
+      "act": "DRAFT_MATCH_ROOT",
+      "trg": 1,
+      "guidance": "FreeMatch",
+      "tuto": 48,
+      "desc_unit": "UN_LW_TU_RAMD",
+      "desc_emo": 0,
+      "skip": 1,
+      "desc_unit_skip": "UN_LW_TU_RAMD",
+      "desc_emo_skip": 0,
+      "tips": 1,
+      "tips_imgs": [
+        "gid_drt_01"
       ]
     }
   ]

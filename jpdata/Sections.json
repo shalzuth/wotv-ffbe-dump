@@ -256,6 +256,12 @@
       "back_unit": "UN_LW_P_MONT"
     },
     {
+      "iname": "SE_ST_015101",
+      "chap": "CH_ST_0115",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_P_MONT"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -582,6 +588,11 @@
       "hurl": "ev_hlna_01"
     },
     {
+      "iname": "SE_EV_THLA_02",
+      "limit": 1,
+      "hurl": "ev_thla_02"
+    },
+    {
       "iname": "SE_EV_WIZ_01",
       "hurl": "ev_wiz_01"
     },
@@ -734,18 +745,21 @@
     },
     {
       "iname": "SE_EV_FF1_01",
-      "hurl": "ev_ff1_01"
+      "hurl": "ev_ff1_01",
+      "won_dst_sheet_name": "bgm_ff1_victory"
     },
     {
       "iname": "SE_EV_FF1_01_EX",
       "hurl": "ev_ff1_01_ex",
       "o_cond_q": [
         "QE_EV_FF1_10"
-      ]
+      ],
+      "won_dst_sheet_name": "bgm_ff1_victory"
     },
     {
       "iname": "SE_MU_FF1_01_EX",
-      "hurl": "ev_ff1_01_ex"
+      "hurl": "ev_ff1_01_ex",
+      "won_dst_sheet_name": "bgm_ff1_victory"
     },
     {
       "iname": "SE_EV_FFT_01",
@@ -867,6 +881,14 @@
       "iname": "SE_EV_WAVE_001",
       "limit": 2,
       "hurl": "ev_wave_001"
+    },
+    {
+      "iname": "SE_SB_08",
+      "hurl": "ev_sb_08"
+    },
+    {
+      "iname": "SE_MU_SB_08",
+      "hurl": "ev_sb_08"
     },
     {
       "iname": "SE_EV_10_01",
@@ -1267,6 +1289,10 @@
       "hurl": "ev_nmap_05"
     },
     {
+      "iname": "SE_BR_SHINE",
+      "hurl": "br_shine_01"
+    },
+    {
       "iname": "SE_EV_UNITEXP_01",
       "limit": 3,
       "vip_type": 16,
@@ -1601,6 +1627,10 @@
       "iname": "SE_EV_SM_SHIN_01",
       "skip_ticket": "IT_TICKET_STORY",
       "hurl": "ev_sm_shin_01"
+    },
+    {
+      "iname": "SE_GHUNT_FF1",
+      "won_dst_sheet_name": "bgm_ff1_victory"
     },
     {
       "iname": "SE_GHUNT_01"

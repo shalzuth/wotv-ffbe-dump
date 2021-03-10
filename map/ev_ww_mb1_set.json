@@ -244,7 +244,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_EV_WW_MB1_1",
+      "drop": "Medal",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -298,6 +298,11 @@
           "iname": "SK_BTL_LUK_1-999_U",
           "rank": 15,
           "rate": 100
+        },
+        {
+          "iname": "SK_MABR_M_02",
+          "rank": 1,
+          "rate": 50
         }
       ],
       "fskl": "",
@@ -407,6 +412,11 @@
           "iname": "SK_BTL_LUK_1-999_U",
           "rank": 15,
           "rate": 100
+        },
+        {
+          "iname": "SK_MABR_M_02",
+          "rank": 1,
+          "rate": 50
         }
       ],
       "fskl": "",
@@ -516,6 +526,11 @@
           "iname": "SK_BTL_LUK_1-999_U",
           "rank": 15,
           "rate": 100
+        },
+        {
+          "iname": "SK_MABR_M_02",
+          "rank": 1,
+          "rate": 50
         }
       ],
       "fskl": "",
@@ -571,7 +586,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_EV_WW_MB1_1",
+      "drop": "QE_EV_WW_MB1_2",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -625,6 +640,11 @@
           "iname": "SK_BTL_LUK_1-999_U",
           "rank": 15,
           "rate": 100
+        },
+        {
+          "iname": "SK_MABR_M_02",
+          "rank": 1,
+          "rate": 50
         }
       ],
       "fskl": "",
@@ -742,6 +762,11 @@
           "iname": "SK_BTL_LUK_1-999_U",
           "rank": 15,
           "rate": 100
+        },
+        {
+          "iname": "SK_MABR_M_02",
+          "rank": 1,
+          "rate": 50
         }
       ],
       "fskl": "",
@@ -805,7 +830,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_EV_WW_MB1_2",
+      "drop": "QE_EV_WW_MB1_3",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -859,6 +884,11 @@
           "iname": "SK_BTL_LUK_1-999_U",
           "rank": 15,
           "rate": 100
+        },
+        {
+          "iname": "SK_MABR_M_02",
+          "rank": 1,
+          "rate": 50
         }
       ],
       "fskl": "",
@@ -949,11 +979,61 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_TICKET_EVENT",
+            "iname": "IT_GL_TICKET_EVENT",
             "num": 5,
             "secret": 0
           },
           "weight": 1
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "QE_EV_WW_MB1_3",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_US_EXP_03",
+            "num": 10,
+            "secret": 0
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "iname": "Medal",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_EC_WW_EV01_1",
+            "num": 3,
+            "secret": 0
+          },
+          "weight": 3
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_EC_WW_EV01_1",
+            "num": 4,
+            "secret": 0
+          },
+          "weight": 4
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_EC_WW_EV01_1",
+            "num": 5,
+            "secret": 0
+          },
+          "weight": 3
         }
       ]
     }

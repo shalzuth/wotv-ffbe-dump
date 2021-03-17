@@ -52102,6 +52102,73 @@
       "gdupli": "SK_VC_LW_GREEN_GS"
     },
     {
+      "iname": "SK_VC_LW_RAMD_GS",
+      "slot": 8,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_RAMD_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_RAMD_GS_AW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_RAMD_GS_AW"
+      ],
+      "gdupli": "SK_VC_LW_RAMD_GS"
+    },
+    {
+      "iname": "SK_VC_LW_RAMD_GSMAX",
+      "slot": 8,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_RAMD_GSMAX"
+      ],
+      "gdupli": "SK_VC_LW_RAMD_GS"
+    },
+    {
+      "iname": "SK_VC_LW_OOOO_GS",
+      "slot": 8,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_OOOO_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_OOOO_GSAW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_OOOO_GSAW"
+      ],
+      "gdupli": "SK_VC_LW_OOOO_GS"
+    },
+    {
       "iname": "SK_VC_LW_TITN_P",
       "slot": 3,
       "cap": 99,
@@ -56012,6 +56079,173 @@
         "BUFF_VC_LW_GREEN_PMAX"
       ],
       "gdupli": "SK_VC_LW_GREEN_P"
+    },
+    {
+      "iname": "SK_VC_LW_RAMD_P",
+      "slot": 3,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_RAMD_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_RAMD_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_RAMD_PAW"
+      ],
+      "gdupli": "SK_VC_LW_RAMD_P"
+    },
+    {
+      "iname": "SK_VC_LW_RAMD_PMAX",
+      "slot": 3,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_RAMD_PMAX"
+      ],
+      "gdupli": "SK_VC_LW_RAMD_P"
+    },
+    {
+      "iname": "SK_GL_VC_LW_RAMD_P2",
+      "slot": 3,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_GL_VC_LW_RAMD_P2"
+      ]
+    },
+    {
+      "iname": "SK_GL_VC_LW_RAMD_P2AW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_GL_VC_LW_RAMD_P2AW"
+      ],
+      "gdupli": "SK_GL_VC_LW_RAMD_P2"
+    },
+    {
+      "iname": "SK_GL_VC_LW_RAMD_P2MAX",
+      "slot": 3,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_GL_VC_LW_RAMD_P2MAX"
+      ],
+      "gdupli": "SK_GL_VC_LW_RAMD_P2"
+    },
+    {
+      "iname": "SK_VC_LW_RAMD_PVA",
+      "slot": 1,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "motnm": "LAN/VCA_00",
+      "effnm": "ef_LAN_VCA_00",
+      "cam_dir": 1,
+      "count": 2,
+      "cost_type": 0,
+      "cost_ap": 27,
+      "range_s": 13,
+      "range_l": 3,
+      "range_h": 1,
+      "type": 7,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 20,
+      "atk_formula_t2": 10,
+      "atk_formula_t3": 15,
+      "atk_det": 2,
+      "def_wep": "AF_LW_SPE_INIT",
+      "elem_pri": 1,
+      "eff_val": -5,
+      "eff_val1": 21,
+      "t_buffs": [
+        "BUFF_VC_LW_RAMD_PVA"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_OOOO_P",
+      "slot": 3,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_OOOO_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_OOOO_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_OOOO_PAW"
+      ],
+      "gdupli": "SK_VC_LW_OOOO_P"
+    },
+    {
+      "iname": "SK_VC_LW_OOOO_P_2",
+      "slot": 3,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_OOOO_P_2"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_OOOO_P_2AW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_OOOO_P_2AW"
+      ],
+      "gdupli": "SK_VC_LW_OOOO_P_2"
     },
     {
       "iname": "SK_BTL_HP_100-99900_U",

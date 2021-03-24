@@ -391,6 +391,24 @@
       "hurl": "ev_etre_ex_01"
     },
     {
+      "iname": "SE_EV_FF10_01_01",
+      "hurl": "ev_ff10_01",
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF10_01_EX",
+      "hurl": "ev_ff10_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF10_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF10_01_EX",
+      "hurl": "ev_ff10_ex_01",
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
       "iname": "SE_EV_FF14_01",
       "hurl": "ev_ff14_01"
     },
@@ -441,6 +459,21 @@
     {
       "iname": "SE_MU_EV_08_EX",
       "hurl": "ev_08_ex_01"
+    },
+    {
+      "iname": "SE_EV_09_01",
+      "hurl": "ev_09_01"
+    },
+    {
+      "iname": "SE_EV_09_EX_01",
+      "hurl": "ev_09_ex_01",
+      "o_cond_q": [
+        "QE_EV_09_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_09_EX",
+      "hurl": "ev_09_ex_01"
     },
     {
       "iname": "SE_EV_NY2020",
@@ -506,6 +539,21 @@
       "hurl": "ev_alim_ex_01"
     },
     {
+      "iname": "SE_EV_WW_MB1",
+      "hurl": "ev_ww_mb1"
+    },
+    {
+      "iname": "SE_EV_WW_MB_EX1",
+      "hurl": "ev_ww_mb_ex1",
+      "o_cond_q": [
+        "QE_EV_WW_MB1"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_WWMBEX1",
+      "hurl": "ev_ww_mb_ex1"
+    },
+    {
       "iname": "SE_EV_WW_MB2",
       "hurl": "ev_ww_mb2",
       "o_cond_q": [
@@ -524,34 +572,8 @@
       "hurl": "ev_ww_mb_ex2"
     },
     {
-      "iname": "SE_EV_WW_MB1",
-      "hurl": "ev_ww_mb1"
-    },
-    {
-      "iname": "SE_EV_WW_MB_EX1",
-      "hurl": "ev_ww_mb_ex1",
-      "o_cond_q": [
-        "QE_EV_WW_MB1"
-      ]
-    },
-    {
-      "iname": "SE_MU_EV_WWMBEX1",
-      "hurl": "ev_ww_mb_ex1"
-    },
-    {
-      "iname": "SE_EV_09_01",
-      "hurl": "ev_09_01"
-    },
-    {
-      "iname": "SE_EV_09_EX_01",
-      "hurl": "ev_09_ex_01",
-      "o_cond_q": [
-        "QE_EV_09_10"
-      ]
-    },
-    {
-      "iname": "SE_MU_EV_09_EX",
-      "hurl": "ev_09_ex_01"
+      "iname": "SE_EV_WW_MB3",
+      "hurl": "ev_ww_mb3"
     },
     {
       "iname": "SE_PTQ_0001",
@@ -1131,11 +1153,11 @@
     },
     {
       "iname": "SE_EV_ART_SCR_02",
-      "hurl": "ev_gl_art_scr_comb_04"
+      "hurl": "ev_gl_art_scr_all"
     },
     {
       "iname": "SE_MU_EV_SCR_02",
-      "hurl": "ev_gl_art_scr_comb_04"
+      "hurl": "ev_gl_art_scr_all"
     },
     {
       "iname": "SE_EV_NEWMAP_001",
@@ -1187,12 +1209,21 @@
       "hurl": "ev_aw_high_03"
     },
     {
+      "iname": "SE_EV_AW_HIGH_04",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_aw_high_04"
+    },
+    {
       "iname": "SE_MU_AW_HIGH_02",
       "hurl": "ev_aw_high_02"
     },
     {
       "iname": "SE_MU_AW_HIGH_03",
       "hurl": "ev_aw_high_03"
+    },
+    {
+      "iname": "SE_MU_AW_HIGH_04",
+      "hurl": "ev_aw_high_04"
     },
     {
       "iname": "SE_EV_GL_CDOWN_01_9",
@@ -1284,6 +1315,57 @@
       "key_item": "IT_KEY_QE_001",
       "key_num": 1,
       "key_time": 259200
+    },
+    {
+      "iname": "SE_KEY_SBEXP_01",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_02",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_03",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_04",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_05",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_06",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_07",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_KEY_SBEXP_08",
+      "hurl": "ev_key_sbexp",
+      "key_item": "IT_KEY_SB_EXP",
+      "key_num": 1
+    },
+    {
+      "iname": "SE_GHUNT_01"
     }
   ]
 }

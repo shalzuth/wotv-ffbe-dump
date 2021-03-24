@@ -11900,6 +11900,48 @@
       "chk_ver": "M_MU_FF10_EX1_02"
     },
     {
+      "iname": "M_GL_FF10_CH_TIDU_01",
+      "grpID": "MG_GL_FF10_CH_01",
+      "priority": 200001,
+      "condition": {
+        "type": 46,
+        "sval": [
+          "QE_CH_FF10_TIDU"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_FF10_TIDU",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_FF10_CH_TIDU_01",
+      "open": 1
+    },
+    {
+      "iname": "M_GL_FF10_CH_YUNA_01",
+      "grpID": "MG_GL_FF10_CH_01",
+      "priority": 200002,
+      "condition": {
+        "type": 46,
+        "sval": [
+          "QE_CH_FF10_YUNA"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_FF10_YUNA",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_FF10_CH_YUNA_01",
+      "open": 1
+    },
+    {
       "iname": "M_GL_HALL_CH_RYER_01",
       "grpID": "MG_GL_HALL_CH_01",
       "priority": 200001,
@@ -75495,6 +75537,57 @@
         }
       ],
       "chk_ver": "M_PLY_AWARD_059"
+    },
+    {
+      "iname": "M_PLY_AWARD_060",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 102,
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_00060",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_PLY_AWARD_060"
+    },
+    {
+      "iname": "M_PLY_AWARD_061",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 102,
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_00061",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_PLY_AWARD_061"
+    },
+    {
+      "iname": "M_PLY_AWARD_062",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 102,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_00062",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_PLY_AWARD_062"
     },
     {
       "iname": "M_LW_PA_CH_001_1",

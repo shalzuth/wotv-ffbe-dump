@@ -2128,6 +2128,61 @@
       "first_bonus_unit": "UN_LW_S_BAHM"
     },
     {
+      "iname": "VC_FF10_MV1",
+      "type": 0,
+      "collaboType": 1,
+      "icon": "FF10Mv1",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_FF10_MV1",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_FF10_MV1_GS",
+          "add_card_skill_buff_awake": "SK_VC_FF10_MV1_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_FF10_MV1_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_FF10_MV1_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_FF10_MV1_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_FF10_MV1_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_WATER",
+          "self_buff": "SK_VC_FF10_MV1_P",
+          "add_self_buff_awake": "SK_VC_FF10_MV1_PAW",
+          "add_self_buff_lvmax": "SK_VC_FF10_MV1_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_FF10_TIDU",
+          "self_buff": "SK_GL_VC_FF10_MV1_P2",
+          "add_self_buff_awake": "SK_GL_VC_FF10_MV1_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_FF10_MV1_P2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 46,
+          "atk": 40,
+          "dex": 11
+        },
+        {
+          "hp": 364,
+          "atk": 156,
+          "dex": 40
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",
@@ -3796,6 +3851,55 @@
           "mp": 10,
           "atk": 36,
           "mag": 81
+        }
+      ]
+    },
+    {
+      "iname": "VC_FF10_MV2",
+      "type": 0,
+      "collaboType": 1,
+      "icon": "FF10Mv2",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_FF10_MV2",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_FF10_MV2_GS",
+          "add_card_skill_buff_awake": "SK_VC_FF10_MV2_GSAW"
+        },
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_FF10_MV2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_FF10_MV2_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_FF10_MV2_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_WATER",
+          "self_buff": "SK_VC_FF10_MV2_P",
+          "add_self_buff_awake": "SK_VC_FF10_MV2_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 21,
+          "atk": 24,
+          "mag": 19,
+          "luk": 6
+        },
+        {
+          "hp": 167,
+          "atk": 97,
+          "mag": 78,
+          "luk": 20
         }
       ]
     },

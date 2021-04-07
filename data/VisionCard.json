@@ -2183,6 +2183,63 @@
       ]
     },
     {
+      "iname": "VC_LW_ZZAN",
+      "type": 0,
+      "collaboType": 2,
+      "icon": "LAPSZzan",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_ZZAN",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_LW_ZZAN_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_ZZAN_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ZZAN_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_LW_ZZAN_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ZZAN_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ZZAN_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_WATER",
+          "self_buff": "SK_VC_LW_ZZAN_P",
+          "add_self_buff_awake": "SK_VC_LW_ZZAN_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_ZZAN_PMAX"
+        },
+        {
+          "buff_cond": "VLC_ZZAN_MONT_ELSR",
+          "self_buff": "SK_VC_LW_ZZAN_P_2",
+          "add_self_buff_awake": "SK_VC_LW_ZZAN_PAW_2",
+          "add_self_buff_lvmax": "SK_VC_LW_ZZAN_PMAX_2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 37,
+          "ap": 6,
+          "atk": 33,
+          "spd": 1
+        },
+        {
+          "hp": 288,
+          "ap": 20,
+          "atk": 130,
+          "spd": 5
+        }
+      ]
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",

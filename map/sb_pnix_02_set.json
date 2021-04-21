@@ -36,7 +36,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:2",
@@ -68,7 +76,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:3",
@@ -100,7 +116,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:4",
@@ -132,7 +156,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:5",
@@ -164,7 +196,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:6",
@@ -196,7 +236,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "",
@@ -228,7 +276,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "",
@@ -260,19 +316,27 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     }
   ],
   "enemy": [
     {
-      "name": "IFRT",
+      "name": "",
       "x": 11,
       "y": 5,
       "dir": 2,
       "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
+      "ct_val": 200,
+      "brave": 20,
+      "faith": 20,
       "fvoff": 0,
       "disphpg": 0,
       "disableact": 0,
@@ -280,7 +344,7 @@
       "dmganm": 0,
       "block": 0,
       "ai": {
-        "iname": "AI_ENEMY_QE_SB_IFRT_02",
+        "iname": "AI_ENEMY_QE_SB_PNIX_01",
         "wait_e": 0,
         "search": 20,
         "sensing": 0
@@ -295,11 +359,19 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 8,
-      "iname": "UN_LW_E_IFRT_SIREN2",
+      "iname": "UN_LW_E_PNIX_SIREN2",
       "side": 1,
       "dead": 0,
-      "lv": 99,
+      "lv": 90,
       "rare": 0,
       "awake": 6,
       "rank": 5,
@@ -319,225 +391,58 @@
       },
       "skills": [
         {
-          "iname": "SK_IFRT_M_01",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_IFRT_M_02",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_IFRT_M_03_01_100_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_IFRT_M_04",
-          "rank": 15,
+          "iname": "SK_PNIX_M_01",
+          "rank": 10,
           "rate": 0
         },
         {
-          "iname": "SK_BTL_JOB_WAR_1_15_U",
-          "rank": 15,
-          "rate": 100
+          "iname": "SK_PNIX_M_02",
+          "rank": 5,
+          "rate": 0
         },
         {
-          "iname": "SK_BTL_HP_100-99900_U",
+          "iname": "SK_PNIX_M_03",
           "rank": 5,
           "rate": 100
         },
         {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 472,
+          "iname": "SK_PNIX_M_04",
+          "rank": 5,
           "rate": 100
         },
         {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 450,
+          "iname": "SK_BTL_JOB_WAR_1_15_U",
+          "rank": 5,
           "rate": 100
         },
         {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 38,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_INV_HPDOWN",
-          "rank": 1,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 322,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_SLASH_1_80_U_KISO",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_SHOT_1_80_U_KISO",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_MAGIC_1_80_U_KISO",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 90,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HATE_1-100_U_PA",
+          "iname": "SK_BTL_HP_100-99900_U",
           "rank": 100,
           "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "BOMB1",
-      "x": 6,
-      "y": 2,
-      "dir": 2,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": []
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 9,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
+        },
         {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
+          "iname": "SK_PNIX_M_05",
+          "rank": 10,
           "rate": 100
         },
         {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
+          "iname": "SK_PNIX_M_06",
+          "rank": 10,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_DF_1-80_U",
+          "rank": 25,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MDF_1-80_U",
+          "rank": 25,
           "rate": 100
         },
         {
           "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -546,1116 +451,12 @@
           "rate": 100
         },
         {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
+          "rank": 70,
           "rate": 100
         },
         {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "BOMB2",
-      "x": 6,
-      "y": 9,
-      "dir": 2,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": []
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 10,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "BOMB3",
-      "x": 8,
-      "y": 7,
-      "dir": 2,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": []
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 11,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "BOMB4",
-      "x": 8,
-      "y": 4,
-      "dir": 2,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": []
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 12,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "",
-      "x": 7,
-      "y": 2,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": [
-              {
-                "type": 3,
-                "json": "{\"side\":0,\"tag\":\"BOMB1\"}"
-              }
-            ]
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 13,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "",
-      "x": 7,
-      "y": 9,
-      "dir": 3,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": [
-              {
-                "type": 3,
-                "json": "{\"side\":0,\"tag\":\"BOMB2\"}"
-              }
-            ]
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 14,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "",
-      "x": 4,
-      "y": 7,
-      "dir": 0,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": [
-              {
-                "type": 3,
-                "json": "{\"side\":0,\"tag\":\"BOMB3\"}"
-              }
-            ]
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 15,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
-          "rank": 50,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": ""
-    },
-    {
-      "name": "",
-      "x": 4,
-      "y": 4,
-      "dir": 0,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 47,
-      "faith": 47,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_BOM_LV4",
-        "wait_e": -1,
-        "search": 8,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": [
-          {
-            "self": {
-              "type": 15,
-              "json": "{\"side\":1,\"tag\":\"IFRT\",\"skill\":\"SK_IFRT_M_04\",\"vague\":false}"
-            },
-            "childs": [
-              {
-                "type": 3,
-                "json": "{\"side\":0,\"tag\":\"BOMB4\"}"
-              }
-            ]
-          }
-        ]
-      },
-      "wait_m": 0,
-      "parent": "",
-      "enemy_id": 16,
-      "iname": "UN_LW_E_BOMB_02",
-      "side": 1,
-      "dead": 0,
-      "lv": 90,
-      "rare": 0,
-      "awake": 6,
-      "rank": 5,
-      "elem": 1,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 350,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_BLM_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BOMB_M_02_1",
-          "rank": 20,
-          "rate": 0
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 422,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 222,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_RES_OTWATER_1_80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDFPIERCE_1-100_U",
+          "iname": "SK_BTL_MAG_1-999_D",
           "rank": 50,
           "rate": 100
         }
@@ -1673,12 +474,12 @@
   "arena": [],
   "wcond": {
     "timing": 0,
-    "expr": "QE_SB_IFRT_04",
+    "expr": "",
     "list": [
       {
         "self": {
           "type": 1,
-          "json": "{\"side\":1,\"tag\":\"IFRT\"}"
+          "json": "{\"side\":1,\"tag\":\"\"}"
         },
         "childs": []
       }

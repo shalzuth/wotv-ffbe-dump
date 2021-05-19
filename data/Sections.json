@@ -385,6 +385,21 @@
       ]
     },
     {
+      "iname": "SE_EV_01_01",
+      "hurl": "ev_01_01"
+    },
+    {
+      "iname": "SE_EV_01_EX_01",
+      "hurl": "ev_01_ex_01",
+      "o_cond_q": [
+        "QE_EV_01_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_01_EX",
+      "hurl": "ev_01_ex_01"
+    },
+    {
       "iname": "SE_EV_1ANV_01",
       "limit": 1,
       "hurl": "ev_1anv_01"
@@ -405,19 +420,12 @@
       "hurl": "ev_nier_ex_01"
     },
     {
-      "iname": "SE_EV_01_01",
-      "hurl": "ev_01_01"
+      "iname": "SE_EV_ART_CRF_08",
+      "hurl": "ev_arti_crft_08"
     },
     {
-      "iname": "SE_EV_01_EX_01",
-      "hurl": "ev_01_ex_01",
-      "o_cond_q": [
-        "QE_EV_01_10"
-      ]
-    },
-    {
-      "iname": "SE_MU_EV_01_EX",
-      "hurl": "ev_01_ex_01"
+      "iname": "SE_MU_ART_CRF_08",
+      "hurl": "ev_arti_crft_08"
     },
     {
       "iname": "SE_EV_ETRE",
@@ -433,14 +441,6 @@
     {
       "iname": "SE_MU_EV_ETRE_EX",
       "hurl": "ev_etre_ex_01"
-    },
-    {
-      "iname": "SE_EV_ART_CRF_08",
-      "hurl": "ev_arti_crft_08"
-    },
-    {
-      "iname": "SE_MU_ART_CRF_08",
-      "hurl": "ev_arti_crft_08"
     },
     {
       "iname": "SE_PTQ_FF10_01",
@@ -545,6 +545,23 @@
     {
       "iname": "SE_MU_EV_09_EX",
       "hurl": "ev_09_ex_01"
+    },
+    {
+      "iname": "SE_EV_10_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_10_01"
+    },
+    {
+      "iname": "SE_EV_10_EX_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_10_ex_01",
+      "o_cond_q": [
+        "QE_EV_10_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_10_EX",
+      "hurl": "ev_10_ex_01"
     },
     {
       "iname": "SE_EV_NY2020",
@@ -1224,11 +1241,13 @@
     },
     {
       "iname": "SE_EV_ART_SCR_02",
-      "hurl": "ev_gl_art_scr_spea"
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_art_scr_book"
     },
     {
       "iname": "SE_MU_EV_SCR_02",
-      "hurl": "ev_gl_art_scr_spea"
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_art_scr_book"
     },
     {
       "iname": "SE_EV_NEWMAP_001",

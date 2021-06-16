@@ -6376,6 +6376,11 @@
         "JB_LW_MGK_SHINE",
         "JB_LW_DRG_SHINE"
       ],
+      "ccsets": [
+        {
+          "m": "JB_FF1_WROL_M"
+        }
+      ],
       "ai": "AI_PLAYER_FF1_WROL",
       "buff_pri": "BUFFPRI_PHYTANK",
       "debuff_pri": "DEBUFFPRI_PHYTANK",
@@ -6415,6 +6420,30 @@
           "dex": 86,
           "spd": 34,
           "luk": 96,
+          "eda": -10,
+          "asl": 25,
+          "api": -20,
+          "abl": 5,
+          "ash": 15,
+          "ama": 5,
+          "cbl": 50,
+          "ccf": 10,
+          "cdm": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1620,
+          "mp": 96,
+          "ap": 90,
+          "atk": 191,
+          "def": 0,
+          "mag": 78,
+          "mnd": 0,
+          "dex": 121,
+          "spd": 34,
+          "luk": 105,
           "eda": -10,
           "asl": 25,
           "api": -20,
@@ -10895,6 +10924,121 @@
       ],
       "limit": "SK_LB_LW_HLNA_01",
       "awake_tbl_id": "UN_AW_DARK_UR"
+    },
+    {
+      "iname": "UN_LW_P_THLA_01",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 1,
+      "charaId": "LAPSthla",
+      "anm_type": 1,
+      "voiceId": "LAPSthla_01",
+      "type": 0,
+      "elem": [
+        2
+      ],
+      "species": [
+        1
+      ],
+      "birth": 3,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 90,
+      "piece": "IT_PI_LW_THLA_01",
+      "piece_num": 40,
+      "db_num": 1,
+      "trust": "AF_CLT_LW_THLA_01_1",
+      "atkskl": "SK_LW_PSI_ATK",
+      "mstskl": [
+        "SK_MA_LW_THLA_01"
+      ],
+      "jobsets": [
+        "JB_LW_PSI_ICE",
+        "JB_LW_TIM_ICE",
+        "JB_LW_BLM_ICE"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_LW_THLA_01_M"
+        }
+      ],
+      "ai": "AI_PLAYER_LW_PSI",
+      "buff_pri": "BUFFPRI_MAGATK",
+      "debuff_pri": "DEBUFFPRI_MAGATK",
+      "status": [
+        {
+          "hp": 268,
+          "mp": 62,
+          "ap": 78,
+          "atk": 33,
+          "def": 0,
+          "mag": 86,
+          "mnd": 0,
+          "dex": 67,
+          "spd": 29,
+          "luk": 67,
+          "efi": -10,
+          "ewi": 20,
+          "api": 10,
+          "abl": -10,
+          "ama": 10,
+          "csl": 50,
+          "ccf": 10,
+          "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 906,
+          "mp": 96,
+          "ap": 97,
+          "atk": 56,
+          "def": 0,
+          "mag": 145,
+          "mnd": 0,
+          "dex": 100,
+          "spd": 34,
+          "luk": 95,
+          "efi": -10,
+          "ewi": 20,
+          "api": 10,
+          "abl": -10,
+          "ama": 10,
+          "csl": 50,
+          "ccf": 10,
+          "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 951,
+          "mp": 100,
+          "ap": 101,
+          "atk": 72,
+          "def": 0,
+          "mag": 169,
+          "mnd": 0,
+          "dex": 120,
+          "spd": 34,
+          "luk": 114,
+          "efi": -10,
+          "ewi": 20,
+          "api": 10,
+          "abl": -10,
+          "ama": 10,
+          "csl": 50,
+          "ccf": 10,
+          "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "limit": "SK_LB_LW_THLA_01",
+      "awake_tbl_id": "UN_AW_ICE_UR"
     },
     {
       "iname": "UN_LW_E_IRDL",
@@ -18548,6 +18692,159 @@
       ]
     },
     {
+      "iname": "UN_LW_E_TH_00_PSI",
+      "base_unit_iname": "UN_LW_E_TH_00",
+      "type": 7,
+      "atkskl": "SK_LW_PSI_ATK",
+      "jobsets": [
+        "JB_LW_PSI_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_GLOVE",
+      "status": [
+        {
+          "hp": 128,
+          "mp": 32,
+          "ap": 38,
+          "atk": 19,
+          "def": 0,
+          "mag": 43,
+          "mnd": 0,
+          "dex": 80,
+          "spd": 27,
+          "luk": 94,
+          "asl": 10,
+          "api": 5,
+          "abl": -5,
+          "ash": 10,
+          "ama": -15,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1365,
+          "mp": 57,
+          "ap": 59,
+          "atk": 48,
+          "def": 0,
+          "mag": 123,
+          "mnd": 0,
+          "dex": 192,
+          "spd": 64,
+          "luk": 230,
+          "asl": 10,
+          "api": 5,
+          "abl": -5,
+          "ash": 10,
+          "ama": -15,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ]
+    },
+    {
+      "iname": "UN_LW_E_TH_00_MKN",
+      "base_unit_iname": "UN_LW_E_TH_00",
+      "type": 7,
+      "atkskl": "SK_LW_MKN_ATK",
+      "jobsets": [
+        "JB_LW_MKN_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_SWORD",
+      "status": [
+        {
+          "hp": 310,
+          "mp": 63,
+          "ap": 74,
+          "atk": 34,
+          "def": 0,
+          "mag": 100,
+          "mnd": 0,
+          "dex": 72,
+          "spd": 30,
+          "luk": 77,
+          "asl": 5,
+          "abl": -15,
+          "ash": -5,
+          "ama": 15,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1038,
+          "mp": 99,
+          "ap": 91,
+          "atk": 57,
+          "def": 0,
+          "mag": 168,
+          "mnd": 0,
+          "dex": 107,
+          "spd": 35,
+          "luk": 109,
+          "asl": 5,
+          "abl": -15,
+          "ash": -5,
+          "ama": 15,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ]
+    },
+    {
+      "iname": "UN_LW_E_TH_00_VIK",
+      "base_unit_iname": "UN_LW_E_TH_00",
+      "type": 7,
+      "atkskl": "SK_LW_VIK_ATK",
+      "jobsets": [
+        "JB_LW_VIK_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_AXE",
+      "status": [
+        {
+          "hp": 208,
+          "mp": 31,
+          "ap": 37,
+          "atk": 56,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 83,
+          "spd": 20,
+          "luk": 81,
+          "api": -10,
+          "ash": 10,
+          "ama": -10,
+          "mov": 4,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1577,
+          "mp": 64,
+          "ap": 61,
+          "atk": 138,
+          "def": 0,
+          "mag": 61,
+          "mnd": 0,
+          "dex": 184,
+          "spd": 42,
+          "luk": 170,
+          "api": -10,
+          "ash": 10,
+          "ama": -10,
+          "mov": 4,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ]
+    },
+    {
       "iname": "UN_LW_E_TH_00_DRG",
       "sex": 1,
       "size": 0,
@@ -22535,6 +22832,55 @@
       "atkskl": "SK_LW_HUN_ATK",
       "jobsets": [
         "JB_LW_HUN_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_BOW",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 55,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 81,
+          "spd": 26,
+          "luk": 75,
+          "asl": -10,
+          "api": 10,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1605,
+          "mp": 77,
+          "ap": 73,
+          "atk": 178,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 211,
+          "spd": 50,
+          "luk": 185,
+          "asl": -10,
+          "api": 10,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ]
+    },
+    {
+      "iname": "UN_LW_E_PR_01_ARC",
+      "base_unit_iname": "UN_LW_E_PR_01",
+      "type": 7,
+      "atkskl": "SK_LW_ARC_ATK",
+      "jobsets": [
+        "JB_LW_ARC_FIRE"
       ],
       "ai": "AI_ENEMY_ATK_LV3",
       "steal": "ST_JB_BOW",
@@ -48597,7 +48943,8 @@
       "nb_exp_coef_id": "SB_EXP_FIRE_01",
       "nb_lv_tbl": "SB_LVTBL_UR_01",
       "nb_awake_id": [
-        "UN_FF01_S_WRMC_AW1"
+        "UN_FF01_S_WRMC_AW1",
+        "UN_FF01_S_WRMC_AW2"
       ]
     },
     {
@@ -48673,30 +49020,32 @@
       "atkskl": "SK_SMN_WRMC",
       "status": [
         {
-          "hp": 943,
-          "mp": 36,
-          "ap": 32,
-          "atk": 81,
-          "mag": 47,
-          "dex": 58,
+          "hp": 956,
+          "mp": 37,
+          "ap": 33,
+          "atk": 83,
+          "mag": 48,
+          "dex": 59,
           "spd": 12,
-          "luk": 65,
+          "luk": 66,
           "eic": 10,
           "ewa": -5,
+          "cch": 5,
           "mov": 0,
           "jmp": 0
         },
         {
-          "hp": 1143,
-          "mp": 39,
+          "hp": 1407,
+          "mp": 41,
           "ap": 35,
-          "atk": 94,
-          "mag": 52,
-          "dex": 65,
+          "atk": 107,
+          "mag": 61,
+          "dex": 73,
           "spd": 13,
-          "luk": 72,
+          "luk": 83,
           "eic": 10,
           "ewa": -5,
+          "cch": 25,
           "mov": 0,
           "jmp": 0
         }
@@ -52089,7 +52438,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52133,7 +52483,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1
@@ -52188,7 +52539,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1
@@ -52230,7 +52582,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1
@@ -52272,7 +52625,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52315,7 +52669,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52384,7 +52739,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1
@@ -52427,7 +52783,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52470,7 +52827,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52514,7 +52872,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52558,7 +52917,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52602,7 +52962,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,
@@ -52645,7 +53006,8 @@
           "cdm": 999,
           "cda": 999,
           "cbe": 999,
-          "cdo": 999
+          "cdo": 999,
+          "frz": 999
         }
       ],
       "no_kb": 1,

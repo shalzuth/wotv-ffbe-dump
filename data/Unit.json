@@ -2310,6 +2310,11 @@
         "JB_LW_KNT_THUN",
         "JB_LW_HUN_THUN"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_SZRT_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_SWN",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -2349,6 +2354,30 @@
           "dex": 93,
           "spd": 31,
           "luk": 89,
+          "eea": -15,
+          "ewa": 15,
+          "api": -10,
+          "abl": 25,
+          "ama": -25,
+          "csl": 50,
+          "cfr": 15,
+          "cch": 50,
+          "cdo": -25,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 946,
+          "mp": 77,
+          "ap": 72,
+          "atk": 198,
+          "def": 0,
+          "mag": 81,
+          "mnd": 0,
+          "dex": 116,
+          "spd": 31,
+          "luk": 90,
           "eea": -15,
           "ewa": 15,
           "api": -10,
@@ -5342,6 +5371,11 @@
         "JB_LW_MNK_SOIL",
         "JB_LW_GUN_SOIL"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_DRND_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_VIK",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -5383,6 +5417,32 @@
           "dex": 90,
           "spd": 28,
           "luk": 81,
+          "ewi": -15,
+          "eth": 10,
+          "asl": -10,
+          "api": 15,
+          "abl": 15,
+          "ash": -10,
+          "ama": -25,
+          "cbl": 50,
+          "cpe": 50,
+          "cst": -25,
+          "cdo": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1276,
+          "mp": 77,
+          "ap": 72,
+          "atk": 177,
+          "def": 0,
+          "mag": 77,
+          "mnd": 0,
+          "dex": 112,
+          "spd": 28,
+          "luk": 93,
           "ewi": -15,
           "eth": 10,
           "asl": -10,
@@ -9143,6 +9203,7 @@
       "personal": 1,
       "charaId": "LAPSalim",
       "anm_type": 1,
+      "voiceId": "LAPSalim_00",
       "type": 0,
       "elem": [
         5
@@ -11039,6 +11100,122 @@
       ],
       "limit": "SK_LB_LW_THLA_01",
       "awake_tbl_id": "UN_AW_ICE_UR"
+    },
+    {
+      "iname": "UN_LW_P_CMLO",
+      "sex": 1,
+      "size": 0,
+      "body_type": "MM",
+      "personal": 10,
+      "charaId": "LAPScmlo",
+      "anm_type": 1,
+      "voiceId": "LAPScmlo_00",
+      "type": 0,
+      "elem": [
+        7
+      ],
+      "species": [
+        1
+      ],
+      "birth": 8,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 80,
+      "piece": "IT_PI_LW_CMLO",
+      "piece_num": 40,
+      "db_num": 1,
+      "trust": "AF_ARM_LW_CMLO_1",
+      "atkskl": "SK_LW_DRG_ATK",
+      "mstskl": [
+        "SK_MA_LW_CMLO"
+      ],
+      "jobsets": [
+        "JB_LW_DRG_SHINE",
+        "JB_LW_ARC_SHINE",
+        "JB_LW_BEA_SHINE"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_LW_CMLO_M"
+        }
+      ],
+      "ai": "AI_PLAYER_LW_DRG",
+      "buff_pri": "BUFFPRI_PHYATK",
+      "debuff_pri": "DEBUFFPRI_PHYATK",
+      "status": [
+        {
+          "hp": 238,
+          "mp": 59,
+          "ap": 78,
+          "atk": 86,
+          "def": 0,
+          "mag": 32,
+          "mnd": 0,
+          "dex": 65,
+          "spd": 32,
+          "luk": 57,
+          "eda": -10,
+          "asl": 0,
+          "api": -10,
+          "abl": -10,
+          "ash": 10,
+          "ama": 20,
+          "cpa": 50,
+          "csw": 10,
+          "cst": 50,
+          "mov": 3,
+          "jmp": 4,
+          "dmax": 9999
+        },
+        {
+          "hp": 932,
+          "mp": 92,
+          "ap": 95,
+          "atk": 144,
+          "def": 0,
+          "mag": 54,
+          "mnd": 0,
+          "dex": 97,
+          "spd": 38,
+          "luk": 80,
+          "eda": -10,
+          "asl": 0,
+          "api": -10,
+          "abl": -10,
+          "ash": 10,
+          "ama": 20,
+          "cpa": 50,
+          "csw": 10,
+          "cst": 50,
+          "mov": 3,
+          "jmp": 4,
+          "dmax": 9999
+        },
+        {
+          "hp": 978,
+          "mp": 96,
+          "ap": 99,
+          "atk": 209,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 121,
+          "spd": 38,
+          "luk": 88,
+          "eda": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": 10,
+          "ama": 20,
+          "cpa": 50,
+          "csw": 10,
+          "cst": 50,
+          "mov": 3,
+          "jmp": 4,
+          "dmax": 9999
+        }
+      ],
+      "awake_tbl_id": "UN_AW_SHINE_UR"
     },
     {
       "iname": "UN_LW_E_IRDL",
@@ -40122,6 +40299,69 @@
       ]
     },
     {
+      "iname": "UN_LW_E_CORL_02",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MO",
+      "charaId": "LAPScorl",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        5
+      ],
+      "species": [
+        3
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SR_DEFAULT",
+      "cost": 0,
+      "atkskl": "SK_CORL_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 169,
+          "mp": 40,
+          "ap": 48,
+          "atk": 51,
+          "def": 0,
+          "mag": 28,
+          "mnd": 0,
+          "dex": 95,
+          "spd": 25,
+          "luk": 95,
+          "eea": -10,
+          "ewa": 10,
+          "asl": 10,
+          "ash": -10,
+          "ama": -10,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        },
+        {
+          "hp": 1931,
+          "mp": 73,
+          "ap": 75,
+          "atk": 147,
+          "def": 0,
+          "mag": 92,
+          "mnd": 0,
+          "dex": 241,
+          "spd": 55,
+          "luk": 222,
+          "eea": -10,
+          "ewa": 10,
+          "asl": 10,
+          "ash": -10,
+          "ama": -10,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        }
+      ]
+    },
+    {
       "iname": "UN_LW_E_CORL_SIREN",
       "base_unit_iname": "UN_LW_E_CORL",
       "sex": 3,
@@ -40469,6 +40709,109 @@
           "dmax": 9999
         }
       ]
+    },
+    {
+      "iname": "UN_LW_E_ICDG",
+      "sex": 3,
+      "size": 1,
+      "body_type": "NB_M",
+      "charaId": "LAPSicdg",
+      "anm_type": 2,
+      "type": 8,
+      "elem": [
+        2
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "tag": [
+        2
+      ],
+      "rare": 0,
+      "grow": "SR_DEFAULT",
+      "cost": 0,
+      "atkskl": "SK_ICDG_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 241,
+          "mp": 60,
+          "ap": 72,
+          "atk": 56,
+          "def": 0,
+          "mag": 28,
+          "mnd": 0,
+          "dex": 104,
+          "spd": 19,
+          "luk": 96,
+          "efi": -10,
+          "ewi": 10,
+          "asl": 10,
+          "api": -10,
+          "abl": -5,
+          "ash": 10,
+          "ama": 20,
+          "cpo": 10,
+          "cbl": 999,
+          "csl": 30,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 30,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "frz": 999,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        },
+        {
+          "hp": 5218,
+          "mp": 150,
+          "ap": 144,
+          "atk": 154,
+          "def": 0,
+          "mag": 92,
+          "mnd": 0,
+          "dex": 243,
+          "spd": 71,
+          "luk": 229,
+          "efi": -10,
+          "ewi": 10,
+          "asl": 10,
+          "api": -10,
+          "abl": -5,
+          "ash": 10,
+          "ama": 20,
+          "cpo": 10,
+          "cbl": 999,
+          "csl": 30,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 30,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "frz": 999,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        }
+      ],
+      "no_kb": 1
     },
     {
       "iname": "UN_LW_E_GLMS_ARENA",
@@ -46927,7 +47270,8 @@
       "nb_exp_coef_id": "SB_EXP_WIND_01",
       "nb_lv_tbl": "SB_LVTBL_SSR_01",
       "nb_awake_id": [
-        "UN_LW_S_MABR_AW1"
+        "UN_LW_S_MABR_AW1",
+        "UN_LW_S_MABR_AW2"
       ]
     },
     {
@@ -47001,30 +47345,32 @@
       "atkskl": "SK_SMN_MABR",
       "status": [
         {
-          "hp": 763,
+          "hp": 774,
           "mp": 17,
           "ap": 21,
-          "atk": 58,
-          "mag": 22,
-          "dex": 67,
+          "atk": 59,
+          "mag": 23,
+          "dex": 69,
           "spd": 13,
-          "luk": 60,
+          "luk": 62,
           "eic": -5,
           "eea": 5,
+          "cpo": 5,
           "mov": 0,
           "jmp": 0
         },
         {
-          "hp": 925,
-          "mp": 18,
+          "hp": 1136,
+          "mp": 20,
           "ap": 23,
-          "atk": 66,
-          "mag": 25,
-          "dex": 75,
+          "atk": 76,
+          "mag": 29,
+          "dex": 85,
           "spd": 14,
-          "luk": 68,
+          "luk": 78,
           "eic": -5,
           "eea": 5,
+          "cpo": 20,
           "mov": 0,
           "jmp": 0
         }
@@ -52157,6 +52503,164 @@
           "spd": 16,
           "luk": 81,
           "cbe": 25,
+          "mov": 0,
+          "jmp": 0
+        }
+      ]
+    },
+    {
+      "iname": "UN_LW_S_ICDG",
+      "sex": 3,
+      "size": 0,
+      "body_type": "NB_M",
+      "charaId": "LAPSicdg",
+      "anm_type": 2,
+      "type": 1,
+      "elem": [
+        2
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SB_R1_DEFAULT",
+      "cost": 40,
+      "atkskl": "SK_SMN_ICDG",
+      "status": [
+        {
+          "hp": 91,
+          "mp": 24,
+          "ap": 31,
+          "atk": 27,
+          "mag": 27,
+          "dex": 27,
+          "spd": 10,
+          "luk": 26,
+          "efi": -10,
+          "ewi": 10,
+          "mov": 0,
+          "jmp": 0
+        },
+        {
+          "hp": 443,
+          "mp": 29,
+          "ap": 37,
+          "atk": 41,
+          "mag": 41,
+          "dex": 41,
+          "spd": 12,
+          "luk": 39,
+          "efi": -10,
+          "ewi": 10,
+          "mov": 0,
+          "jmp": 0
+        }
+      ],
+      "nb_exp_coef_id": "SB_EXP_ICE_01",
+      "nb_lv_tbl": "SB_LVTBL_UR_01",
+      "nb_awake_id": [
+        "UN_LW_S_ICDG_AW1",
+        "UN_LW_S_ICDG_AW2"
+      ]
+    },
+    {
+      "iname": "UN_LW_S_ICDG_AW1",
+      "sex": 3,
+      "size": 0,
+      "body_type": "NB_M",
+      "charaId": "LAPSicdg",
+      "anm_type": 2,
+      "type": 11,
+      "elem": [
+        2
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SB_R2_DEFAULT",
+      "cost": 40,
+      "atkskl": "SK_SMN_ICDG",
+      "status": [
+        {
+          "hp": 488,
+          "mp": 29,
+          "ap": 37,
+          "atk": 43,
+          "mag": 43,
+          "dex": 42,
+          "spd": 12,
+          "luk": 41,
+          "efi": -10,
+          "ewi": 10,
+          "mov": 0,
+          "jmp": 0
+        },
+        {
+          "hp": 878,
+          "mp": 30,
+          "ap": 39,
+          "atk": 62,
+          "mag": 62,
+          "dex": 58,
+          "spd": 14,
+          "luk": 56,
+          "efi": -10,
+          "ewi": 10,
+          "mov": 0,
+          "jmp": 0
+        }
+      ]
+    },
+    {
+      "iname": "UN_LW_S_ICDG_AW2",
+      "sex": 3,
+      "size": 0,
+      "body_type": "NB_M",
+      "charaId": "LAPSicdg",
+      "anm_type": 2,
+      "type": 11,
+      "elem": [
+        2
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SB_R3_DEFAULT",
+      "cost": 40,
+      "atkskl": "SK_SMN_ICDG",
+      "status": [
+        {
+          "hp": 922,
+          "mp": 30,
+          "ap": 39,
+          "atk": 64,
+          "mag": 64,
+          "dex": 60,
+          "spd": 14,
+          "luk": 58,
+          "efi": -10,
+          "ewi": 10,
+          "ccf": 5,
+          "mov": 0,
+          "jmp": 0
+        },
+        {
+          "hp": 1312,
+          "mp": 31,
+          "ap": 40,
+          "atk": 84,
+          "mag": 84,
+          "dex": 75,
+          "spd": 15,
+          "luk": 73,
+          "efi": -10,
+          "ewi": 10,
+          "ccf": 25,
           "mov": 0,
           "jmp": 0
         }

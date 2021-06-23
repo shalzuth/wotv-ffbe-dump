@@ -256,6 +256,12 @@
       "back_unit": "UN_LW_P_MONT"
     },
     {
+      "iname": "SE_ST_015101",
+      "chap": "CH_ST_0115",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_P_MONT"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -420,6 +426,35 @@
       "hurl": "ev_01_ex_01"
     },
     {
+      "iname": "SE_EV_FF1_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ff1_01",
+      "won_dst_sheet_name": "bgm_ff1_victory"
+    },
+    {
+      "iname": "SE_EV_FF1_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ff1_01_ex",
+      "o_cond_q": [
+        "QE_EV_FF1_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff1_victory"
+    },
+    {
+      "iname": "SE_MU_FF1_01_EX",
+      "hurl": "ev_ff1_01_ex",
+      "won_dst_sheet_name": "bgm_ff1_victory"
+    },
+    {
+      "iname": "SE_SB_08",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_sb_08"
+    },
+    {
+      "iname": "SE_MU_SB_08",
+      "hurl": "ev_sb_08"
+    },
+    {
       "iname": "SE_EV_WIZ_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_wiz_01"
@@ -534,26 +569,6 @@
     {
       "iname": "SE_MU_FF14_EX_02",
       "hurl": "ev_ff14_ex_01"
-    },
-    {
-      "iname": "SE_EV_FF1_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ff1_01",
-      "won_dst_sheet_name": "bgm_ff1_victory"
-    },
-    {
-      "iname": "SE_EV_FF1_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ff1_01_ex",
-      "o_cond_q": [
-        "QE_EV_FF1_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff1_victory"
-    },
-    {
-      "iname": "SE_MU_FF1_01_EX",
-      "hurl": "ev_ff1_01_ex",
-      "won_dst_sheet_name": "bgm_ff1_victory"
     },
     {
       "iname": "SE_EV_07_01",
@@ -833,6 +848,11 @@
     {
       "iname": "SE_MU_CHAL_03",
       "hurl": "ev_chal_03"
+    },
+    {
+      "iname": "SE_BR_SHINE",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "br_shine_01"
     },
     {
       "iname": "SE_EV_UNITEXP_01",
@@ -1314,11 +1334,11 @@
     {
       "iname": "SE_EV_ART_SCR_03",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_art_scr_book"
+      "hurl": "ev_gl_art_scr_spea"
     },
     {
       "iname": "SE_MU_EV_SCR_03",
-      "hurl": "ev_gl_art_scr_book"
+      "hurl": "ev_gl_art_scr_spea"
     },
     {
       "iname": "SE_EV_NEWMAP_001",

@@ -1,13 +1,15 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 315
+    "angle": 315,
+    "crystal_fade_enable": false,
+    "crystal_fade_max": 0
   },
   "party": [
     {
       "name": "id:1",
-      "x": 6,
-      "y": 1,
+      "x": 9,
+      "y": 6,
       "dir": 1,
       "ct_calc": 0,
       "ct_val": 0,
@@ -34,7 +36,15 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:2",
@@ -66,138 +76,18 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "id:3",
-      "x": 8,
-      "y": 5,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 0,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": ""
-    },
-    {
-      "name": "id:4",
-      "x": 7,
-      "y": 0,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 0,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": ""
-    },
-    {
-      "name": "id:5",
-      "x": 9,
-      "y": 5,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 0,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": ""
-    },
-    {
-      "name": "id:6",
-      "x": 6,
-      "y": 0,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "",
-        "wait_e": 0,
-        "search": 0,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": ""
-    },
-    {
-      "name": "",
       "x": 8,
       "y": 4,
       "dir": 1,
@@ -214,7 +104,7 @@
       "ai": {
         "iname": "",
         "wait_e": 0,
-        "search": 3,
+        "search": 0,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -226,12 +116,140 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:4",
+      "x": 8,
+      "y": 2,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 0,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:5",
+      "x": 10,
+      "y": 4,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 0,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:6",
+      "x": 7,
+      "y": 2,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 0,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     },
     {
       "name": "",
-      "x": 7,
-      "y": 1,
+      "x": 8,
+      "y": 3,
       "dir": 1,
       "ct_calc": 0,
       "ct_val": 0,
@@ -258,14 +276,62 @@
         "list": []
       },
       "wait_m": 0,
-      "parent": ""
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "",
+      "x": 10,
+      "y": 3,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
     }
   ],
   "enemy": [
     {
       "name": "",
-      "x": 3,
-      "y": 7,
+      "x": 2,
+      "y": 8,
       "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
@@ -293,6 +359,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 18,
       "iname": "UN_LW_E_WOLF",
       "side": 1,
@@ -306,7 +380,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -337,11 +411,14 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
-      "x": 1,
+      "x": 2,
       "y": 4,
       "dir": 0,
       "ct_calc": 0,
@@ -370,6 +447,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 21,
       "iname": "UN_LW_E_WOLF",
       "side": 1,
@@ -383,7 +468,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -414,12 +499,15 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
       "x": 5,
-      "y": 5,
+      "y": 8,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -447,6 +535,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 36,
       "iname": "UN_LW_E_ELEM_03",
       "side": 1,
@@ -460,7 +556,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -496,7 +592,10 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
@@ -529,6 +628,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 35,
       "iname": "UN_LW_E_ELEM_03",
       "side": 1,
@@ -542,7 +649,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -578,12 +685,15 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
       "x": 8,
-      "y": 11,
+      "y": 10,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 200,
@@ -611,6 +721,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 40,
       "iname": "UN_LW_E_ZUUU",
       "side": 1,
@@ -624,7 +742,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -665,12 +783,15 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
-      "x": 7,
-      "y": 9,
+      "x": 6,
+      "y": 10,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -698,6 +819,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 41,
       "iname": "UN_LW_E_SKEL",
       "side": 1,
@@ -711,7 +840,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -752,11 +881,14 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
-      "x": 9,
+      "x": 11,
       "y": 8,
       "dir": 3,
       "ct_calc": 0,
@@ -785,6 +917,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 42,
       "iname": "UN_LW_E_SKEL",
       "side": 1,
@@ -798,7 +938,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -839,12 +979,15 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     },
     {
       "name": "",
       "x": 10,
-      "y": 6,
+      "y": 7,
       "dir": 3,
       "ct_calc": 0,
       "ct_val": 0,
@@ -872,6 +1015,14 @@
       },
       "wait_m": 0,
       "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
       "enemy_id": 43,
       "iname": "UN_LW_E_SKEL",
       "side": 1,
@@ -885,7 +1036,7 @@
       "ctrl": 0,
       "nottar": 0,
       "fixdir": 0,
-      "drop": "QE_CH_LW_KTON",
+      "drop": "QE_CH_GL_LW_ZZAN_01",
       "crystal": "CRYSTAL_00",
       "steal": "",
       "stealValue": 100,
@@ -926,7 +1077,10 @@
       "tag": 0,
       "raid_type": 0,
       "dispOrder": 0,
-      "referenceGObjName": ""
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": ""
     }
   ],
   "arena": [],
@@ -985,7 +1139,7 @@
     },
     {
       "type": 0,
-      "iname": "QE_CH_LW_KTON",
+      "iname": "QE_CH_GL_LW_ZZAN_01",
       "num": 1,
       "drop_list": [
         {
@@ -1000,7 +1154,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_NIN_3",
+            "iname": "IT_JB_MM_LW_ZZAN_3",
             "num": 1,
             "secret": 0
           },
@@ -1018,7 +1172,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_HEART_01",
+            "iname": "IT_AF_MAT_SAND_01",
             "num": 1,
             "secret": 0
           },

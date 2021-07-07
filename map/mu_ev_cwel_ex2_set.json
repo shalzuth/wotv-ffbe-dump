@@ -1,15 +1,15 @@
 {
   "info": {
     "angle_override": true,
-    "angle": 315,
+    "angle": 225,
     "crystal_fade_enable": false,
     "crystal_fade_max": 0
   },
   "party": [
     {
       "name": "id:1",
-      "x": 12,
-      "y": 2,
+      "x": 11,
+      "y": 6,
       "dir": 2,
       "ct_calc": 0,
       "ct_val": 0,
@@ -129,7 +129,87 @@
     {
       "name": "id:4",
       "x": 11,
-      "y": 1,
+      "y": 3,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:5",
+      "x": 12,
+      "y": 4,
+      "dir": 2,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "",
+        "wait_e": 0,
+        "search": 3,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "id:6",
+      "x": 10,
+      "y": 2,
       "dir": 2,
       "ct_calc": 0,
       "ct_val": 0,
@@ -250,7 +330,7 @@
   "enemy": [
     {
       "name": "",
-      "x": 2,
+      "x": 3,
       "y": 4,
       "dir": 0,
       "ct_calc": 0,
@@ -357,7 +437,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 60,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -366,58 +446,8 @@
           "rate": 100
         },
         {
-          "iname": "SK_BTL_AVOI_1_999_U",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 75,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 75,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 46,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 45,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U_PA",
-          "rank": 20,
+          "iname": "SK_LW_AVOID_5_UR",
+          "rank": 1,
           "rate": 100
         }
       ],
@@ -429,11 +459,11 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":5550},{\"type\":2,\"value\":151},{\"type\":3,\"value\":177},{\"type\":151,\"value\":10},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":250,\"value\":20},{\"type\":251,\"value\":15},{\"type\":252,\"value\":20},{\"type\":254,\"value\":30},{\"type\":153,\"value\":10},{\"type\":7,\"value\":15},{\"type\":253,\"value\":-15}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":5500},{\"type\":2,\"value\":150},{\"type\":3,\"value\":175},{\"type\":4,\"value\":550},{\"type\":6,\"value\":175},{\"type\":5,\"value\":55},{\"type\":9,\"value\":95},{\"type\":8,\"value\":275},{\"type\":10,\"value\":265},{\"type\":151,\"value\":20},{\"type\":152,\"value\":-10},{\"type\":154,\"value\":20},{\"type\":155,\"value\":20},{\"type\":156,\"value\":20},{\"type\":157,\"value\":20},{\"type\":158,\"value\":20},{\"type\":250,\"value\":30},{\"type\":251,\"value\":30},{\"type\":252,\"value\":20},{\"type\":253,\"value\":-10},{\"type\":254,\"value\":30},{\"type\":7,\"value\":20}]}"
     },
     {
       "name": "",
-      "x": 0,
+      "x": 1,
       "y": 5,
       "dir": 0,
       "ct_calc": 0,
@@ -550,7 +580,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 60,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -562,56 +592,6 @@
           "iname": "SK_BTL_RESDB_DF_1_100_U",
           "rank": 40,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 180,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 180,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 27,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 26,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 110,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 100,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 100,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 92,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MDF_1-80_U_PA",
-          "rank": 20,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -622,11 +602,11 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4250},{\"type\":2,\"value\":175},{\"type\":3,\"value\":188},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":153,\"value\":10},{\"type\":154,\"value\":10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":-10},{\"type\":250,\"value\":15},{\"type\":251,\"value\":20},{\"type\":252,\"value\":15},{\"type\":254,\"value\":30},{\"type\":5,\"value\":20},{\"type\":4,\"value\":156},{\"type\":253,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4250},{\"type\":2,\"value\":175},{\"type\":3,\"value\":150},{\"type\":9,\"value\":85},{\"type\":8,\"value\":260},{\"type\":10,\"value\":270},{\"type\":5,\"value\":20},{\"type\":7,\"value\":55},{\"type\":6,\"value\":450},{\"type\":4,\"value\":150},{\"type\":151,\"value\":20},{\"type\":152,\"value\":20},{\"type\":153,\"value\":10},{\"type\":154,\"value\":20},{\"type\":155,\"value\":20},{\"type\":156,\"value\":20},{\"type\":157,\"value\":10},{\"type\":158,\"value\":-10},{\"type\":250,\"value\":20},{\"type\":251,\"value\":25},{\"type\":252,\"value\":20},{\"type\":254,\"value\":50}]}"
     },
     {
       "name": "",
-      "x": 0,
+      "x": 1,
       "y": 3,
       "dir": 0,
       "ct_calc": 0,
@@ -692,6 +672,11 @@
           "rate": 100
         },
         {
+          "iname": "SK_LW_WHM_P_1",
+          "rank": 1,
+          "rate": 100
+        },
+        {
           "iname": "SK_LW_WHM_R_1",
           "rank": 18,
           "rate": 100
@@ -733,7 +718,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -745,46 +730,6 @@
           "iname": "SK_BTL_RESDB_DF_1_100_U",
           "rank": 40,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 150,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 150,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 13,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 14,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 60,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 45,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 45,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -795,12 +740,12 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":3550},{\"type\":2,\"value\":157},{\"type\":3,\"value\":182},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":153,\"value\":10},{\"type\":154,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":-5},{\"type\":250,\"value\":10},{\"type\":251,\"value\":10},{\"type\":252,\"value\":15},{\"type\":254,\"value\":30},{\"type\":406,\"value\":50},{\"type\":407,\"value\":50},{\"type\":408,\"value\":50},{\"type\":410,\"value\":100},{\"type\":420,\"value\":50},{\"type\":417,\"value\":50},{\"type\":421,\"value\":100},{\"type\":155,\"value\":10},{\"type\":5,\"value\":10},{\"type\":4,\"value\":132},{\"type\":7,\"value\":25}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":3500},{\"type\":2,\"value\":150},{\"type\":3,\"value\":175},{\"type\":4,\"value\":150},{\"type\":6,\"value\":325},{\"type\":5,\"value\":15},{\"type\":7,\"value\":50},{\"type\":9,\"value\":75},{\"type\":8,\"value\":255},{\"type\":10,\"value\":265},{\"type\":151,\"value\":15},{\"type\":152,\"value\":15},{\"type\":153,\"value\":15},{\"type\":154,\"value\":15},{\"type\":155,\"value\":15},{\"type\":156,\"value\":15},{\"type\":157,\"value\":15},{\"type\":158,\"value\":-5},{\"type\":250,\"value\":20},{\"type\":251,\"value\":20},{\"type\":252,\"value\":15},{\"type\":254,\"value\":40}]}"
     },
     {
       "name": "",
-      "x": 3,
-      "y": 2,
+      "x": 4,
+      "y": 1,
       "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
@@ -916,52 +861,12 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 45,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 45,
           "rate": 100
         }
       ],
@@ -973,11 +878,11 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":3750},{\"type\":2,\"value\":111},{\"type\":3,\"value\":124},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":154,\"value\":10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":254,\"value\":30},{\"type\":252,\"value\":15},{\"type\":251,\"value\":15},{\"type\":250,\"value\":10},{\"type\":417,\"value\":50},{\"type\":404,\"value\":50},{\"type\":408,\"value\":50},{\"type\":419,\"value\":50},{\"type\":153,\"value\":-10},{\"type\":5,\"value\":20},{\"type\":7,\"value\":20},{\"type\":253,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":3750},{\"type\":4,\"value\":400},{\"type\":2,\"value\":100},{\"type\":3,\"value\":120},{\"type\":5,\"value\":30},{\"type\":9,\"value\":65},{\"type\":8,\"value\":230},{\"type\":10,\"value\":245},{\"type\":7,\"value\":10},{\"type\":151,\"value\":15},{\"type\":152,\"value\":15},{\"type\":153,\"value\":-5},{\"type\":154,\"value\":15},{\"type\":155,\"value\":15},{\"type\":156,\"value\":15},{\"type\":157,\"value\":15},{\"type\":158,\"value\":15},{\"type\":254,\"value\":30},{\"type\":252,\"value\":25},{\"type\":251,\"value\":15},{\"type\":250,\"value\":20}]}"
     },
     {
       "name": "",
-      "x": 3,
+      "x": 5,
       "y": 6,
       "dir": 0,
       "ct_calc": 0,
@@ -1094,52 +999,12 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 45,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 45,
           "rate": 100
         }
       ],
@@ -1151,12 +1016,12 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":3750},{\"type\":2,\"value\":111},{\"type\":3,\"value\":124},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":154,\"value\":10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":254,\"value\":30},{\"type\":252,\"value\":15},{\"type\":251,\"value\":15},{\"type\":250,\"value\":10},{\"type\":417,\"value\":50},{\"type\":404,\"value\":50},{\"type\":408,\"value\":50},{\"type\":419,\"value\":50},{\"type\":153,\"value\":-10},{\"type\":5,\"value\":20},{\"type\":7,\"value\":20},{\"type\":253,\"value\":-10}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":3750},{\"type\":4,\"value\":400},{\"type\":2,\"value\":100},{\"type\":3,\"value\":120},{\"type\":5,\"value\":30},{\"type\":9,\"value\":65},{\"type\":8,\"value\":230},{\"type\":10,\"value\":245},{\"type\":7,\"value\":10},{\"type\":151,\"value\":15},{\"type\":152,\"value\":15},{\"type\":153,\"value\":-5},{\"type\":154,\"value\":15},{\"type\":155,\"value\":15},{\"type\":156,\"value\":15},{\"type\":157,\"value\":15},{\"type\":158,\"value\":15},{\"type\":254,\"value\":30},{\"type\":252,\"value\":25},{\"type\":251,\"value\":15},{\"type\":250,\"value\":20}]}"
     },
     {
       "name": "",
-      "x": 5,
-      "y": 4,
+      "x": 6,
+      "y": 3,
       "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
@@ -1257,7 +1122,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -1269,56 +1134,6 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 20,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 13,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 13,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U_PA",
-          "rank": 10,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -1329,12 +1144,12 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4500},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":154,\"value\":10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":250,\"value\":15},{\"type\":254,\"value\":30},{\"type\":251,\"value\":10},{\"type\":252,\"value\":15},{\"type\":253,\"value\":-15},{\"type\":404,\"value\":50},{\"type\":403,\"value\":50},{\"type\":419,\"value\":50},{\"type\":417,\"value\":50},{\"type\":2,\"value\":107},{\"type\":3,\"value\":131},{\"type\":6,\"value\":252},{\"type\":7,\"value\":20}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4500},{\"type\":4,\"value\":375},{\"type\":9,\"value\":63},{\"type\":6,\"value\":150},{\"type\":8,\"value\":225},{\"type\":10,\"value\":265},{\"type\":5,\"value\":45},{\"type\":7,\"value\":25},{\"type\":151,\"value\":25},{\"type\":152,\"value\":25},{\"type\":154,\"value\":25},{\"type\":155,\"value\":25},{\"type\":156,\"value\":25},{\"type\":157,\"value\":25},{\"type\":158,\"value\":25},{\"type\":250,\"value\":30},{\"type\":254,\"value\":30},{\"type\":251,\"value\":20},{\"type\":252,\"value\":30},{\"type\":253,\"value\":0}]}"
     },
     {
       "name": "",
-      "x": 6,
-      "y": 7,
+      "x": 4,
+      "y": 5,
       "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
@@ -1435,7 +1250,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -1447,56 +1262,6 @@
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
           "rank": 20,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 130,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 13,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 13,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DF_1-80_U_PA",
-          "rank": 10,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -1507,11 +1272,11 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4500},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":154,\"value\":10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":250,\"value\":15},{\"type\":254,\"value\":30},{\"type\":251,\"value\":10},{\"type\":252,\"value\":15},{\"type\":253,\"value\":-15},{\"type\":404,\"value\":50},{\"type\":403,\"value\":50},{\"type\":419,\"value\":50},{\"type\":417,\"value\":50},{\"type\":2,\"value\":107},{\"type\":3,\"value\":131},{\"type\":6,\"value\":252},{\"type\":7,\"value\":20}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4500},{\"type\":4,\"value\":375},{\"type\":9,\"value\":63},{\"type\":6,\"value\":150},{\"type\":8,\"value\":225},{\"type\":10,\"value\":265},{\"type\":5,\"value\":45},{\"type\":7,\"value\":25},{\"type\":151,\"value\":25},{\"type\":152,\"value\":25},{\"type\":154,\"value\":25},{\"type\":155,\"value\":25},{\"type\":156,\"value\":25},{\"type\":157,\"value\":25},{\"type\":158,\"value\":25},{\"type\":250,\"value\":30},{\"type\":254,\"value\":30},{\"type\":251,\"value\":20},{\"type\":252,\"value\":30},{\"type\":253,\"value\":0}]}"
     },
     {
       "name": "",
-      "x": 1,
+      "x": 5,
       "y": 2,
       "dir": 0,
       "ct_calc": 0,
@@ -1582,6 +1347,11 @@
           "rate": 100
         },
         {
+          "iname": "SK_LW_MKN_THUN_P_1",
+          "rank": 18,
+          "rate": 100
+        },
+        {
           "iname": "SK_LW_MKN_THUN_M_1",
           "rank": 18,
           "rate": 100
@@ -1613,7 +1383,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -1625,46 +1395,6 @@
           "iname": "SK_BTL_RESDB_MDF_1_100_U",
           "rank": 40,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 110,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 110,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 17,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 85,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 85,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 90,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 90,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -1675,11 +1405,11 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4000},{\"type\":2,\"value\":160},{\"type\":3,\"value\":160},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":153,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":250,\"value\":20},{\"type\":251,\"value\":25},{\"type\":252,\"value\":30},{\"type\":253,\"value\":-10},{\"type\":254,\"value\":45},{\"type\":405,\"value\":50},{\"type\":406,\"value\":50},{\"type\":408,\"value\":50},{\"type\":417,\"value\":50},{\"type\":419,\"value\":50},{\"type\":420,\"value\":50},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":5,\"value\":20},{\"type\":7,\"value\":30},{\"type\":4,\"value\":163}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4000},{\"type\":2,\"value\":160},{\"type\":3,\"value\":160},{\"type\":10,\"value\":255},{\"type\":4,\"value\":150},{\"type\":6,\"value\":375},{\"type\":5,\"value\":10},{\"type\":7,\"value\":50},{\"type\":9,\"value\":67},{\"type\":8,\"value\":240},{\"type\":151,\"value\":15},{\"type\":152,\"value\":15},{\"type\":153,\"value\":15},{\"type\":155,\"value\":15},{\"type\":156,\"value\":15},{\"type\":157,\"value\":15},{\"type\":158,\"value\":15},{\"type\":250,\"value\":20},{\"type\":251,\"value\":25},{\"type\":252,\"value\":30},{\"type\":253,\"value\":0},{\"type\":254,\"value\":45}]}"
     },
     {
       "name": "",
-      "x": 4,
+      "x": 6,
       "y": 8,
       "dir": 0,
       "ct_calc": 0,
@@ -1750,6 +1480,11 @@
           "rate": 100
         },
         {
+          "iname": "SK_LW_MKN_FIRE_P_1",
+          "rank": 18,
+          "rate": 100
+        },
+        {
           "iname": "SK_LW_MKN_FIRE_M_1",
           "rank": 18,
           "rate": 100
@@ -1781,7 +1516,7 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
+          "rank": 30,
           "rate": 100
         },
         {
@@ -1793,46 +1528,6 @@
           "iname": "SK_BTL_RESDB_MDF_1_100_U",
           "rank": 40,
           "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U",
-          "rank": 110,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_MAG_1-999_U_PA",
-          "rank": 110,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 18,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 17,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 85,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 85,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 90,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
-          "rank": 90,
-          "rate": 100
         }
       ],
       "fskl": "",
@@ -1843,7 +1538,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4000},{\"type\":2,\"value\":160},{\"type\":3,\"value\":160},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":153,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":250,\"value\":20},{\"type\":251,\"value\":25},{\"type\":252,\"value\":30},{\"type\":253,\"value\":-10},{\"type\":254,\"value\":45},{\"type\":405,\"value\":50},{\"type\":406,\"value\":50},{\"type\":408,\"value\":50},{\"type\":417,\"value\":50},{\"type\":419,\"value\":50},{\"type\":420,\"value\":50},{\"type\":155,\"value\":10},{\"type\":5,\"value\":20},{\"type\":7,\"value\":30},{\"type\":4,\"value\":163},{\"type\":154,\"value\":10}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4000},{\"type\":2,\"value\":160},{\"type\":3,\"value\":160},{\"type\":10,\"value\":255},{\"type\":4,\"value\":150},{\"type\":6,\"value\":375},{\"type\":5,\"value\":10},{\"type\":7,\"value\":50},{\"type\":9,\"value\":67},{\"type\":8,\"value\":240},{\"type\":151,\"value\":15},{\"type\":152,\"value\":15},{\"type\":153,\"value\":15},{\"type\":155,\"value\":15},{\"type\":156,\"value\":15},{\"type\":157,\"value\":15},{\"type\":158,\"value\":15},{\"type\":250,\"value\":20},{\"type\":251,\"value\":25},{\"type\":252,\"value\":30},{\"type\":253,\"value\":0},{\"type\":254,\"value\":45}]}"
     },
     {
       "name": "",
@@ -1921,6 +1616,11 @@
           "rate": 100
         },
         {
+          "iname": "SK_LW_KNT_P_1",
+          "rank": 18,
+          "rate": 100
+        },
+        {
           "iname": "SK_MABR_M_01",
           "rank": 18,
           "rate": 100
@@ -1931,9 +1631,24 @@
           "rate": 100
         },
         {
-          "iname": "SK_MABR_M_03_1",
+          "iname": "SK_MABR_M_03",
           "rank": 18,
           "rate": 30
+        },
+        {
+          "iname": "SK_BTL_POIS_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_PARALYZE_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CONFU_1-100_U",
+          "rank": 15,
+          "rate": 100
         },
         {
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
@@ -1942,46 +1657,6 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 160,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 160,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 7,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 6,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 33,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
           "rank": 30,
           "rate": 100
         }
@@ -1994,11 +1669,11 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4250},{\"type\":2,\"value\":120},{\"type\":3,\"value\":150},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":153,\"value\":-10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":250,\"value\":15},{\"type\":251,\"value\":10},{\"type\":252,\"value\":15},{\"type\":253,\"value\":-20},{\"type\":254,\"value\":25},{\"type\":158,\"value\":10},{\"type\":5,\"value\":30}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4250},{\"type\":4,\"value\":450},{\"type\":2,\"value\":120},{\"type\":3,\"value\":150},{\"type\":5,\"value\":40},{\"type\":9,\"value\":55},{\"type\":8,\"value\":230},{\"type\":10,\"value\":235},{\"type\":151,\"value\":20},{\"type\":152,\"value\":20},{\"type\":153,\"value\":-10},{\"type\":154,\"value\":20},{\"type\":155,\"value\":20},{\"type\":156,\"value\":20},{\"type\":157,\"value\":20},{\"type\":158,\"value\":20},{\"type\":250,\"value\":30},{\"type\":251,\"value\":20},{\"type\":252,\"value\":30},{\"type\":253,\"value\":-5},{\"type\":254,\"value\":15}]}"
     },
     {
       "name": "",
-      "x": 3,
+      "x": 4,
       "y": 7,
       "dir": 0,
       "ct_calc": 0,
@@ -2072,6 +1747,11 @@
           "rate": 100
         },
         {
+          "iname": "SK_LW_KNT_P_1",
+          "rank": 18,
+          "rate": 100
+        },
+        {
           "iname": "SK_MABR_M_01",
           "rank": 18,
           "rate": 100
@@ -2082,9 +1762,24 @@
           "rate": 100
         },
         {
-          "iname": "SK_MABR_M_03_1",
+          "iname": "SK_MABR_M_03",
           "rank": 18,
           "rate": 30
+        },
+        {
+          "iname": "SK_BTL_POIS_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_PARALYZE_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CONFU_1-100_U",
+          "rank": 15,
+          "rate": 100
         },
         {
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
@@ -2093,46 +1788,6 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 160,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 160,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 7,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 6,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 33,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
           "rank": 30,
           "rate": 100
         }
@@ -2145,7 +1800,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":4250},{\"type\":2,\"value\":120},{\"type\":3,\"value\":150},{\"type\":151,\"value\":10},{\"type\":152,\"value\":10},{\"type\":153,\"value\":-10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":250,\"value\":15},{\"type\":251,\"value\":10},{\"type\":252,\"value\":15},{\"type\":253,\"value\":-20},{\"type\":254,\"value\":25},{\"type\":158,\"value\":10},{\"type\":5,\"value\":30}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":4250},{\"type\":4,\"value\":450},{\"type\":2,\"value\":120},{\"type\":3,\"value\":150},{\"type\":5,\"value\":40},{\"type\":9,\"value\":55},{\"type\":8,\"value\":230},{\"type\":10,\"value\":235},{\"type\":151,\"value\":20},{\"type\":152,\"value\":20},{\"type\":153,\"value\":-10},{\"type\":154,\"value\":20},{\"type\":155,\"value\":20},{\"type\":156,\"value\":20},{\"type\":157,\"value\":20},{\"type\":158,\"value\":20},{\"type\":250,\"value\":30},{\"type\":251,\"value\":20},{\"type\":252,\"value\":30},{\"type\":253,\"value\":-5},{\"type\":254,\"value\":15}]}"
     },
     {
       "name": "",
@@ -2223,6 +1878,11 @@
           "rate": 100
         },
         {
+          "iname": "SK_LW_KNT_P_1",
+          "rank": 18,
+          "rate": 100
+        },
+        {
           "iname": "SK_MABR_M_01",
           "rank": 18,
           "rate": 100
@@ -2233,9 +1893,24 @@
           "rate": 100
         },
         {
-          "iname": "SK_MABR_M_03_1",
+          "iname": "SK_MABR_M_03",
           "rank": 18,
           "rate": 50
+        },
+        {
+          "iname": "SK_BTL_POIS_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_PARALYZE_1-100_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_CONFU_1-100_U",
+          "rank": 15,
+          "rate": 100
         },
         {
           "iname": "SK_BTL_DEFPIERCE_1-100_U",
@@ -2244,46 +1919,6 @@
         },
         {
           "iname": "SK_BTL_HIT_1_999_U",
-          "rank": 50,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 176,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_ATK_1-999_U_PA",
-          "rank": 170,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 9,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U_PA",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U_PA",
-          "rank": 40,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U",
-          "rank": 30,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_LUK_1-999_U_PA",
           "rank": 30,
           "rate": 100
         }
@@ -2296,7 +1931,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": "{\"list\":[{\"type\":1,\"value\":5000},{\"type\":2,\"value\":120},{\"type\":3,\"value\":163},{\"type\":152,\"value\":10},{\"type\":153,\"value\":-10},{\"type\":155,\"value\":10},{\"type\":156,\"value\":10},{\"type\":157,\"value\":10},{\"type\":158,\"value\":10},{\"type\":250,\"value\":15},{\"type\":251,\"value\":15},{\"type\":252,\"value\":15},{\"type\":253,\"value\":-20},{\"type\":254,\"value\":30},{\"type\":151,\"value\":10},{\"type\":5,\"value\":40}]}"
+      "status": "{\"list\":[{\"type\":1,\"value\":5000},{\"type\":4,\"value\":500},{\"type\":2,\"value\":120},{\"type\":3,\"value\":150},{\"type\":5,\"value\":40},{\"type\":9,\"value\":55},{\"type\":8,\"value\":230},{\"type\":10,\"value\":235},{\"type\":151,\"value\":20},{\"type\":152,\"value\":20},{\"type\":153,\"value\":-10},{\"type\":154,\"value\":20},{\"type\":155,\"value\":20},{\"type\":156,\"value\":20},{\"type\":157,\"value\":20},{\"type\":158,\"value\":20},{\"type\":250,\"value\":30},{\"type\":251,\"value\":20},{\"type\":252,\"value\":30},{\"type\":253,\"value\":-5},{\"type\":254,\"value\":15}]}"
     }
   ],
   "arena": [],
@@ -2343,7 +1978,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap00;local=",
+        "typeval": "unittag=trap00",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2366,7 +2001,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap01;local=",
+        "typeval": "unittag=trap01",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2389,7 +2024,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap02;local=",
+        "typeval": "unittag=trap02",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2412,7 +2047,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap03;local=",
+        "typeval": "unittag=trap03",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2435,7 +2070,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap04;local=",
+        "typeval": "unittag=trap04",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2458,7 +2093,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap05;local=",
+        "typeval": "unittag=trap05",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2481,7 +2116,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap06;local=",
+        "typeval": "unittag=trap06",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2504,7 +2139,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap07;local=",
+        "typeval": "unittag=trap07",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2527,7 +2162,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap08;local=",
+        "typeval": "unittag=trap08",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2550,7 +2185,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap09;local=",
+        "typeval": "unittag=trap09",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2573,7 +2208,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap10;local=",
+        "typeval": "unittag=trap10",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2596,7 +2231,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap11;local=",
+        "typeval": "unittag=trap11",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2619,7 +2254,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap12;local=",
+        "typeval": "unittag=trap12",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2642,7 +2277,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap13;local=",
+        "typeval": "unittag=trap13",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2665,7 +2300,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap14;local=",
+        "typeval": "unittag=trap14",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2688,7 +2323,7 @@
       },
       "mapEv": {
         "type": 2,
-        "typeval": "unittag=trap15;local=",
+        "typeval": "unittag=trap15",
         "isUnitNoAct": true
       },
       "invokeMax": -1,
@@ -2697,31 +2332,6 @@
     }
   ],
   "drop_table_list": [
-    {
-      "type": 1,
-      "iname": "CRYSTAL_00",
-      "num": 1,
-      "drop_list": [
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 50
-        },
-        {
-          "drop_data": {
-            "type": 99,
-            "iname": "UN_GM_CRYSTAL_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 50
-        }
-      ]
-    },
     {
       "type": 0,
       "iname": "QE_MU_EV_CWEL_EX2",
@@ -2734,7 +2344,7 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 2917
+          "weight": 3624
         },
         {
           "drop_data": {
@@ -2752,7 +2362,7 @@
             "num": 2,
             "secret": 0
           },
-          "weight": 833
+          "weight": 800
         },
         {
           "drop_data": {
@@ -2761,7 +2371,7 @@
             "num": 10,
             "secret": 0
           },
-          "weight": 1083
+          "weight": 917
         },
         {
           "drop_data": {
@@ -2770,7 +2380,7 @@
             "num": 2,
             "secret": 0
           },
-          "weight": 833
+          "weight": 325
         },
         {
           "drop_data": {
@@ -2802,6 +2412,31 @@
       ]
     },
     {
+      "type": 1,
+      "iname": "CRYSTAL_00",
+      "num": 1,
+      "drop_list": [
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 50
+        },
+        {
+          "drop_data": {
+            "type": 99,
+            "iname": "UN_GM_CRYSTAL_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 50
+        }
+      ]
+    },
+    {
       "type": 3,
       "iname": "HOST",
       "num": 1,
@@ -2813,7 +2448,7 @@
             "num": 2,
             "secret": 0
           },
-          "weight": 5
+          "weight": 200
         },
         {
           "drop_data": {
@@ -2822,16 +2457,16 @@
             "num": 3,
             "secret": 0
           },
-          "weight": 11
+          "weight": 800
         },
         {
           "drop_data": {
             "type": 0,
             "iname": "IT_AF_MAT_HEART_03",
-            "num": 12,
+            "num": 3,
             "secret": 0
           },
-          "weight": 11
+          "weight": 7200
         },
         {
           "drop_data": {
@@ -2840,7 +2475,7 @@
             "num": 3,
             "secret": 0
           },
-          "weight": 11
+          "weight": 800
         },
         {
           "drop_data": {
@@ -2849,7 +2484,7 @@
             "num": 3,
             "secret": 0
           },
-          "weight": 11
+          "weight": 1000
         }
       ]
     }

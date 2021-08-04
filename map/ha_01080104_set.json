@@ -331,7 +331,7 @@
     {
       "name": "",
       "x": 1,
-      "y": 7,
+      "y": 6,
       "dir": 1,
       "ct_calc": 0,
       "ct_val": 0,
@@ -346,7 +346,7 @@
       "ai": {
         "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
-        "search": 6,
+        "search": 9,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -391,6 +391,16 @@
       },
       "skills": [
         {
+          "iname": "SK_BTL_JOB_THI_1_15_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_WOLF_M_01",
+          "rank": 15,
+          "rate": 30
+        },
+        {
           "iname": "SK_WOLF_M_02",
           "rank": 10,
           "rate": 100
@@ -401,18 +411,8 @@
           "rate": 100
         },
         {
-          "iname": "SK_WOLF_M_01",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_THI_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 100,
+          "rank": 170,
           "rate": 100
         },
         {
@@ -434,12 +434,12 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "{\"list\":[{\"type\":5,\"value\":5}]}"
     },
     {
       "name": "",
       "x": 2,
-      "y": 6,
+      "y": 5,
       "dir": 1,
       "ct_calc": 0,
       "ct_val": 0,
@@ -454,7 +454,7 @@
       "ai": {
         "iname": "AI_ENEMY_ATK_LV3",
         "wait_e": 0,
-        "search": 6,
+        "search": 9,
         "sensing": 0
       },
       "chgTexSetting": {
@@ -499,6 +499,16 @@
       },
       "skills": [
         {
+          "iname": "SK_BTL_JOB_THI_1_15_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_WOLF_M_01",
+          "rank": 15,
+          "rate": 30
+        },
+        {
           "iname": "SK_WOLF_M_02",
           "rank": 10,
           "rate": 100
@@ -509,18 +519,8 @@
           "rate": 100
         },
         {
-          "iname": "SK_WOLF_M_01",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_THI_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 100,
+          "rank": 170,
           "rate": 100
         },
         {
@@ -542,7 +542,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "{\"list\":[{\"type\":5,\"value\":5}]}"
     },
     {
       "name": "",
@@ -607,6 +607,11 @@
       },
       "skills": [
         {
+          "iname": "SK_BTL_JOB_DRG_1_15_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
           "iname": "SK_ZUUU_M_01",
           "rank": 20,
           "rate": 100
@@ -619,11 +624,6 @@
         {
           "iname": "SK_ZUUU_M_03",
           "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_DRG_1_15_U",
-          "rank": 15,
           "rate": 100
         },
         {
@@ -643,7 +643,7 @@
         },
         {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 100,
+          "rank": 150,
           "rate": 100
         }
       ],
@@ -655,7 +655,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "{\"list\":[{\"type\":5,\"value\":7}]}"
     },
     {
       "name": "e1a",
@@ -746,17 +746,17 @@
         },
         {
           "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 15,
+          "rank": 20,
           "rate": 100
         },
         {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 250,
+          "rank": 200,
           "rate": 100
         },
         {
           "iname": "SK_BTL_DF_1-80_U",
-          "rank": 15,
+          "rank": 10,
           "rate": 100
         },
         {
@@ -787,8 +787,8 @@
     },
     {
       "name": "",
-      "x": 7,
-      "y": 4,
+      "x": 9,
+      "y": 5,
       "dir": 1,
       "ct_calc": 0,
       "ct_val": 0,
@@ -849,13 +849,13 @@
       "skills": [
         {
           "iname": "SK_ARMN_M_02",
-          "rank": 20,
-          "rate": 100
+          "rank": 10,
+          "rate": 30
         },
         {
           "iname": "SK_ARMN_M_03",
-          "rank": 20,
-          "rate": 100
+          "rank": 10,
+          "rate": 50
         },
         {
           "iname": "SK_BTL_JOB_DRG_1_15_U",
@@ -869,7 +869,7 @@
         },
         {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 200,
+          "rank": 100,
           "rate": 100
         },
         {
@@ -886,7 +886,125 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "{\"list\":[{\"type\":5,\"value\":5}]}"
+    },
+    {
+      "name": "skel",
+      "x": 8,
+      "y": 7,
+      "dir": 1,
+      "ct_calc": 0,
+      "ct_val": 0,
+      "brave": 0,
+      "faith": 0,
+      "fvoff": 0,
+      "disphpg": 0,
+      "disableact": 0,
+      "disablemove": 0,
+      "dmganm": 0,
+      "block": 0,
+      "ai": {
+        "iname": "AI_ENEMY_ATK_LV5",
+        "wait_e": 0,
+        "search": 10,
+        "sensing": 0
+      },
+      "chgTexSetting": {
+        "hp_tbl": []
+      },
+      "entry_cond": {
+        "timing": 0,
+        "expr": "",
+        "list": []
+      },
+      "wait_m": 0,
+      "parent": "",
+      "part": {
+        "body": "",
+        "id": "",
+        "gauge": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "enemy_id": 8,
+      "iname": "UN_LW_E_SKEL",
+      "side": 1,
+      "dead": 0,
+      "lv": 68,
+      "rare": 0,
+      "awake": 4,
+      "rank": 4,
+      "elem": 8,
+      "search": 0,
+      "ctrl": 0,
+      "nottar": 0,
+      "fixdir": 0,
+      "drop": "QE_HA_01080104",
+      "crystal": "CRYSTAL_00",
+      "steal": "",
+      "stealValue": 100,
+      "nrmSkl": {
+        "iname": "",
+        "rank": 0,
+        "rate": 0
+      },
+      "skills": [
+        {
+          "iname": "SK_SKEL_M_01",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_SKEL_M_04",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_SKEL_M_03",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_JOB_WAR_1_15_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_HP_100-99900_U",
+          "rank": 15,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_SPD_1-999_U",
+          "rank": 20,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_DEX_1-999_U",
+          "rank": 30,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_ATK_1-999_U",
+          "rank": 180,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MAG_1-999_U",
+          "rank": 100,
+          "rate": 100
+        }
+      ],
+      "fskl": "",
+      "weight": 0,
+      "tag": 0,
+      "raid_type": 0,
+      "dispOrder": 0,
+      "pts": 0,
+      "shield": false,
+      "referenceGObjName": "",
+      "status": "{\"list\":[{\"type\":5,\"value\":5}]}"
     },
     {
       "name": "",
@@ -975,12 +1093,12 @@
         },
         {
           "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 8,
+          "rank": 15,
           "rate": 100
         },
         {
           "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 15,
+          "rank": 21,
           "rate": 100
         },
         {
@@ -990,7 +1108,12 @@
         },
         {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 150,
+          "rank": 220,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MAG_1-999_U",
+          "rank": 120,
           "rate": 100
         }
       ],
@@ -1002,7 +1125,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
+      "status": "{\"list\":[{\"type\":5,\"value\":5}]}"
     },
     {
       "name": "",
@@ -1091,12 +1214,12 @@
         },
         {
           "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 8,
+          "rank": 15,
           "rate": 100
         },
         {
           "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 15,
+          "rank": 21,
           "rate": 100
         },
         {
@@ -1106,7 +1229,12 @@
         },
         {
           "iname": "SK_BTL_ATK_1-999_U",
-          "rank": 150,
+          "rank": 220,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_MAG_1-999_U",
+          "rank": 120,
           "rate": 100
         }
       ],
@@ -1118,115 +1246,7 @@
       "pts": 0,
       "shield": false,
       "referenceGObjName": "",
-      "status": ""
-    },
-    {
-      "name": "skel",
-      "x": 8,
-      "y": 5,
-      "dir": 1,
-      "ct_calc": 0,
-      "ct_val": 0,
-      "brave": 0,
-      "faith": 0,
-      "fvoff": 0,
-      "disphpg": 0,
-      "disableact": 0,
-      "disablemove": 0,
-      "dmganm": 0,
-      "block": 0,
-      "ai": {
-        "iname": "AI_ENEMY_ATK_LV5",
-        "wait_e": 0,
-        "search": 10,
-        "sensing": 0
-      },
-      "chgTexSetting": {
-        "hp_tbl": []
-      },
-      "entry_cond": {
-        "timing": 0,
-        "expr": "",
-        "list": []
-      },
-      "wait_m": 0,
-      "parent": "",
-      "part": {
-        "body": "",
-        "id": "",
-        "gauge": {
-          "x": 0.0,
-          "y": 0.0
-        }
-      },
-      "enemy_id": 8,
-      "iname": "UN_LW_E_SKEL",
-      "side": 1,
-      "dead": 0,
-      "lv": 68,
-      "rare": 0,
-      "awake": 4,
-      "rank": 4,
-      "elem": 8,
-      "search": 0,
-      "ctrl": 0,
-      "nottar": 0,
-      "fixdir": 0,
-      "drop": "QE_HA_01080104",
-      "crystal": "CRYSTAL_00",
-      "steal": "",
-      "stealValue": 100,
-      "nrmSkl": {
-        "iname": "",
-        "rank": 0,
-        "rate": 0
-      },
-      "skills": [
-        {
-          "iname": "SK_SKEL_M_01",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SKEL_M_04",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_SKEL_M_03",
-          "rank": 20,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_JOB_WAR_1_15_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 10,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_SPD_1-999_U",
-          "rank": 15,
-          "rate": 100
-        },
-        {
-          "iname": "SK_BTL_DEX_1-999_U",
-          "rank": 30,
-          "rate": 100
-        }
-      ],
-      "fskl": "",
-      "weight": 0,
-      "tag": 0,
-      "raid_type": 0,
-      "dispOrder": 0,
-      "pts": 0,
-      "shield": false,
-      "referenceGObjName": "",
-      "status": ""
+      "status": "{\"list\":[{\"type\":5,\"value\":5}]}"
     }
   ],
   "arena": [],
@@ -1352,7 +1372,7 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_AF_MAT_HEART_02",
+            "iname": "IT_AF_MAT_SAND_02",
             "num": 1,
             "secret": 0
           },

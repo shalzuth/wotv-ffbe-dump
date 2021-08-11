@@ -3235,6 +3235,70 @@
       "chk_ver": "M_ST_0045_2"
     },
     {
+      "iname": "M_ST_02_0001_01",
+      "grpID": "MG_STORY_002",
+      "priority": 100093,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_02010105"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_FIRE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0046"
+    },
+    {
+      "iname": "M_ST_02_0001_02",
+      "grpID": "MG_STORY_002",
+      "priority": 100094,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_02010110"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 500
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_FIRE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0046_2"
+    },
+    {
       "iname": "M_VIP_LOGB_001",
       "grpID": "MG_VIP_LOGB_01",
       "priority": 1,
@@ -3503,7 +3567,6 @@
     },
     {
       "iname": "M_DAILY_ST_01",
-      "grpID": "MG_DAILY_001",
       "priority": 101,
       "condition": {
         "type": 12,
@@ -3523,7 +3586,6 @@
     },
     {
       "iname": "M_DAILY_ST_02",
-      "grpID": "MG_DAILY_001",
       "priority": 102,
       "condition": {
         "type": 12,
@@ -3543,7 +3605,6 @@
     },
     {
       "iname": "M_DAILY_ST_03",
-      "grpID": "MG_DAILY_001",
       "priority": 103,
       "condition": {
         "type": 12,
@@ -3563,6 +3624,7 @@
     },
     {
       "iname": "M_DAILY_ST_22",
+      "grpID": "MG_DAILY_001",
       "priority": 101,
       "condition": {
         "type": 12,
@@ -3581,6 +3643,7 @@
     },
     {
       "iname": "M_DAILY_ST_23",
+      "grpID": "MG_DAILY_001",
       "priority": 102,
       "condition": {
         "type": 12,
@@ -3599,6 +3662,7 @@
     },
     {
       "iname": "M_DAILY_ST_24",
+      "grpID": "MG_DAILY_001",
       "priority": 103,
       "condition": {
         "type": 12,
@@ -9384,6 +9448,237 @@
         }
       ],
       "chk_ver": "M_GL_DAILY_RAID_51_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_52_1",
+      "grpID": "MG_GL_DAILY_RAID_52",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_52_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_52_2",
+      "grpID": "MG_GL_DAILY_RAID_52",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_52_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_53_1",
+      "grpID": "MG_GL_DAILY_RAID_53",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_53_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_53_2",
+      "grpID": "MG_GL_DAILY_RAID_53",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_53_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_54_1",
+      "grpID": "MG_GL_DAILY_RAID_54",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_54_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_54_2",
+      "grpID": "MG_GL_DAILY_RAID_54",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_54_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_55_1",
+      "grpID": "MG_GL_DAILY_RAID_55",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_55_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_55_2",
+      "grpID": "MG_GL_DAILY_RAID_55",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 4
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_55_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_56_1",
+      "grpID": "MG_GL_DAILY_RAID_56",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_56_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_56_2",
+      "grpID": "MG_GL_DAILY_RAID_56",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_56_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_57_1",
+      "grpID": "MG_GL_DAILY_RAID_57",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_57_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_57_2",
+      "grpID": "MG_GL_DAILY_RAID_57",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_57_2"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_58_1",
+      "grpID": "MG_GL_DAILY_RAID_58",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_58_1"
+    },
+    {
+      "iname": "M_GL_DAILY_RAID_58_2",
+      "grpID": "MG_GL_DAILY_RAID_58",
+      "priority": 100,
+      "condition": {
+        "type": 80,
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_CG_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_RAID_58_2"
     },
     {
       "iname": "M_GL_DY_RAID_01",

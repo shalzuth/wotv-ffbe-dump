@@ -17440,6 +17440,69 @@
       "open": 1
     },
     {
+      "iname": "M_GL_FF7_CH_AERT_01",
+      "grpID": "MG_GL_FF7_CH_02",
+      "priority": 200003,
+      "condition": {
+        "type": 46,
+        "sval": [
+          "QE_CH_FF7_AERT"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_FF7_AERT",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_FF7_CH_AERT_01",
+      "open": 1
+    },
+    {
+      "iname": "M_GL_FF7_CH_BART_01",
+      "grpID": "MG_GL_FF7_CH_02",
+      "priority": 200004,
+      "condition": {
+        "type": 46,
+        "sval": [
+          "QE_CH_FF7_BART"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_FF7_BART",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_FF7_CH_BART_01",
+      "open": 1
+    },
+    {
+      "iname": "M_GL_FF7_SNS_1",
+      "grpID": "MG_GL_FF7_SNS_1",
+      "priority": 200005,
+      "condition": {
+        "type": 251,
+        "sval": [
+          "M_GL_FF7_SNS_1"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_G_PU_CLUD",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_FF7_SNS_1",
+      "open": 1
+    },
+    {
       "iname": "M_FF7_1_01",
       "grpID": "MG_FF7_1_01",
       "priority": 200585,
@@ -18294,6 +18357,120 @@
       "chk_ver": "M_FF7_EX_03"
     },
     {
+      "iname": "M_FF7_EX_04",
+      "grpID": "MG_FF7_1_04",
+      "priority": 200628,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_FF7_ROD_000",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_HEART_03",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_ARMN",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_FF7_1_44"
+    },
+    {
+      "iname": "M_FF7_EX_05",
+      "grpID": "MG_FF7_1_04",
+      "priority": 200629,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_HEART_03",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_ARMN",
+          "num": 20
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_FF7_1_45"
+    },
+    {
+      "iname": "M_FF7_EX_06",
+      "grpID": "MG_FF7_1_04",
+      "priority": 200630,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_02"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_HEART_03",
+          "num": 4
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_ARMN",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 4
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_AW_STAFF",
+          "num": 100
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_FF7_1_46"
+    },
+    {
       "iname": "M_FF7_EX1_01",
       "grpID": "MG_FF7_1_03",
       "priority": 200619,
@@ -18418,6 +18595,130 @@
       "chk_ver": "M_EV09_EX_1_04"
     },
     {
+      "iname": "M_FF7_EX1_05",
+      "grpID": "MG_FF7_1_05",
+      "priority": 200631,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_04"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_FF7_1_47"
+    },
+    {
+      "iname": "M_FF7_EX1_06",
+      "grpID": "MG_FF7_1_05",
+      "priority": 200632,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_04"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_FF7_1_48"
+    },
+    {
+      "iname": "M_FF7_EX1_07",
+      "grpID": "MG_FF7_1_05",
+      "priority": 200633,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_04"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_AVO",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_FF7_1_49"
+    },
+    {
+      "iname": "M_FF7_EX1_08",
+      "grpID": "MG_FF7_1_05",
+      "priority": 200634,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_FF7_EX_04"
+        ],
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HP",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_ATK",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HIT",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_FF7_1_50"
+    },
+    {
       "iname": "M_MU_FF7_EX_01",
       "grpID": "MG_MU_FF7_1_02",
       "priority": 200623,
@@ -18508,6 +18809,96 @@
       "chk_ver": "M_MU_FF7_EX_03"
     },
     {
+      "iname": "M_MU_FF7_EX_04",
+      "grpID": "MG_MU_FF7_1_04",
+      "priority": 200635,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_FF7_EX_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_FF7_1_51"
+    },
+    {
+      "iname": "M_MU_FF7_EX_05",
+      "grpID": "MG_MU_FF7_1_04",
+      "priority": 200636,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_FF7_EX_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_HEART_03",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_ARMN",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 2
+        }
+      ],
+      "chk_ver": "M_FF7_1_52"
+    },
+    {
+      "iname": "M_MU_FF7_EX_06",
+      "grpID": "MG_MU_FF7_1_04",
+      "priority": 200637,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_FF7_EX_02"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_FF7_ROD_000",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_HEART_03",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_ARMN",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_FF7_1_53"
+    },
+    {
       "iname": "M_MU_FF7_EX1_01",
       "grpID": "MG_MU_FF7_1_03",
       "priority": 200626,
@@ -18580,6 +18971,80 @@
         }
       ],
       "chk_ver": "M_MU_FF7_EX1_02"
+    },
+    {
+      "iname": "M_MU_FF7_EX1_03",
+      "grpID": "MG_MU_FF7_1_05",
+      "priority": 200638,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_FF7_EX_04"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_AVO",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_FF7_1_54"
+    },
+    {
+      "iname": "M_MU_FF7_EX1_04",
+      "grpID": "MG_MU_FF7_1_05",
+      "priority": 200639,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_FF7_EX_04"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 2
+        },
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_FF7_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_FF7_1_55"
     },
     {
       "iname": "M_GL_HALL_CH_RYER_01",
@@ -21629,7 +22094,7 @@
     },
     {
       "iname": "M_ART_CRF_05_01",
-      "grpID": "MG_EV_ART_CRF_03",
+      "grpID": "MG_EV_ART_CRF_NO",
       "priority": 200090,
       "condition": {
         "type": 6,
@@ -21654,7 +22119,7 @@
     },
     {
       "iname": "M_ART_CRF_05_02",
-      "grpID": "MG_EV_ART_CRF_03",
+      "grpID": "MG_EV_ART_CRF_NO",
       "priority": 200091,
       "condition": {
         "type": 6,
@@ -21689,7 +22154,7 @@
     },
     {
       "iname": "M_ART_CRF_05_03",
-      "grpID": "MG_EV_ART_CRF_03",
+      "grpID": "MG_EV_ART_CRF_NO",
       "priority": 200092,
       "condition": {
         "type": 6,
@@ -21724,7 +22189,7 @@
     },
     {
       "iname": "M_ART_CRF_06_01",
-      "grpID": "MG_EV_ART_CRF_15",
+      "grpID": "MG_EV_ART_CRF_03",
       "priority": 200093,
       "condition": {
         "type": 6,
@@ -21749,7 +22214,7 @@
     },
     {
       "iname": "M_ART_CRF_06_02",
-      "grpID": "MG_EV_ART_CRF_15",
+      "grpID": "MG_EV_ART_CRF_03",
       "priority": 200094,
       "condition": {
         "type": 6,
@@ -21784,7 +22249,7 @@
     },
     {
       "iname": "M_ART_CRF_06_03",
-      "grpID": "MG_EV_ART_CRF_15",
+      "grpID": "MG_EV_ART_CRF_03",
       "priority": 200095,
       "condition": {
         "type": 6,
@@ -21819,7 +22284,7 @@
     },
     {
       "iname": "M_MU_ART_CRF_5_1",
-      "grpID": "MG_MU_ART_CRF_03",
+      "grpID": "MG_MU_ART_CRF_NO",
       "priority": 200096,
       "condition": {
         "type": 9,
@@ -21844,7 +22309,7 @@
     },
     {
       "iname": "M_MU_ART_CRF_5_2",
-      "grpID": "MG_MU_ART_CRF_03",
+      "grpID": "MG_MU_ART_CRF_NO",
       "priority": 200097,
       "condition": {
         "type": 9,
@@ -21869,7 +22334,7 @@
     },
     {
       "iname": "M_MU_ART_CRF_5_3",
-      "grpID": "MG_MU_ART_CRF_03",
+      "grpID": "MG_MU_ART_CRF_NO",
       "priority": 200098,
       "condition": {
         "type": 9,
@@ -21899,7 +22364,7 @@
     },
     {
       "iname": "M_MU_ART_CRF_6_1",
-      "grpID": "MG_MU_ART_CRF_15",
+      "grpID": "MG_MU_ART_CRF_03",
       "priority": 200099,
       "condition": {
         "type": 9,
@@ -21924,7 +22389,7 @@
     },
     {
       "iname": "M_MU_ART_CRF_6_2",
-      "grpID": "MG_MU_ART_CRF_15",
+      "grpID": "MG_MU_ART_CRF_03",
       "priority": 200100,
       "condition": {
         "type": 9,
@@ -21949,7 +22414,7 @@
     },
     {
       "iname": "M_MU_ART_CRF_6_3",
-      "grpID": "MG_MU_ART_CRF_15",
+      "grpID": "MG_MU_ART_CRF_03",
       "priority": 200101,
       "condition": {
         "type": 9,
@@ -127278,6 +127743,166 @@
         }
       ],
       "chk_ver": "M_LW_PA_CH_122_4"
+    },
+    {
+      "iname": "M_LW_PA_CH_123_1",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_AERT"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_123_1",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_123_1"
+    },
+    {
+      "iname": "M_LW_PA_CH_123_2",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_AERT"
+        ],
+        "ival": 500
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_123_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_123_2"
+    },
+    {
+      "iname": "M_LW_PA_CH_123_3",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_AERT"
+        ],
+        "ival": 3000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_123_3",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_123_3"
+    },
+    {
+      "iname": "M_LW_PA_CH_123_4",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_AERT"
+        ],
+        "ival": 10000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_123_4",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_123_4"
+    },
+    {
+      "iname": "M_LW_PA_CH_124_1",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_BART"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_124_1",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_124_1"
+    },
+    {
+      "iname": "M_LW_PA_CH_124_2",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_BART"
+        ],
+        "ival": 500
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_124_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_124_2"
+    },
+    {
+      "iname": "M_LW_PA_CH_124_3",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_BART"
+        ],
+        "ival": 3000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_124_3",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_124_3"
+    },
+    {
+      "iname": "M_LW_PA_CH_124_4",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_FF7_P_BART"
+        ],
+        "ival": 10000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_124_4",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_124_4"
     },
     {
       "iname": "M_LW_PA_CH_131_1",

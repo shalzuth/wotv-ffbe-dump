@@ -3368,6 +3368,70 @@
       "chk_ver": "M_ST_0047_2"
     },
     {
+      "iname": "M_ST_0201_03",
+      "grpID": "MG_STORY_002",
+      "priority": 100097,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_02010305"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SHINE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_DARK",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0048"
+    },
+    {
+      "iname": "M_ST_0201_03_2",
+      "grpID": "MG_STORY_002",
+      "priority": 100098,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_02010310"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SHINE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_DARK",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 6
+        },
+        {
+          "type": 3,
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_ST_0048_2"
+    },
+    {
       "iname": "M_VIP_LOGB_001",
       "grpID": "MG_VIP_LOGB_01",
       "priority": 1,
@@ -3636,7 +3700,6 @@
     },
     {
       "iname": "M_DAILY_ST_01",
-      "grpID": "MG_DAILY_001",
       "priority": 101,
       "condition": {
         "type": 12,
@@ -3656,7 +3719,6 @@
     },
     {
       "iname": "M_DAILY_ST_02",
-      "grpID": "MG_DAILY_001",
       "priority": 102,
       "condition": {
         "type": 12,
@@ -3676,7 +3738,6 @@
     },
     {
       "iname": "M_DAILY_ST_03",
-      "grpID": "MG_DAILY_001",
       "priority": 103,
       "condition": {
         "type": 12,
@@ -3696,6 +3757,7 @@
     },
     {
       "iname": "M_DAILY_ST_22",
+      "grpID": "MG_DAILY_001",
       "priority": 101,
       "condition": {
         "type": 12,
@@ -3714,6 +3776,7 @@
     },
     {
       "iname": "M_DAILY_ST_23",
+      "grpID": "MG_DAILY_001",
       "priority": 102,
       "condition": {
         "type": 12,
@@ -3732,6 +3795,7 @@
     },
     {
       "iname": "M_DAILY_ST_24",
+      "grpID": "MG_DAILY_001",
       "priority": 103,
       "condition": {
         "type": 12,
@@ -5816,6 +5880,475 @@
         }
       ],
       "chk_ver": "M_GL_DAILY_024_07_3"
+    },
+    {
+      "iname": "M_DAILY_026_01_1",
+      "grpID": "MG_DAILY_026_1",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_01_1"
+    },
+    {
+      "iname": "M_DAILY_026_01_2",
+      "grpID": "MG_DAILY_026_1",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_01_2"
+    },
+    {
+      "iname": "M_DAILY_026_02_1",
+      "grpID": "MG_DAILY_026_2",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_02_1"
+    },
+    {
+      "iname": "M_DAILY_026_02_2",
+      "grpID": "MG_DAILY_026_2",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_02_2"
+    },
+    {
+      "iname": "M_DAILY_026_03_1",
+      "grpID": "MG_DAILY_026_3",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_03_1"
+    },
+    {
+      "iname": "M_DAILY_026_03_2",
+      "grpID": "MG_DAILY_026_3",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_03_2"
+    },
+    {
+      "iname": "M_DAILY_026_04_1",
+      "grpID": "MG_DAILY_026_4",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_04_1"
+    },
+    {
+      "iname": "M_DAILY_026_04_2",
+      "grpID": "MG_DAILY_026_4",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 4
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_04_2"
+    },
+    {
+      "iname": "M_DAILY_026_05_1",
+      "grpID": "MG_DAILY_026_5",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_05_1"
+    },
+    {
+      "iname": "M_DAILY_026_05_2",
+      "grpID": "MG_DAILY_026_5",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_05_2"
+    },
+    {
+      "iname": "M_DAILY_026_06_1",
+      "grpID": "MG_DAILY_026_6",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_06_1"
+    },
+    {
+      "iname": "M_DAILY_026_06_2",
+      "grpID": "MG_DAILY_026_6",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_DAILY_026_06_2"
+    },
+    {
+      "iname": "M_GL_DAILY_026_07_1",
+      "grpID": "MG_GL_DAILY_026_7",
+      "priority": 100,
+      "condition": {
+        "type": 1,
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_026_07_1"
+    },
+    {
+      "iname": "M_GL_DAILY_026_07_2",
+      "grpID": "MG_GL_DAILY_026_7",
+      "priority": 100,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03",
+          "QE_PT_005_HA02",
+          "QE_PT_005_HA01",
+          "QE_PT_005_HA05",
+          "QE_PT_005_HA04",
+          "QE_PT_005_05",
+          "QE_PT_005_04",
+          "QE_PT_005_03",
+          "QE_PT_005_02",
+          "QE_PT_005_01",
+          "QE_PT_005_BOSS_1",
+          "QE_PT_005_BOSS_2"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_04",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_DAILY_026_07_2"
+    },
+    {
+      "iname": "M_DAILY_027_01_1",
+      "grpID": "MG_DAILY_026_1",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_1"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_1"
+    },
+    {
+      "iname": "M_DAILY_027_01_2",
+      "grpID": "MG_DAILY_026_2",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_2"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_2"
+    },
+    {
+      "iname": "M_DAILY_027_01_3",
+      "grpID": "MG_DAILY_026_3",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_3"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_3"
+    },
+    {
+      "iname": "M_DAILY_027_01_4",
+      "grpID": "MG_DAILY_026_4",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_4"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_4"
+    },
+    {
+      "iname": "M_DAILY_027_01_5",
+      "grpID": "MG_DAILY_026_5",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_5"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_5"
+    },
+    {
+      "iname": "M_DAILY_027_01_6",
+      "grpID": "MG_DAILY_026_6",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_6"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_6"
+    },
+    {
+      "iname": "M_DAILY_027_01_7",
+      "grpID": "MG_GL_DAILY_026_7",
+      "priority": 101,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_1_5ANV_7"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 5,
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_DAILY_027_01_7"
     },
     {
       "iname": "M_MONDAY_0001",
@@ -24869,6 +25402,242 @@
         }
       ],
       "chk_ver": "M_MU_ARTCRF_21_2"
+    },
+    {
+      "iname": "M_ART_CRF_22_01",
+      "grpID": "MG_EV_ART_CRF_14",
+      "priority": 200375,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_ART_CRF_22",
+          "QE_EV_ART_CRF_23"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 100
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_ART_CRF_22_01"
+    },
+    {
+      "iname": "M_ART_CRF_22_02",
+      "grpID": "MG_EV_ART_CRF_14",
+      "priority": 200376,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_ART_CRF_22",
+          "QE_EV_ART_CRF_23"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 150
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_ART_CRF_22_02"
+    },
+    {
+      "iname": "M_ART_CRF_22_03",
+      "grpID": "MG_EV_ART_CRF_14",
+      "priority": 200377,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_ART_CRF_22",
+          "QE_EV_ART_CRF_23"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 200
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HP",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_ATK",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_MAG",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_CRI",
+          "num": 2
+        }
+      ],
+      "chk_ver": "M_ART_CRF_22_03"
+    },
+    {
+      "iname": "M_ART_CRF_22_04",
+      "grpID": "MG_EV_ART_CRF_14",
+      "priority": 200378,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_ART_CRF_22",
+          "QE_EV_ART_CRF_23"
+        ],
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_ART_CRF_22_04"
+    },
+    {
+      "iname": "M_MU_ARTCRF_22_1",
+      "grpID": "MG_MU_ART_CRF_14",
+      "priority": 200379,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_ART_CRF_22",
+          "QE_MU_ART_CRF_23"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 100
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MU_ARTCRF_22_1"
+    },
+    {
+      "iname": "M_MU_ARTCRF_22_2",
+      "grpID": "MG_MU_ART_CRF_14",
+      "priority": 200380,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_ART_CRF_22",
+          "QE_MU_ART_CRF_23"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 150
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_MAG",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_CRI",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_MU_ARTCRF_22_2"
     },
     {
       "iname": "M_ART_CRF_24_01",
@@ -53709,6 +54478,1076 @@
       "chk_ver": "M_PT_LW_01_2_15"
     },
     {
+      "iname": "M_PT_FF7_01_1_1",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200555,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_LSWORD_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_LSWORD_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_THUNDER_1",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_1",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_1"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_2",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200556,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_01"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_BOW_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_BOW_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_THUNDER_1",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_1",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_2"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_3",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200557,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_01"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_2",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_LSWORD_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_LSWORD_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_THUNDER_2",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_2",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_3"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_4",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200558,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_2",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_FIST_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_FIST_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WIND_1",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_1",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_4"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_5",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200559,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_02"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_KUNAI_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_KUNAI_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WIND_1",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_1",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_5"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_6",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200560,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_SWORD_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_SWORD_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WIND_2",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_2",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_6"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_7",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200561,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_03"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_2",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_ICE_1",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_1",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_7"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_8",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200562,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_03"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_ICE_1",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_1",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_8"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_9",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200563,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_03"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_FIST_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_FIST_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_ICE_2",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_2",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_9"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_10",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200564,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_04"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_2",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_STAFF_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_STAFF_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_1",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_1",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_10"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_11",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200565,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_04"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_STAFF_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_STAFF_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_1",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_1",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_11"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_12",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200566,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_04"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_SWORD_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_SWORD_02",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_2",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_2",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_12"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_13",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200567,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_05"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_2",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_THUNDER_3",
+          "num": 40
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WIND_3",
+          "num": 40
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_ICE_3",
+          "num": 40
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_3",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_13"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_14",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200568,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_05"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_14"
+    },
+    {
+      "iname": "M_PT_FF7_01_1_15",
+      "grpID": "MG_PT_FF7_01_1",
+      "priority": 200569,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_05"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_1_15"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_1",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200570,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_LSWORD_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_FIST_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_3",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_1"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_2",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200571,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA01"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_BOW_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_KUNAI_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_3",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_2"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_3",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200572,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA01"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_LSWORD_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_SWORD_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_3",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_3"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_4",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200573,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_STAFF_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_ANGEL_3",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_4"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_5",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200574,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_STAFF_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_3",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_5"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_6",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200575,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA02"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_FIST_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_SWORD_03",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_3",
+          "num": 6
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_6"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_7",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200576,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_3",
+          "num": 30
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_THUNDER_3",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WIND_3",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_ICE_3",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_3",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_7"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_8",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200577,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_3",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_8"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_9",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200578,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA03"
+        ],
+        "ival": 9
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_ALL_3",
+          "num": 70
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_9"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_10",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200579,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA04"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_10"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_11",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200580,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA04"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_11"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_12",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200581,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA04"
+        ],
+        "ival": 9
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_SAND_04",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_VC_EXP_03",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_12"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_13",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200582,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA05"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_SAND_03",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_SAND_04",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_MABR",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_THUNDER_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_13"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_14",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200583,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA05"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 2
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_14"
+    },
+    {
+      "iname": "M_PT_FF7_01_2_15",
+      "grpID": "MG_PT_FF7_01_2",
+      "priority": 200584,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_PT_005_HA05"
+        ],
+        "ival": 9
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_PT_FF7_01_2_15"
+    },
+    {
       "iname": "M_WAVE_001_01",
       "grpID": "MG_EV_WAVE_001",
       "priority": 200021,
@@ -59364,6 +61203,241 @@
         }
       ],
       "chk_ver": "M_QEST_135"
+    },
+    {
+      "iname": "M_QEST_136",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300166,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010101"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_FIRE",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_FIRE",
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_QEST_136"
+    },
+    {
+      "iname": "M_QEST_137",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300167,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010105"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_QEST_137"
+    },
+    {
+      "iname": "M_QEST_138",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300168,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010110"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JBEX_MM",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_QEST_138"
+    },
+    {
+      "iname": "M_QEST_139",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300169,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010201"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_THUNDER",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_THUNDER",
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_QEST_139"
+    },
+    {
+      "iname": "M_QEST_140",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300170,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010205"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SOIL",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SOIL",
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_QEST_140"
+    },
+    {
+      "iname": "M_QEST_141",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300171,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010210"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_JBEX_MM",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_QEST_141"
+    },
+    {
+      "iname": "M_QEST_142",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300172,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010301"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_SHINE",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_SHINE",
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_QEST_142"
+    },
+    {
+      "iname": "M_QEST_143",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300173,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010305"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_DARK",
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_DARK",
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_QEST_143"
+    },
+    {
+      "iname": "M_QEST_144",
+      "grpID": "MG_MP_QEST_16",
+      "priority": 300174,
+      "condition": {
+        "type": 69,
+        "sval": [
+          "QE_ST_02010310"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JBEX_MM",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_JBEX_UR",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_QEST_144"
     },
     {
       "iname": "M_GL_RANK_001",
@@ -117735,6 +119809,126 @@
       "chk_ver": "AWD_P_FF10_6"
     },
     {
+      "iname": "M_AWD_P_FF07_1",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 98,
+        "sval": [
+          "PTQ_FF7R_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "AWD_P_FF07_1",
+          "num": 1
+        }
+      ],
+      "chk_ver": "AWD_P_FF07_1"
+    },
+    {
+      "iname": "M_AWD_P_FF07_2",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 98,
+        "sval": [
+          "PTQ_FF7R_01"
+        ],
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "AWD_P_FF07_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "AWD_P_FF07_2"
+    },
+    {
+      "iname": "M_AWD_P_FF07_3",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 98,
+        "sval": [
+          "PTQ_FF7R_01"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "AWD_P_FF07_3",
+          "num": 1
+        }
+      ],
+      "chk_ver": "AWD_P_FF07_3"
+    },
+    {
+      "iname": "M_AWD_P_FF07_4",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 97,
+        "sval": [
+          "PTQ_FF7R_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "AWD_P_FF07_4",
+          "num": 1
+        }
+      ],
+      "chk_ver": "AWD_P_FF07_4"
+    },
+    {
+      "iname": "M_AWD_P_FF07_5",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 97,
+        "sval": [
+          "PTQ_FF7R_01"
+        ],
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "AWD_P_FF07_5",
+          "num": 1
+        }
+      ],
+      "chk_ver": "AWD_P_FF07_5"
+    },
+    {
+      "iname": "M_AWD_P_FF07_6",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 97,
+        "sval": [
+          "PTQ_FF7R_01"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "AWD_P_FF07_6",
+          "num": 1
+        }
+      ],
+      "chk_ver": "AWD_P_FF07_6"
+    },
+    {
       "iname": "M_PLY_AWARD_053",
       "grpID": "MG_PLY_AWARD_001",
       "priority": 1,
@@ -127903,6 +130097,86 @@
         }
       ],
       "chk_ver": "M_LW_PA_CH_124_4"
+    },
+    {
+      "iname": "M_LW_PA_CH_125_1",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_GRSR_01"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_125_1",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_125_1"
+    },
+    {
+      "iname": "M_LW_PA_CH_125_2",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_GRSR_01"
+        ],
+        "ival": 500
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_125_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_125_2"
+    },
+    {
+      "iname": "M_LW_PA_CH_125_3",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_GRSR_01"
+        ],
+        "ival": 3000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_125_3",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_125_3"
+    },
+    {
+      "iname": "M_LW_PA_CH_125_4",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_GRSR_01"
+        ],
+        "ival": 10000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_125_4",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_125_4"
     },
     {
       "iname": "M_LW_PA_CH_131_1",

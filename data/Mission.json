@@ -3432,6 +3432,70 @@
       "chk_ver": "M_ST_0048_2"
     },
     {
+      "iname": "M_ST_02_0002_01",
+      "grpID": "MG_STORY_002",
+      "priority": 100099,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_02020205"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_FIRE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_ICE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WIND",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0049"
+    },
+    {
+      "iname": "M_ST_02_0002_02",
+      "grpID": "MG_STORY_002",
+      "priority": 100100,
+      "condition": {
+        "type": 1,
+        "sval": [
+          "QE_ST_02020210"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 500
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_FIRE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ICE",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WIND",
+          "num": 25
+        }
+      ],
+      "chk_ver": "M_ST_0049_2"
+    },
+    {
       "iname": "M_VIP_LOGB_001",
       "grpID": "MG_VIP_LOGB_01",
       "priority": 1,
@@ -3782,7 +3846,7 @@
       "condition": {
         "type": 12,
         "sval": [
-          "8-16"
+          "2021/08/16"
         ],
         "ival": 1
       },
@@ -17931,6 +17995,1038 @@
       "chk_ver": "M_NieR_1_55"
     },
     {
+      "iname": "M_GL_TOMB_1_01",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200500,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_01",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_01"
+    },
+    {
+      "iname": "M_GL_TOMB_1_02",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200501,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_01"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_1",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_02"
+    },
+    {
+      "iname": "M_GL_TOMB_1_03",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200502,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_01"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_TOMB_LARA",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_03"
+    },
+    {
+      "iname": "M_GL_TOMB_1_04",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200503,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_01",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_04"
+    },
+    {
+      "iname": "M_GL_TOMB_1_05",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200504,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_02"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_1",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_05"
+    },
+    {
+      "iname": "M_GL_TOMB_1_06",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200505,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_GUN",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 400
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_06"
+    },
+    {
+      "iname": "M_GL_TOMB_1_07",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200506,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_03"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_07"
+    },
+    {
+      "iname": "M_GL_TOMB_1_08",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200507,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_03"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_2",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_08"
+    },
+    {
+      "iname": "M_GL_TOMB_1_09",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200508,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_03"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_TOMB_LARA_2",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_09"
+    },
+    {
+      "iname": "M_GL_TOMB_1_10",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200509,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_04"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_02",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_10"
+    },
+    {
+      "iname": "M_GL_TOMB_1_11",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200510,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_04"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_2",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_11"
+    },
+    {
+      "iname": "M_GL_TOMB_1_12",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200511,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_04"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_TOMB_LARA_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_12"
+    },
+    {
+      "iname": "M_GL_TOMB_1_13",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200512,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_05"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 300
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_13"
+    },
+    {
+      "iname": "M_GL_TOMB_1_14",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200513,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_05"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_14"
+    },
+    {
+      "iname": "M_GL_TOMB_1_15",
+      "grpID": "MG_TOMB_1_01",
+      "priority": 200514,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_05"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 40
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_15"
+    },
+    {
+      "iname": "M_GL_TOMB_1_16",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200515,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_06"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_02",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_16"
+    },
+    {
+      "iname": "M_GL_TOMB_1_17",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200516,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_06"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_2",
+          "num": 10
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_17"
+    },
+    {
+      "iname": "M_GL_TOMB_1_18",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200517,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_06"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_2",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_18"
+    },
+    {
+      "iname": "M_GL_TOMB_1_19",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200518,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_07"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_19"
+    },
+    {
+      "iname": "M_GL_TOMB_1_20",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200519,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_07"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_3",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_20"
+    },
+    {
+      "iname": "M_GL_TOMB_1_21",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200520,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_07"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_TOMB_LARA_3",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_21"
+    },
+    {
+      "iname": "M_GL_TOMB_1_22",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200521,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_08"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_03",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_22"
+    },
+    {
+      "iname": "M_GL_TOMB_1_23",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200522,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_08"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_3",
+          "num": 5
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_23"
+    },
+    {
+      "iname": "M_GL_TOMB_1_24",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200523,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_08"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_MM_TOMB_LARA_3",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_24"
+    },
+    {
+      "iname": "M_GL_TOMB_1_25",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200524,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_09"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_GUN_03",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_25"
+    },
+    {
+      "iname": "M_GL_TOMB_1_26",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200525,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_09"
+        ],
+        "ival": 2
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_EM_WATER_3",
+          "num": 10
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_26"
+    },
+    {
+      "iname": "M_GL_TOMB_1_27",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200526,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_09"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_JB_IM_DRAGON_3",
+          "num": 5
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_27"
+    },
+    {
+      "iname": "M_GL_TOMB_1_28",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200527,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_10"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 1500
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_28"
+    },
+    {
+      "iname": "M_GL_TOMB_1_29",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200528,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_10"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_WATER",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_29"
+    },
+    {
+      "iname": "M_GL_TOMB_1_30",
+      "grpID": "MG_TOMB_1_M_01",
+      "priority": 200529,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_10"
+        ],
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_UN_AW_WATER",
+          "num": 40
+        },
+        {
+          "type": 0,
+          "iname": "IT_AW_VBALL_UR",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 2000
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_1_30"
+    },
+    {
+      "iname": "M_GL_TOMB_EX_01",
+      "grpID": "MG_TOMB_1_02",
+      "priority": 200530,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_GL_TOMB_GUN_000",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_BONE",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WING_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 3
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX_01"
+    },
+    {
+      "iname": "M_GL_TOMB_EX_02",
+      "grpID": "MG_TOMB_1_02",
+      "priority": 200531,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_01"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_BONE",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WING_01",
+          "num": 20
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX_02"
+    },
+    {
+      "iname": "M_GL_TOMB_EX_03",
+      "grpID": "MG_TOMB_1_02",
+      "priority": 200532,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_01"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_BONE",
+          "num": 4
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WING_01",
+          "num": 25
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 4
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_AW_GUN",
+          "num": 100
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX_03"
+    },
+    {
+      "iname": "M_GL_TOMB_EX1_01",
+      "grpID": "MG_TOMB_1_03",
+      "priority": 200533,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_02"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX1_01"
+    },
+    {
+      "iname": "M_GL_TOMB_EX1_02",
+      "grpID": "MG_TOMB_1_03",
+      "priority": 200534,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX1_02"
+    },
+    {
+      "iname": "M_GL_TOMB_EX1_03",
+      "grpID": "MG_TOMB_1_03",
+      "priority": 200535,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_02"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX1_03"
+    },
+    {
+      "iname": "M_GL_TOMB_EX1_04",
+      "grpID": "MG_TOMB_1_03",
+      "priority": 200536,
+      "condition": {
+        "type": 6,
+        "sval": [
+          "QE_EV_GL_TOMB_EX_02"
+        ],
+        "ival": 10
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HP",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_ATK",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_PT_HIT",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_PI_COM_ALL",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_EX1_04"
+    },
+    {
+      "iname": "M_MU_GL_TOMB_EX_01",
+      "grpID": "MG_MU_TOMB_1_02",
+      "priority": 200537,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_GL_TOMB_EX_01"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_BONE",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WING_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 2
+        }
+      ],
+      "chk_ver": "M_MU_GL_TOMB_EX_01"
+    },
+    {
+      "iname": "M_MU_GL_TOMB_EX_02",
+      "grpID": "MG_MU_TOMB_1_02",
+      "priority": 200538,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_GL_TOMB_EX_01"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_GL_TOMB_GUN_000",
+          "num": 1
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_BONE",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WING_01",
+          "num": 15
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_MAT_WATER_01",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_MU_GL_TOMB_EX_02"
+    },
+    {
+      "iname": "M_MU_GL_TOMB_EX1_01",
+      "grpID": "MG_MU_TOMB_1_03",
+      "priority": 200539,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_GL_TOMB_EX_02"
+        ],
+        "ival": 3
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 2
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 750
+        }
+      ],
+      "chk_ver": "M_MU_GL_TOMB_EX1_01"
+    },
+    {
+      "iname": "M_MU_GL_TOMB_EX1_02",
+      "grpID": "MG_MU_TOMB_1_03",
+      "priority": 200540,
+      "condition": {
+        "type": 9,
+        "sval": [
+          "QE_MU_GL_TOMB_EX_02"
+        ],
+        "ival": 5
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HP",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_ATK",
+          "num": 3
+        },
+        {
+          "type": 0,
+          "iname": "IT_AF_SUP_HIT",
+          "num": 3
+        },
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "type": 0,
+          "iname": "IT_EC_TOMB_1",
+          "num": 1000
+        }
+      ],
+      "chk_ver": "M_MU_GL_TOMB_EX1_02"
+    },
+    {
       "iname": "M_GL_FF7_CH_CLUD_01",
       "grpID": "MG_GL_FF7_CH_01",
       "priority": 200001,
@@ -18012,6 +19108,27 @@
         }
       ],
       "chk_ver": "M_GL_FF7_CH_BART_01",
+      "open": 1
+    },
+    {
+      "iname": "M_GL_TOMB_CH_LARA_01",
+      "grpID": "MG_GL_TOMB_CH_01",
+      "priority": 200001,
+      "condition": {
+        "type": 46,
+        "sval": [
+          "QE_CH_GL_TOMB_LARA"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_PI_TOMB_LARA",
+          "num": 40
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_CH_LARA_01",
       "open": 1
     },
     {
@@ -19766,6 +20883,27 @@
         }
       ],
       "chk_ver": "M_GL_LW_ANNV_01",
+      "open": 1
+    },
+    {
+      "iname": "M_GL_LW_SNS_01",
+      "grpID": "MG_GL_LW_SNS_01",
+      "priority": 200002,
+      "condition": {
+        "type": 251,
+        "sval": [
+          "M_GL_LW_SNS_01"
+        ],
+        "ival": 1
+      },
+      "rewards": [
+        {
+          "type": 0,
+          "iname": "IT_US_G_PU_U_TOMB_LARA",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_LW_SNS_01",
       "open": 1
     },
     {
@@ -130602,6 +131740,86 @@
       "chk_ver": "M_WW_PA_CH_001_4"
     },
     {
+      "iname": "M_GL_TOMB_PA_CH_LARA_1",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_TOMB_P_LARA"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "TOMB_GL_PA_CH_LARA_1",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_PA_CH_LARA_1"
+    },
+    {
+      "iname": "M_GL_TOMB_PA_CH_LARA_2",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_TOMB_P_LARA"
+        ],
+        "ival": 500
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "TOMB_GL_PA_CH_LARA_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_PA_CH_LARA_2"
+    },
+    {
+      "iname": "M_GL_TOMB_PA_CH_LARA_3",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_TOMB_P_LARA"
+        ],
+        "ival": 3000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "TOMB_GL_PA_CH_LARA_3",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_PA_CH_LARA_3"
+    },
+    {
+      "iname": "M_GL_TOMB_PA_CH_LARA_4",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_TOMB_P_LARA"
+        ],
+        "ival": 10000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "TOMB_GL_PA_CH_LARA_4",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_GL_TOMB_PA_CH_LARA_4"
+    },
+    {
       "iname": "M_AWD_P_PT01_1",
       "grpID": "MG_PLY_AWARD_001",
       "priority": 1,
@@ -130735,51 +131953,7 @@
       "rewards": [
         {
           "type": 2,
-          "num": 20000
-        }
-      ],
-      "prg_pt": 10,
-      "chk_ver": "M_GL_DAILY_VID"
-    },
-    {
-      "iname": "M_GL_DAILY_FF14",
-      "grpID": "MG_DAILY_FF14",
-      "priority": 104,
-      "condition": {
-        "type": 6,
-        "sval": [
-          "QE_EV_FF14_01",
-          "QE_EV_FF14_02",
-          "QE_EV_FF14_03",
-          "QE_EV_FF14_04",
-          "QE_EV_FF14_05",
-          "QE_EV_FF14_EX1",
-          "QE_EV_FF14_Ex2",
-          "QE_EV_FF14_Ex3"
-        ],
-        "ival": 1
-      },
-      "rewards": [
-        {
-          "type": 0,
-          "iname": "IT_US_G_FF14_01_R",
-          "num": 1
-        }
-      ],
-      "chk_ver": "M_GL_DAILY_FF14"
-    },
-    {
-      "iname": "M_GL_DAILY_GUILD",
-      "grpID": "MG_DAILY_GUILD",
-      "priority": 104,
-      "condition": {
-        "type": 63,
-        "ival": 1
-      },
-      "rewards": [
-        {
-          "type": 3,
-          "num": 100
+          "num": 5000
         },
         {
           "type": 0,
@@ -130792,7 +131966,8 @@
           "num": 1
         }
       ],
-      "chk_ver": "M_GL_DAILY_GUILD"
+      "prg_pt": 10,
+      "chk_ver": "M_GL_DAILY_VID"
     }
   ]
 }

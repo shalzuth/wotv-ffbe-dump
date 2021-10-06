@@ -331,8 +331,8 @@
     {
       "name": "BOSS",
       "x": 0,
-      "y": 0,
-      "dir": 1,
+      "y": 5,
+      "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
       "brave": 0,
@@ -432,12 +432,17 @@
         },
         {
           "iname": "SK_BTL_HP_100-99900_U",
-          "rank": 4,
+          "rank": 2,
           "rate": 100
         },
         {
           "iname": "SK_BTL_AVOI_1_999_D",
           "rank": 300,
+          "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RES_SLASH_1_80_D",
+          "rank": 35,
           "rate": 100
         }
       ],
@@ -453,9 +458,9 @@
     },
     {
       "name": "",
-      "x": 2,
-      "y": 5,
-      "dir": 1,
+      "x": 1,
+      "y": 7,
+      "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
       "brave": 0,
@@ -532,6 +537,11 @@
           "iname": "SK_BTL_AVOI_1_999_D",
           "rank": 300,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RES_SLASH_1_80_D",
+          "rank": 20,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -547,8 +557,8 @@
     {
       "name": "NIN1",
       "x": 0,
-      "y": 6,
-      "dir": 1,
+      "y": 9,
+      "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
       "brave": 0,
@@ -625,6 +635,11 @@
           "iname": "SK_BTL_AVOI_1_999_D",
           "rank": 300,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RES_SLASH_1_80_D",
+          "rank": 20,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -639,9 +654,9 @@
     },
     {
       "name": "",
-      "x": 0,
-      "y": 2,
-      "dir": 1,
+      "x": 1,
+      "y": 6,
+      "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
       "brave": 0,
@@ -748,8 +763,8 @@
     {
       "name": "",
       "x": 1,
-      "y": 1,
-      "dir": 1,
+      "y": 4,
+      "dir": 0,
       "ct_calc": 0,
       "ct_val": 0,
       "brave": 0,
@@ -934,6 +949,11 @@
           "iname": "SK_BTL_AVOI_1_999_D",
           "rank": 300,
           "rate": 100
+        },
+        {
+          "iname": "SK_BTL_RES_SLASH_1_80_D",
+          "rank": 20,
+          "rate": 100
         }
       ],
       "fskl": "",
@@ -1074,15 +1094,6 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_SSWORD_01",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1565
-        },
-        {
-          "drop_data": {
-            "type": 0,
             "iname": "IT_AF_MAT_LIQUID_01",
             "num": 1,
             "secret": 0
@@ -1110,24 +1121,6 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_EM_ICE_1",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1700
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        },
-        {
-          "drop_data": {
-            "type": 0,
             "iname": "IT_JB_MM_NIN",
             "num": 1,
             "secret": 0
@@ -1146,15 +1139,6 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_LW_GLMS",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 180
-        },
-        {
-          "drop_data": {
-            "type": 0,
             "iname": "IT_JB_MM_LW_SAKR",
             "num": 1,
             "secret": 0
@@ -1164,7 +1148,25 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_LW_CRLT",
+            "iname": "IT_JB_SSWORD_01",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 1565
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_EM_ICE_1",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 1700
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_GLMS",
             "num": 1,
             "secret": 0
           },
@@ -1172,12 +1174,12 @@
         },
         {
           "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
+            "type": 0,
+            "iname": "IT_JB_MM_LW_ZZAN",
+            "num": 1,
             "secret": 0
           },
-          "weight": 0
+          "weight": 180
         },
         {
           "drop_data": {

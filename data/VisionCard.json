@@ -2688,6 +2688,61 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_JEDN",
+      "type": 0,
+      "icon": "LAPSJedn",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_JEDN",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_SHINE",
+          "card_skill": "SK_VC_LW_JEDN_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_JEDN_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_JEDN_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_SHINE",
+          "card_skill": "SK_VC_LW_JEDN_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_JEDN_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_JEDN_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_SHINE",
+          "self_buff": "SK_VC_LW_JEDN_P",
+          "add_self_buff_awake": "SK_VC_LW_JEDN_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_JEDN_PMAX"
+        },
+        {
+          "buff_cond": "VLC_JEDN",
+          "self_buff": "SK_GL_VC_LW_JEDN_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_JEDN_PAW2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_JEDN_PMAX2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 47,
+          "mag": 35,
+          "dex": 12
+        },
+        {
+          "hp": 367,
+          "mag": 135,
+          "dex": 47
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_LUCA2",
       "type": 0,
       "icon": "LAPSLuca2",
@@ -5340,6 +5395,101 @@
       "visioncard_medal_num": 0
     },
     {
+      "iname": "VC_LW_DMCM",
+      "type": 0,
+      "icon": "LAPSDmcm",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_DMCM",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_DARK",
+          "card_skill": "SK_VC_LW_DMCM_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_DMCM_GSAW"
+        },
+        {
+          "cnds_iname": "VLC_DARK",
+          "card_skill": "SK_VC_LW_DMCM_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_DMCM_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_DMCM_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_DARK",
+          "self_buff": "SK_VC_LW_DMCM_P",
+          "add_self_buff_awake": "SK_VC_LW_DMCM_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 37,
+          "atk": 27,
+          "spd": 1
+        },
+        {
+          "hp": 296,
+          "atk": 108,
+          "spd": 3
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_DMCM",
+      "visioncard_medal_num": 1
+    },
+    {
+      "iname": "VC_LW_IGEN",
+      "type": 0,
+      "icon": "LAPSIgen",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_IGEN",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_ICE",
+          "card_skill": "SK_VC_LW_IGEN_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_IGEN_GSAW"
+        },
+        {
+          "cnds_iname": "VLC_ICE",
+          "card_skill": "SK_VC_LW_IGEN_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_IGEN_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_IGEN_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_ICE",
+          "self_buff": "SK_VC_LW_IGEN_P",
+          "add_self_buff_awake": "SK_VC_LW_IGEN_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 38,
+          "atk": 26,
+          "spd": 1
+        },
+        {
+          "hp": 301,
+          "atk": 105,
+          "spd": 3
+        }
+      ],
+      "visioncard_medal_num": 0
+    },
+    {
       "iname": "VC_LW_CACT",
       "type": 0,
       "icon": "LAPSCact",
@@ -5527,54 +5677,6 @@
         }
       ],
       "first_bonus_unit": "UN_LW_S_BOMB",
-      "visioncard_medal_num": 1
-    },
-    {
-      "iname": "VC_LW_DMCM",
-      "type": 0,
-      "icon": "LAPSDmcm",
-      "rare": 3,
-      "cost": 50,
-      "piece": "IT_VPI_LW_DMCM",
-      "piece_num": 20,
-      "db_num": 1,
-      "sell": 800,
-      "sell_mdl": 20,
-      "en_cost": 1000,
-      "en_exp": 10000,
-      "card_buffs": [
-        {
-          "cnds_iname": "VLC_DARK",
-          "card_skill": "SK_VC_LW_DMCM_GS",
-          "add_card_skill_buff_awake": "SK_VC_LW_DMCM_GSAW"
-        },
-        {
-          "cnds_iname": "VLC_DARK",
-          "card_skill": "SK_VC_LW_DMCM_GS_2",
-          "add_card_skill_buff_awake": "SK_VC_LW_DMCM_GSAW_2",
-          "add_card_skill_buff_lvmax": "SK_VC_LW_DMCM_GSMAX"
-        }
-      ],
-      "self_buffs": [
-        {
-          "buff_cond": "VLC_DARK",
-          "self_buff": "SK_VC_LW_DMCM_P",
-          "add_self_buff_awake": "SK_VC_LW_DMCM_PAW"
-        }
-      ],
-      "status": [
-        {
-          "hp": 37,
-          "atk": 27,
-          "spd": 1
-        },
-        {
-          "hp": 296,
-          "atk": 108,
-          "spd": 3
-        }
-      ],
-      "first_bonus_unit": "UN_LW_S_DMCM",
       "visioncard_medal_num": 1
     },
     {

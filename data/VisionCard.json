@@ -1353,7 +1353,7 @@
           "add_self_buff_lvmax": "SK_GL_VC_LW_HALL_P2MAX"
         },
         {
-          "buff_cond": "VLC_LSWO",
+          "buff_cond": "VLC_S_LSWO",
           "self_buff": "SK_VC_LW_HALL_PVA"
         }
       ],
@@ -1367,6 +1367,65 @@
           "hp": 372,
           "ap": 20,
           "atk": 134
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_HALL2",
+      "type": 0,
+      "icon": "LAPSHall2",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_HALL2",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_THOL",
+          "card_skill": "SK_VC_LW_HALL2_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_HALL2_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HALL2_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_THOL",
+          "card_skill": "SK_VC_LW_HALL2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_HALL2_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HALL2_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_THOL",
+          "self_buff": "SK_VC_LW_HALL2_P",
+          "add_self_buff_awake": "SK_VC_LW_HALL2_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_HALL2_PMAX"
+        },
+        {
+          "buff_cond": "VLC_FDRC_01_RIRY_01",
+          "self_buff": "SK_VC_LW_HALL2_P_2",
+          "add_self_buff_awake": "SK_VC_LW_HALL2_P_2AW",
+          "add_self_buff_lvmax": "SK_VC_LW_HALL2_P_2MAX"
+        },
+        {
+          "buff_cond": "VLC_RYER_01",
+          "self_buff": "SK_VC_LW_HALL2_P_3",
+          "add_self_buff_awake": "SK_VC_LW_HALL2_P_3AW",
+          "add_self_buff_lvmax": "SK_VC_LW_HALL2_P_3MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 49,
+          "atk": 40
+        },
+        {
+          "hp": 384,
+          "atk": 158
         }
       ],
       "visioncard_medal_num": 20

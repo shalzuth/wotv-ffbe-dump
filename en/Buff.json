@@ -125,46 +125,6 @@
       "value": "All-Elem Attack"
     },
     {
-      "key": "GL_BUFF_ElemNoneResist",
-      "value": "Non-Elem Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemFireResist",
-      "value": "Fire Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemIceResist",
-      "value": "Ice Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemWindResist",
-      "value": "Wind Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemEarthResist",
-      "value": "Earth Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemThunderResist",
-      "value": "Lightning Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemWaterResist",
-      "value": "Water Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemShineResist",
-      "value": "Light Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemDarkResist",
-      "value": "Dark Attack Res"
-    },
-    {
-      "key": "GL_BUFF_ElemAllResist",
-      "value": "All-Elem Attack Res"
-    },
-    {
       "key": "BUFF_AttackSlash",
       "value": "Slash Attack"
     },
@@ -387,6 +347,30 @@
     {
       "key": "BUFF_CondReplaceSkill",
       "value": "Ability Change"
+    },
+    {
+      "key": "BUFF_CondBarrageSlash",
+      "value": "Slash Attack Repeat Scaling"
+    },
+    {
+      "key": "BUFF_CondBarragePierce",
+      "value": "Pierce Attack Repeat Scaling"
+    },
+    {
+      "key": "BUFF_CondBarrageBlow",
+      "value": "Strike Attack Repeat Scaling"
+    },
+    {
+      "key": "BUFF_CondBarrageShot",
+      "value": "Missile Attack Repeat Scaling"
+    },
+    {
+      "key": "BUFF_CondBarrageMagic",
+      "value": "Magic Attack Repeat Scaling"
+    },
+    {
+      "key": "BUFF_CondEnchantSkill",
+      "value": "Enchant"
     },
     {
       "key": "BUFF_OtherInitAp",
@@ -1209,6 +1193,14 @@
       "value": "NieR Killer"
     },
     {
+      "key": "BUFF_KillerBirthLykeros",
+      "value": "Lykeros Killer"
+    },
+    {
+      "key": "BUFF_KillerBirthTombRaider",
+      "value": "Tomb Raider Killer"
+    },
+    {
       "key": "BUFF_KillerBirthDamageUnknown",
       "value": "Fixed Unknown Kingdom Dmg"
     },
@@ -1333,6 +1325,14 @@
       "value": "Fixed NieR Dmg"
     },
     {
+      "key": "BUFF_KillerBirthDamageLykeros",
+      "value": "Fixed Lykeros Dmg"
+    },
+    {
+      "key": "BUFF_KillerBirthDamageTombRaider",
+      "value": "Fixed Tomb Raider Dmg"
+    },
+    {
       "key": "BUFF_KillerUnitTagFloating",
       "value": "Airborne Killer"
     },
@@ -1445,600 +1445,16 @@
       "value": "Reflect ({0} turn(s) and {1} time(s))"
     },
     {
-      "key": "BUFF_CondBarrageSlash",
-      "value": "Slash Attack Repeat Scaling"
-    },
-    {
-      "key": "BUFF_CondBarragePierce",
-      "value": "Pierce Attack Repeat Scaling"
-    },
-    {
-      "key": "BUFF_CondBarrageBlow",
-      "value": "Strike Attack Repeat Scaling"
-    },
-    {
-      "key": "BUFF_CondBarrageShot",
-      "value": "Missile Attack Repeat Scaling"
-    },
-    {
-      "key": "BUFF_CondBarrageMagic",
-      "value": "Magic Attack Repeat Scaling"
-    },
-    {
-      "key": "BUFF_CondEnchantSkill",
-      "value": "Enchant"
-    },
-    {
-      "key": "BUFF_KillerElementPFire",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMFire",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPIce",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMIce",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPWind",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMWind",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPEarth",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMEarth",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPThunder",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMThunder",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPWater",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMWater",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPShine",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMShine",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementPDark",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerElementMDark",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPUnknown",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMUnknown",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPLeonis",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMLeonis",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPHourn",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMHourn",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFenice",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFenice",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPWezett",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMWezett",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPCrystalFaith",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMCrystalFaith",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPAllyare",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMAllyare",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPRundall",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMRundall",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPCyga",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMCyga",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPGuren",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMGuren",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPOwis",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMOwis",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPHyndra",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMHyndra",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFFBE",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFFBE",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF1",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF1",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF2",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF2",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF3",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF3",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF4",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF4",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF5",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF5",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF6",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF6",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF7",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF7",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF8",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF8",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF9",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF9",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF10",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF10",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF11",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF11",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF12",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF12",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF13",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF13",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF14",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF14",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFF15",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFF15",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFFT",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFFT",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPGoga",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMGoga",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPNieRAutomata",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMNieRAutomata",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthLykeros",
-      "value": "Lykeros Killer"
-    },
-    {
-      "key": "BUFF_KillerBirthPLykeros",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMLykeros",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthTombRaider",
-      "value": "Tomb Raider Killer"
-    },
-    {
       "key": "BUFF_KillerBirthPTombRaider",
-      "value": ""
+      "value": "Tomb Raider Killer Upon Phys Attack"
     },
     {
       "key": "BUFF_KillerBirthMTombRaider",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthFarplane",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthPFarplane",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthMFarplane",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerBirthDamageLykeros",
-      "value": "Fixed Lykeros Dmg"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageTombRaider",
-      "value": "Fixed Tomb Raider Dmg"
-    },
-    {
-      "key": "BUFF_KillerBirthDamageFarplane",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerUnitTagPFloating",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerUnitTagMFloating",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerUnitTagPIgnoreGround",
-      "value": ""
-    },
-    {
-      "key": "BUFF_KillerUnitTagMIgnoreGround",
-      "value": ""
-    },
-    {
-      "key": "BUFF_ResistBirthUnknown",
-      "value": "Unknown Kingdom Res"
-    },
-    {
-      "key": "BUFF_ResistBirthLeonis",
-      "value": "Leonis Res"
-    },
-    {
-      "key": "BUFF_ResistBirthHourn",
-      "value": "Hourne Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFenice",
-      "value": "Fennes Res"
-    },
-    {
-      "key": "BUFF_ResistBirthWezett",
-      "value": "Wezette Res"
-    },
-    {
-      "key": "BUFF_ResistBirthCrystalFaith",
-      "value": "Crystal Sanctum Res"
-    },
-    {
-      "key": "BUFF_ResistBirthAllyare",
-      "value": "Ariale Res"
-    },
-    {
-      "key": "BUFF_ResistBirthRundall",
-      "value": "Rundall Res"
-    },
-    {
-      "key": "BUFF_ResistBirthCyga",
-      "value": "Saiga Res"
-    },
-    {
-      "key": "BUFF_ResistBirthGuren",
-      "value": "Rubeus Res"
-    },
-    {
-      "key": "BUFF_ResistBirthOwis",
-      "value": "Ovis Res"
-    },
-    {
-      "key": "BUFF_ResistBirthHyndra",
-      "value": "Heindler Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFFBE",
-      "value": "FFBE Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF1",
-      "value": "FFI Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF2",
-      "value": "FFII Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF3",
-      "value": "FFIII Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF4",
-      "value": "FFIV Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF5",
-      "value": "FFV Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF6",
-      "value": "FFVI Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF7",
-      "value": "FFVII Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF8",
-      "value": "FFVIII Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF9",
-      "value": "FFIX Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF10",
-      "value": "FFX Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF11",
-      "value": "FFXI Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF12",
-      "value": "FFXII Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF13",
-      "value": "FFXIII Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF14",
-      "value": "FFXIV Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFF15",
-      "value": "FFXV Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFFT",
-      "value": "FFT Res"
-    },
-    {
-      "key": "BUFF_ResistBirthGoga",
-      "value": "Gouga Res"
-    },
-    {
-      "key": "BUFF_ResistBirthNieRAutomata",
-      "value": "NieR Res"
-    },
-    {
-      "key": "BUFF_ResistBirthLykeros",
-      "value": "Lykeros Res"
+      "value": "Tomb Raider Killer Upon Magic Attack"
     },
     {
       "key": "BUFF_ResistBirthTombRaider",
       "value": "Tomb Raider Res"
-    },
-    {
-      "key": "BUFF_ResistBirthFarplane",
-      "value": "Farplane Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesHuman",
-      "value": "Man Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesNetherBeast",
-      "value": "Esper Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesBeast",
-      "value": "Beast Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesDemon",
-      "value": "Demon Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesDragon",
-      "value": "Dragon Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesPlane",
-      "value": "Plantoid Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesBird",
-      "value": "Avian Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesInsect",
-      "value": "Insect Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesAquatic",
-      "value": "Aquatic Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesMachine",
-      "value": "Machina Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesSpirit",
-      "value": "Fairy Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesUndead",
-      "value": "Reaper Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesStone",
-      "value": "Stone Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesMetal",
-      "value": "Metal Res"
-    },
-    {
-      "key": "BUFF_ResistSpeciesMagCreature",
-      "value": "Arcana Res"
     },
     {
       "key": "BUFF_KillerBirthDamageLionis",

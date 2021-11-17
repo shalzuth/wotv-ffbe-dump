@@ -3961,6 +3961,7 @@
     },
     {
       "iname": "M_DAILY_ST_01",
+      "grpID": "MG_DAILY_001",
       "priority": 101,
       "condition": {
         "type": 12,
@@ -3980,6 +3981,7 @@
     },
     {
       "iname": "M_DAILY_ST_02",
+      "grpID": "MG_DAILY_001",
       "priority": 102,
       "condition": {
         "type": 12,
@@ -3999,6 +4001,7 @@
     },
     {
       "iname": "M_DAILY_ST_03",
+      "grpID": "MG_DAILY_001",
       "priority": 103,
       "condition": {
         "type": 12,
@@ -4018,7 +4021,6 @@
     },
     {
       "iname": "M_DAILY_ST_22",
-      "grpID": "MG_DAILY_001",
       "priority": 101,
       "condition": {
         "type": 12,
@@ -4037,7 +4039,6 @@
     },
     {
       "iname": "M_DAILY_ST_23",
-      "grpID": "MG_DAILY_001",
       "priority": 102,
       "condition": {
         "type": 12,
@@ -4056,7 +4057,6 @@
     },
     {
       "iname": "M_DAILY_ST_24",
-      "grpID": "MG_DAILY_001",
       "priority": 103,
       "condition": {
         "type": 12,
@@ -145812,6 +145812,86 @@
         }
       ],
       "chk_ver": "M_LW_PA_CH_131_4"
+    },
+    {
+      "iname": "M_LW_PA_CH_132_1",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_FALM"
+        ],
+        "ival": 100
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_132_1",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_132_1"
+    },
+    {
+      "iname": "M_LW_PA_CH_132_2",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_FALM"
+        ],
+        "ival": 500
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_132_2",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_132_2"
+    },
+    {
+      "iname": "M_LW_PA_CH_132_3",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_FALM"
+        ],
+        "ival": 3000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_132_3",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_132_3"
+    },
+    {
+      "iname": "M_LW_PA_CH_132_4",
+      "grpID": "MG_PLY_AWARD_001",
+      "priority": 1,
+      "condition": {
+        "type": 105,
+        "sval": [
+          "MUG_LW_P_FALM"
+        ],
+        "ival": 10000
+      },
+      "rewards": [
+        {
+          "type": 11,
+          "iname": "LW_PA_CH_132_4",
+          "num": 1
+        }
+      ],
+      "chk_ver": "M_LW_PA_CH_132_4"
     },
     {
       "iname": "M_LW_PA_CH_135_1",

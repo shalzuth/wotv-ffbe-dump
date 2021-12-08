@@ -34854,6 +34854,7 @@
     {
       "iname": "JB_LW_WGN_DARK",
       "mdl": "WGN",
+      "mdl_dualwpn": 1,
       "origin": "JB_LW_WGN_FIRE",
       "equips": [
         14,
@@ -52867,7 +52868,8 @@
           "eqid1": "IT_JB_MM_PSI_5,5",
           "s_eqid1": "IT_JB_MM_PSI_5,5"
         }
-      ]
+      ],
+      "not_appearance": 1
     },
     {
       "iname": "JB_LW_PSI_FIRE",
@@ -58201,6 +58203,39 @@
       "jump": 1,
       "lvtbl_main": "JBLV_LW_LVES_EXM",
       "lvtbl_sub": "JBLV_LW_LVES_EXM",
+      "sub_rate": 50,
+      "ranks": [
+        {
+          "hp": 6450,
+          "mp": 1507,
+          "ap": 1507,
+          "atk": 3451,
+          "mag": 812,
+          "dex": 3045,
+          "spd": 2300,
+          "luk": 3468,
+          "iniap": -82
+        }
+      ]
+    },
+    {
+      "iname": "JB_LW_TITU_M",
+      "mdl": "PLD",
+      "cc_icon": "PLD_EC",
+      "origin": "JB_LW_PLD_EX_M",
+      "equips": [
+        2,
+        17,
+        20,
+        18,
+        22
+      ],
+      "type": 1,
+      "role": 1,
+      "move": 3,
+      "jump": 1,
+      "lvtbl_main": "JBLV_LW_TITU_EXM",
+      "lvtbl_sub": "JBLV_LW_TITU_EXM",
       "sub_rate": 50,
       "ranks": [
         {
@@ -64058,6 +64093,171 @@
       ]
     },
     {
+      "iname": "JB_LW_MST_EX_M",
+      "mdl": "MST",
+      "cc_icon": "MST_EC",
+      "equips": [
+        5,
+        19,
+        21,
+        22
+      ],
+      "type": 2,
+      "role": 3,
+      "move": 3,
+      "jump": 1,
+      "lvtbl_main": "JBLV_LW_QILF_EXM",
+      "lvtbl_sub": "JBLV_LW_QILF_EXM",
+      "sub_rate": 50,
+      "ranks": [
+        {
+          "hp": 6450,
+          "mp": 1507,
+          "ap": 3015,
+          "atk": 1522,
+          "mag": 4263,
+          "dex": 3451,
+          "spd": 3000,
+          "luk": 3060,
+          "iniap": -50
+        },
+        {
+          "hp": 6675,
+          "mp": 1511,
+          "ap": 3022,
+          "atk": 1533,
+          "mag": 4294,
+          "dex": 3476,
+          "spd": 3000,
+          "luk": 3090,
+          "iniap": -50
+        },
+        {
+          "hp": 6900,
+          "mp": 1515,
+          "ap": 3030,
+          "atk": 1545,
+          "mag": 4326,
+          "dex": 3502,
+          "spd": 3000,
+          "luk": 3120,
+          "iniap": -50
+        },
+        {
+          "hp": 7800,
+          "mp": 1530,
+          "ap": 3060,
+          "atk": 1590,
+          "mag": 4452,
+          "dex": 3604,
+          "spd": 3000,
+          "luk": 3240,
+          "iniap": -50,
+          "eqid1": "IT_JB_MM_MST_5,5"
+        },
+        {
+          "hp": 8025,
+          "mp": 1533,
+          "ap": 3067,
+          "atk": 1601,
+          "mag": 4483,
+          "dex": 3629,
+          "spd": 3000,
+          "luk": 3270,
+          "iniap": -50
+        },
+        {
+          "hp": 8250,
+          "mp": 1537,
+          "ap": 3075,
+          "atk": 1612,
+          "mag": 4515,
+          "dex": 3655,
+          "spd": 3000,
+          "luk": 3300,
+          "iniap": -50
+        },
+        {
+          "hp": 9150,
+          "mp": 1552,
+          "ap": 3105,
+          "atk": 1657,
+          "mag": 4641,
+          "dex": 3757,
+          "spd": 3000,
+          "luk": 3420,
+          "iniap": -50,
+          "eqid1": "IT_JB_MM_MST_5,7"
+        },
+        {
+          "hp": 9375,
+          "mp": 1556,
+          "ap": 3112,
+          "atk": 1668,
+          "mag": 4672,
+          "dex": 3782,
+          "spd": 3000,
+          "luk": 3450,
+          "iniap": -50
+        },
+        {
+          "hp": 9600,
+          "mp": 1560,
+          "ap": 3120,
+          "atk": 1680,
+          "mag": 4704,
+          "dex": 3808,
+          "spd": 3000,
+          "luk": 3480,
+          "iniap": -50
+        },
+        {
+          "hp": 10500,
+          "mp": 1575,
+          "ap": 3150,
+          "atk": 1725,
+          "mag": 4830,
+          "dex": 3910,
+          "spd": 3000,
+          "luk": 3600,
+          "iniap": -50,
+          "eqid1": "IT_JB_MM_MST_5,10"
+        }
+      ]
+    },
+    {
+      "iname": "JB_LW_QILF_M",
+      "mdl": "MST",
+      "cc_icon": "MST_EC",
+      "origin": "JB_LW_MST_EX_M",
+      "equips": [
+        5,
+        19,
+        21,
+        22
+      ],
+      "type": 2,
+      "role": 3,
+      "move": 3,
+      "jump": 1,
+      "lvtbl_main": "JBLV_LW_QILF_EXM",
+      "lvtbl_sub": "JBLV_LW_QILF_EXM",
+      "sub_rate": 50,
+      "ranks": [
+        {
+          "hp": 6450,
+          "mp": 1507,
+          "ap": 3015,
+          "atk": 1522,
+          "mag": 4263,
+          "dex": 3451,
+          "spd": 3000,
+          "luk": 3060,
+          "iniap": -50
+        }
+      ]
+    },
+    {
       "iname": "JB_FF7_AERT",
       "mdl": "FF07aert",
       "collaboType": 1,
@@ -65656,6 +65856,38 @@
       "jump": 1,
       "lvtbl_main": "JBLV_LW_HLNA_EXM",
       "lvtbl_sub": "JBLV_LW_HLNA_EXM",
+      "sub_rate": 50,
+      "ranks": [
+        {
+          "hp": 6450,
+          "mp": 4221,
+          "ap": 4221,
+          "atk": 1522,
+          "mag": 4263,
+          "dex": 1522,
+          "spd": 3000,
+          "luk": 3468,
+          "iniap": -25
+        }
+      ]
+    },
+    {
+      "iname": "JB_LW_CHEL_M",
+      "mdl": "GRM",
+      "cc_icon": "GRM_EC",
+      "origin": "JB_LW_GRM_EX_M",
+      "equips": [
+        5,
+        19,
+        21,
+        22
+      ],
+      "type": 4,
+      "role": 3,
+      "move": 3,
+      "jump": 1,
+      "lvtbl_main": "JBLV_LW_CHEL_EXM",
+      "lvtbl_sub": "JBLV_LW_CHEL_EXM",
       "sub_rate": 50,
       "ranks": [
         {

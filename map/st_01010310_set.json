@@ -1224,7 +1224,7 @@
       },
       "mapEv": {
         "type": 1,
-        "typeval": "string={\"Datas\":[{\"Type\":6,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MoveType\\\":1,\\\"m_CameraPosName\\\":\\\"camera_position\\\",\\\"m_CameraLookAtName\\\":\\\"camera_target\\\",\\\"m_AnmCurve\\\":{\\\"serializedVersion\\\":\\\"2\\\",\\\"m_Curve\\\":[{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.0,\\\"value\\\":0.0,\\\"inSlope\\\":0.3702973425388336,\\\"outSlope\\\":0.3702973425388336,\\\"tangentMode\\\":0,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.3333333432674408,\\\"outWeight\\\":0.19325841963291169},{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.5,\\\"value\\\":1.0,\\\"inSlope\\\":0.08110202848911286,\\\"outSlope\\\":0.08110202848911286,\\\"tangentMode\\\":0,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.13932585716247559,\\\"outWeight\\\":0.3333333432674408}],\\\"m_PreInfinity\\\":2,\\\"m_PostInfinity\\\":2,\\\"m_RotationOrder\\\":4},\\\"m_AnmCurveTime\\\":1.5}\"},{\"Type\":1,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_ObjectName\\\":\\\"gimic\\\",\\\"m_AnmName\\\":\\\"break\\\"}\"},{\"Type\":5,\"IsActiveSameTime\":true,\"Delay\":0.5,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_Range\\\":[{\\\"x\\\":3,\\\"y\\\":6},{\\\"x\\\":3,\\\"y\\\":7},{\\\"x\\\":4,\\\"y\\\":6},{\\\"x\\\":4,\\\"y\\\":7},{\\\"x\\\":5,\\\"y\\\":6},{\\\"x\\\":5,\\\"y\\\":7}],\\\"m_Immediate\\\":true}\"},{\"Type\":11,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_LerpTime\\\":0.30000001192092898}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"lio_pla_008_N_1_breaked\\\",\\\"m_IsDelete\\\":true}\"},{\"Type\":3,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MeshName\\\":\\\"before_break\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":3,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MeshName\\\":\\\"breaked\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0}",
+        "typeval": "string={\"Datas\":[{\"Type\":6,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MoveType\\\":1,\\\"m_CameraPosName\\\":\\\"camera_position\\\",\\\"m_CameraLookAtName\\\":\\\"camera_target\\\",\\\"m_AnmCurve\\\":{\\\"serializedVersion\\\":\\\"2\\\",\\\"m_Curve\\\":[{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.0,\\\"value\\\":0.0,\\\"inSlope\\\":0.3702973425388336,\\\"outSlope\\\":0.3702973425388336,\\\"tangentMode\\\":0,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.3333333432674408,\\\"outWeight\\\":0.19325841963291169},{\\\"serializedVersion\\\":\\\"3\\\",\\\"time\\\":0.5,\\\"value\\\":1.0,\\\"inSlope\\\":0.08110202848911286,\\\"outSlope\\\":0.08110202848911286,\\\"tangentMode\\\":0,\\\"weightedMode\\\":0,\\\"inWeight\\\":0.13932585716247559,\\\"outWeight\\\":0.3333333432674408}],\\\"m_PreInfinity\\\":2,\\\"m_PostInfinity\\\":2,\\\"m_RotationOrder\\\":4},\\\"m_AnmCurveTime\\\":1.5}\"},{\"Type\":1,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_ObjectName\\\":\\\"gimic\\\",\\\"m_AnmName\\\":\\\"break\\\"}\"},{\"Type\":5,\"IsActiveSameTime\":true,\"Delay\":0.5,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_Range\\\":[{\\\"x\\\":3,\\\"y\\\":6},{\\\"x\\\":3,\\\"y\\\":7},{\\\"x\\\":4,\\\"y\\\":6},{\\\"x\\\":4,\\\"y\\\":7},{\\\"x\\\":5,\\\"y\\\":6},{\\\"x\\\":5,\\\"y\\\":7}],\\\"m_Immediate\\\":true}\"},{\"Type\":11,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_LerpTime\\\":0.30000001192092898}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"lio_pla_008_N_1_breaked\\\",\\\"m_IsDelete\\\":true}\"},{\"Type\":3,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MeshName\\\":\\\"before_break\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":3,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_MeshName\\\":\\\"breaked\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0};local=",
         "isUnitNoAct": false
       },
       "invokeMax": 1,
@@ -1268,6 +1268,24 @@
         {
           "drop_data": {
             "type": 0,
+            "iname": "IT_JB_AXE_02",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 1350
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_EM_THUNDER_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 1350
+        },
+        {
+          "drop_data": {
+            "type": 0,
             "iname": "IT_AF_MAT_SAND_01",
             "num": 1,
             "secret": 0
@@ -1286,6 +1304,24 @@
         {
           "drop_data": {
             "type": 0,
+            "iname": "IT_JB_IM_DRAGON_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 280
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 0
+        },
+        {
+          "drop_data": {
+            "type": 0,
             "iname": "IT_JB_MM_THI_2",
             "num": 1,
             "secret": 0
@@ -1295,56 +1331,11 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_IM_DRAGON_2",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 280
-        },
-        {
-          "drop_data": {
-            "type": 0,
             "iname": "IT_JB_MM_CLR_2",
             "num": 1,
             "secret": 0
           },
           "weight": 66
-        },
-        {
-          "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 1845
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_EM_THUNDER_2",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1350
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_AF_LW_HAT_002",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 185
-        },
-        {
-          "drop_data": {
-            "type": 0,
-            "iname": "IT_JB_AXE_02",
-            "num": 1,
-            "secret": 0
-          },
-          "weight": 1350
         },
         {
           "drop_data": {
@@ -1366,6 +1357,24 @@
         },
         {
           "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_WIZ_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 66
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_JUME_2",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 66
+        },
+        {
+          "drop_data": {
             "type": -1,
             "iname": "",
             "num": 0,
@@ -1376,11 +1385,20 @@
         {
           "drop_data": {
             "type": 0,
-            "iname": "IT_JB_MM_WIZ_2",
+            "iname": "IT_AF_LW_HAT_002",
             "num": 1,
             "secret": 0
           },
-          "weight": 66
+          "weight": 185
+        },
+        {
+          "drop_data": {
+            "type": -1,
+            "iname": "",
+            "num": 0,
+            "secret": 0
+          },
+          "weight": 1779
         }
       ]
     },

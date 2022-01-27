@@ -3941,6 +3941,61 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_GABL",
+      "type": 0,
+      "icon": "LAPSGabl",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_GABL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_DARK",
+          "card_skill": "SK_VC_LW_GABL_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_GABL_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_GABL_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_DARK",
+          "card_skill": "SK_VC_LW_GABL_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_GABL_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_GABL_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_DARK",
+          "self_buff": "SK_VC_LW_GABL_P",
+          "add_self_buff_awake": "SK_VC_LW_GABL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_GABL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_GABL",
+          "self_buff": "SK_VC_GL_LW_GABL_P_2",
+          "add_self_buff_awake": "SK_VC_GL_LW_GABL_PAW_2",
+          "add_self_buff_lvmax": "SK_VC_GL_LW_GABL_PMAX_2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 46,
+          "mag": 39,
+          "dex": 13
+        },
+        {
+          "hp": 358,
+          "mag": 151,
+          "dex": 50
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",

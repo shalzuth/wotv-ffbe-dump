@@ -27,7 +27,8 @@
       "trust": "AF_ACC_LW_MONT_1",
       "atkskl": "SK_LW_WAR_ATK",
       "mstskl": [
-        "SK_MA_LW_MONT"
+        "SK_MA_LW_MONT",
+        "SK_MA_LW_MONT_2"
       ],
       "jobsets": [
         "JB_LW_WAR",
@@ -155,7 +156,8 @@
       "trust": "AF_ARM_LW_STRN_1",
       "atkskl": "SK_LW_SWN_ATK",
       "mstskl": [
-        "SK_MA_LW_STRN"
+        "SK_MA_LW_STRN",
+        "SK_MA_LW_STRN_2"
       ],
       "jobsets": [
         "JB_LW_SWN_DARK",
@@ -271,7 +273,8 @@
       "trust": "AF_CLK_LW_ELDE_1",
       "atkskl": "SK_LW_LAN_ATK",
       "mstskl": [
-        "SK_MA_LW_ELDE"
+        "SK_MA_LW_ELDE",
+        "SK_MA_LW_ELDE_2"
       ],
       "jobsets": [
         "JB_LW_LAN_FIRE",
@@ -384,7 +387,8 @@
       "trust": "AF_ARM_LW_ROBB_1",
       "atkskl": "SK_LW_SAM_ATK",
       "mstskl": [
-        "SK_MA_LW_ROBB"
+        "SK_MA_LW_ROBB",
+        "SK_MA_LW_ROBB_2"
       ],
       "jobsets": [
         "JB_LW_SAM_SHINE",
@@ -2141,6 +2145,11 @@
         "JB_LW_WHM_WIND",
         "JB_LW_MGK_WIND"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_KADI_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_CLR",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -2182,6 +2191,32 @@
           "dex": 91,
           "spd": 30,
           "luk": 86,
+          "eic": -15,
+          "eea": 15,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": 0,
+          "ama": 5,
+          "csl": 50,
+          "cfr": -25,
+          "cch": 15,
+          "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 890,
+          "mp": 87,
+          "ap": 78,
+          "atk": 81,
+          "def": 0,
+          "mag": 203,
+          "mnd": 0,
+          "dex": 124,
+          "spd": 30,
+          "luk": 103,
           "eic": -15,
           "eea": 15,
           "asl": -10,
@@ -10214,6 +10249,11 @@
         "JB_LW_GUN_FIRE",
         "JB_LW_SWN_FIRE"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_LATH_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_WGN",
       "buff_pri": "BUFFPRI_SHOOT",
       "debuff_pri": "DEBUFFPRI_SHOOT",
@@ -10252,6 +10292,29 @@
           "dex": 108,
           "spd": 35,
           "luk": 90,
+          "eic": 20,
+          "ewa": -10,
+          "asl": 20,
+          "api": 10,
+          "ama": -5,
+          "ccf": 50,
+          "cst": 50,
+          "cda": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 918,
+          "mp": 97,
+          "ap": 91,
+          "atk": 188,
+          "def": 0,
+          "mag": 72,
+          "mnd": 0,
+          "dex": 129,
+          "spd": 35,
+          "luk": 99,
           "eic": 20,
           "ewa": -10,
           "asl": 20,
@@ -10660,6 +10723,11 @@
         "JB_LW_CLR_SOIL",
         "JB_LW_CAL_SOIL"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_RVAL_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_BLM",
       "buff_pri": "BUFFPRI_MAGATK",
       "debuff_pri": "DEBUFFPRI_MAGATK",
@@ -10701,6 +10769,32 @@
           "dex": 89,
           "spd": 30,
           "luk": 81,
+          "ewi": -15,
+          "eth": 15,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 5,
+          "csl": -25,
+          "ccf": -5,
+          "cch": 50,
+          "cda": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 752,
+          "mp": 85,
+          "ap": 92,
+          "atk": 81,
+          "def": 0,
+          "mag": 186,
+          "mnd": 0,
+          "dex": 117,
+          "spd": 30,
+          "luk": 97,
           "ewi": -15,
           "eth": 15,
           "asl": -10,

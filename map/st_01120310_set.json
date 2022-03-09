@@ -1979,7 +1979,7 @@
       },
       "mapEv": {
         "type": 1,
-        "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_Default\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall01\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0}",
+        "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_Default\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall01\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0};local=",
         "isUnitNoAct": true
       },
       "invokeMax": 1,
@@ -2002,7 +2002,7 @@
       },
       "mapEv": {
         "type": 1,
-        "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall01\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall02\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0}",
+        "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall01\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall02\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0};local=",
         "isUnitNoAct": true
       },
       "invokeMax": 1,
@@ -2025,7 +2025,7 @@
       },
       "mapEv": {
         "type": 1,
-        "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall02\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall03\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0}",
+        "typeval": "string={\"Datas\":[{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall02\\\",\\\"m_IsDelete\\\":false}\"},{\"Type\":2,\"IsActiveSameTime\":false,\"Delay\":0.0,\"IsPreProc\":false,\"ParamJson\":\"{\\\"m_GeoName\\\":\\\"wez_cas_009_A_1_wall03\\\",\\\"m_IsDelete\\\":true}\"}],\"ReactionSide\":0};local=",
         "isUnitNoAct": true
       },
       "invokeMax": 1,
@@ -2120,12 +2120,21 @@
         },
         {
           "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
+            "type": 0,
+            "iname": "IT_JB_MM_LNAN_3",
+            "num": 1,
             "secret": 0
           },
-          "weight": 0
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LNAN_4",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 33
         },
         {
           "drop_data": {
@@ -2237,15 +2246,6 @@
         },
         {
           "drop_data": {
-            "type": -1,
-            "iname": "",
-            "num": 0,
-            "secret": 0
-          },
-          "weight": 0
-        },
-        {
-          "drop_data": {
             "type": 0,
             "iname": "IT_JB_EM_WATER_3",
             "num": 1,
@@ -2287,7 +2287,7 @@
             "num": 0,
             "secret": 0
           },
-          "weight": 1977
+          "weight": 1911
         },
         {
           "drop_data": {
@@ -2371,6 +2371,24 @@
         {
           "drop_data": {
             "type": 0,
+            "iname": "IT_JB_MM_LNAN_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LNAN_4",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
             "iname": "IT_AF_MAT_SAND_03",
             "num": 1,
             "secret": 0
@@ -2484,6 +2502,24 @@
             "secret": 0
           },
           "weight": 140
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_DEAN_3",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 33
+        },
+        {
+          "drop_data": {
+            "type": 0,
+            "iname": "IT_JB_MM_LW_DEAN_4",
+            "num": 1,
+            "secret": 0
+          },
+          "weight": 33
         }
       ]
     }

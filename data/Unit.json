@@ -620,7 +620,8 @@
       "trust": "AF_ACC_LW_ZIZA_1",
       "atkskl": "SK_LW_MNK_ATK",
       "mstskl": [
-        "SK_MA_LW_ZIZA"
+        "SK_MA_LW_ZIZA",
+        "SK_MA_LW_ZIZA_2"
       ],
       "jobsets": [
         "JB_LW_MNK_DARK",
@@ -736,7 +737,8 @@
       "trust": "AF_HAT_LW_AILN_1",
       "atkskl": "SK_LW_LAN_ATK",
       "mstskl": [
-        "SK_MA_LW_AILN"
+        "SK_MA_LW_AILN",
+        "SK_MA_LW_AILN_2"
       ],
       "jobsets": [
         "JB_LW_LAN_SOIL",
@@ -1697,6 +1699,11 @@
         "JB_LW_LAN_SOIL",
         "JB_LW_TIM_SOIL"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_LRNZ_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_DRG",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -1737,6 +1744,31 @@
           "dex": 92,
           "spd": 27,
           "luk": 93,
+          "ewi": -15,
+          "eth": 15,
+          "asl": 25,
+          "api": 10,
+          "abl": -5,
+          "ash": 20,
+          "ama": -30,
+          "cpa": -25,
+          "ccf": 50,
+          "csw": 50,
+          "mov": 3,
+          "jmp": 5,
+          "dmax": 9999
+        },
+        {
+          "hp": 1080,
+          "mp": 79,
+          "ap": 75,
+          "atk": 197,
+          "def": 0,
+          "mag": 81,
+          "mnd": 0,
+          "dex": 115,
+          "spd": 27,
+          "luk": 102,
           "ewi": -15,
           "eth": 15,
           "asl": 25,
@@ -2390,6 +2422,11 @@
         "JB_LW_BLM_FIRE",
         "JB_LW_RDM_FIRE"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_MGRT_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_TIM",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -2431,6 +2468,32 @@
           "dex": 105,
           "spd": 31,
           "luk": 88,
+          "eic": 15,
+          "ewa": -15,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 5,
+          "cpa": -25,
+          "cst": 50,
+          "cch": 15,
+          "cdm": 50,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 879,
+          "mp": 85,
+          "ap": 79,
+          "atk": 82,
+          "def": 0,
+          "mag": 197,
+          "mnd": 0,
+          "dex": 131,
+          "spd": 31,
+          "luk": 103,
           "eic": 15,
           "ewa": -15,
           "asl": -10,
@@ -4069,7 +4132,8 @@
       "trust": "AF_ACC_LW_RART_1",
       "atkskl": "SK_LW_HUN_ATK",
       "mstskl": [
-        "SK_MA_LW_RART"
+        "SK_MA_LW_RART",
+        "SK_MA_LW_RART_2"
       ],
       "jobsets": [
         "JB_LW_HUN_THUN",
@@ -7574,7 +7638,8 @@
       "trust": "AF_ACC_LW_ORDR_1",
       "atkskl": "SK_LW_SWN_ATK",
       "mstskl": [
-        "SK_MA_LW_ORDR"
+        "SK_MA_LW_ORDR",
+        "SK_MA_LW_ORDR_2"
       ],
       "jobsets": [
         "JB_LW_SWN_WIND",
@@ -8958,6 +9023,11 @@
         "JB_LW_RDM_WIND",
         "JB_LW_WHM_WIND"
       ],
+      "ccsets": [
+        {
+          "m": "JB_LW_HWLT_M"
+        }
+      ],
       "ai": "AI_PLAYER_LW_MKN",
       "buff_pri": "BUFFPRI_MAGATK",
       "debuff_pri": "DEBUFFPRI_MAGATK",
@@ -8997,6 +9067,30 @@
           "dex": 107,
           "spd": 35,
           "luk": 109,
+          "eic": -10,
+          "eea": 20,
+          "asl": 5,
+          "abl": -15,
+          "ash": -5,
+          "ama": 15,
+          "cmu": 50,
+          "cpa": 50,
+          "cch": 10,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1241,
+          "mp": 103,
+          "ap": 95,
+          "atk": 74,
+          "def": 0,
+          "mag": 196,
+          "mnd": 0,
+          "dex": 128,
+          "spd": 35,
+          "luk": 114,
           "eic": -10,
           "eea": 20,
           "asl": 5,
@@ -17485,6 +17579,129 @@
       ],
       "limit": "SK_LB_LW_STIA",
       "awake_tbl_id": "UN_AW_FIRE_UR",
+      "unit_medal_num": 20
+    },
+    {
+      "iname": "UN_LW_P_LNAN",
+      "sex": 1,
+      "size": 0,
+      "body_type": "MM",
+      "personal": 0,
+      "charaId": "LAPSlnan",
+      "anm_type": 5,
+      "anm_id": "lnan",
+      "voiceId": "LAPSlnan_00",
+      "type": 0,
+      "elem": [
+        5
+      ],
+      "species": [
+        1
+      ],
+      "birth": 34,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "piece": "IT_PI_LW_LNAN",
+      "piece_num": 40,
+      "db_num": 1,
+      "trust": "AF_ACC_LW_LNAN_1",
+      "atkskl": "SK_LW_LNAN_ATK",
+      "mstskl": [
+        "SK_MA_LW_LNAN"
+      ],
+      "jobsets": [
+        "JB_LW_LNAN",
+        "JB_LW_MMC_THUN",
+        "JB_LW_SCR_THUN"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_LW_LNAN_M"
+        }
+      ],
+      "ai": "AI_PLAYER_LW_LNAN",
+      "buff_pri": "BUFFPRI_MAGATK",
+      "debuff_pri": "DEBUFFPRI_MAGATK",
+      "status": [
+        {
+          "hp": 277,
+          "mp": 63,
+          "ap": 77,
+          "atk": 32,
+          "def": 0,
+          "mag": 84,
+          "mnd": 0,
+          "dex": 72,
+          "spd": 30,
+          "luk": 64,
+          "eea": -10,
+          "ewa": 20,
+          "asl": 20,
+          "api": -15,
+          "abl": -5,
+          "ash": 10,
+          "ama": 10,
+          "cpo": 10,
+          "cst": 50,
+          "stn": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1020,
+          "mp": 99,
+          "ap": 94,
+          "atk": 55,
+          "def": 0,
+          "mag": 141,
+          "mnd": 0,
+          "dex": 109,
+          "spd": 35,
+          "luk": 90,
+          "eea": -10,
+          "ewa": 20,
+          "asl": 20,
+          "api": -15,
+          "abl": -5,
+          "ash": 10,
+          "ama": 10,
+          "cpo": 10,
+          "cst": 50,
+          "stn": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1071,
+          "mp": 103,
+          "ap": 98,
+          "atk": 71,
+          "def": 0,
+          "mag": 183,
+          "mnd": 0,
+          "dex": 130,
+          "spd": 35,
+          "luk": 99,
+          "eea": -10,
+          "ewa": 20,
+          "asl": 20,
+          "api": -15,
+          "abl": -5,
+          "ash": 10,
+          "ama": 10,
+          "cpo": 10,
+          "cst": 50,
+          "stn": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "limit": "SK_LB_LW_LNAN",
+      "awake_tbl_id": "UN_AW_THUNDER_UR",
       "unit_medal_num": 20
     },
     {
@@ -35594,6 +35811,256 @@
       "unit_medal_num": 0
     },
     {
+      "iname": "UN_LW_E_PR_01_MSW",
+      "base_unit_iname": "UN_LW_E_PR_01",
+      "type": 7,
+      "atkskl": "SK_LW_MSW_ATK",
+      "jobsets": [
+        "JB_LW_MSW_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_LSWORD",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 55,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 81,
+          "spd": 26,
+          "luk": 83,
+          "api": -10,
+          "ash": 10,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1605,
+          "mp": 77,
+          "ap": 73,
+          "atk": 178,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 211,
+          "spd": 50,
+          "luk": 216,
+          "api": -10,
+          "ash": 10,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_01_ASS",
+      "base_unit_iname": "UN_LW_E_PR_01",
+      "type": 7,
+      "atkskl": "SK_LW_ASS_ATK",
+      "jobsets": [
+        "JB_LW_ASS_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_SSWORD",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 55,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 75,
+          "spd": 26,
+          "luk": 83,
+          "api": -25,
+          "ash": 10,
+          "mov": 4,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1505,
+          "mp": 77,
+          "ap": 73,
+          "atk": 178,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 185,
+          "spd": 55,
+          "luk": 216,
+          "api": -25,
+          "ash": 10,
+          "mov": 4,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_01_VIK",
+      "base_unit_iname": "UN_LW_E_PR_01",
+      "type": 7,
+      "atkskl": "SK_LW_VIK_ATK",
+      "jobsets": [
+        "JB_LW_VIK_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_AXE",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 55,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 81,
+          "spd": 26,
+          "luk": 83,
+          "api": -10,
+          "ash": 10,
+          "ama": -10,
+          "mov": 4,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1605,
+          "mp": 77,
+          "ap": 73,
+          "atk": 178,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 211,
+          "spd": 50,
+          "luk": 216,
+          "api": -10,
+          "ash": 10,
+          "ama": -10,
+          "mov": 4,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_01_BEA",
+      "base_unit_iname": "UN_LW_E_PR_01",
+      "type": 7,
+      "atkskl": "SK_LW_BEA_ATK",
+      "jobsets": [
+        "JB_LW_BEA_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_FIST",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 55,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 81,
+          "spd": 26,
+          "luk": 83,
+          "asl": 10,
+          "api": 10,
+          "abl": 10,
+          "ama": -25,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1605,
+          "mp": 77,
+          "ap": 73,
+          "atk": 178,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 211,
+          "spd": 50,
+          "luk": 216,
+          "asl": 10,
+          "api": 10,
+          "abl": 10,
+          "ama": -25,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_01_WGN",
+      "base_unit_iname": "UN_LW_E_PR_01",
+      "type": 7,
+      "atkskl": "SK_LW_WGN_ATK",
+      "jobsets": [
+        "JB_LW_WGN_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_GUN",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 55,
+          "def": 0,
+          "mag": 25,
+          "mnd": 0,
+          "dex": 70,
+          "spd": 26,
+          "luk": 83,
+          "asl": -25,
+          "api": 10,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1605,
+          "mp": 77,
+          "ap": 73,
+          "atk": 178,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 185,
+          "spd": 50,
+          "luk": 216,
+          "asl": -25,
+          "api": 10,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
       "iname": "UN_LW_E_PR_02_CLR",
       "base_unit_iname": "UN_LW_E_PR_02",
       "type": 7,
@@ -36010,6 +36477,216 @@
           "ash": 10,
           "mov": 3,
           "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_02_CAL",
+      "base_unit_iname": "UN_LW_E_PR_02",
+      "type": 7,
+      "atkskl": "SK_LW_CAL_ATK",
+      "jobsets": [
+        "JB_LW_CAL_FIRE"
+      ],
+      "ai": "AI_PLAYER_LW_CAL",
+      "steal": "ST_JB_MACE",
+      "status": [
+        {
+          "hp": 196,
+          "mp": 32,
+          "ap": 39,
+          "atk": 26,
+          "def": 0,
+          "mag": 58,
+          "mnd": 0,
+          "dex": 75,
+          "spd": 25,
+          "luk": 75,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1395,
+          "mp": 100,
+          "ap": 95,
+          "atk": 86,
+          "def": 0,
+          "mag": 178,
+          "mnd": 0,
+          "dex": 185,
+          "spd": 52,
+          "luk": 195,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_02_MMC",
+      "base_unit_iname": "UN_LW_E_PR_02",
+      "type": 7,
+      "atkskl": "SK_LW_MMC_ATK",
+      "jobsets": [
+        "JB_LW_MMC_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_MACE",
+      "status": [
+        {
+          "hp": 170,
+          "mp": 35,
+          "ap": 41,
+          "atk": 20,
+          "def": 0,
+          "mag": 53,
+          "mnd": 0,
+          "dex": 61,
+          "spd": 27,
+          "luk": 63,
+          "asl": -15,
+          "api": 10,
+          "ash": 20,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 2652,
+          "mp": 150,
+          "ap": 142,
+          "atk": 72,
+          "def": 0,
+          "mag": 362,
+          "mnd": 0,
+          "dex": 222,
+          "spd": 64,
+          "luk": 194,
+          "asl": -15,
+          "api": 10,
+          "ash": 20,
+          "ama": -10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_02_PSI",
+      "base_unit_iname": "UN_LW_E_PR_02",
+      "type": 7,
+      "atkskl": "SK_LW_PSI_ATK",
+      "jobsets": [
+        "JB_LW_PSI_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_GLOVE",
+      "status": [
+        {
+          "hp": 196,
+          "mp": 32,
+          "ap": 39,
+          "atk": 26,
+          "def": 0,
+          "mag": 58,
+          "mnd": 0,
+          "dex": 75,
+          "spd": 25,
+          "luk": 82,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1395,
+          "mp": 100,
+          "ap": 95,
+          "atk": 86,
+          "def": 0,
+          "mag": 178,
+          "mnd": 0,
+          "dex": 185,
+          "spd": 52,
+          "luk": 216,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_PR_02_MKN",
+      "base_unit_iname": "UN_LW_E_PR_02",
+      "type": 7,
+      "atkskl": "SK_LW_MKN_ATK",
+      "jobsets": [
+        "JB_LW_MKN_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_SWORD",
+      "status": [
+        {
+          "hp": 206,
+          "mp": 31,
+          "ap": 36,
+          "atk": 25,
+          "def": 0,
+          "mag": 55,
+          "mnd": 0,
+          "dex": 75,
+          "spd": 26,
+          "luk": 83,
+          "api": -10,
+          "ash": 10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1605,
+          "mp": 77,
+          "ap": 73,
+          "atk": 70,
+          "def": 0,
+          "mag": 178,
+          "mnd": 0,
+          "dex": 185,
+          "spd": 50,
+          "luk": 216,
+          "api": -10,
+          "ash": 10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 2,
           "dmax": 9999
         }
       ],
@@ -77696,6 +78373,53 @@
       "status": [
         {
           "hp": 100,
+          "mp": 0,
+          "ap": 0,
+          "atk": 0,
+          "def": 0,
+          "mag": 0,
+          "mnd": 0,
+          "dex": 0,
+          "spd": 0,
+          "luk": 0,
+          "cpo": 999,
+          "cbl": 999,
+          "csl": 999,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 999,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "frz": 999,
+          "stn": 999
+        }
+      ],
+      "no_kb": 1,
+      "no_swap": 1,
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_GM_CRSPOT_01",
+      "sex": 3,
+      "size": 0,
+      "charaId": "GMCKspt1",
+      "anm_type": 3,
+      "type": 6,
+      "rare": 0,
+      "cost": 1,
+      "notsmn": 1,
+      "stop": 1,
+      "height": 200,
+      "status": [
+        {
+          "hp": 1000,
           "mp": 0,
           "ap": 0,
           "atk": 0,

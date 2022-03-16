@@ -1886,6 +1886,68 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_FF14_MV4",
+      "type": 0,
+      "collaboType": 1,
+      "icon": "FF14Mv4",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_FF14_MV4",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_SHINE",
+          "card_skill": "SK_VC_FF14_MV4_GS",
+          "add_card_skill_buff_awake": "SK_VC_FF14_MV4_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_FF14_MV4_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_SHINE",
+          "card_skill": "SK_VC_FF14_MV4_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_FF14_MV4_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_FF14_MV4_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_SHINE",
+          "self_buff": "SK_VC_FF14_MV4_P",
+          "add_self_buff_awake": "SK_VC_FF14_MV4_PAW",
+          "add_self_buff_lvmax": "SK_VC_FF14_MV4_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_TNCR",
+          "self_buff": "SK_GL_VC_FF14_MV4_P_2",
+          "add_self_buff_awake": "SK_GL_VC_FF14_MV4_PAW_2",
+          "add_self_buff_lvmax": "SK_GL_VC_FF14_MV4_PMAX_2"
+        },
+        {
+          "buff_cond": "VLC_GL_YSTL",
+          "self_buff": "SK_GL_VC_FF14_MV4_P_3",
+          "add_self_buff_awake": "SK_GL_VC_FF14_MV4_PAW_3",
+          "add_self_buff_lvmax": "SK_GL_VC_FF14_MV4_PMAX_3"
+        }
+      ],
+      "status": [
+        {
+          "hp": 46,
+          "atk": 37,
+          "spd": 1
+        },
+        {
+          "hp": 362,
+          "atk": 146,
+          "spd": 3
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_LVAT",
       "type": 0,
       "icon": "LAPSLvat",
@@ -4106,6 +4168,107 @@
       ],
       "first_bonus_unit": "UN_LW_S_BCRD",
       "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_EURP",
+      "type": 0,
+      "icon": "LAPSEurp",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_EURP",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_THUNDER",
+          "card_skill": "SK_VC_LW_EURP_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_EURP_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_EURP_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_THUNDER",
+          "card_skill": "SK_VC_LW_EURP_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_EURP_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_EURP_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_THUNDER",
+          "self_buff": "SK_VC_LW_EURP_P",
+          "add_self_buff_awake": "SK_VC_LW_EURP_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_EURP_PMAX"
+        },
+        {
+          "buff_cond": "VLC_THUNDER",
+          "self_buff": "SK_GL_VC_LW_EURP_P_2",
+          "add_self_buff_awake": "SK_GL_VC_LW_EURP_PAW_2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_EURP_PMAX_2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "mag": 46,
+          "spd": 1
+        },
+        {
+          "hp": 274,
+          "mag": 182,
+          "spd": 3
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_EURP",
+      "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_IBUKI",
+      "type": 0,
+      "icon": "LAPSIbuki",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_IBUKI",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_WIND",
+          "card_skill": "SK_VC_LW_IBUKI_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_IBUKI_GSAW"
+        },
+        {
+          "cnds_iname": "VLC_WIND",
+          "card_skill": "SK_VC_LW_IBUKI_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_IBUKI_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_IBUKI_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_WIND",
+          "self_buff": "SK_VC_LW_IBUKI_P",
+          "add_self_buff_awake": "SK_VC_LW_IBUKI_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 43,
+          "mag": 29
+        },
+        {
+          "hp": 342,
+          "mag": 116
+        }
+      ],
+      "visioncard_medal_num": 0
     },
     {
       "iname": "VC_LW_IGNT",

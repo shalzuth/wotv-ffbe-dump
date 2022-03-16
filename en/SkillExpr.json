@@ -1954,7 +1954,7 @@
     },
     {
       "key": "SK_LW_YSTL_S_2",
-      "value": "Chance of raising CT of allies within range after movement to target panel."
+      "value": "Chance of raising CT (S) of allies within range after movement to target panel."
     },
     {
       "key": "SK_LW_YSTL_M_3",
@@ -1971,6 +1971,26 @@
     {
       "key": "SK_LW_YSTL_P_1",
       "value": "Raises MAG."
+    },
+    {
+      "key": "SK_LW_EC_YSTL_A_01",
+      "value": "Raises own Magic Attack Res Piercing Rate for 3 turns, then deals Fire Dmg (M) to targets within range based on caster's MAG stat."
+    },
+    {
+      "key": "SK_LW_EC_YSTL_C_01",
+      "value": "Enhances Xenoglossy to Xenoglossy II. Deals Fire Dmg (L) to target based on caster's MAG stat & bestows Man Eater."
+    },
+    {
+      "key": "SK_LW_EC_YSTL_C_01B",
+      "value": "Deals Fire Dmg (L) to target based on caster's MAG stat & bestows Man Eater."
+    },
+    {
+      "key": "SK_LW_EC_YSTL_C_02",
+      "value": "Enhances Enochian to Enochian II. Raises MAG/Magic Attack Res Piercing Rate/Accuracy."
+    },
+    {
+      "key": "SK_LW_EC_YSTL_C_02B",
+      "value": "Raises MAG/Magic Attack Res Piercing Rate/Accuracy."
     },
     {
       "key": "SK_LW_TNCR_ATK",
@@ -2023,6 +2043,26 @@
     {
       "key": "SK_LW_TNCR_P_2",
       "value": "Raises Pierce Res."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_A_01",
+      "value": "Lowers DEF of targets within range for 3 turns, then deals Dmg (M)."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01",
+      "value": "Enhances Superbolide to Superbolide II. Bestows a barrier on self that reduces Dmg (3 times) & lowers AP Consumption for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01B",
+      "value": "Bestows a barrier on self that reduces Dmg (3 times) & lowers AP Consumption for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_02",
+      "value": "Enhances Camouflage to Camouflage II. Raises Missile Attack Res/DEF Piercing Rate."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_02B",
+      "value": "Raises Missile Attack Res/DEF Piercing Rate."
     },
     {
       "key": "SK_LW_VIK_ATK",
@@ -2414,7 +2454,7 @@
     },
     {
       "key": "SK_LW_ASS_R_1",
-      "value": "Chance of raising own Evasion Rate for 3 turns when taking Dmg (stackable up to 3 times) & raises CT."
+      "value": "Chance of raising own Evasion Rate for 3 turns when taking Dmg (stackable up to 3 times) & raises CT (S)."
     },
     {
       "key": "SK_LW_ASS_P_1",
@@ -7769,11 +7809,19 @@
       "value": "Deals Pierce Dmg (M) to target & chance of inflicting Paralysis for 3 turns."
     },
     {
+      "key": "SK_OCHU_M_02_RA",
+      "value": "Deals Pierce Dmg (M) to target & chance of inflicting Paralysis for 3 turns."
+    },
+    {
       "key": "SK_OCHU_M_03",
       "value": "Deals Phys Dmg (M) to targets within area around self & chance of inflicting status ailments (Poison, Paralysis, Silence, Stop, Disable) for 3 turns."
     },
     {
       "key": "SK_OCHU_M_04",
+      "value": "Deals Magic Dmg (L) to target."
+    },
+    {
+      "key": "SK_OCHU_M_04_RA",
       "value": "Deals Magic Dmg (L) to target."
     },
     {
@@ -9029,6 +9077,34 @@
       "value": "Chance of raising own AGI for 3 turns when taking Dmg."
     },
     {
+      "key": "SK_EURP_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_EURP_M_01",
+      "value": "Removes all Status Ailments & significantly raises own Lightning Attack/AGI for 3 turns."
+    },
+    {
+      "key": "SK_EURP_M_02",
+      "value": "Significantly lowers reaction ability activation rate of targets within range for 3 turns, then deals Dmg (M) based on caster's MAG stat & chance of inflicting Paralysis for 3 turns."
+    },
+    {
+      "key": "SK_EURP_M_03",
+      "value": "Raises own Missile ATK for 3 turns & Range +2."
+    },
+    {
+      "key": "SK_EURP_M_04",
+      "value": "Deals 4-Hit Dmg (M) to target & significantly lowers CT."
+    },
+    {
+      "key": "SK_EURP_M_05",
+      "value": "Destroys barriers on targets within range, then deals Dmg (XL) & Guaranteed Hit."
+    },
+    {
+      "key": "SK_EURP_R_01",
+      "value": "Chance of Counterattack after removing buff effects when taking Dmg."
+    },
+    {
       "key": "SK_AGON_M_01_R",
       "value": "Deals Dmg (S) to targets within range."
     },
@@ -9671,6 +9747,10 @@
     {
       "key": "SK_SMN_BCRD",
       "value": "Evokes Brachiosaur, deals Fire Dmg (XL) to targets within area around self & raises AP Consumption for 3 turns & activates temporary Map Effects (raises allies' ATK/MAG & increases effect for Fire units & significantly lowers enemies' Fire Res)."
+    },
+    {
+      "key": "SK_SMN_EURP",
+      "value": "Evokes Europa, destroys any barrier that reduces Dmg on targets, then deals Lightning Dmg (XL) to targets within range & activates temporary Map Effects (raises allies' ATK/MAG & increases effect for Lightning units & significantly lowers enemies' Lightning Res)."
     },
     {
       "key": "SK_UN_BD_EC_HP_200",
@@ -11546,7 +11626,7 @@
     },
     {
       "key": "SK_MA_FF14_TNCR_2",
-      "value": "Max HP +20%, Slash ATK +10, ATK +100, removes casting from Blasting Zone only during battle."
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Max HP +20%, Slash ATK +10, ATK +150, removes casting from Blasting Zone only during battle."
     },
     {
       "key": "SK_MA_LW_HLNA",
@@ -11599,6 +11679,10 @@
     {
       "key": "SK_MA_FF14_YSTL",
       "value": "Max TP +15%, AP Acquisition Modifier +30%, Magic Attack Res Piercing Rate +30"
+    },
+    {
+      "key": "SK_MA_FF14_YSTL_2",
+      "value": "Fire Unit Allies' Max HP +10%/Confusion Res +25, own MAG +20%/SPR Piercing Rate +20/Max TP +15%/AP Acquisition Modifier +30%/Magic Attack Res Piercing Rate +30"
     },
     {
       "key": "SK_MA_LW_SZRT",
@@ -16521,6 +16605,142 @@
       "value": ""
     },
     {
+      "key": "SK_VC_FF14_MV4_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV4_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV4_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV4_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV4_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV4_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV4_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV4_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_EURP_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_EURP_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_EURP_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_EURP_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_GSAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_GSAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_IBUKI_PAW",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_TITN_P",
       "value": ""
     },
@@ -19991,6 +20211,26 @@
     {
       "key": "SK_LW_FF15_ACC_001_5",
       "value": ""
+    },
+    {
+      "key": "SK_FF14_SWO_TNCR_1",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_SWO_TNCR_2",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_SWO_TNCR_3",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_SWO_TNCR_4",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_SWO_TNCR_5",
+      "value": "Thancred Specific Passive Ability"
     },
     {
       "key": "SK_FF4_ROD_000_1",

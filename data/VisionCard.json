@@ -2015,6 +2015,61 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_ESTR",
+      "type": 0,
+      "icon": "LAPSEstr",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_ESTR",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_THUNDER",
+          "card_skill": "SK_VC_LW_ESTR_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_ESTR_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ESTR_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_THUNDER",
+          "card_skill": "SK_VC_LW_ESTR_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ESTR_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ESTR_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_THUNDER",
+          "self_buff": "SK_VC_LW_ESTR_P",
+          "add_self_buff_awake": "SK_VC_LW_ESTR_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_ESTR_PMAX"
+        },
+        {
+          "buff_cond": "VLC_ESTR",
+          "self_buff": "SK_VC_LW_ESTR_P_2",
+          "add_self_buff_awake": "SK_VC_LW_ESTR_P_2AW",
+          "add_self_buff_lvmax": "SK_VC_LW_ESTR_P_2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 49,
+          "atk": 37,
+          "dex": 10
+        },
+        {
+          "hp": 387,
+          "atk": 143,
+          "dex": 38
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_LVAT",
       "type": 0,
       "icon": "LAPSLvat",

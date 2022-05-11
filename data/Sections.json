@@ -382,6 +382,12 @@
       "back_unit": "UN_LW_ST_020101"
     },
     {
+      "iname": "SE_ST_020701",
+      "chap": "CH_ST_0207",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_020101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -631,6 +637,15 @@
     {
       "iname": "SE_MU_FF14_EX_02",
       "hurl": "ev_ff14_ex_01"
+    },
+    {
+      "iname": "SE_EV_VC_MV2_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_vc_MV2_01",
+      "open_cond": [
+        "COND_VC_LW_MV2"
+      ],
+      "won_dst_sheet_name": "bgm_P5R_Battle_Result"
     },
     {
       "iname": "SE_EV_P5R_01_01",
@@ -1698,13 +1713,9 @@
       "hurl": "ev_mt_06"
     },
     {
-      "iname": "SE_EV_UNITEXP_01",
-      "limit": 3,
-      "vip_type": 16,
-      "add_count": "3,3,3,3,3,3,3",
-      "add_cost": "10,50,50,100,100,150,150",
+      "iname": "SE_EV_GIL",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_unitexp_01"
+      "hurl": "ev_gil_02"
     },
     {
       "iname": "SE_EV_GIL_01",
@@ -1714,6 +1725,15 @@
       "add_cost": "10,50,50,100,100,150,150",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_gil_01"
+    },
+    {
+      "iname": "SE_EV_UNITEXP_01",
+      "limit": 3,
+      "vip_type": 16,
+      "add_count": "3,3,3,3,3,3,3",
+      "add_cost": "10,50,50,100,100,150,150",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_unitexp_01"
     },
     {
       "iname": "SE_EV_AFEXP_01",
@@ -1826,11 +1846,6 @@
       "iname": "SE_EV_AW_HIGH_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_aw_high_01"
-    },
-    {
-      "iname": "SE_EV_GIL",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gil_02"
     },
     {
       "iname": "SE_EV_AFEXP",
@@ -2180,11 +2195,11 @@
     {
       "iname": "SE_EV_ART_SCR_03",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_art_scr_book"
+      "hurl": "ev_gl_art_scr_armour"
     },
     {
       "iname": "SE_MU_EV_SCR_03",
-      "hurl": "ev_gl_art_scr_book"
+      "hurl": "ev_gl_art_scr_armour"
     },
     {
       "iname": "SE_PTQ_FF6_01",

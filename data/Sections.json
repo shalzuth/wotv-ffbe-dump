@@ -400,6 +400,12 @@
       "back_unit": "UN_LW_ST_020101"
     },
     {
+      "iname": "SE_ST_020801",
+      "chap": "CH_ST_0208",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_020101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -1048,6 +1054,44 @@
       "hurl": "ev_ff14_ex_01"
     },
     {
+      "iname": "SE_EV_FF10_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ff10_01",
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF10_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ff10_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF10_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF10_01_EX",
+      "hurl": "ev_ff10_ex_01",
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF10_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ff10_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF10_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF10_02_EX",
+      "hurl": "ev_ff10_ex_02",
+      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
+    },
+    {
+      "iname": "SE_EV_RANK_01",
+      "hurl": "ev_rank_01"
+    },
+    {
       "iname": "SE_EV_ART_CRF_15",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_arti_crft_15"
@@ -1572,37 +1616,6 @@
       "iname": "SE_PTQ_FF10_01",
       "skip_ticket": "IT_PT_SKIP_FFX_1",
       "hurl": "pt_ff10_01",
-      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF10_01_01",
-      "hurl": "ev_ff10_01",
-      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF10_01_EX",
-      "hurl": "ev_ff10_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF10_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF10_01_EX",
-      "hurl": "ev_ff10_ex_01",
-      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF10_02_EX",
-      "hurl": "ev_ff10_ex_02",
-      "o_cond_q": [
-        "QE_EV_FF10_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF10_02_EX",
-      "hurl": "ev_ff10_ex_02",
       "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
     },
     {
@@ -2297,11 +2310,11 @@
     {
       "iname": "SE_EV_ART_SCR_03",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_art_scr_staff"
+      "hurl": "ev_gl_art_scr_comb_16"
     },
     {
       "iname": "SE_MU_EV_SCR_03",
-      "hurl": "ev_gl_art_scr_staff"
+      "hurl": "ev_gl_art_scr_comb_16"
     },
     {
       "iname": "SE_EV_NEWMAP_001",

@@ -1073,6 +1073,27 @@
       "hurl": "ev_sdle_01"
     },
     {
+      "iname": "SE_EV_GL_TU_IREZ",
+      "hurl": "ev_gl_irez"
+    },
+    {
+      "iname": "SE_EV_RNEL",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_rnel_01"
+    },
+    {
+      "iname": "SE_EV_RNEL_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_rnel_ex_01",
+      "o_cond_q": [
+        "QE_EV_RNEL_05"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_RNEL_EX",
+      "hurl": "ev_rnel_ex_01"
+    },
+    {
       "iname": "SE_EV_ART_CRF_16",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_arti_crft_16"
@@ -2327,11 +2348,11 @@
     {
       "iname": "SE_EV_ART_SCR_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_art_scr_staff"
+      "hurl": "ev_gl_art_scr_comb_17"
     },
     {
       "iname": "SE_MU_EV_SCR_01",
-      "hurl": "ev_gl_art_scr_staff"
+      "hurl": "ev_gl_art_scr_comb_17"
     },
     {
       "iname": "SE_EV_ART_SCR_02",

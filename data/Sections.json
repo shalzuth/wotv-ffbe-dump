@@ -897,7 +897,6 @@
     },
     {
       "iname": "SE_MU_GL_ART_CRF_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_gl_arti_crft_01"
     },
     {
@@ -1107,6 +1106,45 @@
       "hurl": "ev_ff14_ex_01"
     },
     {
+      "iname": "SE_EV_GL_TU_JEDN_01",
+      "hurl": "ev_gl_jedn_01"
+    },
+    {
+      "iname": "SE_EV_GL_FFEXU_02",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_ffexu_02"
+    },
+    {
+      "iname": "SE_EV_GL_FFEXU_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_ffexu_ex_02",
+      "o_cond_q": [
+        "QE_EV_GL_FFEXU_02"
+      ]
+    },
+    {
+      "iname": "SE_MU_GL_FFEXU_02",
+      "hurl": "ev_gl_ffexu_ex_02"
+    },
+    {
+      "iname": "SE_EV_GL_ART_CRF_02",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_arti_crft_02"
+    },
+    {
+      "iname": "SE_MU_GL_ART_CRF_02",
+      "hurl": "ev_gl_arti_crft_02"
+    },
+    {
+      "iname": "SE_EV_ART_CRF_17",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_17"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_17",
+      "hurl": "ev_arti_crft_17"
+    },
+    {
       "iname": "SE_EV_GL_TOMB_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_gl_tomb_01"
@@ -1182,10 +1220,6 @@
     {
       "iname": "SE_MU_RC_BST_01",
       "hurl": "ev_rc_bst_01"
-    },
-    {
-      "iname": "SE_EV_RANK_01",
-      "hurl": "ev_rank_01"
     },
     {
       "iname": "SE_EV_RNEL",
@@ -1333,6 +1367,10 @@
       "iname": "SE_EV_AST_010101",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_ast_0101"
+    },
+    {
+      "iname": "SE_EV_RANK_01",
+      "hurl": "ev_rank_01"
     },
     {
       "iname": "SE_EV_VC_MV2_01",
@@ -2420,11 +2458,11 @@
     {
       "iname": "SE_EV_ART_SCR_02",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_art_scr_comb_08"
+      "hurl": "ev_gl_art_scr_spea"
     },
     {
       "iname": "SE_MU_EV_SCR_02",
-      "hurl": "ev_gl_art_scr_comb_08"
+      "hurl": "ev_gl_art_scr_spea"
     },
     {
       "iname": "SE_EV_ART_SCR_03",

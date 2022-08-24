@@ -93774,6 +93774,22 @@
       ]
     },
     {
+      "iname": "SK_MA_LW_HLNA_2",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_MA_LW_HLNA_2"
+      ],
+      "s_buffs": [
+        "BUFF_MA_LW_HLNA_2_S_1",
+        "BUFF_MA_LW_HLNA_2_S_2"
+      ]
+    },
+    {
       "iname": "SK_MA_LW_LILS",
       "slot": 7,
       "cap": 1,
@@ -94155,6 +94171,18 @@
       "target": 0,
       "t_buffs": [
         "BUFF_MA_LW_SRJS"
+      ]
+    },
+    {
+      "iname": "SK_MA_LW_SRJS_2",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_MA_LW_SRJS_2"
       ]
     },
     {
@@ -94689,6 +94717,30 @@
       "t_buffs": [
         "BUFF_MA_LW_VKTR"
       ]
+    },
+    {
+      "iname": "SK_MA_LW_VKTR_2",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_MA_LW_VKTR_2"
+      ],
+      "s_buffs": [
+        "BUFF_MA_LW_VKTR_2_S"
+      ],
+      "barrier": {
+        "type": 3,
+        "mot": "cmn_guard",
+        "eff": "ef_com_guard_00",
+        "val": 1,
+        "tar": 1,
+        "scut": 100,
+        "ecut": 100
+      }
     },
     {
       "iname": "SK_MA_LW_THLA",
@@ -117809,6 +117861,100 @@
       "gdupli": "SK_VC_PRS5_MV2_P"
     },
     {
+      "iname": "SK_VC_LW_ADLD2_GS",
+      "slot": 8,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_ADLD2_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_ADLD2_GSAW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_ADLD2_GSAW"
+      ],
+      "gdupli": "SK_VC_LW_ADLD2_GS"
+    },
+    {
+      "iname": "SK_VC_LW_ADLD2_GS_2",
+      "slot": 8,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_ADLD2_GS_2"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_ADLD2_GSAW_2",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_ADLD2_GSAW_2"
+      ],
+      "gdupli": "SK_VC_LW_ADLD2_GS_2"
+    },
+    {
+      "iname": "SK_VC_LW_ADLD2_GSMAX",
+      "slot": 8,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_ADLD2_GSMAX"
+      ],
+      "gdupli": "SK_VC_LW_ADLD2_GS_2"
+    },
+    {
+      "iname": "SK_VC_LW_ADLD2_P",
+      "slot": 3,
+      "cap": 70,
+      "grow": "VCGROW_SSR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_ADLD2_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_ADLD2_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_ADLD2_PAW"
+      ],
+      "gdupli": "SK_VC_LW_ADLD2_P"
+    },
+    {
       "iname": "SK_VC_LW_USER2_GS",
       "slot": 8,
       "cap": 99,
@@ -136781,6 +136927,32 @@
       "target": 0,
       "s_buffs": [
         "BUFF_LW_PLUS6_15"
+      ]
+    },
+    {
+      "iname": "SK_LW_PLUS6_16",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_PLUS6_16"
+      ]
+    },
+    {
+      "iname": "SK_LW_PLUS6_17",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_PLUS6_17"
       ]
     },
     {

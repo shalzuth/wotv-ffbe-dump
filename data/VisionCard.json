@@ -5456,6 +5456,53 @@
       "visioncard_medal_num": 0
     },
     {
+      "iname": "VC_LW_ADLD2",
+      "type": 0,
+      "icon": "LAPSAdld2",
+      "rare": 3,
+      "cost": 50,
+      "piece": "IT_VPI_LW_ADLD2",
+      "piece_num": 20,
+      "db_num": 1,
+      "sell": 800,
+      "sell_mdl": 20,
+      "en_cost": 1000,
+      "en_exp": 10000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_FIRE",
+          "card_skill": "SK_VC_LW_ADLD2_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_ADLD2_GSAW"
+        },
+        {
+          "cnds_iname": "VLC_FIRE",
+          "card_skill": "SK_VC_LW_ADLD2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ADLD2_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ADLD2_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_FIRE",
+          "self_buff": "SK_VC_LW_ADLD2_P",
+          "add_self_buff_awake": "SK_VC_LW_ADLD2_PAW"
+        }
+      ],
+      "status": [
+        {
+          "hp": 43,
+          "atk": 18,
+          "mag": 11
+        },
+        {
+          "hp": 344,
+          "atk": 72,
+          "mag": 46
+        }
+      ],
+      "visioncard_medal_num": 0
+    },
+    {
       "iname": "VC_LW_IGNT",
       "type": 0,
       "icon": "LAPSIgnt",

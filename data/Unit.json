@@ -6949,7 +6949,8 @@
       "trust": "AF_ACC_LW_FRVA_1",
       "atkskl": "SK_LW_MGK_ATK",
       "mstskl": [
-        "SK_MA_LW_FRVA"
+        "SK_MA_LW_FRVA",
+        "SK_MA_LW_FRVA_2"
       ],
       "jobsets": [
         "JB_LW_MGK_ICE",
@@ -13500,7 +13501,8 @@
       "trust": "AF_CLT_LW_ZZAN_01_1",
       "atkskl": "SK_LW_ZZAN_ATK",
       "mstskl": [
-        "SK_MA_LW_ZZAN_01"
+        "SK_MA_LW_ZZAN_01",
+        "SK_MA_LW_ZZAN_01_2"
       ],
       "jobsets": [
         "JB_LW_ZZAN",
@@ -25950,6 +25952,89 @@
           "ccf": 10,
           "csw": -5,
           "cch": 50,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_IREZ",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 5,
+      "charaId": "LAPSirez",
+      "anm_type": 1,
+      "voiceId": "LAPSirez_00",
+      "type": 7,
+      "elem": [
+        2
+      ],
+      "species": [
+        1
+      ],
+      "birth": 2,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 90,
+      "atkskl": "SK_LW_DAC_ATK",
+      "jobsets": [
+        "JB_LW_DAC_ICE",
+        "JB_LW_LLN_ICE",
+        "JB_LW_HUN_ICE"
+      ],
+      "ai": "AI_PLAYER_LW_DAC",
+      "buff_pri": "BUFFPRI_PHYATK",
+      "debuff_pri": "DEBUFFPRI_PHYATK",
+      "status": [
+        {
+          "hp": 296,
+          "mp": 59,
+          "ap": 78,
+          "atk": 79,
+          "def": 0,
+          "mag": 32,
+          "mnd": 0,
+          "dex": 78,
+          "spd": 31,
+          "luk": 64,
+          "efi": -10,
+          "ewi": 20,
+          "asl": 10,
+          "api": -5,
+          "abl": 10,
+          "ash": 15,
+          "ama": -10,
+          "cfr": 10,
+          "cst": 50,
+          "stn": 50,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1002,
+          "mp": 92,
+          "ap": 96,
+          "atk": 133,
+          "def": 0,
+          "mag": 54,
+          "mnd": 0,
+          "dex": 117,
+          "spd": 36,
+          "luk": 90,
+          "efi": -10,
+          "ewi": 20,
+          "asl": 10,
+          "api": -5,
+          "abl": 10,
+          "ash": 15,
+          "ama": -10,
+          "cfr": 10,
+          "cst": 50,
+          "stn": 50,
           "mov": 3,
           "jmp": 2,
           "dmax": 9999
@@ -91559,6 +91644,96 @@
         }
       ],
       "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_P_MACR_02",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 0,
+      "charaId": "LAPSmacr",
+      "anm_type": 5,
+      "anm_id": "macr",
+      "voiceId": "LAPSmacr_02",
+      "type": 0,
+      "elem": [
+        4
+      ],
+      "species": [
+        1
+      ],
+      "birth": 3,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "piece": "IT_PI_LW_MACR_02",
+      "piece_num": 40,
+      "db_num": 1,
+      "jobsets": [
+        "JB_LW_MACR_02",
+        "JB_LW_CAL_SOIL",
+        "JB_LW_TIM_SOIL"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_LW_MACR_02_M"
+        }
+      ],
+      "ai": "AI_PLAYER_LW_MACR",
+      "buff_pri": "BUFFPRI_MAGATK",
+      "debuff_pri": "DEBUFFPRI_MAGATK",
+      "status": [
+        {
+          "hp": 309,
+          "mp": 55,
+          "ap": 75,
+          "atk": 32,
+          "def": 0,
+          "mag": 93,
+          "mnd": 0,
+          "dex": 73,
+          "spd": 30,
+          "luk": 73,
+          "ewi": -10,
+          "eth": 20,
+          "asl": 15,
+          "api": -10,
+          "ash": 15,
+          "ama": 5,
+          "cpa": 50,
+          "cst": 10,
+          "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1060,
+          "mp": 87,
+          "ap": 92,
+          "atk": 54,
+          "def": 0,
+          "mag": 157,
+          "mnd": 0,
+          "dex": 109,
+          "spd": 35,
+          "luk": 103,
+          "ewi": -10,
+          "eth": 20,
+          "asl": 15,
+          "api": -10,
+          "ash": 15,
+          "ama": 5,
+          "cpa": 50,
+          "cst": 10,
+          "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "awake_tbl_id": "UN_AW_SOIL_UR",
+      "unit_medal_num": 20
     }
   ]
 }

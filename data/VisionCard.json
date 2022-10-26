@@ -5158,6 +5158,125 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_JEDN2",
+      "type": 0,
+      "icon": "LAPSJedn2",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_JEDN2",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_LW_JEDN2_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_JEDN2_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_JEDN2_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_WATER",
+          "card_skill": "SK_VC_LW_JEDN2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_JEDN2_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_JEDN2_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_WATER",
+          "self_buff": "SK_VC_LW_JEDN2_P",
+          "add_self_buff_awake": "SK_VC_LW_JEDN2_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_JEDN2_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_SHNC_RAMD",
+          "self_buff": "SK_GL_VC_LW_JEDN2_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_JEDN2_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_JEDN2_P2MAX"
+        },
+        {
+          "buff_cond": "VLC_JEDN",
+          "self_buff": "SK_GL_VC_LW_JEDN2_P3",
+          "add_self_buff_awake": "SK_GL_VC_LW_JEDN2_P3AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_JEDN2_P3MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 41,
+          "atk": 40,
+          "spd": 1
+        },
+        {
+          "hp": 320,
+          "atk": 155,
+          "spd": 4
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_HALL3",
+      "type": 0,
+      "icon": "LAPSHall3",
+      "rare": 4,
+      "cost": 80,
+      "piece": "IT_VPI_LW_HALL3",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_AXE_LAN_RDA_BOK",
+          "card_skill": "SK_VC_LW_HALL3_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_HALL3_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HALL3_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_AXE_LAN_RDA_BOK",
+          "card_skill": "SK_VC_LW_HALL3_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_HALL3_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HALL3_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_HALL3_P",
+          "add_self_buff_awake": "SK_VC_LW_HALL3_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_HALL3_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_LUCA_01",
+          "self_buff": "SK_GL_VC_LW_HALL3_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_HALL3_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_HALL3_P2MAX"
+        },
+        {
+          "buff_cond": "VLC_S_STAFF",
+          "self_buff": "SK_VC_LW_HALL3_PVA"
+        }
+      ],
+      "status": [
+        {
+          "hp": 35,
+          "def": 2,
+          "mag": 39
+        },
+        {
+          "hp": 272,
+          "def": 7,
+          "mag": 153
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_JEDN_01",
       "type": 0,
       "collaboType": 2,
@@ -7982,6 +8101,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_CACT_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_4",
+          "card_skill": "SK_VC_LW_CACT_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_CACT_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_CACT_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8020,6 +8145,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_ARMN_01_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_2",
+          "card_skill": "SK_VC_LW_ARMN_01_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ARMN_01_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ARMN_01_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8058,6 +8189,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_ZUUU_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_1",
+          "card_skill": "SK_VC_LW_ZUUU_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ZUUU_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ZUUU_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8096,6 +8233,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_OGRE_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_1",
+          "card_skill": "SK_VC_LW_OGRE_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_OGRE_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_OGRE_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8134,6 +8277,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_BOMB_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_2",
+          "card_skill": "SK_VC_LW_BOMB_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_BOMB_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_BOMB_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8154,6 +8303,221 @@
         }
       ],
       "first_bonus_unit": "UN_LW_S_BOMB",
+      "visioncard_medal_num": 1
+    },
+    {
+      "iname": "VC_LW_BYLO",
+      "type": 0,
+      "icon": "LAPSBylo",
+      "rare": 2,
+      "cost": 40,
+      "piece": "IT_VPI_LW_BYLO",
+      "piece_num": 15,
+      "db_num": 1,
+      "sell": 600,
+      "sell_mdl": 5,
+      "en_cost": 400,
+      "en_exp": 4000,
+      "card_buffs": [
+        {
+          "card_skill": "SK_VC_LW_BYLO_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_2",
+          "card_skill": "SK_VC_LW_BYLO_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_BYLO_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_BYLO_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_BYLO_P"
+        }
+      ],
+      "status": [
+        {
+          "hp": 27,
+          "atk": 26,
+          "mag": 15
+        },
+        {
+          "hp": 215,
+          "atk": 105,
+          "mag": 62
+        }
+      ],
+      "visioncard_medal_num": 1
+    },
+    {
+      "iname": "VC_LW_RART",
+      "type": 0,
+      "icon": "LAPSRart",
+      "rare": 2,
+      "cost": 40,
+      "piece": "IT_VPI_LW_RART",
+      "piece_num": 15,
+      "db_num": 1,
+      "sell": 600,
+      "sell_mdl": 5,
+      "en_cost": 400,
+      "en_exp": 4000,
+      "card_buffs": [
+        {
+          "card_skill": "SK_VC_LW_RART_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_3",
+          "card_skill": "SK_VC_LW_RART_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_RART_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_RART_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_RART_P"
+        }
+      ],
+      "status": [
+        {
+          "hp": 31,
+          "atk": 19,
+          "mag": 17
+        },
+        {
+          "hp": 253,
+          "atk": 76,
+          "mag": 69
+        }
+      ],
+      "visioncard_medal_num": 1
+    },
+    {
+      "iname": "VC_LW_RYER",
+      "type": 0,
+      "icon": "LAPSRyer",
+      "rare": 2,
+      "cost": 40,
+      "piece": "IT_VPI_LW_RYER",
+      "piece_num": 15,
+      "db_num": 1,
+      "sell": 600,
+      "sell_mdl": 5,
+      "en_cost": 400,
+      "en_exp": 4000,
+      "card_buffs": [
+        {
+          "card_skill": "SK_VC_LW_RYER_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_4",
+          "card_skill": "SK_VC_LW_RYER_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_RYER_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_RYER_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_RYER_P"
+        }
+      ],
+      "status": [
+        {
+          "hp": 28,
+          "atk": 12,
+          "mag": 27
+        },
+        {
+          "hp": 223,
+          "atk": 48,
+          "mag": 109
+        }
+      ],
+      "visioncard_medal_num": 1
+    },
+    {
+      "iname": "VC_LW_VNLA",
+      "type": 0,
+      "icon": "LAPSVnla",
+      "rare": 2,
+      "cost": 40,
+      "piece": "IT_VPI_LW_VNLA",
+      "piece_num": 15,
+      "db_num": 1,
+      "sell": 600,
+      "sell_mdl": 5,
+      "en_cost": 400,
+      "en_exp": 4000,
+      "card_buffs": [
+        {
+          "card_skill": "SK_VC_LW_VNLA_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_4",
+          "card_skill": "SK_VC_LW_VNLA_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_VNLA_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_VNLA_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_VNLA_P"
+        }
+      ],
+      "status": [
+        {
+          "hp": 23,
+          "atk": 20,
+          "mag": 24
+        },
+        {
+          "hp": 184,
+          "atk": 80,
+          "mag": 98
+        }
+      ],
+      "visioncard_medal_num": 1
+    },
+    {
+      "iname": "VC_LW_RIRY",
+      "type": 0,
+      "icon": "LAPSRiry",
+      "rare": 2,
+      "cost": 40,
+      "piece": "IT_VPI_LW_RIRY",
+      "piece_num": 15,
+      "db_num": 1,
+      "sell": 600,
+      "sell_mdl": 5,
+      "en_cost": 400,
+      "en_exp": 4000,
+      "card_buffs": [
+        {
+          "card_skill": "SK_VC_LW_RIRY_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_3",
+          "card_skill": "SK_VC_LW_RIRY_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_RIRY_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_RIRY_GSMAX"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_RIRY_P"
+        }
+      ],
+      "status": [
+        {
+          "hp": 26,
+          "atk": 22,
+          "mag": 20
+        },
+        {
+          "hp": 207,
+          "atk": 88,
+          "mag": 80
+        }
+      ],
       "visioncard_medal_num": 1
     },
     {
@@ -8194,191 +8558,6 @@
       "visioncard_medal_num": 1
     },
     {
-      "iname": "VC_LW_BYLO",
-      "type": 0,
-      "icon": "LAPSBylo",
-      "rare": 2,
-      "cost": 40,
-      "piece": "IT_VPI_LW_BYLO",
-      "piece_num": 15,
-      "db_num": 1,
-      "sell": 600,
-      "sell_mdl": 5,
-      "en_cost": 400,
-      "en_exp": 4000,
-      "card_buffs": [
-        {
-          "card_skill": "SK_VC_LW_BYLO_GS"
-        }
-      ],
-      "self_buffs": [
-        {
-          "self_buff": "SK_VC_LW_BYLO_P"
-        }
-      ],
-      "status": [
-        {
-          "hp": 27,
-          "atk": 26,
-          "mag": 15
-        },
-        {
-          "hp": 215,
-          "atk": 105,
-          "mag": 62
-        }
-      ],
-      "visioncard_medal_num": 1
-    },
-    {
-      "iname": "VC_LW_RART",
-      "type": 0,
-      "icon": "LAPSRart",
-      "rare": 2,
-      "cost": 40,
-      "piece": "IT_VPI_LW_RART",
-      "piece_num": 15,
-      "db_num": 1,
-      "sell": 600,
-      "sell_mdl": 5,
-      "en_cost": 400,
-      "en_exp": 4000,
-      "card_buffs": [
-        {
-          "card_skill": "SK_VC_LW_RART_GS"
-        }
-      ],
-      "self_buffs": [
-        {
-          "self_buff": "SK_VC_LW_RART_P"
-        }
-      ],
-      "status": [
-        {
-          "hp": 31,
-          "atk": 19,
-          "mag": 17
-        },
-        {
-          "hp": 253,
-          "atk": 76,
-          "mag": 69
-        }
-      ],
-      "visioncard_medal_num": 1
-    },
-    {
-      "iname": "VC_LW_RYER",
-      "type": 0,
-      "icon": "LAPSRyer",
-      "rare": 2,
-      "cost": 40,
-      "piece": "IT_VPI_LW_RYER",
-      "piece_num": 15,
-      "db_num": 1,
-      "sell": 600,
-      "sell_mdl": 5,
-      "en_cost": 400,
-      "en_exp": 4000,
-      "card_buffs": [
-        {
-          "card_skill": "SK_VC_LW_RYER_GS"
-        }
-      ],
-      "self_buffs": [
-        {
-          "self_buff": "SK_VC_LW_RYER_P"
-        }
-      ],
-      "status": [
-        {
-          "hp": 28,
-          "atk": 12,
-          "mag": 27
-        },
-        {
-          "hp": 223,
-          "atk": 48,
-          "mag": 109
-        }
-      ],
-      "visioncard_medal_num": 1
-    },
-    {
-      "iname": "VC_LW_VNLA",
-      "type": 0,
-      "icon": "LAPSVnla",
-      "rare": 2,
-      "cost": 40,
-      "piece": "IT_VPI_LW_VNLA",
-      "piece_num": 15,
-      "db_num": 1,
-      "sell": 600,
-      "sell_mdl": 5,
-      "en_cost": 400,
-      "en_exp": 4000,
-      "card_buffs": [
-        {
-          "card_skill": "SK_VC_LW_VNLA_GS"
-        }
-      ],
-      "self_buffs": [
-        {
-          "self_buff": "SK_VC_LW_VNLA_P"
-        }
-      ],
-      "status": [
-        {
-          "hp": 23,
-          "atk": 20,
-          "mag": 24
-        },
-        {
-          "hp": 184,
-          "atk": 80,
-          "mag": 98
-        }
-      ],
-      "visioncard_medal_num": 1
-    },
-    {
-      "iname": "VC_LW_RIRY",
-      "type": 0,
-      "icon": "LAPSRiry",
-      "rare": 2,
-      "cost": 40,
-      "piece": "IT_VPI_LW_RIRY",
-      "piece_num": 15,
-      "db_num": 1,
-      "sell": 600,
-      "sell_mdl": 5,
-      "en_cost": 400,
-      "en_exp": 4000,
-      "card_buffs": [
-        {
-          "card_skill": "SK_VC_LW_RIRY_GS"
-        }
-      ],
-      "self_buffs": [
-        {
-          "self_buff": "SK_VC_LW_RIRY_P"
-        }
-      ],
-      "status": [
-        {
-          "hp": 26,
-          "atk": 22,
-          "mag": 20
-        },
-        {
-          "hp": 207,
-          "atk": 88,
-          "mag": 80
-        }
-      ],
-      "visioncard_medal_num": 1
-    },
-    {
       "iname": "VC_LW_LEONIS",
       "type": 0,
       "icon": "LAPSLeon",
@@ -8394,6 +8573,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_LEONIS_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_2",
+          "card_skill": "SK_VC_LW_LEONIS_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_LEONIS_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_LEONIS_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8431,6 +8616,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_HOURN_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_1",
+          "card_skill": "SK_VC_LW_HOURN_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_HOURN_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HOURN_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8468,6 +8659,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_FENICE_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_1",
+          "card_skill": "SK_VC_LW_FENICE_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_FENICE_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_FENICE_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8505,6 +8702,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_WEZETT_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_3",
+          "card_skill": "SK_VC_LW_WEZETT_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_WEZETT_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_WEZETT_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8542,6 +8745,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_CRYSTAL_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_4",
+          "card_skill": "SK_VC_LW_CRYSTAL_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_CRYSTAL_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_CRYSTAL_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8579,6 +8788,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_LEONIS2_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_2",
+          "card_skill": "SK_VC_LW_LEONIS2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_LEONIS2_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_LEONIS2_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8616,6 +8831,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_HOURN2_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_1",
+          "card_skill": "SK_VC_LW_HOURN2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_HOURN2_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HOURN2_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8653,6 +8874,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_FENICE2_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_3",
+          "card_skill": "SK_VC_LW_FENICE2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_FENICE2_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_FENICE2_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8690,6 +8917,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_WEZETT2_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_3",
+          "card_skill": "SK_VC_LW_WEZETT2_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_WEZETT2_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_WEZETT2_GSMAX"
         }
       ],
       "self_buffs": [
@@ -8727,6 +8960,12 @@
       "card_buffs": [
         {
           "card_skill": "SK_VC_LW_DYNVERK_GS"
+        },
+        {
+          "cnds_iname": "VLC_R_SR_GRP_4",
+          "card_skill": "SK_VC_LW_DYNVERK_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_DYNVERK_GSAW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_DYNVERK_GSMAX"
         }
       ],
       "self_buffs": [

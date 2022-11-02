@@ -46687,6 +46687,46 @@
       "publishing_time": "2022/10/18 18:30:00"
     },
     {
+      "iname": "QE_HA_LW_ALIA",
+      "title_index": 1,
+      "type": 3,
+      "sect": "SE_WD_010207",
+      "ap": 20,
+      "limit": 2,
+      "ap0": 1,
+      "lv": 70,
+      "open_cond": [
+        "COND_HA_LW_ALIA"
+      ],
+      "pexp": 0,
+      "uexp": 8296,
+      "gold": 1500,
+      "jp": 10,
+      "jp_skip": 10,
+      "jpt": 0,
+      "unit_iname": "UN_LW_P_ALIA",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_HD_0001",
+        "QM_HD_MM_4_01",
+        "QM_HD_PI_108"
+      ],
+      "map": {
+        "scn": "cry_cag/cry_cag_001_A_1",
+        "set": "ha/ha_01100101_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "publishing_time": "2022/11/02 0:00:00"
+    },
+    {
       "iname": "QE_CH_LW_ZZAN",
       "title_index": 1,
       "type": 5,
@@ -58563,6 +58603,53 @@
         "lap": 2
       },
       "publishing_time": "2022/10/18 18:30:00"
+    },
+    {
+      "iname": "QE_CH_LW_ALIA",
+      "title_index": 1,
+      "type": 5,
+      "sect": "SE_WD_010108",
+      "ap": 25,
+      "not_search": 1,
+      "ap0": 1,
+      "lv": 40,
+      "open_cond": [
+        "COND_CH_ALIA"
+      ],
+      "pexp": 0,
+      "uexp": 6400,
+      "gold": 1500,
+      "jp": 13,
+      "jp_skip": 13,
+      "jpt": 0,
+      "unit_iname": "UN_LW_P_ALIA",
+      "skl_iname": "SK_MA_LW_ALIA",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "item": "IT_PI_LW_ALIA",
+          "type": 0,
+          "num": 15
+        }
+      ],
+      "missions": [
+        "QM_CH_MM_A01",
+        "QM_CH_MM_131",
+        "QM_CH_IM_002",
+        "QM_CH_EM_251"
+      ],
+      "map": {
+        "scn": "cmn_sip/cmn_sip_008_A_2",
+        "set": "ch/ch_lw_alia_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "publishing_time": "2022/11/02 0:00:00"
     },
     {
       "iname": "QE_CH_LW_LUCA_01",
@@ -72210,6 +72297,66 @@
       "point_const": "QC_EX_2"
     },
     {
+      "iname": "QE_MU_EV_17_EX",
+      "type": 4,
+      "sect": "SE_MU_EV_17_EX",
+      "ap": 6,
+      "not_search": 1,
+      "lv": 50,
+      "pexp": 0,
+      "uexp": 5623,
+      "gold": 1800,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_017_A_1",
+        "set": "mu/mu_ev_17_ex_set",
+        "bgm": "law_203_battle_law_lastboss"
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      },
+      "point_const": "QC_EX_1"
+    },
+    {
+      "iname": "QE_MU_EV_17_EX_1",
+      "type": 4,
+      "sect": "SE_MU_EV_17_EX",
+      "ap": 6,
+      "not_search": 1,
+      "lv": 80,
+      "pexp": 0,
+      "uexp": 8733,
+      "gold": 1800,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_012_N_1",
+        "set": "mu/mu_ev_17_ex_1_set",
+        "bgm": "law_203_battle_law_lastboss"
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      },
+      "point_const": "QC_EX_2"
+    },
+    {
       "iname": "QE_MU_EV_18_EX2",
       "type": 4,
       "sect": "SE_MU_EV_18_EX2",
@@ -77458,6 +77605,487 @@
       "map": {
         "scn": "fen_frt/fen_frt_004_A_1",
         "set": "ev/ev_16_ex_1_set",
+        "bgm": "law_203_battle_law_lastboss"
+      },
+      "rule": {
+        "proh": [
+          5
+        ],
+        "lap": 2
+      },
+      "point_const": "QC_EX_2"
+    },
+    {
+      "iname": "QE_EV_17_01",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 5,
+      "pexp": 0,
+      "uexp": 972,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_01_01",
+        "QM_EV_17_01_02",
+        "QM_EV_17_01_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_008_A_1",
+        "set": "ev/ev_17_01_set",
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Evnt/Evnt_00_17_0_00",
+        "Evnt/Evnt_00_17_1_01a"
+      ],
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_02",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 10,
+      "o_cond_q": [
+        "QE_EV_17_01"
+      ],
+      "pexp": 0,
+      "uexp": 1791,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_02_01",
+        "QM_EV_17_02_02",
+        "QM_EV_17_02_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_001_A_1",
+        "set": "ev/ev_17_02_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_03",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 15,
+      "o_cond_q": [
+        "QE_EV_17_02"
+      ],
+      "pexp": 0,
+      "uexp": 2140,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_03_01",
+        "QM_EV_17_03_02",
+        "QM_EV_17_03_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_003_A_1",
+        "set": "ev/ev_17_03_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_04",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 20,
+      "o_cond_q": [
+        "QE_EV_17_03"
+      ],
+      "pexp": 0,
+      "uexp": 2679,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_04_01",
+        "QM_EV_17_04_02",
+        "QM_EV_17_04_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_008_A_1",
+        "set": "ev/ev_17_04_set",
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Evnt/Evnt_00_17_1_04a"
+      ],
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_05",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 20,
+      "o_cond_q": [
+        "QE_EV_17_04"
+      ],
+      "pexp": 0,
+      "uexp": 2741,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_05_01",
+        "QM_EV_17_05_02",
+        "QM_EV_17_05_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_012_A_1",
+        "set": "ev/ev_17_05_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_06",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 25,
+      "o_cond_q": [
+        "QE_EV_17_05"
+      ],
+      "pexp": 0,
+      "uexp": 3082,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_06_01",
+        "QM_EV_17_06_02",
+        "QM_EV_17_06_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_008_A_1",
+        "set": "ev/ev_17_06_set",
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Evnt/Evnt_00_17_1_06a"
+      ],
+      "evws": [
+        "Evnt/Evnt_00_17_1_06c"
+      ],
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_07",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 30,
+      "o_cond_q": [
+        "QE_EV_17_06"
+      ],
+      "pexp": 0,
+      "uexp": 3519,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_07_01",
+        "QM_EV_17_07_02",
+        "QM_EV_17_07_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_001_A_1",
+        "set": "ev/ev_17_07_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_08",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 35,
+      "o_cond_q": [
+        "QE_EV_17_07"
+      ],
+      "pexp": 0,
+      "uexp": 4359,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_08_01",
+        "QM_EV_17_08_02",
+        "QM_EV_17_08_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_017_A_1",
+        "set": "ev/ev_17_08_set",
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Evnt/Evnt_00_17_1_08a"
+      ],
+      "evws": [
+        "Evnt/Evnt_00_17_1_08c"
+      ],
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_09",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 40,
+      "o_cond_q": [
+        "QE_EV_17_08"
+      ],
+      "pexp": 0,
+      "uexp": 5084,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_09_01",
+        "QM_EV_17_09_02",
+        "QM_EV_17_09_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_012_A_1",
+        "set": "ev/ev_17_09_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_10",
+      "type": 2,
+      "sect": "SE_EV_17_01",
+      "ap": 6,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 40,
+      "o_cond_q": [
+        "QE_EV_17_09"
+      ],
+      "pexp": 0,
+      "uexp": 5293,
+      "gold": 1500,
+      "jp": 3,
+      "jp_skip": 3,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_10_01",
+        "QM_EV_17_10_02",
+        "QM_EV_17_10_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_017_A_1",
+        "set": "ev/ev_17_10_set",
+        "bgm": "law_201_battle"
+      },
+      "evsts": [
+        "Evnt/Evnt_00_17_1_10a"
+      ],
+      "evws": [
+        "Evnt/Evnt_00_17_1_10c",
+        "Evnt/Evnt_00_17_2_99"
+      ],
+      "rule": {
+        "lap": 2
+      }
+    },
+    {
+      "iname": "QE_EV_17_EX",
+      "type": 2,
+      "sect": "SE_EV_17_EX_01",
+      "ap": 12,
+      "extra": 1,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 50,
+      "o_cond_q": [
+        "QE_EV_17_10"
+      ],
+      "pexp": 0,
+      "uexp": 5623,
+      "gold": 1800,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "item": "IT_AF_LW_GUN_004",
+          "type": 0,
+          "num": 1
+        }
+      ],
+      "missions": [
+        "QM_EV_17_EX_01",
+        "QM_EV_17_EX_02",
+        "QM_EV_17_EX_03"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_017_A_1",
+        "set": "ev/ev_17_ex_set",
+        "bgm": "law_203_battle_law_lastboss"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "point_const": "QC_EX_1"
+    },
+    {
+      "iname": "QE_EV_17_EX_1",
+      "type": 2,
+      "sect": "SE_EV_17_EX_01",
+      "ap": 12,
+      "extra": 1,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 80,
+      "o_cond_q": [
+        "QE_EV_17_EX"
+      ],
+      "pexp": 0,
+      "uexp": 8733,
+      "gold": 1800,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_17_EX_1_01",
+        "QM_EV_17_EX_1_02",
+        "QM_EV_17_EX_1_03",
+        "QM_EV_17_EX_1_04",
+        "QM_EV_17_EX_1_05"
+      ],
+      "map": {
+        "scn": "lio_for/lio_for_012_N_1",
+        "set": "ev/ev_17_ex_1_set",
         "bgm": "law_203_battle_law_lastboss"
       },
       "rule": {
@@ -83124,8 +83752,8 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_01_0_00",
-        "Evnt_00_01_1_01a"
+        "Evnt/Evnt_00_01_0_00",
+        "Evnt/Evnt_00_01_1_01a"
       ],
       "rule": {
         "lap": 2
@@ -83202,7 +83830,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_01_1_03a"
+        "Evnt/Evnt_00_01_1_03a"
       ],
       "rule": {
         "lap": 2
@@ -83279,10 +83907,10 @@
         "bgm": "law_202_battle_midboss"
       },
       "evsts": [
-        "Evnt_00_01_1_05a"
+        "Evnt/Evnt_00_01_1_05a"
       ],
       "evws": [
-        "Evnt_00_01_1_05c"
+        "Evnt/Evnt_00_01_1_05c"
       ],
       "rule": {
         "lap": 2
@@ -83359,7 +83987,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_01_1_07a"
+        "Evnt/Evnt_00_01_1_07a"
       ],
       "rule": {
         "lap": 2
@@ -83473,8 +84101,8 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_01_1_10c",
-        "Evnt_00_01_2_99"
+        "Evnt/Evnt_00_01_1_10c",
+        "Evnt/Evnt_00_01_2_99"
       ],
       "rule": {
         "lap": 2
@@ -83675,8 +84303,8 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_02_0_00",
-        "Evnt_00_02_1_01a"
+        "Evnt/Evnt_00_02_0_00",
+        "Evnt/Evnt_00_02_1_01a"
       ],
       "rule": {
         "lap": 2
@@ -83753,7 +84381,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_02_1_03a"
+        "Evnt/Evnt_00_02_1_03a"
       ],
       "rule": {
         "lap": 2
@@ -83830,7 +84458,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_02_1_05a"
+        "Evnt/Evnt_00_02_1_05a"
       ],
       "rule": {
         "lap": 2
@@ -83907,7 +84535,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_02_1_07a"
+        "Evnt/Evnt_00_02_1_07a"
       ],
       "rule": {
         "lap": 2
@@ -84021,10 +84649,10 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_02_1_10a"
+        "Evnt/Evnt_00_02_1_10a"
       ],
       "evws": [
-        "Evnt_00_02_2_99"
+        "Evnt/Evnt_00_02_2_99"
       ],
       "rule": {
         "lap": 2
@@ -84140,8 +84768,8 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_03_0_00",
-        "Evnt_00_03_1_01a"
+        "Evnt/Evnt_00_03_0_00",
+        "Evnt/Evnt_00_03_1_01a"
       ],
       "rule": {
         "lap": 2
@@ -84218,7 +84846,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_03_1_03a"
+        "Evnt/Evnt_00_03_1_03a"
       ],
       "rule": {
         "lap": 2
@@ -84295,7 +84923,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_03_1_05a"
+        "Evnt/Evnt_00_03_1_05a"
       ],
       "rule": {
         "lap": 2
@@ -84409,7 +85037,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_03_1_08a"
+        "Evnt/Evnt_00_03_1_08a"
       ],
       "rule": {
         "lap": 2
@@ -84486,10 +85114,10 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_03_1_10a"
+        "Evnt/Evnt_00_03_1_10a"
       ],
       "evws": [
-        "Evnt_00_03_2_99"
+        "Evnt/Evnt_00_03_2_99"
       ],
       "rule": {
         "lap": 2
@@ -84724,7 +85352,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_09_0_00"
+        "Evnt/Evnt_00_09_0_00"
       ],
       "rule": {
         "lap": 2
@@ -84764,7 +85392,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_09_1_02a"
+        "Evnt/Evnt_00_09_1_02a"
       ],
       "rule": {
         "lap": 2
@@ -84841,7 +85469,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_09_1_04a"
+        "Evnt/Evnt_00_09_1_04a"
       ],
       "rule": {
         "lap": 2
@@ -84918,7 +85546,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_09_1_06a"
+        "Evnt/Evnt_00_09_1_06a"
       ],
       "rule": {
         "lap": 2
@@ -85032,7 +85660,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_09_1_09a"
+        "Evnt/Evnt_00_09_1_09a"
       ],
       "rule": {
         "lap": 2
@@ -85072,10 +85700,10 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_09_1_10a"
+        "Evnt/Evnt_00_09_1_10a"
       ],
       "evws": [
-        "Evnt_00_09_2_99"
+        "Evnt/Evnt_00_09_2_99"
       ],
       "rule": {
         "lap": 2
@@ -85260,8 +85888,8 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_04_0_00",
-        "Evnt_00_04_1_01a"
+        "Evnt/Evnt_00_04_0_00",
+        "Evnt/Evnt_00_04_1_01a"
       ],
       "rule": {
         "lap": 2
@@ -85338,7 +85966,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_04_1_03c"
+        "Evnt/Evnt_00_04_1_03c"
       ],
       "rule": {
         "lap": 2
@@ -85415,7 +86043,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_04_1_05c"
+        "Evnt/Evnt_00_04_1_05c"
       ],
       "rule": {
         "lap": 2
@@ -85492,7 +86120,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_04_1_07a"
+        "Evnt/Evnt_00_04_1_07a"
       ],
       "rule": {
         "lap": 2
@@ -85606,10 +86234,10 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_04_1_10a"
+        "Evnt/Evnt_00_04_1_10a"
       ],
       "evws": [
-        "Evnt_00_04_2_99"
+        "Evnt/Evnt_00_04_2_99"
       ],
       "rule": {
         "lap": 2
@@ -85794,7 +86422,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_06_0_00"
+        "Evnt/Evnt_00_06_0_00"
       ],
       "rule": {
         "lap": 2
@@ -85834,7 +86462,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_06_1_02c"
+        "Evnt/Evnt_00_06_1_02c"
       ],
       "rule": {
         "lap": 2
@@ -85911,7 +86539,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_06_1_04c"
+        "Evnt/Evnt_00_06_1_04c"
       ],
       "rule": {
         "lap": 2
@@ -85951,7 +86579,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_06_1_05c"
+        "Evnt/Evnt_00_06_1_05c"
       ],
       "rule": {
         "lap": 2
@@ -86028,7 +86656,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_06_1_07a"
+        "Evnt/Evnt_00_06_1_07a"
       ],
       "rule": {
         "lap": 2
@@ -86105,7 +86733,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_06_1_09a"
+        "Evnt/Evnt_00_06_1_09a"
       ],
       "rule": {
         "lap": 2
@@ -86145,7 +86773,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_06_2_99"
+        "Evnt/Evnt_00_06_2_99"
       ],
       "rule": {
         "lap": 2
@@ -86257,7 +86885,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_05_0_00"
+        "Evnt/Evnt_00_05_0_00"
       ],
       "rule": {
         "lap": 2
@@ -86297,7 +86925,7 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_05_1_02c"
+        "Evnt/Evnt_00_05_1_02c"
       ],
       "rule": {
         "lap": 2
@@ -86374,7 +87002,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_05_1_04a"
+        "Evnt/Evnt_00_05_1_04a"
       ],
       "rule": {
         "lap": 2
@@ -86451,7 +87079,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_05_1_06a"
+        "Evnt/Evnt_00_05_1_06a"
       ],
       "rule": {
         "lap": 2
@@ -86565,7 +87193,7 @@
         "bgm": "law_201_battle"
       },
       "evsts": [
-        "Evnt_00_05_1_09a"
+        "Evnt/Evnt_00_05_1_09a"
       ],
       "rule": {
         "lap": 2
@@ -86605,8 +87233,8 @@
         "bgm": "law_201_battle"
       },
       "evws": [
-        "Evnt_00_05_1_10c",
-        "Evnt_00_05_2_99"
+        "Evnt/Evnt_00_05_1_10c",
+        "Evnt/Evnt_00_05_2_99"
       ],
       "rule": {
         "lap": 2
@@ -97427,6 +98055,157 @@
       }
     },
     {
+      "iname": "QE_EV_ALIA_01",
+      "type": 2,
+      "sect": "SE_EV_ALIA_01",
+      "ap": 6,
+      "limit": 1,
+      "ap0": 1,
+      "lv": 30,
+      "party_rule": "PR_NO_YOHEI",
+      "pexp": 0,
+      "uexp": 3519,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "item": "IT_JB_MM_ALL",
+          "type": 0,
+          "num": 10
+        },
+        {
+          "item": "IT_JB_MM_ALL_2",
+          "type": 0,
+          "num": 35
+        }
+      ],
+      "missions": [
+        "QM_EV_ALIA_01_1",
+        "QM_EV_ALIA_01_2",
+        "QM_EV_ALIA_01_3",
+        "QM_EV_ALIA_01_4",
+        "QM_EV_ALIA_01_5"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_027_A_1",
+        "set": "ev/ev_alia_01_set",
+        "bgm": "law_201_battle"
+      }
+    },
+    {
+      "iname": "QE_EV_ALIA_02",
+      "type": 2,
+      "sect": "SE_EV_ALIA_01",
+      "ap": 6,
+      "limit": 1,
+      "ap0": 1,
+      "lv": 50,
+      "party_rule": "PR_NO_YOHEI",
+      "pexp": 0,
+      "uexp": 5623,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "item": "IT_JB_MM_ALL_3",
+          "type": 0,
+          "num": 35
+        },
+        {
+          "item": "IT_JB_MM_ALL_4",
+          "type": 0,
+          "num": 35
+        }
+      ],
+      "missions": [
+        "QM_EV_ALIA_02_1",
+        "QM_EV_ALIA_02_2",
+        "QM_EV_ALIA_02_3",
+        "QM_EV_ALIA_02_4",
+        "QM_EV_ALIA_02_5",
+        "QM_EV_ALIA_02_6"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_027_A_1",
+        "set": "ev/ev_alia_02_set",
+        "bgm": "law_201_battle"
+      }
+    },
+    {
+      "iname": "QE_EV_ALIA_03",
+      "type": 2,
+      "sect": "SE_EV_ALIA_01",
+      "ap": 6,
+      "limit": 1,
+      "ap0": 1,
+      "lv": 70,
+      "party_rule": "PR_NO_YOHEI",
+      "pexp": 0,
+      "uexp": 9686,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "item": "IT_JB_MM_ALL_5",
+          "type": 0,
+          "num": 35
+        }
+      ],
+      "missions": [
+        "QM_EV_ALIA_03_1",
+        "QM_EV_ALIA_03_2",
+        "QM_EV_ALIA_03_3",
+        "QM_EV_ALIA_03_4"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_027_A_1",
+        "set": "ev/ev_alia_03_set",
+        "bgm": "law_201_battle"
+      }
+    },
+    {
+      "iname": "QE_EV_ALIA_04",
+      "type": 2,
+      "sect": "SE_EV_ALIA_01",
+      "ap": 6,
+      "limit": 1,
+      "ap0": 1,
+      "lv": 80,
+      "party_rule": "PR_NO_YOHEI",
+      "pexp": 0,
+      "uexp": 10197,
+      "gold": 1500,
+      "jp": 6,
+      "jp_skip": 6,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "item": "IT_JB_MM_ALL_5",
+          "type": 0,
+          "num": 40
+        }
+      ],
+      "missions": [
+        "QM_EV_ALIA_04_1",
+        "QM_EV_ALIA_04_2",
+        "QM_EV_ALIA_04_3",
+        "QM_EV_ALIA_04_4",
+        "QM_EV_ALIA_04_5",
+        "QM_EV_ALIA_04_6"
+      ],
+      "map": {
+        "scn": "aly_cas/aly_cas_001_A_1",
+        "set": "ev/ev_alia_04_set",
+        "bgm": "law_201_battle"
+      }
+    },
+    {
       "iname": "QE_EV_GL_TU_IREZ",
       "type": 2,
       "sect": "SE_EV_GL_TU_IREZ",
@@ -97711,6 +98490,38 @@
         "QM_EV_GL_SHNC_04"
       ],
       "random_map_id": "RM_GL_SHNC_01_1",
+      "map": {
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "proh": [
+          1,
+          5
+        ]
+      }
+    },
+    {
+      "iname": "QE_EV_GL_TU_ALIA",
+      "type": 2,
+      "sect": "SE_EV_GL_TU_ALIA",
+      "not_search": 1,
+      "ap0": 1,
+      "lv": 50,
+      "party_rule": "PR_GL_ALIA",
+      "pexp": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_GL_ALIA_01",
+        "QM_EV_GL_ALIA_02",
+        "QM_EV_GL_ALIA_03",
+        "QM_EV_GL_ALIA_04"
+      ],
+      "random_map_id": "RM_GL_ALIA_01_1",
       "map": {
         "bgm": "law_201_battle"
       },
@@ -119679,6 +120490,26 @@
       }
     },
     {
+      "iname": "QE_ARENA_GL_00034",
+      "type": 7,
+      "ap": 8,
+      "lv": 1,
+      "map": {
+        "scn": "lio_anc/lio_anc_005_A_1",
+        "set": "gvg/gvg00031_set",
+        "eff": [
+          1
+        ],
+        "bgm": "law_207_battle_pvp1",
+        "buffs": [
+          "BUFF_ARENA_GL_00049"
+        ]
+      },
+      "rule": {
+        "movecnt": 50
+      }
+    },
+    {
       "iname": "QE_GVG_00001",
       "type": 12,
       "ap": 8,
@@ -120797,6 +121628,26 @@
       }
     },
     {
+      "iname": "QE_GVG_GL_00042",
+      "type": 12,
+      "ap": 0,
+      "lv": 1,
+      "map": {
+        "scn": "lio_anc/lio_anc_005_A_1",
+        "set": "gvg/gvg00031_set",
+        "eff": [
+          1
+        ],
+        "bgm": "law_209_battle_guild",
+        "buffs": [
+          "BUFF_GVG_GL_051"
+        ]
+      },
+      "rule": {
+        "movecnt": 50
+      }
+    },
+    {
       "iname": "QE_PVP_FRE_0001",
       "type": 10,
       "map": {
@@ -121595,6 +122446,27 @@
       }
     },
     {
+      "iname": "QE_PVP_FRE_GL_0039",
+      "type": 10,
+      "map": {
+        "scn": "lio_anc/lio_anc_005_A_1",
+        "set": "pvp/pvp_free_gl_0029_set",
+        "eff": [
+          1
+        ],
+        "bgm": "law_208_battle_pvp2",
+        "buffs": [
+          "BUFF_GVG_GL_051"
+        ]
+      },
+      "rule": {
+        "proh": [
+          5
+        ],
+        "movecnt": 50
+      }
+    },
+    {
       "iname": "QE_PVP_FRI_0001",
       "type": 11,
       "map": {
@@ -122311,6 +123183,24 @@
       "map": {
         "scn": "ext_gcs/ext_gcs_006_A_1",
         "set": "pvp/pvp_fri_0072_set",
+        "bgm": "law_208_battle_pvp2"
+      },
+      "rule": {
+        "proh": [
+          5
+        ],
+        "movecnt": 50
+      }
+    },
+    {
+      "iname": "QE_PVP_FRI_0079",
+      "type": 11,
+      "map": {
+        "scn": "lio_anc/lio_anc_005_A_1",
+        "set": "pvp/pvp_fri_0079_set",
+        "eff": [
+          1
+        ],
         "bgm": "law_208_battle_pvp2"
       },
       "rule": {

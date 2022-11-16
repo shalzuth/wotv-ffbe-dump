@@ -5325,6 +5325,54 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_ADSN_MV1",
+      "type": 0,
+      "collaboType": 3,
+      "icon": "ADSNMv1",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_ADSN",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "card_skill": "SK_VC_LW_ADSN_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_ADSN_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ADSN_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_FIRE_WA_ICE_DARK",
+          "card_skill": "SK_VC_LW_ADSN_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_ADSN_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_ADSN_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_ADSN_P",
+          "add_self_buff_awake": "SK_VC_LW_ADSN_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_ADSN_PMAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 36,
+          "atk": 32,
+          "mag": 19
+        },
+        {
+          "hp": 285,
+          "atk": 124,
+          "mag": 73
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_HALL3",
       "type": 0,
       "icon": "LAPSHall3",
@@ -5378,6 +5426,60 @@
           "hp": 272,
           "def": 7,
           "mag": 153
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_FDRC",
+      "type": 0,
+      "icon": "LAPSFdrc",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_FDRC",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_GUN_FIS_RDA",
+          "card_skill": "SK_VC_LW_FDRC_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_FDRC_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_FDRC_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_GUN_FIS_RDA",
+          "card_skill": "SK_VC_LW_FDRC_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_FDRC_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_FDRC_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_FDRC_P",
+          "add_self_buff_awake": "SK_VC_LW_FDRC_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_FDRC_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_URAL_FDRC_ENBT",
+          "self_buff": "SK_GL_VC_LW_FDRC_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_FDRC_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_FDRC_P2MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 44,
+          "atk": 40,
+          "def": 1
+        },
+        {
+          "hp": 343,
+          "atk": 156,
+          "def": 3
         }
       ],
       "visioncard_medal_num": 20

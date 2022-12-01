@@ -1313,6 +1313,27 @@
       "hurl": "ev_2_5Anv_01"
     },
     {
+      "iname": "SE_EV_GL_TU_SHLS",
+      "hurl": "ev_gl_shls_01"
+    },
+    {
+      "iname": "SE_EV_LSTE",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_lste_01"
+    },
+    {
+      "iname": "SE_EV_LSTE_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_lste_ex_01",
+      "o_cond_q": [
+        "QE_EV_LSTE_05"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_LSTE_EX",
+      "hurl": "ev_lste_ex_01"
+    },
+    {
       "iname": "SE_EV_GL_TU_SLVE",
       "hurl": "ev_gl_slve_01"
     },

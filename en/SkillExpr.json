@@ -22,23 +22,23 @@
     },
     {
       "key": "SK_LW_WAR_M_1",
-      "value": "Deals Dmg (M) to target & bestows Beast Killer."
+      "value": "Deals Dmg (M) to target & bestows greater Beast Killer."
     },
     {
       "key": "SK_LW_WAR_M_4",
-      "value": "Deals Dmg (L) to target & bestows Man Eater."
+      "value": "Raises own DEF Piercing Rate for 3 turns, then deals Dmg (L) to target & bestows Man Eater."
     },
     {
       "key": "SK_LW_WAR_S_3",
-      "value": "Deals Dmg (S) to target & cancels Ability Activation."
+      "value": "Deals Dmg (M) to target & cancels Ability Activation & lowers Healing Power for 3 turns."
     },
     {
       "key": "SK_LW_WAR_S_1_INIT",
-      "value": "Deals Dmg (Min) to target."
+      "value": "Deals Dmg (Min) to target & lowers DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_WAR_M_2_INIT",
-      "value": "Raises own ATK for 3 turns."
+      "value": "Raises own ATK/Unit Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_WAR_S_2",
@@ -46,7 +46,7 @@
     },
     {
       "key": "SK_LW_WAR_M_3",
-      "value": "Recovers HP (S) of allies within area around self."
+      "value": "Recovers a set percentage of HP (S) of allies within area around self."
     },
     {
       "key": "SK_LW_WAR_R_1",
@@ -62,27 +62,27 @@
     },
     {
       "key": "SK_LW_WAR_P_1_MONT",
-      "value": "Raises ATK."
+      "value": "Raises ATK/Initial AP."
     },
     {
       "key": "SK_LW_WAR_M_1_SUB",
-      "value": "Deals Dmg (M) to target & bestows Beast Killer."
+      "value": "Deals Dmg (M) to target & bestows greater Beast Killer."
     },
     {
       "key": "SK_LW_WAR_M_4_SUB",
-      "value": "Deals Dmg (L) to target & bestows Man Eater."
+      "value": "Raises own DEF Piercing Rate for 3 turns, then deals Dmg (L) to target & bestows Man Eater."
     },
     {
       "key": "SK_LW_WAR_S_3_SUB",
-      "value": "Deals Dmg (S) to target & cancels Ability Activation."
+      "value": "Deals Dmg (M) to target & cancels Ability Activation & lowers Healing Power for 3 turns."
     },
     {
       "key": "SK_LW_WAR_S_1",
-      "value": "Deals Dmg (Min) to target."
+      "value": "Deals Dmg (Min) to target & lowers DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_WAR_M_2",
-      "value": "Raises own ATK for 3 turns."
+      "value": "Raises own ATK/Unit Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_KNT_ATK",
@@ -570,19 +570,23 @@
     },
     {
       "key": "SK_LW_SAM_M_4",
-      "value": "Deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
+      "value": "Raises own Slash Attack Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
     },
     {
       "key": "SK_LW_SAM_S_4",
-      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Slow for 3 turns."
+      "value": "Deals Dmg (M) to targets within area around self & significantly lowers Healing Power for 3 turns & chance of inflicting Slow for 3 turns."
     },
     {
       "key": "SK_LW_SAM_M_3",
-      "value": "Moves user to target panel."
+      "value": "Raises own CT (M) after movement to target panel."
     },
     {
       "key": "SK_LW_SAM_M_1_INIT",
-      "value": "Deals Dmg (S) to target."
+      "value": "Deals Dmg (S) to target & recovers own AP when enemy is KO'd."
+    },
+    {
+      "key": "SK_LW_SAM_M_1_AD",
+      "value": "Recovers own AP when enemy is KO'd."
     },
     {
       "key": "SK_LW_SAM_S_3_INIT",
@@ -594,7 +598,7 @@
     },
     {
       "key": "SK_LW_SAM_M_2",
-      "value": "Raises Evasion Rate of allies within area around self for 3 turns."
+      "value": "Raises Evasion Rate of allies within area around self for 3 turns & raises own Area Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_SAM_S_2",
@@ -610,19 +614,19 @@
     },
     {
       "key": "SK_LW_SAM_M_4_SUB",
-      "value": "Deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
+      "value": "Raises own Slash Attack Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
     },
     {
       "key": "SK_LW_SAM_S_4_SUB",
-      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting Slow for 3 turns."
+      "value": "Deals Dmg (M) to targets within area around self & significantly lowers Healing Power for 3 turns & chance of inflicting Slow for 3 turns."
     },
     {
       "key": "SK_LW_SAM_M_3_SUB",
-      "value": "Moves user to target panel."
+      "value": "Raises own CT (M) after movement to target panel."
     },
     {
       "key": "SK_LW_SAM_M_1",
-      "value": "Deals Dmg (S) to target."
+      "value": "Deals Dmg (S) to target & recovers own AP when enemy is KO'd."
     },
     {
       "key": "SK_LW_SAM_S_3",
@@ -1438,7 +1442,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4",
-      "value": "Deals Dmg (S) to targets within range based on caster's MAG stat & lowers All Elemental Res for 3 turns."
+      "value": "Deals Dmg (L) to targets within range based on caster's MAG stat & lowers All Elemental Res for 3 turns."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3",
@@ -1514,11 +1518,11 @@
     },
     {
       "key": "SK_LW_GRM_S_1",
-      "value": "Lowers DEF of targets within range for 3 turns."
+      "value": "Significantly lowers DEF of targets within range for 3 turns."
     },
     {
       "key": "SK_LW_GRM_S_2",
-      "value": "Lowers SPR for targets within range for 3 turns."
+      "value": "Significantly lowers SPR of targets within range for 3 turns."
     },
     {
       "key": "SK_LW_GRM_M_1",
@@ -1538,7 +1542,7 @@
     },
     {
       "key": "SK_LW_GRM_M_4_SUB",
-      "value": "Deals Dmg (S) to targets within range based on caster's MAG stat & lowers All Elemental Res for 3 turns."
+      "value": "Deals Dmg (L) to targets within range based on caster's MAG stat & lowers All Elemental Res for 3 turns."
     },
     {
       "key": "SK_LW_GRM_FIRE_M_3_SUB",
@@ -3753,44 +3757,44 @@
       "value": ""
     },
     {
-      "key": "SK_LW_MKN_WIND_M_1",
-      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater."
-    },
-    {
-      "key": "SK_LW_MKN_SOIL_M_1",
-      "value": "Deals Earth Dmg (L) to targets within range based on caster's MAG stat & bestows Lightning Eater."
-    },
-    {
       "key": "SK_LW_MKN_FIRE_M_1",
-      "value": "Deals Fire Dmg (L) to targets within range based on caster's MAG stat & bestows Ice Eater."
+      "value": "Deals Fire Dmg (L) to targets within range based on caster's MAG stat & bestows Ice Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Ice Element."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1",
-      "value": "Deals Ice Dmg (L) to targets within range based on caster's MAG stat & bestows Wind Eater."
+      "value": "Deals Ice Dmg (L) to targets within range based on caster's MAG stat & bestows Wind Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Wind Element."
+    },
+    {
+      "key": "SK_LW_MKN_WIND_M_1",
+      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Earth Element."
+    },
+    {
+      "key": "SK_LW_MKN_SOIL_M_1",
+      "value": "Deals Earth Dmg (L) to targets within range based on caster's MAG stat & bestows Lightning Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Lightning Element."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1",
-      "value": "Deals Lightning Dmg (L) to targets within range based on caster's MAG stat & bestows Water Eater."
+      "value": "Deals Lightning Dmg (L) to targets within range based on caster's MAG stat & bestows Water Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Water Element."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1",
-      "value": "Deals Water Dmg (L) to targets within range based on caster's MAG stat & bestows Fire Eater."
+      "value": "Deals Water Dmg (L) to targets within range based on caster's MAG stat & bestows Fire Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Fire Element."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1",
-      "value": "Deals Light Dmg (L) to targets within range based on caster's MAG stat & bestows Dark Eater."
+      "value": "Deals Light Dmg (L) to targets within range based on caster's MAG stat & bestows Dark Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Dark Element."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1",
-      "value": "Deals Dark Dmg (L) to targets within range based on caster's MAG stat & bestows Light Eater."
+      "value": "Deals Dark Dmg (L) to targets within range based on caster's MAG stat & bestows Light Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Light Element."
     },
     {
       "key": "SK_LW_MKN_M_2",
-      "value": "Consumes own HP to deal Dmg (L) to targets within range based on caster's MAG stat."
+      "value": "Consumes own HP to remove Shell from targets within range, then deals Dmg (L) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_MKN_M_3",
-      "value": "Deals Dmg (M) to target based on caster's MAG stat & Airborne Killer."
+      "value": "Deals Dmg (M) to target based on caster's MAG stat & greater Airborne Killer."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1_INIT",
@@ -3826,7 +3830,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3_INIT",
-      "value": "Deals Dmg (Min) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Res Piercing Rate."
+      "value": "Deals Dmg (Min) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Attack Res Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_MKN_S_2",
@@ -3906,43 +3910,43 @@
     },
     {
       "key": "SK_LW_MKN_FIRE_M_1_SUB",
-      "value": "Deals Fire Dmg (L) to targets within range based on caster's MAG stat & bestows Ice Eater."
+      "value": "Deals Fire Dmg (L) to targets within range based on caster's MAG stat & bestows Ice Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Ice Element."
     },
     {
       "key": "SK_LW_MKN_ICE_M_1_SUB",
-      "value": "Deals Ice Dmg (L) to targets within range based on caster's MAG stat & bestows Wind Eater."
+      "value": "Deals Ice Dmg (L) to targets within range based on caster's MAG stat & bestows Wind Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Wind Element."
     },
     {
       "key": "SK_LW_MKN_WIND_M_1_SUB",
-      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater."
+      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Earth Element."
     },
     {
       "key": "SK_LW_MKN_SOIL_M_1_SUB",
-      "value": "Deals Earth Dmg (L) to targets within range based on caster's MAG stat & bestows Lightning Eater."
+      "value": "Deals Earth Dmg (L) to targets within range based on caster's MAG stat & bestows Lightning Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Lightning Element."
     },
     {
       "key": "SK_LW_MKN_THUN_M_1_SUB",
-      "value": "Deals Lightning Dmg (L) to targets within range based on caster's MAG stat & bestows Water Eater."
+      "value": "Deals Lightning Dmg (L) to targets within range based on caster's MAG stat & bestows Water Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Water Element."
     },
     {
       "key": "SK_LW_MKN_WATR_M_1_SUB",
-      "value": "Deals Water Dmg (L) to targets within range based on caster's MAG stat & bestows Fire Eater."
+      "value": "Deals Water Dmg (L) to targets within range based on caster's MAG stat & bestows Fire Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Fire Element."
     },
     {
       "key": "SK_LW_MKN_SHIN_M_1_SUB",
-      "value": "Deals Light Dmg (L) to targets within range based on caster's MAG stat & bestows Dark Eater."
+      "value": "Deals Light Dmg (L) to targets within range based on caster's MAG stat & bestows Dark Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Dark Element."
     },
     {
       "key": "SK_LW_MKN_DARK_M_1_SUB",
-      "value": "Deals Dark Dmg (L) to targets within range based on caster's MAG stat & bestows Light Eater."
+      "value": "Deals Dark Dmg (L) to targets within range based on caster's MAG stat & bestows Light Eater & significantly lowers Evasion/Critical Evasion before attacking if target is Light Element."
     },
     {
       "key": "SK_LW_MKN_M_2_SUB",
-      "value": "Consumes own HP to deal Dmg (L) to targets within range based on caster's MAG stat."
+      "value": "Consumes own HP to remove Shell from targets within range, then deals Dmg (L) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_MKN_M_3_SUB",
-      "value": "Deals Dmg (M) to target based on caster's MAG stat & Airborne Killer."
+      "value": "Deals Dmg (M) to target based on caster's MAG stat & greater Airborne Killer."
     },
     {
       "key": "SK_LW_MKN_FIRE_S_1",
@@ -3978,7 +3982,7 @@
     },
     {
       "key": "SK_LW_MKN_S_3",
-      "value": "Deals Dmg (Min) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Res Piercing Rate."
+      "value": "Deals Dmg (Min) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Attack Res Piercing Rate for 3 turns."
     },
     {
       "key": "SK_FF4_CECL_ATK",
@@ -8725,6 +8729,10 @@
       "value": "Raises Critical Hit Rate/Critical Dmg."
     },
     {
+      "key": "SK_LW_RAB_M_1_SUB",
+      "value": "Lowers target's DEF for 3 turns, then deals 2-Hit Dmg (M)."
+    },
+    {
       "key": "SK_LW_EC_RAB_A_01",
       "value": "Raises own Pierce/Magic Attack Res for 3 turns."
     },
@@ -8822,15 +8830,15 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_01",
-      "value": "Destroys any barrier that reduces Magic Dmg on targets within range, then deals Magic Dmg (M) based on caster's MAG stat."
+      "value": "Destroys any barrier that reduces Magic Dmg on targets within range, then deals Magic Dmg (M) based on caster's MAG stat & bestows status effects (Protect/Regen) on self for 3 turns."
     },
     {
       "key": "SK_LW_EC_MKN_C_01",
-      "value": "Enhances Hazard Slash to Hazard Disruption. Lowers HP consumption. Consumes own HP to significantly lower reaction ability activation rate of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat."
+      "value": "Enhances Hazard Slash to Hazard Disruption. Removes Shell from targets within range & significantly lowers reaction ability activation rate for 3 turns, then deals Dmg (L) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_EC_MKN_C_01B",
-      "value": "Consumes own HP to significantly lower reaction ability activation rate of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat."
+      "value": "Removes Shell from targets within range & significantly lowers reaction ability activation rate for 3 turns, then deals Dmg (L) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_EC_MKN_C_02",
@@ -8842,23 +8850,23 @@
     },
     {
       "key": "SK_LW_EC_MKN_A_02",
-      "value": "Raises own SPR Piercing Rate, then deals 2-Hit Dmg (M) to target."
+      "value": "Raises own SPR Piercing Rate/Slash Attack for 3 turns, then deals 2-Hit Dmg (L) to target based on caster's MAG stat."
     },
     {
       "key": "SK_LW_EC_MKN_C_03",
-      "value": "Enhances Aeroga Blade to Aeroga Blade [Augmentor]. Enhances Range. Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater & lowers Bravery."
+      "value": "Enhances Aeroga Saber to Aeroga Saber [Augmentor]. Enhances Range. Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater & lowers Bravery & significantly lowers Evasion/Critical Evasion before attacking if target is Earth Element."
     },
     {
       "key": "SK_LW_EC_MKN_C_03B",
-      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater & lowers Bravery."
+      "value": "Deals Wind Dmg (L) to targets within range based on caster's MAG stat & bestows Earth Eater & lowers Bravery & significantly lowers Evasion/Critical Evasion before attacking if target is Earth Element."
     },
     {
       "key": "SK_LW_EC_MKN_C_04",
-      "value": "Enhances Drain Evocation to Osmotic Evocation. Deals Dmg (S) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Res Piercing Rate."
+      "value": "Enhances Drain Evocation to Osmotic Evocation. Deals Dmg (S) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Attack Res Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_EC_MKN_C_04B",
-      "value": "Deals Dmg (S) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Res Piercing Rate."
+      "value": "Deals Dmg (S) to target based on caster's MAG stat & absorbs Dmg dealt & significantly raises own MAG for 1 turn & raises Slash Attack Res Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_TU_BLM_ICE",
@@ -9827,6 +9835,26 @@
     {
       "key": "SK_RAMU_M_04",
       "value": "Deals Lightning Dmg (L) to targets within range based on caster's MAG stat."
+    },
+    {
+      "key": "SK_RAMU_01_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_RAMU_01_M_01",
+      "value": "Deals Lightning Dmg (S) to target based on caster's MAG stat & lowers Lightning Res for 3 turns."
+    },
+    {
+      "key": "SK_RAMU_01_M_02",
+      "value": "Deals Lightning Dmg (M) to targets within range based on caster's MAG stat."
+    },
+    {
+      "key": "SK_RAMU_01_M_03",
+      "value": "Deals Lightning Dmg (L) to targets within area around self based on caster's MAG stat & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_RAMU_01_M_04",
+      "value": "Removes Protect/Shell, then deals Lightning Dmg (Max) to targets within range based on caster's MAG stat."
     },
     {
       "key": "SK_GLEM_ATK",
@@ -12429,6 +12457,10 @@
       "value": "Evokes Dark Tetra Sylphid, lowers Wind Res of targets within range, then deals Wind Dmg (L) based on caster's MAG stat & activates temporary Map Effects (raises allies' ATK/MAG & increases effect for Wind units & significantly lowers enemies' Wind Res)."
     },
     {
+      "key": "SK_SMN_RAMU_01",
+      "value": "Evokes Dark Ramuh, removes Protect/Shell from targets within range, then deals Lightning Dmg (Max) based on caster's MAG stat & activates temporary Map Effects (raises allies' ATK/MAG & increases effect for Lightning units & significantly lowers enemies' Lightning Res)."
+    },
+    {
       "key": "SK_UN_BD_EC_HP_200",
       "value": ""
     },
@@ -12466,31 +12498,31 @@
     },
     {
       "key": "SK_LW_EC_MONT_C_01",
-      "value": "Enhances Killer Blade to Killer Drain Blade. Deals Dmg (L) to target & bestows Man Eater & absorbs Dmg dealt."
+      "value": "Enhances Killer Blade to Killer Drain Blade. Raises own DEF Piercing Rate for 3 turns, then deals Dmg (L) to target & bestows Man Eater & absorbs Dmg dealt."
     },
     {
       "key": "SK_LW_EC_MONT_C_01B",
-      "value": "Deals Dmg (L) to target & bestows Man Eater & absorbs Dmg dealt."
+      "value": "Raises own DEF Piercing Rate for 3 turns, then deals Dmg (L) to target & bestows Man Eater & absorbs Dmg dealt."
     },
     {
       "key": "SK_LW_EC_MONT_C_02",
-      "value": "Enhances Stone Throw to Stone Throw Mastery. Enhances Range. Raises own DEF Piercing Rate, then deals Dmg (S) to target & Guaranteed Hit & lowers Move by 1 for 3 turns."
+      "value": "Enhances Stone Throw to Stone Throw Mastery. Enhances Range. Raises own DEF Piercing Rate, then deals Dmg (S) to target & Guaranteed Hit & lowers Move by 1 & lowers DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_C_02B",
-      "value": "Raises own DEF Piercing Rate, then deals Dmg (S) to target & Guaranteed Hit & lowers Move by 1 for 3 turns."
+      "value": "Raises own DEF Piercing Rate, then deals Dmg (S) to target & Guaranteed Hit & lowers Move by 1 & lowers DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_EC_SAM_A_01",
-      "value": "Deals Dmg (M) to targets within range with high chance of Critical Hit."
+      "value": "Removes Courage from targets within range, then deals Dmg (M) with high chance of Critical Hit."
     },
     {
       "key": "SK_LW_EC_SAM_C_01",
-      "value": "Enhances Kongou to Zantetsu Kongou. Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
+      "value": "Enhances Kongou to Zantetsu Kongou. Destroys any barrier that reduces Phys Dmg & raises own Slash Attack Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
     },
     {
       "key": "SK_LW_EC_SAM_C_01B",
-      "value": "Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
+      "value": "Destroys any barrier that reduces Phys Dmg & raises own Slash Attack Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & Piercing & bestows Machina/Stone Killer."
     },
     {
       "key": "SK_LW_EC_SAM_C_02",
@@ -12506,19 +12538,19 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_03",
-      "value": "Enhances Illusion to Displacive Illusion. Enhances Area Height. Raises Evasion Rate of allies within area around self for 3 turns & significantly raises own Evasion Rate for 3 turns."
+      "value": "Enhances Illusion to Displacive Illusion. Enhances Area Height. Raises Evasion Rate of allies within area around self for 3 turns & significantly raises own Evasion Rate for 3 turns & raises own Area Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_EC_SAM_C_03B",
-      "value": "Raises Evasion Rate of allies within area around self for 3 turns & significantly raises own Evasion Rate for 3 turns."
+      "value": "Raises Evasion Rate of allies within area around self for 3 turns & significantly raises own Evasion Rate for 3 turns & raises own Area Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_EC_SAM_C_04",
-      "value": "Enhances Hien to Shinsoku Hien. Enhances Range. Deals Dmg (S) to target & raises own AGI for 3 turns."
+      "value": "Enhances Hien to Shinsoku Hien. Enhances Range. Deals Dmg (S) to target & raises own AGI for 3 turns & recovers own AP when enemy is KO'd."
     },
     {
       "key": "SK_LW_EC_SAM_C_04B",
-      "value": "Deals Dmg (S) to target & raises own AGI for 3 turns."
+      "value": "Deals Dmg (S) to target & raises own AGI for 3 turns & recovers own AP when enemy is KO'd."
     },
     {
       "key": "SK_LW_EC_LAN_A_01",
@@ -12665,10 +12697,6 @@
       "value": "Deals Dmg (M) to target & absorbs portion of Dmg dealt."
     },
     {
-      "key": "SK_LW_EC_KNT_A_02",
-      "value": "Lowers target's DEF/SPR for 3 turns, then deals Dmg (L)."
-    },
-    {
       "key": "SK_LW_EC_KNT_C_01",
       "value": "Enhances Knight Lore to Stalwart Mastery. Raises Max HP/DEF/SPR/Slash Attack Res Piercing Rate."
     },
@@ -12683,6 +12711,10 @@
     {
       "key": "SK_LW_EC_KNT_C_02B",
       "value": "Raises own Slash Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & lowers ATK/MAG/AGI for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_KNT_A_02",
+      "value": "Lowers target's DEF/SPR for 3 turns, then deals Dmg (L)."
     },
     {
       "key": "SK_LW_EC_KNT_C_03",
@@ -12946,19 +12978,19 @@
     },
     {
       "key": "SK_LW_EC_WAR_C_01",
-      "value": "Enhances Discipline to March of the Juggernaut. Raises ATK/bestows Man Eater to allies within area around self for 3 turns."
+      "value": "Enhances Discipline to March of the Juggernaut. Raises ATK of allies within area around self & bestows Man Eater for 3 turns & raises own Unit Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_EC_WAR_C_01B",
-      "value": "Raises ATK/bestows Man Eater to allies within area around self for 3 turns."
+      "value": "Raises ATK of allies within area around self & bestows Man Eater for 3 turns & raises own Unit Attack Res for 3 turns."
     },
     {
       "key": "SK_LW_EC_WAR_C_02",
-      "value": "Enhances Killer Blade to Murderous Blade. Deals Dmg (Max) to target & bestows Man Eater."
+      "value": "Enhances Killer Blade to Murderous Blade. Raises own DEF Piercing Rate for 3 turns, then deals Dmg (XL) to target & bestows Man Eater."
     },
     {
       "key": "SK_LW_EC_WAR_C_02B",
-      "value": "Deals Dmg (Max) to target & bestows Man Eater."
+      "value": "Raises own DEF Piercing Rate for 3 turns, then deals Dmg (XL) to target & bestows Man Eater."
     },
     {
       "key": "SK_LW_EC_BEA_A_01",
@@ -13246,11 +13278,11 @@
     },
     {
       "key": "SK_LW_EC_SAM_C_05",
-      "value": "Enhances Oborozuki to Gensui Oborozuki. Deals Dmg (M) to targets within area around self & chance of inflicting status ailments (Slow/Disable) for 3 turns."
+      "value": "Enhances Oborozuki to Gensui Oborozuki. Enhances Effect Area/Effect Height. Deals Dmg (M) to targets within area around self & significantly lowers Healing Power for 3 turns & chance of inflicting status ailments (Slow/Disable) for 3 turns."
     },
     {
       "key": "SK_LW_EC_SAM_C_05B",
-      "value": "Deals Dmg (M) to targets within area around self & chance of inflicting status ailments (Slow/Disable) for 3 turns."
+      "value": "Deals Dmg (M) to targets within area around self & significantly lowers Healing Power for 3 turns & chance of inflicting status ailments (Slow/Disable) for 3 turns."
     },
     {
       "key": "SK_LW_EC_SAM_C_06",
@@ -14118,11 +14150,11 @@
     },
     {
       "key": "SK_LW_EC_GRM_C_04",
-      "value": "Enhances Imperil to Imperil [Eroder]. Enhances Range. Lowers All Elemental Res of targets within range for 3 turns, then deals Dmg (S) based on caster's MAG stat."
+      "value": "Enhances Imperil to Imperil [Eroder]. Enhances Range. Lowers All Elemental Res of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_EC_GRM_C_04B",
-      "value": "Lowers All Elemental Res of targets within range for 3 turns, then deals Dmg (S) based on caster's MAG stat."
+      "value": "Lowers All Elemental Res of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_EC_GRM_A_03",
@@ -14933,6 +14965,10 @@
       "value": "SPR Piercing Rate +20, MAG +10%"
     },
     {
+      "key": "SK_MA_LW_HWLT_2",
+      "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own SPR Piercing Rate +20/MAG +30%/AP Consumption -20%/When HP at 70% or more: Area Attack Res +30"
+    },
+    {
       "key": "SK_MA_LW_SCAL",
       "value": "MAG +20%, Activation Time -20%"
     },
@@ -14943,6 +14979,10 @@
     {
       "key": "SK_MA_LW_CHEL",
       "value": "AGI +10%, Activation Time -25%"
+    },
+    {
+      "key": "SK_MA_LW_CHEL_2",
+      "value": "Ice Unit Allies' Max HP +10%/Stun Res +25, own Max HP +30%/AGI +10%/Activation Time -25%/When HP at 70% or more: DEF/SPR +15"
     },
     {
       "key": "SK_MA_FF4_CECL",
@@ -14963,6 +15003,10 @@
     {
       "key": "SK_MA_LW_TITU",
       "value": "Pierce/Missile Res +10, AP Consumption -25%"
+    },
+    {
+      "key": "SK_MA_LW_TITU_2",
+      "value": "Dark Unit Allies' Max HP +10%/Frostbite Res +25, own Max HP +15%/DEF +15/Pierce/Missile Res +10/AP Consumption -25%/When HP at 70% or more: All Elemental Res Debuff Res +100"
     },
     {
       "key": "SK_MA_LW_DEAN",
@@ -15571,6 +15615,10 @@
     {
       "key": "SK_LW_AVOID_5_SSR",
       "value": "Evasion Rate +8"
+    },
+    {
+      "key": "SK_LW_AVOID_5_UR_2",
+      "value": "Evasion Rate +15"
     },
     {
       "key": "SK_LW_CRIAVOI_1",
@@ -16302,6 +16350,14 @@
     },
     {
       "key": "SK_LW_RNG_011_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_012_5",
       "value": ""
     },
     {
@@ -17149,8 +17205,20 @@
       "value": "Bestows Protect on allies within area around self for 3 turns."
     },
     {
+      "key": "SK_ACC_LW_IRDL_01_ARENA",
+      "value": "Raises own Unit Attack Res for 3 turns & raises Move/Jump by 1."
+    },
+    {
       "key": "SK_SHI_LW_CRLT_1_ARENA",
       "value": "Bestows a barrier on self that reduces Dmg (3 times) & recovers AP."
+    },
+    {
+      "key": "SK_ACC_LW_JEDN_ARENA",
+      "value": "Bestows a barrier on self that negates a certain amount of Dmg & raises Missile ATK for 3 turns."
+    },
+    {
+      "key": "SK_ACC_LW_MINU_ARENA",
+      "value": "Raises Max HP of allies within range for 3 turns & recovers the amount of HP raised & nullifies Confusion/Stun/Disable."
     },
     {
       "key": "SK_ARM_LW_CMLO_1_1",
@@ -17175,6 +17243,10 @@
     {
       "key": "SK_ARM_LW_ROBB_ARENA",
       "value": "Raises Slash ATK & CT (M) of allies within area around self for 3 turns."
+    },
+    {
+      "key": "SK_ACC_LW_ORDR_ARENA",
+      "value": "Bestows AP Auto-Restore (S) on self for 3 turns & raises DEF Piercing Rate."
     },
     {
       "key": "SK_HAT_LW_MDNA_ARENA",
@@ -21258,6 +21330,54 @@
     },
     {
       "key": "SK_GL_VC_LW_FDRC_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_RAMU_01_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_RAMU_01_PMAX_2",
       "value": ""
     },
     {
@@ -28069,7 +28189,15 @@
       "value": "Equipment Item +6 Specific Ability"
     },
     {
+      "key": "SK_LW_PLUS6_DEFPIERCE_10",
+      "value": "Equipment Item +6 Specific Ability"
+    },
+    {
       "key": "SK_LW_PLUS6_REACTSTP_30",
+      "value": "Equipment Item +6 Specific Ability"
+    },
+    {
+      "key": "SK_LW_PLUS6_RES_DARK_10",
       "value": "Equipment Item +6 Specific Ability"
     },
     {

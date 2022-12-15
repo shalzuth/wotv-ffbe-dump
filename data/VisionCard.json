@@ -4093,42 +4093,24 @@
       "en_exp": 20000,
       "card_buffs": [
         {
-          "cnds_iname": "VLC_ICE",
+          "cnds_iname": "VLC_ICE_WATER",
           "card_skill": "SK_VC_LW_ODIN_01_GS",
           "add_card_skill_buff_awake": "SK_VC_LW_ODIN_01_GS_AW",
           "add_card_skill_buff_lvmax": "SK_VC_LW_ODIN_01_GSMAX"
         },
         {
-          "cnds_iname": "VLC_ICE",
+          "cnds_iname": "VLC_ICE_WATER",
           "card_skill": "SK_VC_LW_ODIN_01_GS_2",
           "add_card_skill_buff_awake": "SK_VC_LW_ODIN_01_GS_AW_2",
           "add_card_skill_buff_lvmax": "SK_VC_LW_ODIN_01_GSMAX_2"
-        },
-        {
-          "cnds_iname": "VLC_WATER",
-          "card_skill": "SK_VC_LW_ODIN_01_GS2",
-          "add_card_skill_buff_awake": "SK_VC_LW_ODIN_01_GS2_AW",
-          "add_card_skill_buff_lvmax": "SK_VC_LW_ODIN_01_GS2MAX"
-        },
-        {
-          "cnds_iname": "VLC_WATER",
-          "card_skill": "SK_VC_LW_ODIN_01_GS2_2",
-          "add_card_skill_buff_awake": "SK_VC_LW_ODIN_01_GS2_AW_2",
-          "add_card_skill_buff_lvmax": "SK_VC_LW_ODIN_01_GS2MAX_2"
         }
       ],
       "self_buffs": [
         {
-          "buff_cond": "VLC_ICE",
+          "buff_cond": "VLC_ICE_WATER",
           "self_buff": "SK_VC_LW_ODIN_01_P",
           "add_self_buff_awake": "SK_VC_LW_ODIN_01_PAW",
           "add_self_buff_lvmax": "SK_VC_LW_ODIN_01_PMAX"
-        },
-        {
-          "buff_cond": "VLC_WATER",
-          "self_buff": "SK_VC_LW_ODIN_01_P2",
-          "add_self_buff_awake": "SK_VC_LW_ODIN_01_P2AW",
-          "add_self_buff_lvmax": "SK_VC_LW_ODIN_01_P2MAX"
         },
         {
           "buff_cond": "VLC_ICE",
@@ -5482,6 +5464,66 @@
           "def": 3
         }
       ],
+      "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_RAMU_01",
+      "type": 0,
+      "icon": "LAPSRamu_01",
+      "rare": 4,
+      "cost": 90,
+      "piece": "IT_VPI_LW_RAMU_01",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_WIND_THUNDER",
+          "card_skill": "SK_VC_LW_RAMU_01_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_RAMU_01_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_RAMU_01_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_WIND_THUNDER",
+          "card_skill": "SK_VC_LW_RAMU_01_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_RAMU_01_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_RAMU_01_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "buff_cond": "VLC_WIND_THUNDER",
+          "self_buff": "SK_VC_LW_RAMU_01_P",
+          "add_self_buff_awake": "SK_VC_LW_RAMU_01_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_RAMU_01_PMAX"
+        },
+        {
+          "buff_cond": "VLC_THUNDER",
+          "self_buff": "SK_GL_VC_LW_RAMU_01_P_2",
+          "add_self_buff_awake": "SK_GL_VC_LW_RAMU_01_PAW_2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_RAMU_01_PMAX_2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 59,
+          "def": 2,
+          "mag": 47,
+          "mnd": 1,
+          "dex": 11
+        },
+        {
+          "hp": 462,
+          "def": 4,
+          "mag": 184,
+          "mnd": 3,
+          "dex": 40
+        }
+      ],
+      "first_bonus_unit": "UN_LW_S_RAMU_01",
       "visioncard_medal_num": 20
     },
     {

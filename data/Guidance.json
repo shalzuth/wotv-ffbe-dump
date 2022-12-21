@@ -13,6 +13,21 @@
       "tips": 0
     },
     {
+      "iname": "ChallengeMission",
+      "act": "HOME",
+      "trg": 1,
+      "guidance": "Gacha",
+      "tuto": 7,
+      "skip": 0,
+      "desc_unit_skip": "UN_LW_TU_RAMD",
+      "desc_emo_skip": 0,
+      "tips": 1,
+      "tips_imgs": [
+        "gid_clg_01",
+        "gid_clg_03"
+      ]
+    },
+    {
       "iname": "Gacha",
       "act": "HOME",
       "trg": 100,
@@ -28,23 +43,9 @@
       "skip": 0,
       "desc_unit_skip": "UN_LW_TU_RAMD",
       "desc_emo_skip": 0,
-      "tips": 0
-    },
-    {
-      "iname": "ChallengeMission",
-      "act": "HOME",
-      "trg": 1,
-      "guidance": "Gacha",
-      "tuto": 7,
-      "skip": 1,
-      "desc_unit_skip": "UN_LW_TU_RAMD",
-      "desc_emo_skip": 0,
       "tips": 1,
       "tips_imgs": [
-        "gid_clg_01",
-        "gid_clg_02",
-        "gid_clg_03",
-        "gid_clg_04"
+        "gid_gch_01"
       ]
     },
     {
@@ -207,17 +208,18 @@
         "gid_aft_04",
         "gid_aft_05"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "EventQuest",
       "act": "HOME",
       "trg": 4,
-      "value1": "QE_ST_01010104",
+      "value1": "QE_ST_01010101",
       "tuto": 25,
       "desc_unit": "UN_LW_TU_RAMD",
       "desc_emo": 0,
-      "skip": 1,
+      "skip": 0,
       "desc_unit_skip": "UN_LW_TU_RAMD",
       "desc_emo_skip": 0,
       "tips": 1,
@@ -229,9 +231,8 @@
     },
     {
       "iname": "VisionCard",
-      "act": "HOME",
-      "trg": 1,
-      "guidance": "UnitStrength",
+      "act": "VISIONLIST",
+      "trg": 100,
       "tuto": 26,
       "rewards": [
         {
@@ -414,7 +415,8 @@
         "gid_vcd_01",
         "gid_vcd_02"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "ExplorationChocobo",
@@ -447,11 +449,12 @@
         "gid_chb_03",
         "gid_chb_04"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "MultiQuest",
-      "act": "HOME",
+      "act": "MULTIQUEST",
       "trg": 2,
       "value1": 10,
       "trg_sub": 4,
@@ -467,11 +470,12 @@
         "gid_qst_mlt_01",
         "gid_qst_mlt_02"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "Arena",
-      "act": "HOME",
+      "act": "ARENA",
       "trg": 2,
       "value1": 12,
       "tuto": 29,
@@ -486,11 +490,12 @@
         "gid_arn_02",
         "gid_arn_03"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "FreeMatch",
-      "act": "HOME",
+      "act": "FREEMATCH",
       "trg": 2,
       "value1": 15,
       "tuto": 35,
@@ -505,7 +510,8 @@
         "gid_mtc_cls_01",
         "gid_mtc_cls_02"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "GuildRookieJoin",
@@ -675,7 +681,8 @@
       "tips_imgs": [
         "gid_qst_sub_01"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "Unitsubjob",
@@ -729,7 +736,8 @@
       "desc_unit_skip": "UN_LW_TU_RAMD",
       "desc_emo_skip": 0,
       "tips": 0,
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "NetherBeast",
@@ -754,7 +762,8 @@
       "desc_unit_skip": "UN_LW_TU_RAMD",
       "desc_emo_skip": 0,
       "tips": 0,
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "CharaQuest",
@@ -773,7 +782,8 @@
       "tips_imgs": [
         "gid_qst_chr_01"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "Tower",
@@ -791,13 +801,13 @@
         "gid_tow_02",
         "gid_tow_03"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "ItemExchange",
-      "act": "HOME",
-      "trg": 2,
-      "value1": 300,
+      "act": "ITEMEXCHANGE",
+      "trg": 100,
       "tuto": 39,
       "desc_unit": "UN_LW_TU_RAMD",
       "desc_emo": 0,
@@ -810,14 +820,15 @@
         "gid_itm_exc_02",
         "gid_itm_exc_03"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "SupportUnit",
-      "start_at": "2020/03/14 11:00:00",
-      "act": "HOME",
-      "trg": 4,
-      "value1": "QE_ST_01010108",
+      "act": "COMPANIONSETTING",
+      "trg": 100,
+      "trg_sub": 4,
+      "value1_sub": "QE_ST_01010108",
       "tuto": 23,
       "desc_unit": "UN_LW_TU_RAMD",
       "desc_emo": 0,
@@ -828,7 +839,8 @@
       "tips_imgs": [
         "gid_spt_unt_01"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "Pointquest",
@@ -900,9 +912,10 @@
     },
     {
       "iname": "BattleRoad",
-      "act": "HOME",
-      "trg": 4,
-      "value1": "QE_ST_01010101",
+      "act": "BATTLEROAD_ROOT",
+      "trg": 100,
+      "trg_sub": 4,
+      "value1_sub": "QE_ST_01010101",
       "tuto": 47,
       "desc_unit": "UN_LW_TU_RAMD",
       "desc_emo": 0,
@@ -914,7 +927,8 @@
         "gid_slq_01",
         "gid_slq_02"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "DraftMatch",
@@ -991,7 +1005,8 @@
         "gid_materia_04",
         "gid_materia_05"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "Archive",
@@ -1011,7 +1026,8 @@
         "gid_archive_02",
         "gid_archive_03"
       ],
-      "is_client_skip": 1
+      "is_client_skip": 1,
+      "is_client_skip_tips": 1
     },
     {
       "iname": "Oval",

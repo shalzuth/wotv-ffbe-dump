@@ -627,6 +627,23 @@
       ]
     },
     {
+      "iname": "SE_EV_17_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_17_01"
+    },
+    {
+      "iname": "SE_EV_17_EX_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_17_ex_01",
+      "o_cond_q": [
+        "QE_EV_17_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_17_EX",
+      "hurl": "ev_17_ex_01"
+    },
+    {
       "iname": "SE_EV_18_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_18_01"
@@ -929,6 +946,15 @@
       "hurl": "ev_01_ex_01"
     },
     {
+      "iname": "SE_EV_ART_CRF_21",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_21"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_21",
+      "hurl": "ev_arti_crft_21"
+    },
+    {
       "iname": "SE_EV_ART_CRF_25",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_arti_crft_25"
@@ -1147,6 +1173,23 @@
     {
       "iname": "SE_MU_ART_CRF_02",
       "hurl": "ev_arti_crft_02"
+    },
+    {
+      "iname": "SE_EV_LSTE",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_lste_01"
+    },
+    {
+      "iname": "SE_EV_LSTE_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_lste_ex_01",
+      "o_cond_q": [
+        "QE_EV_LSTE_05"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_LSTE_EX",
+      "hurl": "ev_lste_ex_01"
     },
     {
       "iname": "SE_EV_LBRK",
@@ -1449,6 +1492,66 @@
       "hurl": "ev_gl_wint_21_01"
     },
     {
+      "iname": "SE_EV_DQT_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_DQT_01"
+    },
+    {
+      "iname": "SE_EV_DQT_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_DQT_ex_01",
+      "o_cond_q": [
+        "QE_EV_DQT_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_DQT_01_EX",
+      "hurl": "ev_DQT_ex_01"
+    },
+    {
+      "iname": "SE_EV_DQT_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_DQT_ex_02",
+      "o_cond_q": [
+        "QE_EV_DQT_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_DQT_02_EX",
+      "hurl": "ev_DQT_ex_02"
+    },
+    {
+      "iname": "SE_EV_GL_TU_ZOMA",
+      "hurl": "ev_gl_zoma_01"
+    },
+    {
+      "iname": "SE_EV_GL_TU_PSAR",
+      "hurl": "ev_gl_psar_01"
+    },
+    {
+      "iname": "SE_EV_DQT_04",
+      "limit": 3,
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_DQT_04"
+    },
+    {
+      "iname": "SE_EV_DQT_02",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_dqt_02",
+      "open_cond": [
+        "COND_EV_DQT_02"
+      ]
+    },
+    {
+      "iname": "SE_EV_ART_CRF_23",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_23"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_23",
+      "hurl": "ev_arti_crft_23"
+    },
+    {
       "iname": "SE_EV_GL_TU_SDLX_01",
       "hurl": "ev_gl_sdlx_01_01"
     },
@@ -1525,23 +1628,6 @@
       "hurl": "ev_gl_shls_01"
     },
     {
-      "iname": "SE_EV_LSTE",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_lste_01"
-    },
-    {
-      "iname": "SE_EV_LSTE_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_lste_ex_01",
-      "o_cond_q": [
-        "QE_EV_LSTE_05"
-      ]
-    },
-    {
-      "iname": "SE_MU_EV_LSTE_EX",
-      "hurl": "ev_lste_ex_01"
-    },
-    {
       "iname": "SE_EV_GL_TU_SLVE",
       "hurl": "ev_gl_slve_01"
     },
@@ -1566,32 +1652,6 @@
       "iname": "SE_EV_ALIA_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_alia_01"
-    },
-    {
-      "iname": "SE_EV_17_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_17_01"
-    },
-    {
-      "iname": "SE_EV_17_EX_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_17_ex_01",
-      "o_cond_q": [
-        "QE_EV_17_10"
-      ]
-    },
-    {
-      "iname": "SE_MU_EV_17_EX",
-      "hurl": "ev_17_ex_01"
-    },
-    {
-      "iname": "SE_MU_ART_CRF_21",
-      "hurl": "ev_arti_crft_21"
-    },
-    {
-      "iname": "SE_EV_ART_CRF_21",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_arti_crft_21"
     },
     {
       "iname": "SE_EV_GL_TU_LUCA_01",

@@ -1345,7 +1345,8 @@
       "trust": "AF_SWO_LW_LILS_1",
       "atkskl": "SK_LW_KNT_ATK",
       "mstskl": [
-        "SK_MA_LW_LILS"
+        "SK_MA_LW_LILS",
+        "SK_MA_LW_LILS_2"
       ],
       "jobsets": [
         "JB_LW_KNT_FIRE",
@@ -10692,7 +10693,8 @@
       "trust": "AF_GUN_LW_LATH_2",
       "atkskl": "SK_LW_WGN_ATK",
       "mstskl": [
-        "SK_MA_LW_LATH"
+        "SK_MA_LW_LATH",
+        "SK_MA_LW_LATH_2"
       ],
       "jobsets": [
         "JB_LW_WGN_FIRE",
@@ -14307,7 +14309,8 @@
       "trust": "AF_ARM_LW_VLRC_1",
       "atkskl": "SK_LW_MSW_ATK",
       "mstskl": [
-        "SK_MA_LW_VLRC"
+        "SK_MA_LW_VLRC",
+        "SK_MA_LW_VLRC_2"
       ],
       "jobsets": [
         "JB_LW_MSW_ICE",
@@ -14672,7 +14675,8 @@
       "trust": "AF_ROD_LW_LMRE_1",
       "atkskl": "SK_LW_TIM_ATK",
       "mstskl": [
-        "SK_MA_LW_LMRE"
+        "SK_MA_LW_LMRE",
+        "SK_MA_LW_LMRE_2"
       ],
       "jobsets": [
         "JB_LW_TIM_DARK",
@@ -23026,6 +23030,11 @@
       ],
       "jobsets": [
         "JB_DQTC_SLIM"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_DQTC_SLIM_M"
+        }
       ],
       "ai": "AI_PLAYER_DQTC_SLIM",
       "buff_pri": "BUFFPRI_PHYATK",
@@ -74888,6 +74897,122 @@
       "unit_medal_num": 0
     },
     {
+      "iname": "UN_LW_E_HLDV_01",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MO",
+      "personal": 1,
+      "charaId": "LAPShldv",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        3
+      ],
+      "species": [
+        7
+      ],
+      "birth": 1,
+      "tag": [
+        1
+      ],
+      "rare": 0,
+      "grow": "SR_DEFAULT",
+      "cost": 0,
+      "atkskl": "SK_HLDV_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 136,
+          "mp": 34,
+          "ap": 40,
+          "atk": 53,
+          "def": 0,
+          "mag": 18,
+          "mnd": 0,
+          "dex": 92,
+          "spd": 22,
+          "luk": 92,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1569,
+          "mp": 60,
+          "ap": 62,
+          "atk": 173,
+          "def": 0,
+          "mag": 46,
+          "mnd": 0,
+          "dex": 230,
+          "spd": 50,
+          "luk": 220,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_HLDV_02",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MO",
+      "personal": 1,
+      "charaId": "LAPShldv",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        3
+      ],
+      "species": [
+        7
+      ],
+      "birth": 1,
+      "tag": [
+        1
+      ],
+      "rare": 0,
+      "grow": "SR_DEFAULT",
+      "cost": 0,
+      "atkskl": "SK_HLDV_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 136,
+          "mp": 34,
+          "ap": 40,
+          "atk": 53,
+          "def": 0,
+          "mag": 18,
+          "mnd": 0,
+          "dex": 92,
+          "spd": 22,
+          "luk": 92,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 1569,
+          "mp": 60,
+          "ap": 62,
+          "atk": 173,
+          "def": 0,
+          "mag": 46,
+          "mnd": 0,
+          "dex": 230,
+          "spd": 50,
+          "luk": 220,
+          "mov": 3,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
       "iname": "UN_LW_E_HLDV_R",
       "sex": 3,
       "size": 0,
@@ -79733,6 +79858,285 @@
           "cda": 999,
           "cbe": 999,
           "cdo": 999,
+          "mov": 4,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_DQTC_E_ZOMA_R",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MM",
+      "personal": 0,
+      "collaboType": 1,
+      "charaId": "DQTCzoma",
+      "anm_type": 5,
+      "anm_id": "zoma",
+      "type": 7,
+      "elem": [
+        2
+      ],
+      "species": [
+        18
+      ],
+      "birth": 36,
+      "rare": 4,
+      "grow": "RAID_DEFAULT_3",
+      "cost": 0,
+      "atkskl": "SK_DQTC_ZOMA_ATK",
+      "height": 180,
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 1500,
+          "mp": 100,
+          "ap": 60,
+          "atk": 50,
+          "def": 0,
+          "mag": 80,
+          "mnd": 0,
+          "dex": 105,
+          "spd": 28,
+          "luk": 95,
+          "efi": -10,
+          "ewi": 20,
+          "asl": 10,
+          "api": -5,
+          "abl": -10,
+          "ash": 15,
+          "ama": 10,
+          "cbl": 10,
+          "cst": 50,
+          "cdo": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 150000,
+          "mp": 422,
+          "ap": 427,
+          "atk": 170,
+          "def": 0,
+          "mag": 680,
+          "mnd": 0,
+          "dex": 285,
+          "spd": 88,
+          "luk": 318,
+          "efi": -10,
+          "ewi": 20,
+          "asl": 10,
+          "api": -5,
+          "abl": -10,
+          "ash": 15,
+          "ama": 10,
+          "cbl": 10,
+          "cst": 50,
+          "cdo": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_DQTC_E_SLIM_R",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MO",
+      "collaboType": 1,
+      "charaId": "DQTCslim",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        3
+      ],
+      "species": [
+        17
+      ],
+      "birth": 36,
+      "rare": 0,
+      "grow": "RAID_DEFAULT_4",
+      "cost": 0,
+      "atkskl": "SK_EN_SLIM_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 7000,
+          "mp": 100,
+          "ap": 59,
+          "atk": 80,
+          "def": 0,
+          "mag": 80,
+          "mnd": 0,
+          "dex": 93,
+          "spd": 33,
+          "luk": 92,
+          "mov": 4,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 80000,
+          "mp": 342,
+          "ap": 365,
+          "atk": 320,
+          "def": 0,
+          "mag": 320,
+          "mnd": 0,
+          "dex": 295,
+          "spd": 71,
+          "luk": 275,
+          "mov": 4,
+          "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_DQTC_E_KLMN_R",
+      "sex": 3,
+      "size": 1,
+      "body_type": "MO",
+      "collaboType": 1,
+      "charaId": "DQTCklmn",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        2
+      ],
+      "species": [
+        10
+      ],
+      "birth": 36,
+      "rare": 0,
+      "grow": "RAID_DEFAULT_3",
+      "cost": 0,
+      "atkskl": "SK_EN_KLMN_ATK",
+      "height": 210,
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 241,
+          "mp": 60,
+          "ap": 72,
+          "atk": 160,
+          "def": 0,
+          "mag": 160,
+          "mnd": 0,
+          "dex": 104,
+          "spd": 19,
+          "luk": 94,
+          "efi": -10,
+          "ewi": 20,
+          "cpo": 999,
+          "cbl": 999,
+          "csl": 999,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 999,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        },
+        {
+          "hp": 3115,
+          "mp": 150,
+          "ap": 144,
+          "atk": 330,
+          "def": 0,
+          "mag": 165,
+          "mnd": 0,
+          "dex": 285,
+          "spd": 70,
+          "luk": 277,
+          "efi": -10,
+          "ewi": 20,
+          "cpo": 999,
+          "cbl": 999,
+          "csl": 999,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 999,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        }
+      ],
+      "no_kb": 1,
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_DQTC_E_SLIM_01_R",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MO",
+      "collaboType": 1,
+      "charaId": "DQTCslim",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        3
+      ],
+      "species": [
+        17
+      ],
+      "birth": 36,
+      "rare": 0,
+      "grow": "RAID_DEFAULT_4",
+      "cost": 0,
+      "atkskl": "SK_EN_SLIM_01_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 239,
+          "mp": 60,
+          "ap": 72,
+          "atk": 78,
+          "def": 0,
+          "mag": 60,
+          "mnd": 0,
+          "dex": 99,
+          "spd": 19,
+          "luk": 94,
+          "mov": 4,
+          "jmp": 2,
+          "dmax": 9999
+        },
+        {
+          "hp": 3068,
+          "mp": 248,
+          "ap": 245,
+          "atk": 261,
+          "def": 0,
+          "mag": 156,
+          "mnd": 0,
+          "dex": 283,
+          "spd": 68,
+          "luk": 262,
           "mov": 4,
           "jmp": 2,
           "dmax": 9999

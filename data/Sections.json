@@ -639,21 +639,21 @@
       ]
     },
     {
-      "iname": "SE_EV_17_01",
+      "iname": "SE_EV_19_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_17_01"
+      "hurl": "ev_19_01"
     },
     {
-      "iname": "SE_EV_17_EX_01",
+      "iname": "SE_EV_19_EX_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_17_ex_01",
+      "hurl": "ev_19_ex_01",
       "o_cond_q": [
-        "QE_EV_17_10"
+        "QE_EV_19_10"
       ]
     },
     {
-      "iname": "SE_MU_EV_17_EX",
-      "hurl": "ev_17_ex_01"
+      "iname": "SE_MU_EV_19_EX",
+      "hurl": "ev_19_ex_01"
     },
     {
       "iname": "SE_EV_18_01",
@@ -685,21 +685,21 @@
       "hurl": "ev_18_ex_02"
     },
     {
-      "iname": "SE_EV_15_01",
+      "iname": "SE_EV_17_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_15_01"
+      "hurl": "ev_17_01"
     },
     {
-      "iname": "SE_EV_15_EX_01",
+      "iname": "SE_EV_17_EX_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_15_ex_01",
+      "hurl": "ev_17_ex_01",
       "o_cond_q": [
-        "QE_EV_15_10"
+        "QE_EV_17_10"
       ]
     },
     {
-      "iname": "SE_MU_EV_15_EX",
-      "hurl": "ev_15_ex_01"
+      "iname": "SE_MU_EV_17_EX",
+      "hurl": "ev_17_ex_01"
     },
     {
       "iname": "SE_EV_16_01",
@@ -717,6 +717,23 @@
     {
       "iname": "SE_MU_EV_16_EX",
       "hurl": "ev_16_ex_01"
+    },
+    {
+      "iname": "SE_EV_15_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_15_01"
+    },
+    {
+      "iname": "SE_EV_15_EX_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_15_ex_01",
+      "o_cond_q": [
+        "QE_EV_15_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_15_EX",
+      "hurl": "ev_15_ex_01"
     },
     {
       "iname": "SE_EV_14_01",
@@ -956,6 +973,24 @@
     {
       "iname": "SE_MU_EV_01_EX",
       "hurl": "ev_01_ex_01"
+    },
+    {
+      "iname": "SE_EV_ART_CRF_27",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_27"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_27",
+      "hurl": "ev_arti_crft_27"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_22",
+      "hurl": "ev_arti_crft_22"
+    },
+    {
+      "iname": "SE_EV_ART_CRF_22",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_22"
     },
     {
       "iname": "SE_EV_ART_CRF_21",
@@ -1504,29 +1539,13 @@
       "hurl": "ev_gl_wint_21_01"
     },
     {
-      "iname": "SE_EV_DQT_02",
+      "iname": "SE_EV_AEX_020101",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_dqt_02",
-      "open_cond": [
-        "COND_EV_DQT_02"
-      ]
+      "hurl": "ev_ast_ex_0201"
     },
     {
-      "iname": "SE_EV_RANK_02",
-      "hurl": "ev_rank_02"
-    },
-    {
-      "iname": "SE_EV_GL_TU_RSNC_01",
-      "hurl": "ev_gl_rsnc_01_01"
-    },
-    {
-      "iname": "SE_EV_GL_ART_CRF_03",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_gl_arti_crft_03"
-    },
-    {
-      "iname": "SE_MU_GL_ART_CRF_03",
-      "hurl": "ev_gl_arti_crft_03"
+      "iname": "SE_MU_AEX_020101",
+      "hurl": "ev_ast_ex_0201"
     },
     {
       "iname": "SE_EV_AST_020101",
@@ -1534,6 +1553,102 @@
       "hurl": "ev_ast_0201",
       "o_cond_q": [
         "QE_EV_AST_010110"
+      ]
+    },
+    {
+      "iname": "SE_EV_AEX_LCIO",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_lcio"
+    },
+    {
+      "iname": "SE_EV_AEX_010501",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0105"
+    },
+    {
+      "iname": "SE_MU_AEX_010501",
+      "hurl": "ev_ast_ex_0105"
+    },
+    {
+      "iname": "SE_EV_AEX_010401",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0104"
+    },
+    {
+      "iname": "SE_MU_AEX_010401",
+      "hurl": "ev_ast_ex_0104"
+    },
+    {
+      "iname": "SE_EV_AEX_010301",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0103"
+    },
+    {
+      "iname": "SE_MU_AEX_010301",
+      "hurl": "ev_ast_ex_0103"
+    },
+    {
+      "iname": "SE_EV_AEX_010201",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0102"
+    },
+    {
+      "iname": "SE_MU_AEX_010201",
+      "hurl": "ev_ast_ex_0102"
+    },
+    {
+      "iname": "SE_EV_AEX_010101",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0101"
+    },
+    {
+      "iname": "SE_MU_AEX_010101",
+      "hurl": "ev_ast_ex_0101"
+    },
+    {
+      "iname": "SE_EV_AST_010501",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0105"
+    },
+    {
+      "iname": "SE_EV_AST_010401",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0104"
+    },
+    {
+      "iname": "SE_EV_AST_010301",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0103"
+    },
+    {
+      "iname": "SE_EV_AST_010201",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0102"
+    },
+    {
+      "iname": "SE_EV_AST_010101",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0101"
+    },
+    {
+      "iname": "SE_EV_GL_TU_PRNE",
+      "hurl": "ev_gl_prne_01"
+    },
+    {
+      "iname": "SE_EV_PRNE_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_prne_01"
+    },
+    {
+      "iname": "SE_EV_RANK_02",
+      "hurl": "ev_rank_02"
+    },
+    {
+      "iname": "SE_EV_DQT_02",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_dqt_02",
+      "open_cond": [
+        "COND_EV_DQT_02"
       ]
     },
     {
@@ -1588,6 +1703,19 @@
       "hurl": "ev_DQT_04"
     },
     {
+      "iname": "SE_EV_GL_TU_RSNC_01",
+      "hurl": "ev_gl_rsnc_01_01"
+    },
+    {
+      "iname": "SE_EV_GL_ART_CRF_03",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_gl_arti_crft_03"
+    },
+    {
+      "iname": "SE_MU_GL_ART_CRF_03",
+      "hurl": "ev_gl_arti_crft_03"
+    },
+    {
       "iname": "SE_EV_ART_CRF_23",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_arti_crft_23"
@@ -1603,15 +1731,6 @@
     {
       "iname": "SE_EV_GL_TU_LVES_01",
       "hurl": "ev_gl_lves_01_01"
-    },
-    {
-      "iname": "SE_EV_ART_CRF_27",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_arti_crft_27"
-    },
-    {
-      "iname": "SE_MU_ART_CRF_27",
-      "hurl": "ev_arti_crft_27"
     },
     {
       "iname": "SE_EV_FF1_01_EX",
@@ -1634,15 +1753,6 @@
       "won_dst_sheet_name": "bgm_ff1_victory"
     },
     {
-      "iname": "SE_MU_ART_CRF_22",
-      "hurl": "ev_arti_crft_22"
-    },
-    {
-      "iname": "SE_EV_ART_CRF_22",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_arti_crft_22"
-    },
-    {
       "iname": "SE_EV_GL_TU_HLNA_02",
       "hurl": "ev_gl_hlna_02_01"
     },
@@ -1650,23 +1760,6 @@
       "iname": "SE_EV_HLNA_02_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_hlna_02_01"
-    },
-    {
-      "iname": "SE_EV_19_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_19_01"
-    },
-    {
-      "iname": "SE_EV_19_EX_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_19_ex_01",
-      "o_cond_q": [
-        "QE_EV_19_10"
-      ]
-    },
-    {
-      "iname": "SE_MU_EV_19_EX",
-      "hurl": "ev_19_ex_01"
     },
     {
       "iname": "SE_EV_GL_TU_SHLS",
@@ -1951,81 +2044,6 @@
       "limit": 10,
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_sb_exp"
-    },
-    {
-      "iname": "SE_EV_AEX_LCIO",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_ex_lcio"
-    },
-    {
-      "iname": "SE_EV_AEX_010501",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_ex_0105"
-    },
-    {
-      "iname": "SE_MU_AEX_010501",
-      "hurl": "ev_ast_ex_0105"
-    },
-    {
-      "iname": "SE_EV_AEX_010401",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_ex_0104"
-    },
-    {
-      "iname": "SE_MU_AEX_010401",
-      "hurl": "ev_ast_ex_0104"
-    },
-    {
-      "iname": "SE_EV_AEX_010301",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_ex_0103"
-    },
-    {
-      "iname": "SE_MU_AEX_010301",
-      "hurl": "ev_ast_ex_0103"
-    },
-    {
-      "iname": "SE_EV_AEX_010201",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_ex_0102"
-    },
-    {
-      "iname": "SE_MU_AEX_010201",
-      "hurl": "ev_ast_ex_0102"
-    },
-    {
-      "iname": "SE_EV_AEX_010101",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_ex_0101"
-    },
-    {
-      "iname": "SE_MU_AEX_010101",
-      "hurl": "ev_ast_ex_0101"
-    },
-    {
-      "iname": "SE_EV_AST_010501",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_0105"
-    },
-    {
-      "iname": "SE_EV_AST_010401",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_0104"
-    },
-    {
-      "iname": "SE_EV_AST_010301",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_0103"
-    },
-    {
-      "iname": "SE_EV_AST_010201",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_0102"
-    },
-    {
-      "iname": "SE_EV_AST_010101",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_0101"
     },
     {
       "iname": "SE_EV_RANK_01",

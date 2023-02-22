@@ -498,7 +498,7 @@
     },
     {
       "key": "SK_LW_MNK_M_3",
-      "value": "Recovers HP/TP (M) of allies within area around self."
+      "value": "Recovers a set percentage of HP (M) of allies within area around self & recovers TP (M) & bestows Regen for 3 turns."
     },
     {
       "key": "SK_LW_MNK_M_2",
@@ -506,11 +506,11 @@
     },
     {
       "key": "SK_LW_MNK_S_5",
-      "value": "Chance of recovering target from KO status and recovering HP (Min)."
+      "value": "Chance of recovering ally from KO status and recovering HP (L)."
     },
     {
       "key": "SK_LW_MNK_S_4",
-      "value": "Chance of inflicting Doom on target."
+      "value": "Chance of inflicting Doom on target (KO'd in 4 turns) & additional effect: significantly lowers ATK/MAG while Doom is in effect & raises own Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_MNK_M_1_INIT",
@@ -518,7 +518,7 @@
     },
     {
       "key": "SK_LW_MNK_S_2_INIT",
-      "value": "Significantly raises own ATK for 1 turn."
+      "value": "Raises own DEF Piercing Rate for 1 turn & significantly raises own ATK."
     },
     {
       "key": "SK_LW_MNK_M_4",
@@ -526,7 +526,7 @@
     },
     {
       "key": "SK_LW_MNK_S_3",
-      "value": "Deals Dmg (S) to target."
+      "value": "Deals Dmg (S) to target & Guaranteed Hit."
     },
     {
       "key": "SK_LW_MNK_R_1",
@@ -534,7 +534,7 @@
     },
     {
       "key": "SK_LW_MNK_P_1",
-      "value": "Raises Strike ATK."
+      "value": "Raises ATK/Strike Attack."
     },
     {
       "key": "SK_LW_MNK_P_2",
@@ -542,7 +542,7 @@
     },
     {
       "key": "SK_LW_MNK_M_3_SUB",
-      "value": "Recovers HP/TP (M) of allies within area around self."
+      "value": "Recovers a set percentage of HP (M) of allies within area around self & recovers TP (M) & bestows Regen for 3 turns."
     },
     {
       "key": "SK_LW_MNK_M_2_SUB",
@@ -550,11 +550,11 @@
     },
     {
       "key": "SK_LW_MNK_S_5_SUB",
-      "value": "Chance of recovering target from KO status and recovering HP (Min)."
+      "value": "Chance of recovering ally from KO status and recovering HP (L)."
     },
     {
       "key": "SK_LW_MNK_S_4_SUB",
-      "value": "Chance of inflicting Doom on target."
+      "value": "Chance of inflicting Doom on target (KO'd in 4 turns) & additional effect: significantly lowers ATK/MAG while Doom is in effect & raises own Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_MNK_M_1",
@@ -562,7 +562,7 @@
     },
     {
       "key": "SK_LW_MNK_S_2",
-      "value": "Significantly raises own ATK for 1 turn."
+      "value": "Raises own DEF Piercing Rate for 1 turn & significantly raises own ATK."
     },
     {
       "key": "SK_LW_SAM_ATK",
@@ -1678,23 +1678,23 @@
     },
     {
       "key": "SK_LW_RDM_M_4",
-      "value": "Deals 2-Hit Dmg (M) to target & lowers SPR for 3 turns."
+      "value": "Removes Reraise from target & lowers SPR for 3 turns, then deals 2-Hit Dmg (M) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_RDM_S_3",
-      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation."
-    },
-    {
-      "key": "SK_LW_RDM_S_3_SIRM",
-      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_RDM_S_3_B",
-      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & Guaranteed Hit."
+      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & Guaranteed Hit & raises own SPR for 3 turns."
+    },
+    {
+      "key": "SK_LW_RDM_S_3_SIRM",
+      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_RDM_S_4",
-      "value": "Significantly reduces ally's Activation Time for 3 turns."
+      "value": "Significantly reduces ally's Activation Time for 3 turns & bestows Haste & additional effect: raises Unit Attack Res while Haste is in effect."
     },
     {
       "key": "SK_LW_RDM_M_2_INIT",
@@ -1746,23 +1746,23 @@
     },
     {
       "key": "SK_LW_RDM_P_1",
-      "value": "Raises initial AP."
+      "value": "Raises initial AP & increases Magic Dmg."
     },
     {
       "key": "SK_LW_RDM_P_2",
-      "value": "Raises Magic Attack Res."
+      "value": "Raises SPR/Magic Attack Res."
     },
     {
       "key": "SK_LW_RDM_M_4_SUB",
-      "value": "Deals 2-Hit Dmg (M) to target & lowers SPR for 3 turns."
+      "value": "Removes Reraise from target & lowers SPR for 3 turns, then deals 2-Hit Dmg (M) based on caster's MAG stat."
     },
     {
       "key": "SK_LW_RDM_S_3_SUB",
-      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_RDM_S_4_SUB",
-      "value": "Significantly reduces ally's Activation Time for 3 turns."
+      "value": "Significantly reduces ally's Activation Time for 3 turns & bestows Haste & additional effect: raises Unit Attack Res while Haste is in effect."
     },
     {
       "key": "SK_LW_RDM_M_2",
@@ -4870,7 +4870,7 @@
     },
     {
       "key": "SK_LW_ARC_M_1",
-      "value": "Deals Dmg (M) to target & lowers Move by 1 for 3 turns."
+      "value": "Deals Dmg (L) to target & lowers Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_ARC_M_2",
@@ -4878,7 +4878,7 @@
     },
     {
       "key": "SK_LW_ARC_M_3",
-      "value": "Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (M) to target."
+      "value": "Destroys any barrier that reduces Phys Dmg & significantly lowers target's Reaction Activation Rate for 3 turns, then deals Dmg (M)."
     },
     {
       "key": "SK_LW_ARC_S_1_INIT",
@@ -4914,7 +4914,7 @@
     },
     {
       "key": "SK_LW_ARC_M_1_SUB",
-      "value": "Deals Dmg (M) to target & lowers Move by 1 for 3 turns."
+      "value": "Deals Dmg (L) to target & lowers Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_ARC_M_2_SUB",
@@ -4922,7 +4922,7 @@
     },
     {
       "key": "SK_LW_ARC_M_3_SUB",
-      "value": "Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (M) to target."
+      "value": "Destroys any barrier that reduces Phys Dmg & significantly lowers target's Reaction Activation Rate for 3 turns, then deals Dmg (M)."
     },
     {
       "key": "SK_LW_ARC_S_1",
@@ -11498,7 +11498,7 @@
     },
     {
       "key": "SK_LW_RDM_S_3_TW",
-      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_WHM_S_4_1_TW",
@@ -13830,7 +13830,7 @@
     },
     {
       "key": "SK_LW_EC_MNK_A_01",
-      "value": "Lowers target's Unit Attack Res for 3 turns, then deals Dmg (L)."
+      "value": "Lowers target's Unit Attack Res for 3 turns, then deals Dmg (L) & raises own AGI for 3 turns."
     },
     {
       "key": "SK_LW_EC_MNK_C_01_DARK",
@@ -13842,11 +13842,11 @@
     },
     {
       "key": "SK_LW_EC_MNK_C_02",
-      "value": "Enhances Strike Mastery to Ironfist Mastery. Raises Strike ATK/DEF Piercing Rate."
+      "value": "Enhances Strike Mastery to Ironfist Mastery. Raises ATK/Strike Attack/DEF Piercing Rate."
     },
     {
       "key": "SK_LW_EC_MNK_C_02B",
-      "value": "Raises Strike ATK/DEF Piercing Rate."
+      "value": "Raises ATK/Strike Attack/DEF Piercing Rate."
     },
     {
       "key": "SK_LW_EC_MNK_A_02",
@@ -13854,11 +13854,11 @@
     },
     {
       "key": "SK_LW_EC_MNK_C_03",
-      "value": "Enhances Countdown to Inevitability. Chance of inflicting Doom on target (KOd in 3 turns)."
+      "value": "Enhances Countdown to Inevitability. Chance of inflicting Doom on target (KO'd in 3 turns) & additional effect: significantly lowers ATK/MAG while Doom is in effect & raises own Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_EC_MNK_C_03B",
-      "value": "Chance of inflicting Doom on target (KO'd in 3 turns)."
+      "value": "Chance of inflicting Doom on target (KO'd in 3 turns) & additional effect: significantly lowers ATK/MAG while Doom is in effect & raises own Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_EC_MNK_C_04",
@@ -14190,11 +14190,7 @@
     },
     {
       "key": "SK_LW_EC_ARC_A_01",
-      "value": "Deals Dmg (M) to targets within range & lowers ATK/MAG for 3 turns."
-    },
-    {
-      "key": "SK_LW_EC_ARC_A_03",
-      "value": "Significantly raises own Missile ATK for 1 turn."
+      "value": "Lowers Missile Res of targets within range for 3 turns, then deals Dmg (M) & lowers ATK/MAG for 3 turns."
     },
     {
       "key": "SK_LW_EC_ARC_C_01",
@@ -14206,11 +14202,11 @@
     },
     {
       "key": "SK_LW_EC_ARC_C_02",
-      "value": "Enhances Slow Arrow to Sniping Slow Arrow. Enhances Range. Deals Dmg (M) to target & lowers Move by 1 for 3 turns."
+      "value": "Enhances Slow Arrow to Sniping Slow Arrow. Enhances Range. Deals Dmg (L) to target & lowers Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_EC_ARC_C_02B",
-      "value": "Deals Dmg (M) to target & lowers Move by 1 for 3 turns."
+      "value": "Deals Dmg (L) to target & lowers Move by 1 for 3 turns."
     },
     {
       "key": "SK_LW_EC_ARC_C_05",
@@ -14222,11 +14218,11 @@
     },
     {
       "key": "SK_LW_EC_ARC_C_06",
-      "value": "Enhances Barrier Break Arrow to Barrier Obliterator. Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (L)."
+      "value": "Enhances Barrier Break Arrow to Barrier Obliterator. Destroys any barrier that reduces Phys Dmg on target & significantly lowers Reaction Activation Rate for 3 turns, then deals Dmg (L)."
     },
     {
       "key": "SK_LW_EC_ARC_C_06B",
-      "value": "Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (L)."
+      "value": "Destroys any barrier that reduces Phys Dmg & significantly lowers target's Reaction Activation Rate for 3 turns, then deals Dmg (L)."
     },
     {
       "key": "SK_LW_EC_SAM_A_03",
@@ -14398,19 +14394,19 @@
     },
     {
       "key": "SK_LW_EC_RDM_C_01",
-      "value": "Enhances Fast Cast to Fast Cast: Protection. Significantly reduces ally's Activation Time & raises DEF for 3 turns."
+      "value": "Enhances Fast Cast to Fast Cast: Protection. Significantly reduces ally's Activation Time for 3 turns & raises DEF & bestows Haste & additional effect: raises Unit Attack Res while Haste is in effect."
     },
     {
       "key": "SK_LW_EC_RDM_C_01B",
-      "value": "Significantly reduces ally's Activation Time & raises DEF for 3 turns."
+      "value": "Significantly reduces ally's Activation Time for 3 turns & raises DEF & bestows Haste & additional effect: raises Unit Attack Res while Haste is in effect."
     },
     {
       "key": "SK_LW_EC_RDM_C_02",
-      "value": "Enhances Mage's Protection to Mage's Safeguard. Raises Magic Attack Res/AGI."
+      "value": "Enhances Mage's Protection to Mage's Safeguard. Raises SPR/Magic Attack Res/AGI."
     },
     {
       "key": "SK_LW_EC_RDM_C_02B",
-      "value": "Raises Magic Attack Res/AGI."
+      "value": "Raises SPR/Magic Attack Res/AGI."
     },
     {
       "key": "SK_LW_EC_RDM_A_02",
@@ -14418,11 +14414,11 @@
     },
     {
       "key": "SK_LW_EC_RDM_C_03",
-      "value": "Enhances Resistance Break to Defense Destroyer. Deals 2-Hit Dmg (M) to target & lowers DEF/SPR for 3 turns & Piercing."
+      "value": "Enhances Resistance Break to Defense Destroyer. Removes Reraise from target & lowers DEF/SPR for 3 turns, then deals 2-Hit Dmg (M) based on caster's MAG stat & Piercing."
     },
     {
       "key": "SK_LW_EC_RDM_C_03B",
-      "value": "Deals 2-Hit Dmg (M) to target & lowers DEF/SPR for 3 turns & Piercing."
+      "value": "Removes Reraise from target & lowers DEF/SPR for 3 turns, then deals 2-Hit Dmg (M) based on caster's MAG stat & Piercing."
     },
     {
       "key": "SK_LW_EC_RDM_C_04",
@@ -14434,43 +14430,43 @@
     },
     {
       "key": "SK_LW_EC_RDM_C_05",
-      "value": "Enhances Initial AP Up Lv. 1 to Red Arcana. Enhances AP buff. Raises MAG & raises initial AP."
+      "value": "Enhances Red Mage Lore to Crimson Arcana. Enhances AP buff. Raises MAG & raises initial AP & increases Magic Dmg."
     },
     {
       "key": "SK_LW_EC_RDM_C_05B",
-      "value": "Raises MAG & raises initial AP."
+      "value": "Raises MAG & raises initial AP & increases Magic Dmg."
     },
     {
       "key": "SK_LW_EC_RDM_C_06",
-      "value": "Enhances Jamming Thrust to Sealing Thrust. Significantly lowers target's reaction ability activation rate for 3 turns, then deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Enhances Jamming Thrust to Sealing Thrust. Significantly lowers target's reaction ability activation rate for 3 turns, then deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_EC_RDM_C_06B",
-      "value": "Significantly lowers target's reaction ability activation rate for 3 turns, then deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Significantly lowers target's reaction ability activation rate for 3 turns, then deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_EC_RDM_A_04",
-      "value": "Removes Reraise from targets within range, then deals Water Dmg (M) based on caster's MAG stat & chance of inflicting Sleep for 3 turns."
+      "value": "Removes Reraise from targets within range, then deals Water Dmg (L) based on caster's MAG stat & chance of inflicting Sleep for 3 turns."
     },
     {
       "key": "SK_LW_EC_RDM_C_07",
-      "value": "Enhances Jamming Thrust to Dispelling Thrust. Removes all Buffs from target, then deals deals Dmg (XL) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Enhances Jamming Thrust to Dispelling Thrust. Removes all Buffs from target, then deals Dmg (XL) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_EC_RDM_C_07B",
-      "value": "Removes all Buffs from target, then deals deals Dmg (XL) to target based on caster's MAG stat & cancels Ability Activation."
+      "value": "Removes all Buffs from target, then deals Dmg (XL) to target based on caster's MAG stat & cancels Ability Activation & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_EC_RDM_C_07B_B",
-      "value": "Removes all Buffs from target, then deals Dmg (XL) to target based on caster's MAG stat & cancels Ability Activation & Guaranteed Hit."
+      "value": "Removes all Buffs from target, then deals Dmg (XL) to target based on caster's MAG stat & cancels Ability Activation & Guaranteed Hit & raises own SPR for 3 turns."
     },
     {
       "key": "SK_LW_EC_RDM_C_08",
-      "value": "Enhances Mage's Protection to Mage's Bulwark. Raises Slash/Magic Attack Res & significantly raises Slash/Magic Attack Res Debuff Res."
+      "value": "Enhances Mage's Protection to Mage's Bulwark. Raises SPR/Slash/Magic Attack Res & significantly raises Slash/Magic Attack Res Debuff Res."
     },
     {
       "key": "SK_LW_EC_RDM_C_08B",
-      "value": "Raises Slash/Magic Attack Res & significantly raises Slash/Magic Attack Res Debuff Res."
+      "value": "Raises SPR/Slash/Magic Attack Res & significantly raises Slash/Magic Attack Res Debuff Res."
     },
     {
       "key": "SK_LW_EC_WHM_A_01",
@@ -14934,7 +14930,7 @@
     },
     {
       "key": "SK_LW_EC_ARC_A_02",
-      "value": "Deals Dmg (L) to target & Guaranteed Hit."
+      "value": "Lowers target's Unit Attack Res for 3 turns, then deals Dmg (L) & Guaranteed Hit."
     },
     {
       "key": "SK_LW_EC_ARC_C_03",
@@ -14953,24 +14949,28 @@
       "value": "Deals high-accuracy Dmg (L) to targets within range & removes all Buffs."
     },
     {
+      "key": "SK_LW_EC_ARC_A_03",
+      "value": "Significantly raises own Missile Attack for 1 turn & lowers AP Consumption for 3 turns."
+    },
+    {
       "key": "SK_LW_EC_MNK_A_03",
       "value": "Significantly raises Strike ATK of allies within area around self for 3 turns & raises own DEF Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_EC_MNK_C_05",
-      "value": "Enhances Chakra to Crowning Chakra. Recovers a set percentage of HP (M) of allies within area around self & recovers TP (M)."
+      "value": "Enhances Chakra to Crowning Chakra. Enhances Range."
     },
     {
       "key": "SK_LW_EC_MNK_C_05B",
-      "value": "Recovers a set percentage of HP (M) of allies within area around self & recovers TP (M)."
+      "value": "Recovers a set percentage of HP (M) of allies within area around self & recovers TP (M) & bestows Regen for 3 turns."
     },
     {
       "key": "SK_LW_EC_MNK_C_06",
-      "value": "Enhances Store to Measured Power. Significantly raises own ATK/DEF/SPR for 1 turn."
+      "value": "Enhances Store to Measured Power. Raises own DEF Piercing Rate & significantly raises own ATK/DEF/SPR for 1 turn."
     },
     {
       "key": "SK_LW_EC_MNK_C_06B",
-      "value": "Significantly raises own ATK/DEF/SPR for 1 turn."
+      "value": "Raises own DEF Piercing Rate & significantly raises own ATK/DEF/SPR for 1 turn."
     },
     {
       "key": "SK_LW_EC_MGK_A_01",
@@ -15302,7 +15302,7 @@
     },
     {
       "key": "SK_MA_LW_MRND_2",
-      "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own ATK +15%/MAG +15%/SPR Piercing Rate +25/DEF +20/Enhances Jamming Thrust. Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & Guaranteed Hit."
+      "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own ATK +15%/MAG +15%/SPR Piercing Rate +25/DEF +20/Enhances Jamming Thrust. Deals Dmg (L) to target based on caster's MAG stat & cancels Ability Activation & Guaranteed Hit & raises own SPR for 3 turns."
     },
     {
       "key": "SK_MA_LW_AILN",
@@ -15387,6 +15387,10 @@
     {
       "key": "SK_MA_LW_LRNZ",
       "value": "Max HP +25%, DEF +10"
+    },
+    {
+      "key": "SK_MA_LW_LRNZ_2",
+      "value": "Earth Unit Allies' Max HP +10%/Paralysis Res +25, own Max HP +25%/DEF +10/Accuracy Rate +40/Bestows AP Auto-Restore and Haste removal to own successful attacks"
     },
     {
       "key": "SK_MA_LW_RIRY",
@@ -15479,6 +15483,10 @@
     {
       "key": "SK_MA_LW_SCIA",
       "value": "Pierce ATK +15, DEX +40%"
+    },
+    {
+      "key": "SK_MA_LW_SCIA_2",
+      "value": "Pierce ATK +15, DEX +40%, Magic Attack Res +60, SPR +10"
     },
     {
       "key": "SK_MA_LW_VRID",
@@ -15953,6 +15961,10 @@
       "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own DEF +10"
     },
     {
+      "key": "SK_MA_LW_SAKR_2",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own DEF +25/Magic Attack Res +20/Ability Activation Time -30%"
+    },
+    {
       "key": "SK_MA_LW_ALIM",
       "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own Unit Attack Res +10/Evasion Rate +10"
     },
@@ -16215,6 +16227,10 @@
     {
       "key": "SK_MA_LW_VERN",
       "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own DEF Piercing Rate +20"
+    },
+    {
+      "key": "SK_MA_LW_VERN_2",
+      "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own Max HP +20%/DEF Piercing Rate +20/Area Attack Res +10"
     },
     {
       "key": "SK_MA_LW_JEDN",
@@ -22589,6 +22605,66 @@
       "value": ""
     },
     {
+      "key": "SK_VC_LW_MINU_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_MINU_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P2AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P2MAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P3AW",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_MINU_P3MAX",
+      "value": ""
+    },
+    {
       "key": "SK_VC_LW_ADSN_MV2_GS",
       "value": ""
     },
@@ -27293,6 +27369,14 @@
       "value": "Quest-balancing skill"
     },
     {
+      "key": "SK_BTL_DOOM_1_100_U_PA",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_TPVOI_1_999_U",
+      "value": "Quest-balancing skill"
+    },
+    {
       "key": "SK_GMK_ATK_TEST",
       "value": "Gimmick Provisional Attack"
     },
@@ -29207,6 +29291,26 @@
     {
       "key": "SK_LW_ROD_028_5",
       "value": "Minwu Specific Passive Ability"
+    },
+    {
+      "key": "SK_LW_ROD_028_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ROD_028_1_5",
+      "value": ""
     },
     {
       "key": "SK_LW_DAG_010_1",

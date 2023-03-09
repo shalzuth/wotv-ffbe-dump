@@ -2552,7 +2552,8 @@
       "trust": "AF_ROD_LW_PRAY_1",
       "atkskl": "SK_LW_WHM_ATK",
       "mstskl": [
-        "SK_MA_LW_PRAY"
+        "SK_MA_LW_PRAY",
+        "SK_MA_LW_PRAY_2"
       ],
       "jobsets": [
         "JB_LW_WHM_SHINE",
@@ -7415,7 +7416,8 @@
       "trust": "AF_ACC_LW_TREL_1",
       "atkskl": "SK_LW_KNT_ATK",
       "mstskl": [
-        "SK_MA_LW_TREL"
+        "SK_MA_LW_TREL",
+        "SK_MA_LW_TREL_2"
       ],
       "jobsets": [
         "JB_LW_KNT_WATER",
@@ -12153,7 +12155,8 @@
       "trust": "AF_ACC_LW_GABL_1",
       "atkskl": "SK_LW_PSI_ATK",
       "mstskl": [
-        "SK_MA_LW_GABL"
+        "SK_MA_LW_GABL",
+        "SK_MA_LW_GABL_2"
       ],
       "jobsets": [
         "JB_LW_PSI_DARK",
@@ -16009,7 +16012,8 @@
       "trust": "AF_ARM_LW_VLUC_1",
       "atkskl": "SK_LW_MSM_ATK",
       "mstskl": [
-        "SK_MA_LW_VLUC"
+        "SK_MA_LW_VLUC",
+        "SK_MA_LW_VLUC_2"
       ],
       "jobsets": [
         "JB_LW_MSM_WIND",
@@ -104839,6 +104843,90 @@
       "unit_medal_num": 0
     },
     {
+      "iname": "UN_LW_E_IBRA",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 0,
+      "charaId": "LAPSibra",
+      "anm_type": 5,
+      "anm_id": "ibra",
+      "voiceId": "LAPSibra_00",
+      "type": 7,
+      "elem": [
+        5
+      ],
+      "species": [
+        4
+      ],
+      "birth": 13,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "atkskl": "SK_LW_IBRA_ATK",
+      "jobsets": [
+        "JB_LW_IBRA",
+        "JB_LW_MSM_THUN",
+        "JB_LW_PLD_THUN"
+      ],
+      "ai": "AI_PLAYER_LW_IBRA",
+      "buff_pri": "BUFFPRI_MAGATK",
+      "debuff_pri": "DEBUFFPRI_MAGATK",
+      "status": [
+        {
+          "hp": 292,
+          "mp": 60,
+          "ap": 77,
+          "atk": 34,
+          "def": 0,
+          "mag": 101,
+          "mnd": 0,
+          "dex": 69,
+          "spd": 35,
+          "luk": 65,
+          "eea": -10,
+          "ewa": 20,
+          "asl": -5,
+          "api": 15,
+          "abl": -10,
+          "ash": 10,
+          "ama": 20,
+          "ccf": 50,
+          "cda": 50,
+          "frz": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1067,
+          "mp": 93,
+          "ap": 96,
+          "atk": 57,
+          "def": 0,
+          "mag": 170,
+          "mnd": 0,
+          "dex": 103,
+          "spd": 40,
+          "luk": 91,
+          "eea": -10,
+          "ewa": 20,
+          "asl": -5,
+          "api": 15,
+          "abl": -10,
+          "ash": 10,
+          "ama": 20,
+          "ccf": 50,
+          "cda": 50,
+          "frz": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
       "iname": "UN_LW_E_GHUL",
       "sex": 3,
       "size": 0,
@@ -105625,6 +105713,63 @@
           "luk": 217,
           "mov": 3,
           "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_MBAT",
+      "sex": 3,
+      "size": 0,
+      "body_type": "MO",
+      "charaId": "LAPSmbat",
+      "anm_type": 2,
+      "type": 7,
+      "elem": [
+        4
+      ],
+      "species": [
+        7
+      ],
+      "birth": 1,
+      "tag": [
+        1
+      ],
+      "rare": 0,
+      "grow": "SR_DEFAULT",
+      "cost": 0,
+      "atkskl": "SK_MBAT_ATK",
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 241,
+          "mp": 60,
+          "ap": 72,
+          "atk": 56,
+          "def": 20,
+          "mag": 28,
+          "mnd": 20,
+          "dex": 104,
+          "spd": 19,
+          "luk": 96,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 5218,
+          "mp": 150,
+          "ap": 144,
+          "atk": 154,
+          "def": 20,
+          "mag": 92,
+          "mnd": 20,
+          "dex": 243,
+          "spd": 71,
+          "luk": 229,
+          "mov": 3,
+          "jmp": 1,
           "dmax": 9999
         }
       ],

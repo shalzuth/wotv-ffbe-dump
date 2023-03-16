@@ -1404,6 +1404,40 @@
       "hurl": "ev_etre_ex_01"
     },
     {
+      "iname": "SE_PTQ_FF7R_01",
+      "skip_ticket": "IT_PT_SKIP_FF7_1",
+      "hurl": "pt_ff7r_01"
+    },
+    {
+      "iname": "SE_EV_FF7_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF7R_01"
+    },
+    {
+      "iname": "SE_EV_FF7_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF7R_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF7_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_FF7_01_EX",
+      "hurl": "ev_FF7R_ex_01"
+    },
+    {
+      "iname": "SE_EV_FF7_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF7R_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF7_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_FF7_02_EX",
+      "hurl": "ev_FF7R_ex_02"
+    },
+    {
       "iname": "SE_CHAL_01",
       "hurl": "ev_chal_01"
     },
@@ -2051,14 +2085,6 @@
       "hurl": "ev_sb_exp"
     },
     {
-      "iname": "SE_EV_AST_020201",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_ast_0202",
-      "o_cond_q": [
-        "QE_EV_AST_010110"
-      ]
-    },
-    {
       "iname": "SE_EV_AEX_020201",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_ast_ex_0202"
@@ -2066,6 +2092,14 @@
     {
       "iname": "SE_MU_AEX_020201",
       "hurl": "ev_ast_ex_0202"
+    },
+    {
+      "iname": "SE_EV_AST_020201",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0202",
+      "o_cond_q": [
+        "QE_EV_AST_010110"
+      ]
     },
     {
       "iname": "SE_EV_AEX_020101",
@@ -2467,40 +2501,6 @@
       "iname": "SE_EV_2ANV_6",
       "limit": 1,
       "hurl": "ev_2Anv_01"
-    },
-    {
-      "iname": "SE_PTQ_FF7R_01",
-      "skip_ticket": "IT_PT_SKIP_FF7_1",
-      "hurl": "pt_ff7r_01"
-    },
-    {
-      "iname": "SE_EV_FF7_01_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF7R_01"
-    },
-    {
-      "iname": "SE_EV_FF7_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF7R_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF7_10"
-      ]
-    },
-    {
-      "iname": "SE_MU_FF7_01_EX",
-      "hurl": "ev_FF7R_ex_01"
-    },
-    {
-      "iname": "SE_EV_FF7_02_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF7R_ex_02",
-      "o_cond_q": [
-        "QE_EV_FF7_10"
-      ]
-    },
-    {
-      "iname": "SE_MU_FF7_02_EX",
-      "hurl": "ev_FF7R_ex_02"
     },
     {
       "iname": "SE_EV_GL_WINT_01",

@@ -6412,6 +6412,64 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_LYCS",
+      "type": 0,
+      "icon": "LAPSLycs",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_LYCS",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_GUN_FIS_MAC",
+          "card_skill": "SK_VC_LW_LYCS_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_LYCS_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_LYCS_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_GUN_FIS_MAC",
+          "card_skill": "SK_VC_LW_LYCS_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_LYCS_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_LYCS_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_LYCS_P",
+          "add_self_buff_awake": "SK_VC_LW_LYCS_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_LYCS_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_MACR02_MACR_LYCS_ADLD",
+          "self_buff": "SK_GL_VC_LW_LYCS_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_LYCS_P2AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_LYCS_P2MAX"
+        },
+        {
+          "buff_cond": "VLC_GL_MACR01",
+          "self_buff": "SK_GL_VC_LW_LYCS_P3",
+          "add_self_buff_awake": "SK_GL_VC_LW_LYCS_P3AW",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_LYCS_P3MAX"
+        }
+      ],
+      "status": [
+        {
+          "hp": 46,
+          "mag": 43
+        },
+        {
+          "hp": 358,
+          "mag": 168
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_LW_MRND",
       "type": 0,
       "icon": "LAPSMrnd",

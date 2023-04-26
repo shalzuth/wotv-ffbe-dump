@@ -502,6 +502,12 @@
       "back_unit": "UN_LW_ST_030101"
     },
     {
+      "iname": "SE_ST_030102",
+      "chap": "CH_ST_0301",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_030101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -1404,6 +1410,10 @@
       "hurl": "ev_etre_ex_01"
     },
     {
+      "iname": "SE_EV_GL_TU_ROYM",
+      "hurl": "ev_gl_ROYM_01"
+    },
+    {
       "iname": "SE_EV_GL_TU_EDWD",
       "hurl": "ev_gl_edwd_01"
     },
@@ -1431,6 +1441,18 @@
     {
       "iname": "SE_MU_FMAM_EX01",
       "hurl": "ev_FMAM_ex_01"
+    },
+    {
+      "iname": "SE_EV_FMAM_EX02",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FMAM_ex_02",
+      "o_cond_q": [
+        "QE_EV_FMAM_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_FMAM_EX02",
+      "hurl": "ev_FMAM_ex_02"
     },
     {
       "iname": "SE_EV_GL_TU_RESL",

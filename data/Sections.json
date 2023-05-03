@@ -1410,6 +1410,10 @@
       "hurl": "ev_etre_ex_01"
     },
     {
+      "iname": "SE_EV_GL_TU_BRDL",
+      "hurl": "ev_gl_tu_brdl_01"
+    },
+    {
       "iname": "SE_EV_GL_TU_ROYM",
       "hurl": "ev_gl_ROYM_01"
     },
@@ -1453,6 +1457,18 @@
     {
       "iname": "SE_MU_FMAM_EX02",
       "hurl": "ev_FMAM_ex_02"
+    },
+    {
+      "iname": "SE_EV_FMAM_EX03",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FMAM_ex_03",
+      "o_cond_q": [
+        "QE_EV_FMAM_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_FMAM_EX03",
+      "hurl": "ev_FMAM_ex_03"
     },
     {
       "iname": "SE_EV_GL_TU_RESL",

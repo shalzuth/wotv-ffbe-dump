@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "iname": "api_req_size",
+      "type": 0,
+      "value": 2048
+    },
+    {
       "iname": "ct_max",
       "type": 0,
       "value": 1000
@@ -104,6 +109,11 @@
       "iname": "ability_board_reset_cost_coin",
       "type": 0,
       "value": 50
+    },
+    {
+      "iname": "ability_board_reset_item",
+      "type": 2,
+      "value": "IT_SB_SKP_RESET"
     },
     {
       "iname": "ability_board_open_support_1",
@@ -268,7 +278,7 @@
     {
       "iname": "status_max",
       "type": 0,
-      "value": 300
+      "value": 400
     },
     {
       "iname": "status_min",
@@ -321,6 +331,16 @@
       "value": -999
     },
     {
+      "iname": "add_cost_mp_max",
+      "type": 0,
+      "value": 100
+    },
+    {
+      "iname": "add_cost_mp_effval_max",
+      "type": 0,
+      "value": 100
+    },
+    {
       "iname": "dmg_crt_max",
       "type": 0,
       "value": 100
@@ -363,12 +383,17 @@
     {
       "iname": "buf_apgain_max",
       "type": 0,
-      "value": 100
+      "value": 999
+    },
+    {
+      "iname": "buf_apgain_min",
+      "type": 0,
+      "value": -100
     },
     {
       "iname": "buf_spgain_max",
       "type": 0,
-      "value": 100
+      "value": 200
     },
     {
       "iname": "buf_ct_max",
@@ -414,6 +439,11 @@
       "iname": "buf_total_healpow_min",
       "type": 0,
       "value": -90
+    },
+    {
+      "iname": "debuf_red_rate_max",
+      "type": 0,
+      "value": 80
     },
     {
       "iname": "dmg_hatedown",
@@ -783,7 +813,7 @@
     {
       "iname": "adventure_default_daily_rapid_item_num",
       "type": 0,
-      "value": 5
+      "value": 30
     },
     {
       "iname": "adventure_default_daily_rapid_coin_num",
@@ -1103,12 +1133,12 @@
     {
       "iname": "raid_follow_bonus_item_iname",
       "type": 2,
-      "value": "IT_EC_RAID_19"
+      "value": "IT_EC_FMAM_2"
     },
     {
       "iname": "raid_coin_item_iname",
       "type": 2,
-      "value": "IT_EC_RAID_19"
+      "value": "IT_EC_FMAM_2"
     },
     {
       "iname": "raid_agent_max",
@@ -1198,7 +1228,7 @@
     {
       "iname": "barracks_limit_brave",
       "type": 0,
-      "value": 70
+      "value": 97
     },
     {
       "iname": "barracks_settings_faith_default",
@@ -1208,7 +1238,7 @@
     {
       "iname": "barracks_upper_limit_faith",
       "type": 0,
-      "value": 70
+      "value": 97
     },
     {
       "iname": "barracks_lower_limit_faith",
@@ -1344,6 +1374,36 @@
       "iname": "guildbattle_initialize_deck_unit",
       "type": 3,
       "value": "UN_LW_P_MONT"
+    },
+    {
+      "iname": "is_allowed_guildbattle_sub",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "is_allowed_limited_gb_sub",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "is_allowed_top_gb_sub",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "guildbattle_sub_fill_max",
+      "type": 0,
+      "value": 3
+    },
+    {
+      "iname": "limited_gb_sub_fill_max",
+      "type": 0,
+      "value": 3
+    },
+    {
+      "iname": "top_gb_sub_fill_max",
+      "type": 0,
+      "value": 3
     },
     {
       "iname": "guild_medail_iname",
@@ -1548,17 +1608,27 @@
     {
       "iname": "invitation_max",
       "type": 0,
-      "value": 10
+      "value": 100
     },
     {
       "iname": "invitation_sender_rank_min",
       "type": 0,
-      "value": 20
+      "value": 80
     },
     {
       "iname": "invitation_receiver_rank_max",
       "type": 0,
-      "value": 30
+      "value": 0
+    },
+    {
+      "iname": "invitation_sender_over_date",
+      "type": 0,
+      "value": 8
+    },
+    {
+      "iname": "invitation_receiver_below_date",
+      "type": 0,
+      "value": 7
     },
     {
       "iname": "vision_gil_coef",
@@ -1663,12 +1733,12 @@
     {
       "iname": "limited_league_guild_battle_point_k1",
       "type": 0,
-      "value": 10
+      "value": 16
     },
     {
       "iname": "limited_league_guild_battle_point_k2",
       "type": 0,
-      "value": 5000
+      "value": 12000
     },
     {
       "iname": "limited_league_guild_battle_point_k3",
@@ -1678,12 +1748,12 @@
     {
       "iname": "limited_league_guild_battle_point_k4",
       "type": 0,
-      "value": 5
+      "value": 2
     },
     {
       "iname": "limited_league_guild_battle_point_k5",
       "type": 0,
-      "value": 7
+      "value": 3
     },
     {
       "iname": "limited_league_guild_battle_point_amax",
@@ -1951,9 +2021,19 @@
       "value": 30
     },
     {
+      "iname": "is_enable_payment_manager_check_isinit",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "is_skip_purchase_update_product_oninit",
+      "type": 0,
+      "value": 1
+    },
+    {
       "iname": "first_payment_iname",
       "type": 2,
-      "value": "FIRST_BONUS_00000"
+      "value": "FIRST_BONUS_0001"
     },
     {
       "iname": "unit_medal",
@@ -1976,6 +2056,11 @@
       "value": 1
     },
     {
+      "iname": "guild_raid_member_score_ranking_num",
+      "type": 0,
+      "value": 5
+    },
+    {
       "iname": "vision_hard_quest_reset_cost",
       "type": 1,
       "value": "50,100"
@@ -1994,6 +2079,246 @@
       "iname": "multi_suspend_disconnect_count",
       "type": 0,
       "value": 5
+    },
+    {
+      "iname": "sub_visioncard_open",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "sub_visioncard_unlock_unit_lv",
+      "type": 0,
+      "value": 99
+    },
+    {
+      "iname": "sub_visioncard_unlock_job_lv",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "sub_visioncard_cost_rate",
+      "type": 0,
+      "value": 70
+    },
+    {
+      "iname": "sub_visioncard_ability_unlock_card_lv",
+      "type": 0,
+      "value": 99
+    },
+    {
+      "iname": "multi_scoreattack_standing_time",
+      "type": 0,
+      "value": 20
+    },
+    {
+      "iname": "multi_scoreattack_warning_time",
+      "type": 0,
+      "value": 10
+    },
+    {
+      "iname": "multi_scoreattack_teamname_max_num",
+      "type": 0,
+      "value": 12
+    },
+    {
+      "iname": "mt_inventry_cap",
+      "type": 0,
+      "value": 200
+    },
+    {
+      "iname": "mt_dis_max_count",
+      "type": 0,
+      "value": 40
+    },
+    {
+      "iname": "mt_dis_max_num",
+      "type": 0,
+      "value": 50
+    },
+    {
+      "iname": "mt_slot_num",
+      "type": 0,
+      "value": 6
+    },
+    {
+      "iname": "mt_attach_skill_lvup_zero_length_coef",
+      "type": 0,
+      "value": 10000
+    },
+    {
+      "iname": "mt_train_param_lock_max",
+      "type": 0,
+      "value": 4
+    },
+    {
+      "iname": "mt_open",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "mt_lot_lock_lapis_coef",
+      "type": 0,
+      "value": 5000
+    },
+    {
+      "iname": "quest_archive_open",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "quest_archive_free_unlock_count",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "quest_archive_shop_extend_time",
+      "type": 0,
+      "value": 3600
+    },
+    {
+      "iname": "jp_pool_slide_max",
+      "type": 0,
+      "value": 99999
+    },
+    {
+      "iname": "skip_ticket_artrank_increase",
+      "type": 0,
+      "value": 3
+    },
+    {
+      "iname": "skip_ticket_intimacy_increase",
+      "type": 0,
+      "value": 20
+    },
+    {
+      "iname": "empty_enemy_iname",
+      "type": 2,
+      "value": "UN_LW_E_NONE"
+    },
+    {
+      "iname": "guildbattle_period_id_before_seasonal_system_introduced",
+      "type": 3,
+      "value": "GBP_001,GBP_002,GBP_003,GBP_004,GBP_005"
+    },
+    {
+      "iname": "weekly_guild_battle_proxy_count",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "monthly_guild_battle_proxy_count",
+      "type": 0,
+      "value": 15
+    },
+    {
+      "iname": "guild_battle_proxy_open",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "guild_battle_proxy_reset_time",
+      "type": 2,
+      "value": "5:00:00"
+    },
+    {
+      "iname": "ex_star_gain_star_once_lvup",
+      "type": 0,
+      "value": 3
+    },
+    {
+      "iname": "ex_star_gain_star_lvup",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "is_allowed_exstar",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "save_materia_template_num",
+      "type": 0,
+      "value": 100
+    },
+    {
+      "iname": "is_allowed_spirit_exchange",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "is_release_bg_repeat",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "additional_time_for_bg_repeat",
+      "type": 0,
+      "value": 60
+    },
+    {
+      "iname": "bg_repeat_prohibited_excess_time",
+      "type": 0,
+      "value": 3600
+    },
+    {
+      "iname": "npc_guild_battle_open",
+      "type": 0,
+      "value": 0
+    },
+    {
+      "iname": "atk_chain_reduction_rate_max",
+      "type": 0,
+      "value": 80
+    },
+    {
+      "iname": "elem_chain_reduction_rate_max",
+      "type": 0,
+      "value": 80
+    },
+    {
+      "iname": "atk_chain_reduction_rate_min",
+      "type": 0,
+      "value": -80
+    },
+    {
+      "iname": "elem_chain_reduction_rate_min",
+      "type": 0,
+      "value": -80
+    },
+    {
+      "iname": "spirit_exchange_unit_lv",
+      "type": 0,
+      "value": 120
+    },
+    {
+      "iname": "wavequest_top_unit_iname",
+      "type": 2,
+      "value": "UN_LW_P_LCIO"
+    },
+    {
+      "iname": "wavequest_bgm",
+      "type": 2,
+      "value": "law_302_wezett"
+    },
+    {
+      "iname": "wavequest_bg_prefab",
+      "type": 2,
+      "value": "WaveQuestBG_0001"
+    },
+    {
+      "iname": "gacha_count_max",
+      "type": 0,
+      "value": 100
+    },
+    {
+      "iname": "bulk_exercise_open",
+      "type": 0,
+      "value": 1
+    },
+    {
+      "iname": "is_allowed_rapid_coin",
+      "type": 0,
+      "value": 0
     }
   ]
 }

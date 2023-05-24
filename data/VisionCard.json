@@ -4152,6 +4152,60 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_REGN",
+      "type": 0,
+      "icon": "LAPSRegn",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_REGN",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_SWA_SWC_GUN",
+          "card_skill": "SK_VC_LW_REGN_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_REGN_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_REGN_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_SWA_SWC_GUN",
+          "card_skill": "SK_VC_LW_REGN_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_REGN_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_REGN_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_REGN_P",
+          "add_self_buff_awake": "SK_VC_LW_REGN_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_REGN_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_REGN_RAIN",
+          "self_buff": "SK_GL_VC_LW_REGN_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_REGN_PAW2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_REGN_PMAX2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 46,
+          "atk": 37,
+          "spd": 1
+        },
+        {
+          "hp": 362,
+          "atk": 145,
+          "spd": 3
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_FF7_SCPN",
       "type": 0,
       "collaboType": 1,

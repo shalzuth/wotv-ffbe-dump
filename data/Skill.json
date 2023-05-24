@@ -76698,6 +76698,481 @@
       ]
     },
     {
+      "iname": "SK_LW_REGN_ATK",
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/atk",
+      "effnm": "ef_com_hit_00",
+      "range_s": 0,
+      "range_l": 1,
+      "range_h": 1,
+      "type": 0,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_det": 1,
+      "def_weps": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem": [
+        0
+      ],
+      "eff_val": -30,
+      "eff_val1": -30
+    },
+    {
+      "iname": "SK_LW_REGN_M_1",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_M1",
+      "effnm": "ef_LAPSregn_M01",
+      "cam_dir": 1,
+      "count": 4,
+      "cost_type": 0,
+      "cost_ap": 22,
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem_pri": 1,
+      "eff_val": 30,
+      "eff_val1": 65,
+      "t_buffs": [
+        "BUFF_LW_REGN_M_1_T"
+      ],
+      "s_buffs": [
+        "BUFF_LW_REGN_M_1_S"
+      ],
+      "combo_num": 2,
+      "combo_rate": 59
+    },
+    {
+      "iname": "SK_LW_REGN_M_2",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_M2",
+      "effnm": "ef_LAPSregn_M02",
+      "cam_dir": 1,
+      "count": 3,
+      "cost_type": 0,
+      "cost_ap": 29,
+      "range_s": 1,
+      "range_l": 3,
+      "range_h": 1,
+      "eff_s": 0,
+      "eff_l": 1,
+      "eff_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "klsp": [
+        3,
+        4
+      ],
+      "klspr": 60,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem": [
+        1
+      ],
+      "eff_val": 30,
+      "eff_val1": 65,
+      "t_buffs": [
+        "BUFF_LW_REGN_M_2"
+      ],
+      "combo_num": 2,
+      "combo_rate": 59
+    },
+    {
+      "iname": "SK_LW_REGN_M_3",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_M3",
+      "effnm": "ef_LAPSregn_M03",
+      "cam_dir": 1,
+      "count": 2,
+      "cost_type": 1,
+      "cost_mp": 30,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 0,
+      "atk_type": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "t_buffs": [
+        "BUFF_LW_REGN_M_3_1",
+        "BUFF_LW_REGN_M_3_2"
+      ],
+      "strength": [
+        {
+          "type": 100,
+          "formula": 5,
+          "dst": 21,
+          "calc": 0,
+          "val1": 1,
+          "rate1": 100,
+          "exc": "SKE_LW_REGN_M_3"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_REGN_S_1",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_S1",
+      "effnm": "ef_LAPSregn_S01",
+      "count": 6,
+      "cost_type": 0,
+      "cost_ap": 16,
+      "range_s": 0,
+      "range_l": 2,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem_pri": 1,
+      "eff_val": -5,
+      "eff_val1": 21,
+      "t_buffs": [
+        "BUFF_LW_REGN_S_1"
+      ]
+    },
+    {
+      "iname": "SK_LW_REGN_S_2",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_S2",
+      "effnm": "ef_LAPSregn_S02",
+      "count": 3,
+      "cost_type": 1,
+      "cost_mp": 32,
+      "eff_s": 0,
+      "eff_l": 1,
+      "eff_h": 1,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 10,
+      "atk_type": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "t_buffs": [
+        "BUFF_LW_REGN_S_2_T"
+      ],
+      "s_buffs": [
+        "BUFF_LW_REGN_S_2_S"
+      ]
+    },
+    {
+      "iname": "SK_LW_REGN_S_3",
+      "slot": 2,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_S3",
+      "effnm": "ef_LAPSregn_S03",
+      "count": 3,
+      "cost_type": 0,
+      "cost_ap": 28,
+      "range_s": 10,
+      "range_l": 2,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem_pri": 1,
+      "eff_val": 30,
+      "eff_val1": 65,
+      "t_buffs": [
+        "BUFF_LW_REGN_S_3"
+      ]
+    },
+    {
+      "iname": "SK_LW_REGN_S_4",
+      "slot": 2,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_S4",
+      "effnm": "ef_LAPSregn_S04",
+      "count": 4,
+      "cost_type": 0,
+      "cost_ap": 23,
+      "range_s": 0,
+      "range_l": 3,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem": [
+        1
+      ],
+      "eff_val": 30,
+      "eff_val1": 65,
+      "t_buffs": [
+        "BUFF_LW_REGN_S_4"
+      ],
+      "combo_num": 2,
+      "combo_rate": 59
+    },
+    {
+      "iname": "SK_LW_REGN_R_1",
+      "slot": 4,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_R1",
+      "effnm": "ef_LAPSregn_R01",
+      "type": 2,
+      "timing": 4,
+      "eff_type": 0,
+      "target": 12,
+      "atk_type": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "react_d_det": [
+        1,
+        3
+      ],
+      "eff_rate": 35,
+      "eff_rate1": 70,
+      "barrier": {
+        "type": 1,
+        "mot": "skl_R1",
+        "tar": 1,
+        "scut": 10,
+        "ecut": 20
+      }
+    },
+    {
+      "iname": "SK_LW_REGN_P_1",
+      "slot": 3,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_REGN_P_1"
+      ],
+      "dupli": 1
+    },
+    {
+      "iname": "SK_LW_REGN_P_2",
+      "slot": 3,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_REGN_P_2"
+      ],
+      "dupli": 1
+    },
+    {
+      "iname": "SK_LW_EC_REGN_A_01",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_EN00",
+      "effnm": "ef_LAPSregn_EN00",
+      "cam_dir": 1,
+      "count": 3,
+      "cost_type": 0,
+      "cost_ap": 27,
+      "range_s": 1,
+      "range_l": 3,
+      "range_h": 1,
+      "eff_s": 0,
+      "eff_l": 1,
+      "eff_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem_pri": 1,
+      "eff_val": 30,
+      "eff_val1": 65,
+      "t_buffs": [
+        "BUFF_LW_EC_REGN_A_01"
+      ],
+      "combo_num": 2,
+      "combo_rate": 59
+    },
+    {
+      "iname": "SK_LW_EC_REGN_C_01",
+      "slot": 9,
+      "cap": 1,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "replace": [
+        {
+          "skill_base": "SK_LW_REGN_M_1",
+          "skill_after": "SK_LW_EC_REGN_C_01_B"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_REGN_C_01_B",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSregn/skl_M1",
+      "effnm": "ef_LAPSregn_M01",
+      "cam_dir": 1,
+      "count": 4,
+      "cost_type": 0,
+      "cost_ap": 17,
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "elem_pri": 1,
+      "eff_val": 65,
+      "eff_val1": 100,
+      "t_buffs": [
+        "BUFF_LW_REGN_M_1_T"
+      ],
+      "s_buffs": [
+        "BUFF_LW_REGN_M_1_S"
+      ],
+      "combo_num": 2,
+      "combo_rate": 59
+    },
+    {
+      "iname": "SK_LW_EC_REGN_C_02",
+      "slot": 9,
+      "cap": 1,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "replace": [
+        {
+          "skill_base": "SK_LW_REGN_P_1",
+          "skill_after": "SK_LW_EC_REGN_C_02_B"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_REGN_C_02_B",
+      "slot": 3,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_EC_REGN_C_02_B"
+      ],
+      "dupli": 1
+    },
+    {
+      "iname": "SK_LW_EC_REGN_C_02_C",
+      "slot": 3,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_EC_REGN_C_02_B",
+        "BUFF_LW_EC_REGN_C_02_C"
+      ],
+      "dupli": 1
+    },
+    {
+      "iname": "SK_LW_EC_REGN_C_02_C_EN",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "effnm": "ef_com_heal_HP_00",
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_LW_EC_REGN_C_02_C_EN"
+      ]
+    },
+    {
       "iname": "SK_LB_LW_STRN_02",
       "slot": 6,
       "cap": 20,
@@ -83215,6 +83690,240 @@
       "eff_rate1": 25,
       "t_buffs": [
         "BUFF_LW_LUMW_M_7"
+      ]
+    },
+    {
+      "iname": "SK_UMWP_ATK",
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/atk",
+      "effnm": "ef_LAPSumwp_atk",
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 1,
+      "type": 0,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "atk_type": 2,
+      "atk_base": 3,
+      "atk_det": 5,
+      "elem": [
+        0
+      ],
+      "eff_val": -30,
+      "eff_val1": -30,
+      "t_buffs": [
+        "BUFF_UMWP_ATK"
+      ]
+    },
+    {
+      "iname": "SK_UMWP_M_01",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/skl_M1",
+      "effnm": "ef_LAPSumwp_M01",
+      "count": 10,
+      "cost_type": 0,
+      "cost_ap": 30,
+      "range_s": 13,
+      "range_l": 4,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "atk_type": 1,
+      "atk_base": 1,
+      "elem": [
+        0
+      ],
+      "eff_val": -5,
+      "eff_val1": 21,
+      "t_buffs": [
+        "BUFF_UMWP_M_01_1",
+        "BUFF_UMWP_M_01_2",
+        "BUFF_UMWP_M_01_3"
+      ],
+      "kback": {
+        "rate": 100,
+        "val": 3,
+        "dir": 0,
+        "ds": 0
+      }
+    },
+    {
+      "iname": "SK_UMWP_M_02",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/skl_M2",
+      "effnm": "ef_LAPSumwp_M02",
+      "count": 15,
+      "cost_type": 0,
+      "cost_ap": 36,
+      "range_s": 10,
+      "range_l": 5,
+      "range_w": 1,
+      "range_h": 2,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "hit": 100,
+      "atk_type": 2,
+      "atk_base": 3,
+      "atk_det": 5,
+      "elem": [
+        0
+      ],
+      "eff_val": 65,
+      "eff_val1": 100,
+      "s_buffs": [
+        "BUFF_UMWP_M_02"
+      ]
+    },
+    {
+      "iname": "SK_UMWP_M_03",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/skl_M3",
+      "effnm": "ef_LAPSumwp_M03",
+      "count": 10,
+      "cost_type": 0,
+      "cost_ap": 19,
+      "line": 1,
+      "range_s": 1,
+      "range_l": 5,
+      "range_h": 2,
+      "range_buff": 1,
+      "selectable_target_num": 3,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "atk_type": 2,
+      "atk_base": 3,
+      "atk_det": 4,
+      "elem": [
+        0
+      ],
+      "eff_val": 30,
+      "eff_val1": 65,
+      "t_buffs": [
+        "BUFF_UMWP_M_03"
+      ]
+    },
+    {
+      "iname": "SK_UMWP_M_04",
+      "slot": 1,
+      "cap": 1,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/skl_M4",
+      "effnm": "ef_LAPSumwp_M04",
+      "count": 20,
+      "cost_type": 0,
+      "cost_ap": 30,
+      "range_s": 1,
+      "range_l": 3,
+      "range_h": 2,
+      "eff_s": 0,
+      "eff_l": 1,
+      "eff_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 11,
+      "hit": 100,
+      "crt_hit": -100,
+      "atk_base": 53,
+      "yuragi": -1,
+      "elem": [
+        0
+      ],
+      "eff_dst": 0,
+      "eff_val": -75,
+      "eff_val1": -75
+    },
+    {
+      "iname": "SK_UMWP_M_05",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/skl_M5",
+      "effnm": "ef_LAPSumwp_M05",
+      "count": 5,
+      "cost_type": 1,
+      "cost_mp": 24,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 0,
+      "atk_type": 1,
+      "t_buffs": [
+        "BUFF_UMWP_M_05_1",
+        "BUFF_UMWP_M_05_2"
+      ]
+    },
+    {
+      "iname": "SK_UMWP_P_01",
+      "slot": 3,
+      "cap": 1,
+      "lvup_cost_rate": 100,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_UMWP_P_01"
+      ],
+      "dupli": 1
+    },
+    {
+      "iname": "SK_UMWP_R_01",
+      "slot": 4,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSumwp/skl_R1",
+      "effnm": "ef_LAPSumwp_R01",
+      "eff_s": 0,
+      "eff_l": 2,
+      "eff_h": 1,
+      "selfsel": 1,
+      "type": 2,
+      "timing": 5,
+      "eff_type": 2,
+      "target": 11,
+      "atk_type": 2,
+      "atk_base": 3,
+      "elem": [
+        0
+      ],
+      "react_d_type": 1,
+      "eff_val": -5,
+      "eff_rate": 25,
+      "eff_val1": 21,
+      "eff_rate1": 25,
+      "t_buffs": [
+        "BUFF_UMWP_R_01"
+      ]
+    },
+    {
+      "iname": "SK_UMWP_P_01_EN",
+      "slot": 1,
+      "cap": 1,
+      "lvup_cost_rate": 100,
+      "effnm": "ef_com_heal_HP_00",
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UMWP_P_01_EN"
       ]
     },
     {
@@ -102017,6 +102726,41 @@
       "eff_val1": 100,
       "s_buffs": [
         "BUFF_LB_LW_HYOO"
+      ],
+      "combo_num": 3,
+      "combo_rate": 77
+    },
+    {
+      "iname": "SK_LB_LW_REGN",
+      "slot": 6,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LB/REGN",
+      "effnm": "ef_com_hit_01",
+      "count": 1,
+      "cost_type": 0,
+      "cost_ap": 43,
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 1,
+      "def_wep": "AF_SWO_LW_REGN_2",
+      "force_eq": 1,
+      "elem_pri": 1,
+      "eff_val": 65,
+      "eff_val1": 100,
+      "t_buffs": [
+        "BUFF_LB_LW_REGN"
       ],
       "combo_num": 3,
       "combo_rate": 77
@@ -120876,6 +121620,21 @@
       ]
     },
     {
+      "iname": "SK_MA_LW_REGN",
+      "slot": 7,
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_MA_LW_REGN"
+      ],
+      "s_buffs": [
+        "BUFF_MA_LW_REGN_S"
+      ]
+    },
+    {
       "iname": "SK_UES_FF7_CLUD",
       "slot": 3,
       "cap": 20,
@@ -124397,6 +125156,364 @@
       "ct_spd1": 200,
       "t_buffs": [
         "BUFF_LW_EC_BLM_A_02"
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_REGN",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_REGN"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_REGN_C_02_B",
+          "skill_after": "SK_LW_EC_REGN_C_02_C"
+        }
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_AYKA",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_AYKA"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_WHM_C_01B",
+          "skill_after": "SK_LW_EC_WHM_C_01C"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_WHM_C_01C",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "WHM/skl_care_03",
+      "effnm": "ef_mag_w_care_03",
+      "cam_dir": 1,
+      "ischa": 1,
+      "count": 3,
+      "cost_type": 1,
+      "cost_mp": 34,
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 2,
+      "eff_s": 1,
+      "eff_l": 2,
+      "eff_h": 1,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 10,
+      "target": 10,
+      "atk_type": 2,
+      "atk_det": 0,
+      "def_wep": "AF_LW_ROD_INIT",
+      "elem": [
+        0
+      ],
+      "ct_type": 1,
+      "ct_lock": 1,
+      "ct_spd": 120,
+      "ct_spd1": 320,
+      "t_buffs": [
+        "BUFF_LW_EC_WHM_C_01B",
+        "BUFF_LW_EC_WHM_C_01C"
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_AILN",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_AILN"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_LAN_A_02",
+          "skill_after": "SK_LW_EC_LAN_A_02_B"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_LAN_A_02_B",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAN/skl_M4",
+      "effnm": "ef_com_hit_00",
+      "cam_dir": 1,
+      "count": 3,
+      "cost_type": 0,
+      "cost_ap": 34,
+      "line": 1,
+      "range_s": 0,
+      "range_l": 5,
+      "range_h": 2,
+      "pierce": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 1,
+      "atk_base": 1,
+      "atk_formula": 0,
+      "atk_formula_t1": 40,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 20,
+      "atk_det": 2,
+      "def_wep": "AF_LW_SPE_INIT",
+      "elem_pri": 1,
+      "eff_val": 40,
+      "eff_val1": 75,
+      "t_buffs": [
+        "BUFF_LW_EC_LAN_A_02_1"
+      ],
+      "strength": [
+        {
+          "type": 75,
+          "formula": 0,
+          "dst": 0,
+          "calc": 0,
+          "val1": 5,
+          "rate1": 125
+        }
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_CRLT",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_CRLT"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_CRLT_C_02B",
+          "skill_after": "SK_LW_EC_CRLT_C_02C"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_CRLT_C_02C",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPScrlt/skl_M2",
+      "effnm": "ef_LAPScrlt_M02",
+      "cam_dir": 1,
+      "count": 2,
+      "cost_type": 1,
+      "cost_mp": 22,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 0,
+      "atk_type": 1,
+      "def_wep": "AF_LW_SWO_INIT",
+      "t_buffs": [
+        "BUFF_LW_EC_CRLT_C_02C_1",
+        "BUFF_LW_EC_CRLT_C_02B_2"
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_SAKR",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_SAKR"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_SAKR_C_01B",
+          "skill_after": "SK_LW_EC_SAKR_C_01C"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_SAKR_C_01C",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSsakr/skl_M1",
+      "effnm": "ef_LAPSsakr_M01",
+      "cam_dir": 1,
+      "count": 3,
+      "cost_type": 0,
+      "cost_ap": 34,
+      "range_s": 1,
+      "range_l": 3,
+      "range_h": 2,
+      "eff_s": 1,
+      "eff_l": 2,
+      "eff_h": 1,
+      "reftar": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "atk_type": 2,
+      "atk_base": 3,
+      "atk_formula": 0,
+      "atk_formula_t1": 30,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 10,
+      "atk_det": 5,
+      "def_wep": "AF_LW_ROD_INIT",
+      "elem": [
+        5
+      ],
+      "ct_type": 1,
+      "ct_lock": 1,
+      "eff_val": 55,
+      "ct_spd": 120,
+      "eff_val1": 85,
+      "ct_spd1": 240,
+      "t_buffs": [
+        "BUFF_LW_EC_SAKR_C_01B_T"
+      ],
+      "s_buffs": [
+        "BUFF_LW_EC_SAKR_C_01B_S"
+      ],
+      "strength": [
+        {
+          "type": 100,
+          "formula": 40,
+          "dst": 0,
+          "calc": 0,
+          "val1": 1,
+          "rate1": 60,
+          "exc": "SKE_LW_EC_SAKR_C_01C"
+        }
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_FINA_01",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_FINA_01"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_FINA_01_C_01B",
+          "skill_after": "SK_LW_EC_FINA_01_C_01C"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_FINA_01_C_01C",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "LAPSfina_01/skl_M1",
+      "effnm": "ef_LAPSfina_01_M01",
+      "cam_dir": 1,
+      "count": 4,
+      "cost_type": 0,
+      "cost_ap": 26,
+      "range_s": 1,
+      "range_l": 4,
+      "range_h": 2,
+      "reftar": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 2,
+      "target": 12,
+      "hit": 30,
+      "atk_type": 2,
+      "atk_base": 3,
+      "atk_formula": 0,
+      "atk_formula_t1": 30,
+      "atk_formula_t2": 20,
+      "atk_formula_t3": 10,
+      "atk_det": 5,
+      "def_wep": "AF_LW_ROD_INIT",
+      "elem": [
+        8
+      ],
+      "eff_val": 30,
+      "ira_val": 50,
+      "eff_val1": 65,
+      "ira_val1": 100,
+      "t_buffs": [
+        "BUFF_LW_FINA_01_M_1_1",
+        "BUFF_LW_EC_FINA_01_C_01C"
+      ]
+    },
+    {
+      "iname": "SK_UES_LW_SIRM",
+      "slot": 3,
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_UES_LW_SIRM"
+      ],
+      "replace": [
+        {
+          "skill_base": "SK_LW_EC_RDM_A_01",
+          "skill_after": "SK_LW_EC_RDM_A_01_B"
+        }
+      ]
+    },
+    {
+      "iname": "SK_LW_EC_RDM_A_01_B",
+      "slot": 1,
+      "cap": 20,
+      "lvup_cost_rate": 100,
+      "motnm": "MGK/skl_S3",
+      "effnm": "ef_com_hit_01",
+      "cam_dir": 1,
+      "count": 3,
+      "cost_type": 1,
+      "cost_mp": 36,
+      "eff_s": 0,
+      "eff_l": 1,
+      "eff_h": 0,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 10,
+      "atk_type": 2,
+      "atk_det": 0,
+      "def_wep": "AF_LW_SWO_INIT",
+      "elem": [
+        0
+      ],
+      "t_buffs": [
+        "BUFF_LW_EC_RDM_A_01_B"
       ]
     },
     {
@@ -134522,6 +135639,30 @@
       ]
     },
     {
+      "iname": "SK_CLT_LW_REGN_1",
+      "slot": 1,
+      "cap": 20,
+      "grow": "SKILL_DEFAULT",
+      "lvup_cost_rate": 100,
+      "motnm": "Artifact/clt_046",
+      "effnm": "ef_wa_clt_046",
+      "cam_dir": 1,
+      "count": 2,
+      "cost_type": 1,
+      "cost_mp": 24,
+      "eff_s": 0,
+      "eff_l": 1,
+      "eff_h": 1,
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_CLT_LW_REGN_1"
+      ]
+    },
+    {
       "iname": "SK_VC_LW_GLEM_GS",
       "slot": 8,
       "cap": 99,
@@ -140828,6 +141969,166 @@
         "BUFF_GL_VC_LW_BAHM_01_PMAX2"
       ],
       "gdupli": "SK_GL_VC_LW_BAHM_01_P2"
+    },
+    {
+      "iname": "SK_VC_LW_REGN_GS",
+      "slot": 8,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_REGN_GS"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_REGN_GS_AW",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_REGN_GS_AW"
+      ],
+      "gdupli": "SK_VC_LW_REGN_GS"
+    },
+    {
+      "iname": "SK_VC_LW_REGN_GSMAX",
+      "slot": 8,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_REGN_GSMAX"
+      ],
+      "gdupli": "SK_VC_LW_REGN_GS"
+    },
+    {
+      "iname": "SK_VC_LW_REGN_GS_2",
+      "slot": 8,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_REGN_GS_2"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_REGN_GS_AW_2",
+      "slot": 8,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_REGN_GS_AW_2"
+      ],
+      "gdupli": "SK_VC_LW_REGN_GS_2"
+    },
+    {
+      "iname": "SK_VC_LW_REGN_GSMAX_2",
+      "slot": 8,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 10,
+      "t_buffs": [
+        "BUFF_VC_LW_REGN_GSMAX_2"
+      ],
+      "gdupli": "SK_VC_LW_REGN_GS_2"
+    },
+    {
+      "iname": "SK_VC_LW_REGN_P",
+      "slot": 3,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_REGN_P"
+      ]
+    },
+    {
+      "iname": "SK_VC_LW_REGN_PAW",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_REGN_PAW"
+      ],
+      "gdupli": "SK_VC_LW_REGN_P"
+    },
+    {
+      "iname": "SK_VC_LW_REGN_PMAX",
+      "slot": 3,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_VC_LW_REGN_PMAX"
+      ],
+      "gdupli": "SK_VC_LW_REGN_P"
+    },
+    {
+      "iname": "SK_GL_VC_LW_REGN_P2",
+      "slot": 3,
+      "cap": 99,
+      "grow": "VCGROW_UR",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_GL_VC_LW_REGN_P2"
+      ]
+    },
+    {
+      "iname": "SK_GL_VC_LW_REGN_PAW2",
+      "slot": 3,
+      "cap": 4,
+      "grow": "VCAWAKE",
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_GL_VC_LW_REGN_PAW2"
+      ],
+      "gdupli": "SK_GL_VC_LW_REGN_P2"
+    },
+    {
+      "iname": "SK_GL_VC_LW_REGN_PMAX2",
+      "slot": 3,
+      "cap": 1,
+      "type": 9,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_GL_VC_LW_REGN_PMAX2"
+      ],
+      "gdupli": "SK_GL_VC_LW_REGN_P2"
     },
     {
       "iname": "SK_VC_FF7_SCPN_GS",
@@ -162454,6 +163755,17 @@
       ]
     },
     {
+      "iname": "SK_BTL_MOVE_1-20_U_PA",
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_BTL_MOVE_1-20_U_PA"
+      ]
+    },
+    {
       "iname": "SK_BTL_JUMP_1-20_U",
       "cap": 20,
       "type": 12,
@@ -162462,6 +163774,17 @@
       "target": 0,
       "t_buffs": [
         "BUFF_BTL_JUMP_1-20_U"
+      ]
+    },
+    {
+      "iname": "SK_BTL_JUMP_1-20_U_PA",
+      "cap": 20,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "t_buffs": [
+        "BUFF_BTL_JUMP_1-20_U_PA"
       ]
     },
     {
@@ -166219,6 +167542,23 @@
       "t_buffs": [
         "BUFF_BTL_CRI_AP_RECOVREY"
       ]
+    },
+    {
+      "iname": "SK_BTL_BARRIER_ATK",
+      "cap": 1,
+      "type": 3,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "barrier": {
+        "type": 3,
+        "mot": "cmn_guard",
+        "eff": "ef_com_guard_00",
+        "val": 3,
+        "tar": 2,
+        "scut": 50,
+        "ecut": 50
+      }
     },
     {
       "iname": "SK_GMK_ATK_TEST",
@@ -179111,6 +180451,90 @@
       "target": 0,
       "s_buffs": [
         "BUFF_LW_SWO_041_5"
+      ]
+    },
+    {
+      "iname": "SK_LW_SWO_044_1",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_SWO_044_1"
+      ]
+    },
+    {
+      "iname": "SK_LW_SWO_044_2",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_SWO_044_2"
+      ]
+    },
+    {
+      "iname": "SK_LW_SWO_044_3",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_SWO_044_3"
+      ]
+    },
+    {
+      "iname": "SK_LW_SWO_044_4",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_SWO_044_4"
+      ]
+    },
+    {
+      "iname": "SK_LW_SWO_044_5",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "type": 6,
+      "timing": 1,
+      "eff_type": 0,
+      "target": 0,
+      "s_buffs": [
+        "BUFF_LW_SWO_044_5_1",
+        "BUFF_LW_SWO_044_5_2"
+      ]
+    },
+    {
+      "iname": "SK_LW_SWO_044_5_2_B",
+      "cap": 50,
+      "grow": "ARTIFACT_50",
+      "lvup_cost_rate": 100,
+      "effnm": "ef_com_sta_CT_01",
+      "selfsel": 1,
+      "type": 1,
+      "timing": 0,
+      "eff_type": 4,
+      "target": 0,
+      "elem": [
+        0
+      ],
+      "t_buffs": [
+        "BUFF_LW_SWO_044_5_2_B"
       ]
     },
     {

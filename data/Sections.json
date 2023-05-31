@@ -701,26 +701,60 @@
       "is_switch_to_or_o_cond_q": 1
     },
     {
+      "iname": "SE_EV_GL_TU_KFKA",
+      "hurl": "ev_gl_tu_kfka_01"
+    },
+    {
       "iname": "SE_EV_GL_TU_REGN",
       "hurl": "ev_gl_tu_regn_01"
     },
     {
-      "iname": "SE_EV_ART_CRF_28",
+      "iname": "SE_EV_FF6_01_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_arti_crft_28"
+      "hurl": "ev_FF6_R_01",
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
     },
     {
-      "iname": "SE_MU_ART_CRF_28",
-      "hurl": "ev_arti_crft_28"
-    },
-    {
-      "iname": "SE_EV_10_EX_02",
+      "iname": "SE_EV_FF6_03_EX",
       "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_10_ex_02"
+      "hurl": "ev_FF6_R_ex_03",
+      "o_cond_q": [
+        "QE_EV_FF6_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
     },
     {
-      "iname": "SE_MU_EV_10_EX2",
-      "hurl": "ev_10_ex_02"
+      "iname": "SE_MU_FF6_03_EX",
+      "hurl": "ev_FF6_R_ex_03",
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF6_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF6_R_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF6_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF6_02_EX",
+      "hurl": "ev_FF6_R_ex_02",
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF6_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF6_R_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF6_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF6_01_EX",
+      "hurl": "ev_FF6_R_ex_01",
+      "won_dst_sheet_name": "bgm_ff6_Fanfare"
     },
     {
       "iname": "SE_EV_20_01",
@@ -1673,40 +1707,6 @@
       "hurl": "ev_col2021"
     },
     {
-      "iname": "SE_EV_FF6_01_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF6_01",
-      "won_dst_sheet_name": "bgm_ff6_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF6_02_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF6_ex_02",
-      "o_cond_q": [
-        "QE_EV_FF6_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff6_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF6_02_EX",
-      "hurl": "ev_FF6_ex_02",
-      "won_dst_sheet_name": "bgm_ff6_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF6_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF6_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF6_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff6_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF6_01_EX",
-      "hurl": "ev_FF6_ex_01",
-      "won_dst_sheet_name": "bgm_ff6_Fanfare"
-    },
-    {
       "iname": "SE_EV_FF14_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_ff14_01"
@@ -2273,6 +2273,20 @@
       "hurl": "ev_sb_exp"
     },
     {
+      "iname": "SE_EV_AEX_SP",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_lcio_sp"
+    },
+    {
+      "iname": "SE_EV_AEX_020301",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0203"
+    },
+    {
+      "iname": "SE_MU_AEX_020301",
+      "hurl": "ev_ast_ex_0203"
+    },
+    {
       "iname": "SE_EV_AST_020401",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_ast_0204",
@@ -2405,6 +2419,24 @@
       "iname": "SE_EV_AST_010101",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_ast_0101"
+    },
+    {
+      "iname": "SE_EV_ART_CRF_28",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_28"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_28",
+      "hurl": "ev_arti_crft_28"
+    },
+    {
+      "iname": "SE_EV_10_EX_02",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_10_ex_02"
+    },
+    {
+      "iname": "SE_MU_EV_10_EX2",
+      "hurl": "ev_10_ex_02"
     },
     {
       "iname": "SE_EV_DEF_1",
@@ -3465,6 +3497,10 @@
     {
       "iname": "SE_EV_GL_NMAP_002",
       "hurl": "ev_gl_nmap_02"
+    },
+    {
+      "iname": "SE_WQ_01_02",
+      "hurl": "wq_01_02"
     },
     {
       "iname": "SE_WQ_01_01",

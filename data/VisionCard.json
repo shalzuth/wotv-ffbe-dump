@@ -4401,13 +4401,13 @@
       "en_exp": 20000,
       "card_buffs": [
         {
-          "cnds_iname": "VLC_GL_SWA_KAT_BOW_GLO",
+          "cnds_iname": "VLC_GL_SWA_BOW_KAT_GLO",
           "card_skill": "SK_VC_LW_MRND_01_GS",
           "add_card_skill_buff_awake": "SK_VC_LW_MRND_01_GS_AW",
           "add_card_skill_buff_lvmax": "SK_VC_LW_MRND_01_GSMAX"
         },
         {
-          "cnds_iname": "VLC_GL_SWA_KAT_BOW_GLO",
+          "cnds_iname": "VLC_GL_SWA_BOW_KAT_GLO",
           "card_skill": "SK_VC_LW_MRND_01_GS_2",
           "add_card_skill_buff_awake": "SK_VC_LW_MRND_01_GS_AW_2",
           "add_card_skill_buff_lvmax": "SK_VC_LW_MRND_01_GSMAX_2"
@@ -4436,6 +4436,58 @@
           "hp": 324,
           "mag": 164,
           "spd": 3
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
+      "iname": "VC_LW_HWLT",
+      "type": 0,
+      "icon": "LAPSHwlt",
+      "rare": 4,
+      "cost": 70,
+      "piece": "IT_VPI_LW_HWLT",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_SWA_KAT_GLO_BOK",
+          "card_skill": "SK_VC_LW_HWLT_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_HWLT_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HWLT_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_SWA_KAT_GLO_BOK",
+          "card_skill": "SK_VC_LW_HWLT_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_HWLT_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_HWLT_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_HWLT_P",
+          "add_self_buff_awake": "SK_VC_LW_HWLT_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_HWLT_PMAX"
+        },
+        {
+          "buff_cond": "VLC_GL_HWLT_01_HWLT_TITU_CHEL_QILF",
+          "self_buff": "SK_GL_VC_LW_HWLT_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_HWLT_PAW2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_HWLT_PMAX2"
+        }
+      ],
+      "status": [
+        {
+          "hp": 49,
+          "mag": 41
+        },
+        {
+          "hp": 385,
+          "mag": 162
         }
       ],
       "visioncard_medal_num": 20

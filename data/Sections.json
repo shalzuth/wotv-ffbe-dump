@@ -538,6 +538,12 @@
       "back_unit": "UN_LW_ST_030101"
     },
     {
+      "iname": "SE_ST_030302",
+      "chap": "CH_ST_0303",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_030101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -719,6 +725,44 @@
       "is_switch_to_or_o_cond_q": 1
     },
     {
+      "iname": "SE_EV_FF5_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_01",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF5_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF5_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF5_02_EX",
+      "hurl": "ev_FF5_ex_02",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF5_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF5_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF5_01_EX",
+      "hurl": "ev_FF5_ex_01",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_EV_GL_TU_FRIS",
+      "hurl": "ev_gl_tu_fris"
+    },
+    {
       "iname": "SE_EV_GL_TU_BATZ",
       "hurl": "ev_gl_tu_batz"
     },
@@ -753,26 +797,6 @@
     {
       "iname": "SE_EV_GL_TU_REGN",
       "hurl": "ev_gl_tu_regn_01"
-    },
-    {
-      "iname": "SE_EV_FF5_01_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF5_01",
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF5_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF5_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF5_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF5_01_EX",
-      "hurl": "ev_FF5_ex_01",
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
     },
     {
       "iname": "SE_EV_GL_ADSN",
@@ -3100,6 +3124,16 @@
       "hurl": "ev_sb_07"
     },
     {
+      "iname": "SE_BR_IC_WA",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "br_ic_wa_01",
+      "o_cond_q": [
+        "QE_BR_ICE_15",
+        "QE_BR_WATER_15"
+      ],
+      "is_switch_to_or_o_cond_q": 1
+    },
+    {
       "iname": "SE_BR_SO_DA",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "br_so_da_01",
@@ -3663,6 +3697,10 @@
     {
       "iname": "SE_EV_GL_NMAP_002",
       "hurl": "ev_gl_nmap_02"
+    },
+    {
+      "iname": "SE_WQ_01_04",
+      "hurl": "wq_01_04"
     },
     {
       "iname": "SE_WQ_01_03",

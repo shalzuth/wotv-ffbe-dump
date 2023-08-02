@@ -3114,6 +3114,14 @@
           "m": "JB_LW_BYLO_M"
         }
       ],
+      "ex_star": {
+        "unlock_item_id": "UEX_RCP_SOIL_SR",
+        "unlock_count": 1,
+        "id": "UES_LW_BYLO",
+        "lvup_item_id": "UES_LU_SOIL",
+        "re_id": "UES_RNC_SOIL_SR",
+        "skill_set_id": "UESSET_LW_BYLO"
+      },
       "ai": "AI_PLAYER_LW_KNT",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -27445,6 +27453,134 @@
       ],
       "limit": "SK_LB_FF5_FRIS",
       "awake_tbl_id": "UN_AW_WATER_UR",
+      "unit_medal_num": 20
+    },
+    {
+      "iname": "UN_LW_P_RUFF",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 0,
+      "charaId": "LAPSruff",
+      "anm_type": 5,
+      "anm_id": "ruff",
+      "voiceId": "LAPSruff_00",
+      "type": 0,
+      "elem": [
+        8
+      ],
+      "species": [
+        1
+      ],
+      "birth": 34,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "piece": "IT_PI_LW_RUFF",
+      "piece_num": 40,
+      "db_num": 1,
+      "trust": "AF_ACC_LW_RUFF_1",
+      "atkskl": "SK_LW_RUFF_ATK",
+      "mstskl": [
+        "SK_MA_LW_RUFF"
+      ],
+      "jobsets": [
+        "JB_LW_RUFF",
+        "JB_LW_LIB_DARK",
+        "JB_LW_MGK_DARK"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_LW_RUFF_M"
+        }
+      ],
+      "ex_star": {
+        "unlock_item_id": "UEX_RCP_DARK_UR",
+        "unlock_count": 1,
+        "id": "UES_LW_RUFF",
+        "lvup_item_id": "UES_LU_DARK",
+        "re_id": "UES_RNC_DARK_UR",
+        "skill_set_id": "UESSET_LW_RUFF"
+      },
+      "ai": "AI_PLAYER_LW_RUFF",
+      "buff_pri": "BUFFPRI_MAGTANK",
+      "debuff_pri": "DEBUFFPRI_MAGTANK",
+      "status": [
+        {
+          "hp": 374,
+          "mp": 59,
+          "ap": 74,
+          "atk": 32,
+          "def": 0,
+          "mag": 88,
+          "mnd": 0,
+          "dex": 65,
+          "spd": 32,
+          "luk": 70,
+          "esh": -10,
+          "asl": 15,
+          "api": -5,
+          "abl": 25,
+          "ash": 10,
+          "ama": 15,
+          "cpa": 50,
+          "ccf": 50,
+          "csw": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1621,
+          "mp": 93,
+          "ap": 90,
+          "atk": 54,
+          "def": 0,
+          "mag": 148,
+          "mnd": 0,
+          "dex": 97,
+          "spd": 34,
+          "luk": 99,
+          "esh": -10,
+          "asl": 15,
+          "api": -5,
+          "abl": 25,
+          "ash": 10,
+          "ama": 15,
+          "cpa": 50,
+          "ccf": 50,
+          "csw": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1702,
+          "mp": 97,
+          "ap": 94,
+          "atk": 70,
+          "def": 0,
+          "mag": 192,
+          "mnd": 0,
+          "dex": 128,
+          "spd": 34,
+          "luk": 108,
+          "esh": -10,
+          "asl": 15,
+          "api": -5,
+          "abl": 25,
+          "ash": 10,
+          "ama": 15,
+          "cpa": 50,
+          "ccf": 50,
+          "csw": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "limit": "SK_LB_LW_RUFF",
+      "awake_tbl_id": "UN_AW_DARK_UR",
       "unit_medal_num": 20
     },
     {
@@ -111343,9 +111479,6 @@
       "cost": 1,
       "notsmn": 1,
       "stop": 1,
-      "jobsets": [
-        "JB_LW_CLE"
-      ],
       "status": [
         {
           "hp": 1000,
@@ -116420,6 +116553,88 @@
       "unit_medal_num": 0
     },
     {
+      "iname": "UN_LW_E_RUFF_QE",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 0,
+      "charaId": "LAPSruff",
+      "anm_type": 5,
+      "anm_id": "ruff",
+      "voiceId": "LAPSruff_00",
+      "type": 7,
+      "elem": [
+        8
+      ],
+      "species": [
+        1
+      ],
+      "birth": 34,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "atkskl": "SK_LW_RUFF_ATK",
+      "jobsets": [
+        "JB_LW_RUFF",
+        "JB_LW_LIB_DARK",
+        "JB_LW_MGK_DARK"
+      ],
+      "ai": "AI_PLAYER_LW_RUFF",
+      "buff_pri": "BUFFPRI_MAGTANK",
+      "debuff_pri": "DEBUFFPRI_MAGTANK",
+      "status": [
+        {
+          "hp": 374,
+          "mp": 59,
+          "ap": 74,
+          "atk": 32,
+          "def": 0,
+          "mag": 88,
+          "mnd": 0,
+          "dex": 65,
+          "spd": 32,
+          "luk": 70,
+          "esh": -10,
+          "asl": 15,
+          "api": -5,
+          "abl": 25,
+          "ash": 10,
+          "ama": 15,
+          "cpa": 50,
+          "ccf": 50,
+          "csw": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1621,
+          "mp": 93,
+          "ap": 90,
+          "atk": 54,
+          "def": 0,
+          "mag": 148,
+          "mnd": 0,
+          "dex": 97,
+          "spd": 34,
+          "luk": 99,
+          "esh": -10,
+          "asl": 15,
+          "api": -5,
+          "abl": 25,
+          "ash": 10,
+          "ama": 15,
+          "cpa": 50,
+          "ccf": 50,
+          "csw": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
       "iname": "UN_LW_E_PRNE_99",
       "sex": 2,
       "size": 0,
@@ -117057,6 +117272,90 @@
           "cbl": 50,
           "cpa": 10,
           "cbe": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_DARD_QE",
+      "sex": 1,
+      "size": 0,
+      "body_type": "MM",
+      "personal": 0,
+      "charaId": "LAPSdard",
+      "anm_type": 5,
+      "anm_id": "dard",
+      "voiceId": "LAPSdard_00",
+      "type": 7,
+      "elem": [
+        4
+      ],
+      "species": [
+        1
+      ],
+      "birth": 38,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "atkskl": "SK_LW_DARD_ATK",
+      "jobsets": [
+        "JB_LW_DARD",
+        "JB_LW_MMC_SOIL",
+        "JB_LW_RDM_SOIL"
+      ],
+      "ai": "AI_PLAYER_LW_DARD",
+      "buff_pri": "BUFFPRI_MAGTANK",
+      "debuff_pri": "DEBUFFPRI_MAGTANK",
+      "status": [
+        {
+          "hp": 399,
+          "mp": 60,
+          "ap": 72,
+          "atk": 40,
+          "def": 0,
+          "mag": 71,
+          "mnd": 0,
+          "dex": 66,
+          "spd": 32,
+          "luk": 73,
+          "ewi": -10,
+          "eth": 20,
+          "asl": 20,
+          "api": -5,
+          "abl": 10,
+          "ash": 15,
+          "ama": 20,
+          "csw": 50,
+          "cdm": 50,
+          "cbe": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1602,
+          "mp": 93,
+          "ap": 89,
+          "atk": 67,
+          "def": 0,
+          "mag": 119,
+          "mnd": 0,
+          "dex": 99,
+          "spd": 37,
+          "luk": 103,
+          "ewi": -10,
+          "eth": 20,
+          "asl": 20,
+          "api": -5,
+          "abl": 10,
+          "ash": 15,
+          "ama": 20,
+          "csw": 50,
+          "cdm": 50,
+          "cbe": 10,
           "mov": 3,
           "jmp": 1,
           "dmax": 9999

@@ -725,6 +725,40 @@
       "is_switch_to_or_o_cond_q": 1
     },
     {
+      "iname": "SE_EV_GL_TU_RUFF",
+      "hurl": "ev_gl_tu_ruff"
+    },
+    {
+      "iname": "SE_EV_RUFF_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ruff_01"
+    },
+    {
+      "iname": "SE_EV_AF2023_1",
+      "hurl": "ev_af2023_01"
+    },
+    {
+      "iname": "SE_EV_AF2023_2",
+      "hurl": "ev_af2023_02",
+      "o_cond_q": [
+        "QE_EV_AF2023_1"
+      ]
+    },
+    {
+      "iname": "SE_EV_AF2023_3",
+      "hurl": "ev_af2023_03",
+      "o_cond_q": [
+        "QE_EV_AF2023_2"
+      ]
+    },
+    {
+      "iname": "SE_EV_AF2023_4",
+      "hurl": "ev_af2023_04",
+      "o_cond_q": [
+        "QE_EV_AF2023_3"
+      ]
+    },
+    {
       "iname": "SE_EV_FF5_01_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_FF5_01",
@@ -850,6 +884,15 @@
       "iname": "SE_EV_ART_CRF_29",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_arti_crft_29"
+    },
+    {
+      "iname": "SE_EV_ART_CRF_23",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_arti_crft_23"
+    },
+    {
+      "iname": "SE_MU_ART_CRF_23",
+      "hurl": "ev_arti_crft_23"
     },
     {
       "iname": "SE_PTQ_FF6_R_01",
@@ -2115,15 +2158,6 @@
       "hurl": "ev_gl_rsnc_01_01"
     },
     {
-      "iname": "SE_EV_ART_CRF_23",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_arti_crft_23"
-    },
-    {
-      "iname": "SE_MU_ART_CRF_23",
-      "hurl": "ev_arti_crft_23"
-    },
-    {
       "iname": "SE_EV_GL_TU_SDLX_01",
       "hurl": "ev_gl_sdlx_01_01"
     },
@@ -2443,6 +2477,15 @@
       "limit": 10,
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_sb_exp"
+    },
+    {
+      "iname": "SE_EV_AEX_020502",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex2_0205"
+    },
+    {
+      "iname": "SE_MU_AEX_020502",
+      "hurl": "ev_ast_ex2_0205"
     },
     {
       "iname": "SE_EV_AEX_020501",

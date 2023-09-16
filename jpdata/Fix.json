@@ -391,6 +391,51 @@
       "value": -100
     },
     {
+      "iname": "reduce_dmg_dist_value_max",
+      "type": 0,
+      "value": 80
+    },
+    {
+      "iname": "reduce_dmg_dist_value_min",
+      "type": 0,
+      "value": -80
+    },
+    {
+      "iname": "reduce_dmg_area_value_max",
+      "type": 0,
+      "value": 80
+    },
+    {
+      "iname": "reduce_dmg_area_value_min",
+      "type": 0,
+      "value": -80
+    },
+    {
+      "iname": "reduce_dmg_area_coefficient_a",
+      "type": 0,
+      "value": 5
+    },
+    {
+      "iname": "reduce_dmg_area_coefficient_b",
+      "type": 0,
+      "value": 4
+    },
+    {
+      "iname": "reduce_dmg_area_coefficient_c",
+      "type": 0,
+      "value": 25
+    },
+    {
+      "iname": "max_rate_attacker_damage_down",
+      "type": 0,
+      "value": 80
+    },
+    {
+      "iname": "sum_rate_down_max",
+      "type": 0,
+      "value": 100
+    },
+    {
       "iname": "buf_spgain_max",
       "type": 0,
       "value": 200
@@ -881,6 +926,11 @@
       "value": "50,50,50,50,50,100,100,100,100,100,150,150,150,150,200"
     },
     {
+      "iname": "limited_arena_bpcoin_tbl",
+      "type": 1,
+      "value": "50,50,50,50,50,100,100,100,100,100,150,150,150,150,200"
+    },
+    {
       "iname": "arena_bp_rec_cnt_day",
       "type": 0,
       "value": 3
@@ -973,7 +1023,7 @@
     {
       "iname": "multi_follow_bonus_max",
       "type": 0,
-      "value": 3000
+      "value": 20000
     },
     {
       "iname": "multi_mvp_second_rank",
@@ -1133,12 +1183,12 @@
     {
       "iname": "raid_follow_bonus_item_iname",
       "type": 2,
-      "value": "IT_EC_FMAM_2"
+      "value": "IT_EC_RAID_SUMMER"
     },
     {
       "iname": "raid_coin_item_iname",
       "type": 2,
-      "value": "IT_EC_FMAM_2"
+      "value": "IT_EC_RAID_SUMMER"
     },
     {
       "iname": "raid_agent_max",
@@ -1378,17 +1428,17 @@
     {
       "iname": "is_allowed_guildbattle_sub",
       "type": 0,
-      "value": 0
+      "value": 1
     },
     {
       "iname": "is_allowed_limited_gb_sub",
       "type": 0,
-      "value": 0
+      "value": 1
     },
     {
       "iname": "is_allowed_top_gb_sub",
       "type": 0,
-      "value": 0
+      "value": 1
     },
     {
       "iname": "guildbattle_sub_fill_max",
@@ -1718,7 +1768,7 @@
     {
       "iname": "limited_league_guild_battle_history_count",
       "type": 0,
-      "value": 3
+      "value": 4
     },
     {
       "iname": "limited_league_guild_battle_matching_candidate_count",
@@ -2121,6 +2171,21 @@
       "value": 12
     },
     {
+      "iname": "multi_over_kill_standing_time",
+      "type": 0,
+      "value": 20
+    },
+    {
+      "iname": "multi_over_kill_warning_time",
+      "type": 0,
+      "value": 10
+    },
+    {
+      "iname": "multi_over_kill_teamname_max_num",
+      "type": 0,
+      "value": 12
+    },
+    {
       "iname": "mt_inventry_cap",
       "type": 0,
       "value": 200
@@ -2319,6 +2384,26 @@
       "iname": "is_allowed_rapid_coin",
       "type": 0,
       "value": 0
+    },
+    {
+      "iname": "save_favorite_story_quest_num",
+      "type": 0,
+      "value": 20
+    },
+    {
+      "iname": "guild_raid_infinite_hp_boss_display_hp",
+      "type": 0,
+      "value": 10000000
+    },
+    {
+      "iname": "battle_mapbuff_change_color_turn",
+      "type": 0,
+      "value": 2
+    },
+    {
+      "iname": "is_enable_royal_adddesc_for_limitedarena",
+      "type": 0,
+      "value": 1
     }
   ]
 }

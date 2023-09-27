@@ -562,6 +562,12 @@
       "back_unit": "UN_LW_ST_030101"
     },
     {
+      "iname": "SE_ST_030403",
+      "chap": "CH_ST_0304",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_030101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -741,6 +747,26 @@
         "QE_ST_02070110"
       ],
       "is_switch_to_or_o_cond_q": 1
+    },
+    {
+      "iname": "SE_EV_FF8_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF8_01",
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
+    },
+    {
+      "iname": "SE_EV_FF8_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF8_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF8_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
+    },
+    {
+      "iname": "SE_MU_FF8_01_EX",
+      "hurl": "ev_FF8_ex_01",
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
     },
     {
       "iname": "SE_EV_3_5ANV_1",
@@ -1785,6 +1811,10 @@
     {
       "iname": "SE_EV_BSTC_01",
       "hurl": "ev_bstc_01"
+    },
+    {
+      "iname": "SE_EV_BSTC_02",
+      "hurl": "ev_bstc_02"
     },
     {
       "iname": "SE_EV_GLZK",
@@ -3323,6 +3353,16 @@
     {
       "iname": "SE_MU_SB_07",
       "hurl": "ev_sb_07"
+    },
+    {
+      "iname": "SE_BR_SH_WI",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "br_sh_wi_01",
+      "o_cond_q": [
+        "QE_BR_SHINE_15",
+        "QE_BR_WIND_15"
+      ],
+      "is_switch_to_or_o_cond_q": 1
     },
     {
       "iname": "SE_BR_TH_FI",

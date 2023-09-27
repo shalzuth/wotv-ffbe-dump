@@ -1533,6 +1533,65 @@
           "iname": "BUFF_LW_EC_MSM_C_01C"
         }
       ]
+    },
+    {
+      "iname": "SKE_FF8_SQAL_S_2",
+      "reduce_dmg_dist_min": 4,
+      "reduce_dmg_dist_max": 7
+    },
+    {
+      "iname": "SKE_FF8_MNTR_01_M_01",
+      "strcnd": [
+        {
+          "tar": 1,
+          "type": 81,
+          "calc": 4
+        }
+      ],
+      "targetBuff": [
+        {
+          "iname": "BUFF_FF8_MNTR_01_M_01_T_2"
+        }
+      ]
+    },
+    {
+      "iname": "SKE_FF8_MNTR_M_01",
+      "strcnd": [
+        {
+          "tar": 1,
+          "type": 81,
+          "calc": 4
+        }
+      ],
+      "targetBuff": [
+        {
+          "iname": "BUFF_FF8_MNTR_M_01_T_2"
+        }
+      ]
+    },
+    {
+      "iname": "SKE_FF8_MNTR_M_06",
+      "HandlingType": 3
+    },
+    {
+      "iname": "SKE_LW_SOLL_M_2",
+      "strcnd": [
+        {
+          "tar": 1,
+          "type": 83,
+          "calc": 4
+        },
+        {
+          "tar": 1,
+          "type": 95,
+          "calc": 4
+        },
+        {
+          "tar": 1,
+          "type": 101,
+          "calc": 4
+        }
+      ]
     }
   ]
 }

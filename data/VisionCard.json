@@ -5235,6 +5235,66 @@
       "visioncard_medal_num": 20
     },
     {
+      "iname": "VC_LW_SOLL",
+      "type": 0,
+      "icon": "LAPSSoll",
+      "rare": 4,
+      "cost": 60,
+      "piece": "IT_VPI_LW_SOLL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_SWA_BSW_RDB",
+          "card_skill": "SK_VC_LW_SOLL_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_SOLL_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_SOLL_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_SWA_BSW_RDB",
+          "card_skill": "SK_VC_LW_SOLL_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_SOLL_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_SOLL_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_SOLL_P",
+          "add_self_buff_awake": "SK_VC_LW_SOLL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_SOLL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_SOLL_RAIN_FINA",
+          "self_buff": "SK_GL_VC_LW_SOLL_P2",
+          "add_self_buff_awake": "SK_GL_VC_LW_SOLL_PAW2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SOLL_PMAX2"
+        },
+        {
+          "buff_cond": "VLC_LSWL",
+          "self_buff": "SK_GL_VC_LW_SOLL_P3",
+          "add_self_buff_awake": "SK_GL_VC_LW_SOLL_PAW3",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SOLL_PMAX3"
+        }
+      ],
+      "status": [
+        {
+          "hp": 44,
+          "def": 1,
+          "mag": 40
+        },
+        {
+          "hp": 345,
+          "def": 3,
+          "mag": 156
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_FF7_SCPN",
       "type": 0,
       "collaboType": 1,

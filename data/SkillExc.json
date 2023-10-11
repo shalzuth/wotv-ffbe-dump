@@ -1578,6 +1578,17 @@
       "HandlingType": 3
     },
     {
+      "iname": "SKE_FF8_ACC_002_1",
+      "reduce_dmg_dist_min": 3,
+      "reduce_dmg_dist_max": 5
+    },
+    {
+      "iname": "SKE_LW_SOLL_M_1",
+      "serialSkill": [
+        "SK_LW_SOLL_M_4"
+      ]
+    },
+    {
       "iname": "SKE_LW_SOLL_M_2",
       "strcnd": [
         {
@@ -1594,6 +1605,21 @@
           "tar": 1,
           "type": 101,
           "calc": 4
+        }
+      ]
+    },
+    {
+      "iname": "SKE_LB_LW_SOLL",
+      "strcnd": [
+        {
+          "tar": 1,
+          "type": 84,
+          "calc": 4
+        }
+      ],
+      "targetBuff": [
+        {
+          "iname": "BUFF_LB_LW_SOLL_3"
         }
       ]
     }

@@ -767,9 +767,25 @@
       "is_switch_to_or_o_cond_q": 1
     },
     {
+      "iname": "SE_MU_EV_MRGE_01",
+      "hurl": "ev_mrge_01"
+    },
+    {
       "iname": "SE_EV_FF9_01_01",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_FF9_01"
+    },
+    {
+      "iname": "SE_EV_FF9_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF9_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF9_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_FF9_02_EX",
+      "hurl": "ev_FF9_ex_02"
     },
     {
       "iname": "SE_EV_FF9_01_EX",

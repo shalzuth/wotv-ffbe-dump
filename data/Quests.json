@@ -75701,6 +75701,51 @@
       "publishing_time": "2023/02/01 0:00:00"
     },
     {
+      "iname": "QE_CH_LW_PRNE_2",
+      "title_index": 1,
+      "type": 5,
+      "sect": "SE_WD_010208",
+      "ap": 25,
+      "not_search": 1,
+      "ap0": 1,
+      "lv": 80,
+      "o_cond_q": [
+        "QE_CH_LW_PRNE"
+      ],
+      "open_cond": [
+        "COND_CH_PRNE_2"
+      ],
+      "pexp": 0,
+      "uexp": 6400,
+      "gold": 1500,
+      "jp": 26,
+      "jp_skip": 26,
+      "jpt": 0,
+      "unit_iname": "UN_LW_P_PRNE",
+      "skl_iname": "SK_MA_LW_PRNE_2",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_CH_MM_A02",
+        "QM_CH_MM_163",
+        "QM_CH_IM_003",
+        "QM_CH_EM_403"
+      ],
+      "map": {
+        "scn": "owi_cas/owi_cas_002_A_1",
+        "set": "ch/ch_lw_prne_2_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "publishing_time": "2023/12/08 00:00:00"
+    },
+    {
       "iname": "QE_CH_LW_LLGA",
       "title_index": 1,
       "type": 5,
@@ -77630,6 +77675,48 @@
         "lap": 2
       },
       "publishing_time": "2023/12/01 00:00:00"
+    },
+    {
+      "iname": "QE_CH_FF9_VIVI",
+      "title_index": 1,
+      "type": 5,
+      "sect": "SE_WD_010104",
+      "ap": 25,
+      "not_search": 1,
+      "ap0": 1,
+      "lv": 40,
+      "open_cond": [
+        "COND_CH_FF9_VIVI"
+      ],
+      "pexp": 0,
+      "uexp": 6400,
+      "gold": 1500,
+      "jp": 26,
+      "jp_skip": 26,
+      "jpt": 0,
+      "unit_iname": "UN_FF9_P_VIVI",
+      "skl_iname": "SK_MA_FF9_VIVI",
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_CH_MM_A01",
+        "QM_CH_MM_192",
+        "QM_CH_IM_002",
+        "QM_CH_EM_401"
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_011_A_2",
+        "set": "ch/ch_ff9_vivi_set",
+        "bgm": "law_201_battle"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "publishing_time": "2023/12/08 00:00:00"
     },
     {
       "iname": "QE_EV_GL_CDOWN_01_9",
@@ -86582,6 +86669,112 @@
         "movecnt": 50,
         "lap": 2
       }
+    },
+    {
+      "iname": "QE_MU_EV_MRGE_01",
+      "type": 4,
+      "sect": "SE_MU_EV_MRGE_01",
+      "ap": 6,
+      "not_search": 1,
+      "lv": 120,
+      "pexp": 0,
+      "uexp": 20289,
+      "gold": 1800,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "map": {
+        "scn": "lio_pla/lio_pla_036_E_3",
+        "set": "mu/mu_ev_mrge_01_set",
+        "eff": [
+          1
+        ],
+        "bgm": "law_202_battle_midboss",
+        "buffs": [
+          "BUFF_EV_MRGE_01"
+        ]
+      },
+      "rule": {
+        "proh": [
+          5,
+          6
+        ]
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      },
+      "point_const": "QC_EX_3"
+    },
+    {
+      "iname": "QE_MU_FF9_EX05",
+      "type": 4,
+      "sect": "SE_MU_FF9_02_EX",
+      "ap": 6,
+      "not_search": 1,
+      "lv": 50,
+      "pexp": 0,
+      "uexp": 5623,
+      "gold": 1800,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "map": {
+        "collaboType": 1,
+        "scnCollaboType": 1,
+        "scn": "FF09_pam/FF09_pam_001_A_1",
+        "set": "mu/mu_FF9_ex3_set",
+        "bgm": "bgm_ff9_Battle2"
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      },
+      "point_const": "QC_EX_1"
+    },
+    {
+      "iname": "QE_MU_FF9_EX06",
+      "type": 4,
+      "sect": "SE_MU_FF9_02_EX",
+      "ap": 6,
+      "not_search": 1,
+      "lv": 80,
+      "pexp": 0,
+      "uexp": 8733,
+      "gold": 1800,
+      "jp": 0,
+      "jp_skip": 0,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "map": {
+        "collaboType": 1,
+        "scnCollaboType": 1,
+        "scn": "FF09_pam/FF09_pam_001_A_1",
+        "set": "mu/mu_FF9_ex3_1_set",
+        "bgm": "bgm_ff9_Battle2"
+      },
+      "rule_multi": {
+        "is_multileader": 1,
+        "pnum": 4
+      },
+      "point_const": "QC_EX_2"
     },
     {
       "iname": "QE_MU_FF9_EX01",
@@ -100460,6 +100653,98 @@
         "scn": "FF09_dem/FF09_dem_001_A_1",
         "set": "ev/ev_FF9_ex2_1_set",
         "bgm": "bgm_ff9_Battle3"
+      },
+      "rule": {
+        "proh": [
+          5
+        ],
+        "lap": 2
+      },
+      "point_const": "QC_EX_2"
+    },
+    {
+      "iname": "QE_EV_FF9_EX05",
+      "type": 2,
+      "sect": "SE_EV_FF9_02_EX",
+      "ap": 12,
+      "extra": 1,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 50,
+      "o_cond_q": [
+        "QE_EV_FF9_10"
+      ],
+      "pexp": 0,
+      "uexp": 5623,
+      "gold": 1800,
+      "jp": 12,
+      "jp_skip": 12,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        },
+        {
+          "item": "IT_AF_FF9_ROD_000",
+          "type": 0,
+          "num": 1
+        }
+      ],
+      "missions": [
+        "QM_EV_FF9_EX_7",
+        "QM_EV_FF9_EX_8",
+        "QM_EV_FF9_EX_9"
+      ],
+      "map": {
+        "collaboType": 1,
+        "scnCollaboType": 1,
+        "scn": "FF09_pam/FF09_pam_001_A_1",
+        "set": "ev/ev_FF9_ex3_set",
+        "bgm": "bgm_ff9_Battle2"
+      },
+      "rule": {
+        "lap": 2
+      },
+      "point_const": "QC_EX_1"
+    },
+    {
+      "iname": "QE_EV_FF9_EX06",
+      "type": 2,
+      "sect": "SE_EV_FF9_02_EX",
+      "ap": 12,
+      "extra": 1,
+      "is_allow_bg_repeat": 1,
+      "ap0": 1,
+      "lv": 80,
+      "o_cond_q": [
+        "QE_EV_FF9_EX05"
+      ],
+      "pexp": 0,
+      "uexp": 8733,
+      "gold": 1800,
+      "jp": 12,
+      "jp_skip": 12,
+      "jpt": 0,
+      "c_rewards": [
+        {
+          "type": 3,
+          "num": 50
+        }
+      ],
+      "missions": [
+        "QM_EV_FF9_EX3_1",
+        "QM_EV_FF9_EX3_2",
+        "QM_EV_FF9_EX3_3",
+        "QM_EV_FF9_EX3_4",
+        "QM_EV_FF9_EX3_5"
+      ],
+      "map": {
+        "collaboType": 1,
+        "scnCollaboType": 1,
+        "scn": "FF09_pam/FF09_pam_001_A_1",
+        "set": "ev/ev_FF9_ex3_1_set",
+        "bgm": "bgm_ff9_Battle2"
       },
       "rule": {
         "proh": [

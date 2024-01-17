@@ -5984,6 +5984,72 @@
       "visioncard_medal_num": 0
     },
     {
+      "iname": "VC_LW_SERL",
+      "type": 0,
+      "icon": "LAPSSerl",
+      "rare": 4,
+      "cost": 60,
+      "piece": "IT_VPI_LW_SERL",
+      "piece_num": 25,
+      "db_num": 1,
+      "sell": 1000,
+      "sell_mdl": 100,
+      "en_cost": 2000,
+      "en_exp": 20000,
+      "card_buffs": [
+        {
+          "cnds_iname": "VLC_BSW_DAG_KAT_BOK",
+          "card_skill": "SK_VC_LW_SERL_GS",
+          "add_card_skill_buff_awake": "SK_VC_LW_SERL_GS_AW",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_SERL_GSMAX"
+        },
+        {
+          "cnds_iname": "VLC_BSW_DAG_KAT_BOK",
+          "card_skill": "SK_VC_LW_SERL_GS_2",
+          "add_card_skill_buff_awake": "SK_VC_LW_SERL_GS_AW_2",
+          "add_card_skill_buff_lvmax": "SK_VC_LW_SERL_GSMAX_2"
+        }
+      ],
+      "self_buffs": [
+        {
+          "self_buff": "SK_VC_LW_SERL_P",
+          "add_self_buff_awake": "SK_VC_LW_SERL_PAW",
+          "add_self_buff_lvmax": "SK_VC_LW_SERL_PMAX"
+        },
+        {
+          "buff_cond": "VLC_ELSR_SERL",
+          "self_buff": "SK_GL_VC_LW_SERL_P_2",
+          "add_self_buff_awake": "SK_GL_VC_LW_SERL_PAW_2",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SERL_PMAX_2"
+        },
+        {
+          "buff_cond": "VLC_ELSR",
+          "self_buff": "SK_GL_VC_LW_SERL_P_3",
+          "add_self_buff_awake": "SK_GL_VC_LW_SERL_PAW_3",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SERL_PMAX_3"
+        },
+        {
+          "buff_cond": "VLC_SERL",
+          "self_buff": "SK_GL_VC_LW_SERL_P_4",
+          "add_self_buff_awake": "SK_GL_VC_LW_SERL_PAW_4",
+          "add_self_buff_lvmax": "SK_GL_VC_LW_SERL_PMAX_4"
+        }
+      ],
+      "status": [
+        {
+          "hp": 48,
+          "atk": 36,
+          "def": 1
+        },
+        {
+          "hp": 378,
+          "atk": 141,
+          "def": 3
+        }
+      ],
+      "visioncard_medal_num": 20
+    },
+    {
       "iname": "VC_FF7_SCPN",
       "type": 0,
       "collaboType": 1,

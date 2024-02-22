@@ -221,6 +221,10 @@
       "value": ""
     },
     {
+      "key": "SK_UN_BD_EC_VRWB",
+      "value": ""
+    },
+    {
       "key": "SK_US_POTION",
       "value": "Recovers ally's HP (S)."
     },
@@ -599,6 +603,10 @@
     {
       "key": "SK_WOLF_M_02",
       "value": "Deals 3-Hit Dmg (S) to target."
+    },
+    {
+      "key": "SK_WOLF_M_02_RP1",
+      "value": "Deals 3-Hit Dmg (S) to target & elemental chain effect persists for 1 turn even if target performs an action."
     },
     {
       "key": "SK_WOLF_M_03",
@@ -1393,12 +1401,24 @@
       "value": "Deals Earth Dmg (S) to targets within range based on caster's MAG stat."
     },
     {
+      "key": "SK_GLEM_M_02_RP1",
+      "value": "Deals Earth Dmg (S) to targets within range based on caster's MAG stat & lowers DEF Piercing Rate/SPR Piercing Rate for 3 turns."
+    },
+    {
       "key": "SK_GLEM_M_03",
       "value": "Raises own DEF and SPR for 1 turn."
     },
     {
+      "key": "SK_GLEM_M_03_RP1",
+      "value": "Raises own DEF/SPR for 3 turns & permanently raises Elemental Chain Res."
+    },
+    {
       "key": "SK_GLEM_M_04",
       "value": "Deals Earth Dmg (L) to targets within range based on caster's MAG stat."
+    },
+    {
+      "key": "SK_GLEM_M_05",
+      "value": "Deals Earth Dmg (L) to targets within range based on caster's MAG stat & activates temporary Map Effects (raises allies' ATK/MAG & significantly lowers enemies' Earth Res)."
     },
     {
       "key": "SK_GLEM_ATK_R",
@@ -1651,6 +1671,10 @@
     {
       "key": "SK_TSLP_M_05",
       "value": "Deals Wind Magic Dmg (Max) to enemies within target area & activates temporary Map Effects (raises allies' Evasion Rate & significantly lowers enemies' Wind Res)."
+    },
+    {
+      "key": "SK_TSLP_M_06",
+      "value": "Bestows a barrier on self that reduces Dmg by N% 3 times & nullifies Guaranteed Hit against self."
     },
     {
       "key": "SK_TSLP_01_ATK",
@@ -5714,6 +5738,14 @@
     },
     {
       "key": "SK_BTL_LEVT",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_RESPHY_1_100_U",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_BTL_RESMAG_1_100_U",
       "value": "Quest-balancing skill"
     },
     {
@@ -16886,7 +16918,7 @@
     },
     {
       "key": "SK_LW_REGN_R_1",
-      "value": "Chance of taking reduced Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_REGN_P_1",
@@ -17174,7 +17206,7 @@
     },
     {
       "key": "SK_LW_SSA_R_1",
-      "value": "Chance of taking reduced Missile Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_SSA_P_1",
@@ -17234,7 +17266,7 @@
     },
     {
       "key": "SK_LW_EC_SSA_C_02B",
-      "value": "Chance of taking reduced Missile Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_SSA_EN_A_02",
@@ -17666,7 +17698,7 @@
     },
     {
       "key": "SK_LW_RUFF_R_1",
-      "value": "Chance of taking reduced Slash Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_RUFF_P_1",
@@ -17822,7 +17854,7 @@
     },
     {
       "key": "SK_LW_GRSR_03_R_1",
-      "value": "Chance of taking reduced Slash/Magic Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_GRSR_03_P_1",
@@ -17906,7 +17938,7 @@
     },
     {
       "key": "SK_LW_ALIA_01_R_1",
-      "value": "Chance of Preemptive Strike when taking Slash/Magic Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_ALIA_01_P_1",
@@ -18258,7 +18290,7 @@
     },
     {
       "key": "SK_FF8_SQAL_R_1",
-      "value": "Chance of taking reduced Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_FF8_SQAL_P_1",
@@ -18394,7 +18426,7 @@
     },
     {
       "key": "SK_FF8_IRVN_R_1",
-      "value": "Chance of Preemptive Strike when taking Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_FF8_IRVN_P_1",
@@ -18466,7 +18498,7 @@
     },
     {
       "key": "SK_LW_SOLL_R_1",
-      "value": "Chance of taking reduced Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_SOLL_P_1",
@@ -18682,7 +18714,7 @@
     },
     {
       "key": "SK_FF9_ZDAN_R_1",
-      "value": "Chance of taking reduced Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_FF9_ZDAN_P_1",
@@ -18846,7 +18878,7 @@
     },
     {
       "key": "SK_FF9_VIVI_R_1",
-      "value": "Chance of Preemptive Strike when taking Slash/Magic Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_FF9_VIVI_P_1",
@@ -19110,7 +19142,7 @@
     },
     {
       "key": "SK_LW_ASTR_01_R_1",
-      "value": "Chance of Preemptive Strike when taking Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_ASTR_01_R_2",
@@ -19118,7 +19150,7 @@
     },
     {
       "key": "SK_LW_ASTR_01_R_1B",
-      "value": "Chance of Preemptive Strike when taking Slash/Strike Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_ASTR_01_R_2B",
@@ -19281,6 +19313,10 @@
       "value": "Raises own DEF Piercing Rate for 3 turns & removes all Buffs from targets within range, then deals Dmg (M)."
     },
     {
+      "key": "SK_LW_VRHW_EN_A_01B",
+      "value": "Raises own DEF Piercing Rate for 3 turns & removes all Buffs from targets within range & significantly lowers reaction ability activation rate for 3 turns, then deals Dmg (L)."
+    },
+    {
       "key": "SK_LW_EC_VRHW_C_01",
       "value": "Enhances Guard Stance to Fortress Stance. Raises Area Attack Res of allies within area around self & bestows Man Eater Upon Phys Attack for 4 turns & bestows a barrier on self that reduces Dmg (3 times)."
     },
@@ -19334,7 +19370,7 @@
     },
     {
       "key": "SK_NIER_N2TB_01_R_1",
-      "value": "Chance of evading Slash/Strike Attacks."
+      "value": ""
     },
     {
       "key": "SK_NIER_N2TB_01_R_2",
@@ -19446,7 +19482,7 @@
     },
     {
       "key": "SK_LW_LCIO_02_R_1",
-      "value": "Chance of recovering a set percentage of own HP (Min) and recovering AP when taking Slash/Magic Attack Dmg."
+      "value": ""
     },
     {
       "key": "SK_LW_LCIO_02_P_1",
@@ -19631,6 +19667,150 @@
     {
       "key": "SK_LW_EC_SDLX_02_C_02C",
       "value": "Deals Dmg (L) to targets within range & seals Debuffs for 3 turns & recovers own AP upon Critical Hit."
+    },
+    {
+      "key": "SK_LW_KTON_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KTON_02_M_1",
+      "value": "Deals Dmg (M) to up to 2 targets & recovers own CT (S) when enemy is KO'd (1 enemy)."
+    },
+    {
+      "key": "SK_LW_KTON_02_M_1_AD",
+      "value": "Raises own CT (S) when enemy is KO'd (1 enemy)."
+    },
+    {
+      "key": "SK_LW_KTON_02_M_2",
+      "value": "Lowers a set percentage of Strike Attack Res of targets within range for 3 turns, then deals damage (M) & raises own AGI for 3 turns."
+    },
+    {
+      "key": "SK_LW_KTON_02_M_3",
+      "value": "Bestows AGI Down for 3 turns to successful attacks of allies within area around self for 3 turns & bestows a barrier on self that reduces Phys Dmg (3 times)."
+    },
+    {
+      "key": "SK_LW_KTON_02_S_1",
+      "value": "Deals Dmg (S) to target & raises own CT (S)."
+    },
+    {
+      "key": "SK_LW_KTON_02_S_2",
+      "value": "Raises own Accuracy Rate & bestows absorption of portion of HP Dmg dealt for 3 turns & activates additional Dmg effect when using attack abilities (deals Non-Elemental Dmg (Min) & does not affect chains & raises own CT (Min)) for 3 turns."
+    },
+    {
+      "key": "SK_LW_KTON_02_S_2_AD",
+      "value": "Deals Non-Elemental Dmg (Min) to target & raises own CT (Min)."
+    },
+    {
+      "key": "SK_LW_KTON_02_S_3",
+      "value": "Deals 3-Hit Dmg (S) to target after movement to target panel."
+    },
+    {
+      "key": "SK_LW_KTON_02_S_4",
+      "value": "Raises own CT (M) & raises Move/Jump by 1 for 3 turns."
+    },
+    {
+      "key": "SK_LW_KTON_02_R_1",
+      "value": "Chance of recovering own CT (Min) when taking Dmg & bestows absorption of portion of HP Dmg dealt for 1 turn."
+    },
+    {
+      "key": "SK_LW_KTON_02_P_1",
+      "value": "Raises AGI/DEF Piercing Rate."
+    },
+    {
+      "key": "SK_LW_KTON_02_P_2",
+      "value": "Raises Move by 1 & nullifies CT Down."
+    },
+    {
+      "key": "SK_LW_KTON_02_EN_A_01",
+      "value": "Destroys any barrier that reduces Phys Dmg on target, then deals high-accuracy Dmg (M) & recovers AP when own HP is above 50%."
+    },
+    {
+      "key": "SK_LW_EC_KTON_02_C_01",
+      "value": "Enhances Twin Upsurge to Cleansing Twin Upsurge. Removes all Buffs from up to 2 targets, then deals Dmg (M) & recovers own CT (S) when enemy is KO'd (1 enemy)."
+    },
+    {
+      "key": "SK_LW_EC_KTON_02_C_01B",
+      "value": "Removes all Buffs from up to 2 targets, then deals Dmg (M) & recovers own CT (S) when enemy is KO'd (1 enemy)."
+    },
+    {
+      "key": "SK_LW_EC_KTON_02_C_02",
+      "value": "Enhances Striking from the Shadows to Striking from the Moonlit Shadows. Raises AGI/DEF Piercing Rate & lowers Hate."
+    },
+    {
+      "key": "SK_LW_EC_KTON_02_C_02B",
+      "value": "Raises AGI/DEF Piercing Rate & lowers Hate."
+    },
+    {
+      "key": "SK_LW_EC_KTON_02_C_02C",
+      "value": "Raises AGI/DEF Piercing Rate & lowers Hate & will survive fatal Dmg to self when at HP 70% or more."
+    },
+    {
+      "key": "SK_LW_VRWB_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VRWB_M_1",
+      "value": "Raises own SPR Piercing Rate/Magic Attack Res Piercing Rate for 3 turns, then deals Dmg (M) to targets within range based on caster's MAG stat."
+    },
+    {
+      "key": "SK_LW_VRWB_M_2",
+      "value": "Lowers target's Evasion Rate for 3 turns, then deals Dmg (L) based on caster's MAG stat & removes Haste & reduces AP & lowers All Attack Res for 3 turns & nullifies CT Up."
+    },
+    {
+      "key": "SK_LW_VRWB_M_3",
+      "value": "Raises own and ally's All Elemental Res/DEF/SPR for 3 turns & bestows a barrier on self that reduces Magic Dmg (3 times)."
+    },
+    {
+      "key": "SK_LW_VRWB_S_1",
+      "value": "Deals Dmg (S) to target based on caster's MAG stat & chance of inflicting Confusion for 3 turns."
+    },
+    {
+      "key": "SK_LW_VRWB_S_2",
+      "value": "Bestows Reraise on self and ally, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & decreases own chance of being targeted."
+    },
+    {
+      "key": "SK_LW_VRWB_S_3",
+      "value": "Chance of inflicting status ailments (Silence/Confusion) on targets within range for 3 turns."
+    },
+    {
+      "key": "SK_LW_VRWB_S_4",
+      "value": "Removes Poison, Frostbite, Blind, Sleep, Silence, Paralysis, Confusion, Petrify, Gradual Petrify, Toad, Immobilize, Disable, Berserk, and Stun from allies within range."
+    },
+    {
+      "key": "SK_LW_VRWB_R_1",
+      "value": "Chance of lowering target's Water Res for 3 turns when taking Dmg & recovers own HP (S)."
+    },
+    {
+      "key": "SK_LW_VRWB_P_1",
+      "value": "Nullifies Poison/Sleep/Stun and increases effect duration of Buffs/Debuffs cast by self by +1 turn."
+    },
+    {
+      "key": "SK_LW_VRWB_P_2",
+      "value": "Raises MAG/SPR."
+    },
+    {
+      "key": "SK_LW_VRWB_EN_A_01",
+      "value": "Lowers Water Res of targets within range for 3 turns, then deals Dmg (M) based on caster's MAG stat & chance of inflicting status ailments (Poison/Paralysis) on targets within range for 3 turns & sequentially activates Overflow (raises ally's CT (Min))."
+    },
+    {
+      "key": "SK_LW_VRWB_EN_A_01_AD",
+      "value": "Raises ally's CT (Min)."
+    },
+    {
+      "key": "SK_LW_EC_VRWB_C_01",
+      "value": "Enhances Elemental Power to Elemental Fortress. Enhances All Elemental Res/DEF/SPR buff."
+    },
+    {
+      "key": "SK_LW_EC_VRWB_C_01B",
+      "value": "Raises own and ally's All Elemental Res/DEF/SPR for 3 turns & bestows a barrier on self that reduces Magic Dmg (3 times)."
+    },
+    {
+      "key": "SK_LW_EC_VRWB_C_02",
+      "value": "Enhances Forbidden Power to Sacred Vessel's Power. Enhances SPR buff. Raises MAG/SPR & significantly reduces Activation Time."
+    },
+    {
+      "key": "SK_LW_EC_VRWB_C_02B",
+      "value": "Raises MAG/SPR & significantly reduces Activation Time."
     },
     {
       "key": "SK_LB_LW_MONT",
@@ -20389,6 +20569,10 @@
       "value": "Removes all Buffs from targets within range, then deals Dmg (L) & Guaranteed Hit."
     },
     {
+      "key": "SK_LB_LW_KTON_02",
+      "value": "Deals 2-Hit Dmg (L) to up to 2 targets & bestows Haste on self for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -20641,6 +20825,18 @@
       "value": "Lowers target's Unit Attack Res for 3 turns, then deals Dmg (L) & significantly lowers Healing Power for 3 turns & chance of inflicting Disable."
     },
     {
+      "key": "SK_LB_LW_NIVL_B",
+      "value": "Lowers DEF of targets within range for 3 turns, then deals Dmg (M) & lowers Elemental Chain Res for 3 turns & chance of inflicting Slow for 3 turns & raises own Area Attack Res for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_RARD_B",
+      "value": "Raises own DEF Piercing Rate for 3 turns & lowers target's Strike Res for 3 turns, then deals Dmg (L) & bestows Phys Dmg reduction on self for 3 turns & bestows Regen for 3 turns. "
+    },
+    {
+      "key": "SK_LB_LW_IREZ_B",
+      "value": "Lowers target's Ice Res for 3 turns, then deals Dmg (L) & lowers Move by 1 for 3 turns & bestows AP recovery on Critical Hit to self for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Enhances Destiny's Cross. Lowers AP Consumption & enhances Area Height. Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -20863,6 +21059,18 @@
     {
       "key": "SK_LB_LW_RSNC_01_B_CH",
       "value": "Enhances Lunar Devastation. Lowers target's Unit Attack Res for 3 turns, then deals Dmg (L) & significantly lowers Healing Power for 3 turns & chance of inflicting Disable."
+    },
+    {
+      "key": "SK_LB_LW_NIVL_B_CH",
+      "value": "Enhances Spider Rain. Lowers AP Consumption & enhances Range. Lowers DEF of targets within range for 3 turns, then deals Dmg (M) & lowers Elemental Chain Res for 3 turns & chance of inflicting Slow for 3 turns & raises own Area Attack Res for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_RARD_B_CH",
+      "value": "Enhances Chasm Render. Lowers AP Consumption & enhances Range. Raises own DEF Piercing Rate for 3 turns & lowers target's Strike Res for 3 turns, then deals Dmg (L) & bestows Phys Dmg reduction on self for 3 turns & bestows Regen for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_IREZ_B_CH",
+      "value": "Enhances Cage of Thorns. Ability Use +1. Lowers target's Ice Res for 3 turns, then deals Dmg (L) & lowers Move by 1 for 3 turns & bestows AP recovery on Critical Hit to self for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -24333,6 +24541,14 @@
       "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own Missile Attack Res Piercing Rate +15/Max HP +5%"
     },
     {
+      "key": "SK_MA_LW_KTON_02",
+      "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own DEF Piercing Rate +10/Acquired AP +30%"
+    },
+    {
+      "key": "SK_MA_LW_VRWB",
+      "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own Area Attack Res +15"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Raises own Slash Attack Res Piercing Rate, then deals Dmg (M) to enemies within area around self with high chance of Critical Hit."
     },
@@ -26005,6 +26221,14 @@
       "value": "Deals Dmg (L) to targets within range & seals Debuffs for 3 turns & recovers own AP upon Critical Hit."
     },
     {
+      "key": "SK_UES_LW_VRHW",
+      "value": "Raises own DEF Piercing Rate for 3 turns & removes all Buffs from targets within range & significantly lowers reaction ability activation rate for 3 turns, then deals Dmg (L)."
+    },
+    {
+      "key": "SK_UES_LW_KTON_02",
+      "value": "Raises AGI/DEF Piercing Rate & lowers Hate & will survive fatal Dmg to self when at HP 70% or more."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Slash ATK +2"
     },
@@ -26375,6 +26599,26 @@
     {
       "key": "SK_LW_PIERCESHO_5",
       "value": "Missile Attack Res Piercing Rate +20"
+    },
+    {
+      "key": "SK_LW_PIERCEBLO_1",
+      "value": "Strike Attack Res Piercing Rate +2"
+    },
+    {
+      "key": "SK_LW_PIERCEBLO_2",
+      "value": "Strike Attack Res Piercing Rate +3"
+    },
+    {
+      "key": "SK_LW_PIERCEBLO_3",
+      "value": "Strike Attack Res Piercing Rate +5"
+    },
+    {
+      "key": "SK_LW_PIERCEBLO_4",
+      "value": "Strike Attack Res Piercing Rate +10"
+    },
+    {
+      "key": "SK_LW_PIERCEBLO_5",
+      "value": "Strike Attack Res Piercing Rate +20"
     },
     {
       "key": "SK_LW_DF_SINGL_1",
@@ -26894,6 +27138,10 @@
     },
     {
       "key": "SK_LW_RNG_007_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_RNG_007_1_5",
       "value": ""
     },
     {
@@ -28455,6 +28703,14 @@
     {
       "key": "SK_CLT_LW_SDLX_02_1",
       "value": "Raises Slash Res of allies within area around self for 3 turns & bestows Slash Attack Res Piercing Rate Down for 3 turns to own successful attacks for 3 turns."
+    },
+    {
+      "key": "SK_ACC_LW_KTON_02_1",
+      "value": "Decreases own chance of being targeted & lowers AP Consumption for 3 turns & raises Reaction Block Rate for 3 turns."
+    },
+    {
+      "key": "SK_ACC_LW_VRWB_1",
+      "value": "Raises Debuff Reduction Rate of allies within area around self for 3 turns."
     },
     {
       "key": "SK_LW_ACC_042_1",
@@ -30233,6 +30489,26 @@
       "value": ""
     },
     {
+      "key": "SK_LW_FIS_018_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_018_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_018_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_018_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_018_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_017_1",
       "value": ""
     },
@@ -31669,6 +31945,22 @@
       "value": ""
     },
     {
+      "key": "SK_LW_NKN_011_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_011_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_011_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_NKN_011_1_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_BOW_018_2",
       "value": ""
     },
@@ -31682,6 +31974,22 @@
     },
     {
       "key": "SK_LW_BOW_018_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_018_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_018_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_018_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_018_1_5",
       "value": ""
     },
     {
@@ -35670,6 +35978,66 @@
     },
     {
       "key": "SK_GL_VC_LW_OBRN_01_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_KTON_02_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_KTON_02_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_KTON_02_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_KTON_02_PMAX_2",
       "value": ""
     },
     {

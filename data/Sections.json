@@ -610,6 +610,12 @@
       "back_unit": "UN_LW_ST_030101"
     },
     {
+      "iname": "SE_ST_030702",
+      "chap": "CH_ST_0307",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_030101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -789,6 +795,48 @@
         "QE_ST_02070110"
       ],
       "is_switch_to_or_o_cond_q": 1
+    },
+    {
+      "iname": "SE_EV_FF13_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF13_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF13_10"
+      ],
+      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF13_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF13_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF13_10"
+      ],
+      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF13_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF13_01",
+      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF13_02_EX",
+      "hurl": "ev_FF13_ex_02",
+      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF13_01_EX",
+      "hurl": "ev_FF13_ex_01",
+      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
+    },
+    {
+      "iname": "SE_EV_AST_030501",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0305",
+      "o_cond_q": [
+        "QE_EV_AST_010110"
+      ]
     },
     {
       "iname": "SE_EV_AEX_030403",
@@ -1417,26 +1465,6 @@
       "iname": "SE_MU_FF10_02_EX",
       "hurl": "ev_ff10_ex_02",
       "won_dst_sheet_name": "bgm_ff10_Victory_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF13_01_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF13_01",
-      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF13_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF13_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF13_10"
-      ],
-      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF13_01_EX",
-      "hurl": "ev_FF13_ex_01",
-      "won_dst_sheet_name": "bgm_FF13_Glorys_Fanfare"
     },
     {
       "iname": "SE_EV_FF15_01_01",

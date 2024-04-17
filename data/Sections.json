@@ -905,6 +905,23 @@
       "hurl": "ev_bstc_08"
     },
     {
+      "iname": "SE_EV_AEX_030601",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_ex_0306"
+    },
+    {
+      "iname": "SE_MU_AEX_030601",
+      "hurl": "ev_ast_ex_0306"
+    },
+    {
+      "iname": "SE_EV_AST_030601",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_ast_0306",
+      "o_cond_q": [
+        "QE_EV_AST_010110"
+      ]
+    },
+    {
       "iname": "SE_EV_AEX_030501",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_ast_ex_0305"
@@ -1743,8 +1760,7 @@
       "hurl": "ev_rc_brd_01"
     },
     {
-      "iname": "SE_MU_EV_UMWP_01",
-      "hurl": "ev_umwp_01"
+      "iname": "SE_MU_EV_UMWP_01"
     },
     {
       "iname": "SE_EV_GL_TU_JEDN_02",

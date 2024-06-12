@@ -11014,7 +11014,7 @@
     },
     {
       "key": "SK_LW_HYOO_M_3",
-      "value": "Raises ATK/DEF Piercing Rate of allies within area around self for 3 turns & bestows a Reaction on self for 3 turns that has a chance of recovering a set percentage of own HP when taking Dmg."
+      "value": "Raises ATK/DEF Piercing Rate of allies within area around self for 3 turns & bestows a Reaction on self for 3 turns that has a chance of recovering a set percentage of own HP (S) when taking Dmg."
     },
     {
       "key": "SK_LW_HYOO_S_1",
@@ -11038,7 +11038,7 @@
     },
     {
       "key": "SK_LW_HYOO_R_2",
-      "value": "Chance of recovering a set percentage of own HP when taking Dmg."
+      "value": "Chance of recovering a set percentage of own HP (S) when taking Dmg."
     },
     {
       "key": "SK_LW_HYOO_P_1",
@@ -11062,11 +11062,11 @@
     },
     {
       "key": "SK_LW_EC_HYOO_C_01",
-      "value": "Enhances Phantom Blade to Burning Drive. Significantly lowers DEF/reaction ability activation rate of targets within range for 3 turns, then deals Dmg (M) & lowers Healing Power for 3 turns."
+      "value": "Enhances Phantom Blade to Burning Drive. Lowers DEF of targets within range for 3 turns & significantly lowers reaction ability activation rate, then deals Dmg (M) & lowers Healing Power for 3 turns."
     },
     {
       "key": "SK_LW_EC_HYOO_C_01B",
-      "value": "Significantly lowers DEF/reaction ability activation rate of targets within range for 3 turns, then deals Dmg (M) & lowers Healing Power for 3 turns."
+      "value": "Lowers DEF of targets within range for 3 turns & significantly lowers reaction ability activation rate, then deals Dmg (M) & lowers Healing Power for 3 turns."
     },
     {
       "key": "SK_LW_EC_HYOO_C_02",
@@ -22065,6 +22065,10 @@
       "value": "Lowers Light Res of targets within range for 3 turns, then deals Dmg (XL) & raises own Phys Dmg for 3 turns & bestows absorption of portion of HP Dmg dealt."
     },
     {
+      "key": "SK_LB_LW_SDLE_B",
+      "value": "Raises own Magic Attack Res Piercing Rate & lowers target's Unit Attack Res by a set percentage, then deals Dmg (L) based on caster's MAG stat & absorbs portion of Dmg dealt & chance of inflicting Charm for 3 turns & additional effect: raises ATK/MAG while charmed & significantly raises own Debuff Res for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Enhances Destiny's Cross. Lowers AP Consumption & enhances Area Height. Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -22411,6 +22415,10 @@
     {
       "key": "SK_LB_LW_LCIO_B_CH",
       "value": "Enhances Luminous Grace. Lowers Light Res of targets within range for 3 turns, then deals Dmg (XL) & raises own Phys Dmg for 3 turns & bestows absorption of portion of HP Dmg dealt."
+    },
+    {
+      "key": "SK_LB_LW_SDLE_B_CH",
+      "value": "Enhances Crystallite Reckoning. Raises own Magic Attack Res Piercing Rate & lowers target's Unit Attack Res by a set percentage, then deals Dmg (L) based on caster's MAG stat & absorbs portion of Dmg dealt & chance of inflicting Charm for 3 turns & additional effect: raises ATK/MAG while charmed & significantly raises own Debuff Res for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -25677,8 +25685,16 @@
       "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own Fire/Ice Res +10/Acquired AP +30%"
     },
     {
+      "key": "SK_MA_LW_HYOO_2",
+      "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own Fire/Ice Res +10/Acquired AP +60%/Phys Dmg +15%/bestows debuff effect (lowers target's Reaction Block Rate for 3 turns) to successful attacks for 5 turns from commencement of battle."
+    },
+    {
       "key": "SK_MA_LW_GLZK",
       "value": "Earth Unit Allies' Max HP +10%/Confusion Res +25, own SPR Piercing Rate +10/Area Attack Res +15"
+    },
+    {
+      "key": "SK_MA_LW_GLZK_2",
+      "value": "Earth Unit Allies' Max HP +10%/Confusion Res +25, own SPR Piercing Rate +10/Area Attack Res +15/MAG +20%/bestows distance-based Phys Dmg reduction effect (from 4 panels away and beyond; max effect at 7 panels)."
     },
     {
       "key": "SK_MA_FMAM_EDWD",
@@ -25767,6 +25783,14 @@
     {
       "key": "SK_MA_LW_RUFF",
       "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own Area Attack Res +5/Hate +5"
+    },
+    {
+      "key": "SK_MA_LW_RUFF_2",
+      "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own Area Attack Res +5/Hate +5/Max HP +15%/Phys Dmg Reduction +10/bestows Physical Dmg reduction to allies within area around self excluding self (shape: diamond & range: 4 & range height: 1) for 5 turns from commencement of battle."
+    },
+    {
+      "key": "SK_MA_LW_RUFF_S_2_2_B",
+      "value": ""
     },
     {
       "key": "SK_MA_LW_JEDN_02",
@@ -28106,23 +28130,23 @@
     },
     {
       "key": "SK_LW_AP_GET_1",
-      "value": "AP Acquisition +5%"
+      "value": "Acquired AP +5%"
     },
     {
       "key": "SK_LW_AP_GET_2",
-      "value": "AP Acquisition +7%"
+      "value": "Acquired AP +7%"
     },
     {
       "key": "SK_LW_AP_GET_3",
-      "value": "AP Acquisition +10%"
+      "value": "Acquired AP +10%"
     },
     {
       "key": "SK_LW_AP_GET_4_UR",
-      "value": "AP Acquisition +15%"
+      "value": "Acquired AP +15%"
     },
     {
       "key": "SK_LW_AP_GET_5_UR",
-      "value": "AP Acquisition +30%"
+      "value": "Acquired AP +30%"
     },
     {
       "key": "SK_LW_APRED_1",
@@ -28146,11 +28170,11 @@
     },
     {
       "key": "SK_LW_AP_GET_4_N_SSR",
-      "value": "AP Acquisition +13%"
+      "value": "Acquired AP +13%"
     },
     {
       "key": "SK_LW_AP_GET_5_SSR",
-      "value": "AP Acquisition +25%"
+      "value": "Acquired AP +25%"
     },
     {
       "key": "SK_LW_APRED_4",
@@ -32450,6 +32474,66 @@
     },
     {
       "key": "SK_LW_ACC_138_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_2_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_2_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_2_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_2_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_2_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_3_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_3_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_3_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_3_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF7AC_ACC_002_3_5",
       "value": ""
     },
     {
@@ -38542,6 +38626,66 @@
     },
     {
       "key": "SK_GL_VC_FF7AC_MV2_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF7AC_MV3_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7AC_MV3_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7AC_MV3_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF7AC_MV3_PMAX_2",
       "value": ""
     },
     {
@@ -45742,23 +45886,23 @@
     },
     {
       "key": "SK_TM_APGET_N",
-      "value": "AP Acquisition +7%"
+      "value": "Acquired AP +7%"
     },
     {
       "key": "SK_TM_APGET_R",
-      "value": "AP Acquisition +10%"
+      "value": "Acquired AP +10%"
     },
     {
       "key": "SK_TM_APGET_SR",
-      "value": "AP Acquisition +15%"
+      "value": "Acquired AP +15%"
     },
     {
       "key": "SK_TM_APGET_SSR",
-      "value": "AP Acquisition +15%"
+      "value": "Acquired AP +15%"
     },
     {
       "key": "SK_TM_APGET_UR",
-      "value": "AP Acquisition +20%"
+      "value": "Acquired AP +20%"
     },
     {
       "key": "SK_TM_ATKCHNT_N",

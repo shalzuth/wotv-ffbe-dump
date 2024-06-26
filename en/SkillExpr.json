@@ -229,6 +229,10 @@
       "value": ""
     },
     {
+      "key": "SK_UN_BD_EC_VRRF",
+      "value": ""
+    },
+    {
       "key": "SK_US_POTION",
       "value": "Recovers ally's HP (S)."
     },
@@ -419,6 +423,10 @@
     {
       "key": "SK_BOMB_M_02",
       "value": "Deals Fire Dmg (M) to enemies within area around self & KO's self after dealing Dmg based on own HP."
+    },
+    {
+      "key": "SK_BOMB_M_02_RP1",
+      "value": "Significantly lowers All Attack Res of enemies within area around self for 3 turns, then deals Fire Dmg (L) & KO's self after dealing Dmg based on own HP."
     },
     {
       "key": "SK_BOMB_M_02_1",
@@ -1273,12 +1281,20 @@
       "value": "Deals Ice Dmg (S) to targets within range based on caster's MAG stat & chance of inflicting Stop."
     },
     {
+      "key": "SK_SHIV_M_03_RP1",
+      "value": "Deals Ice Dmg (S) to targets within range based on caster's MAG stat & chance of inflicting Stop & lowers Magic Attack Res for 3 turns."
+    },
+    {
       "key": "SK_SHIV_M_03_B",
       "value": "Deals Ice Dmg (S) to targets within range based on caster's MAG stat & chance of inflicting Stop."
     },
     {
       "key": "SK_SHIV_M_04",
       "value": "Deals Ice Dmg (L) to targets within range based on caster's MAG stat."
+    },
+    {
+      "key": "SK_SHIV_M_05",
+      "value": "Deals Ice Dmg (L) to targets within range based on caster's MAG stat & activates temporary Map Effects (raises allies' ATK/MAG & significantly lowers enemies' Ice Res)."
     },
     {
       "key": "SK_RAMU_ATK",
@@ -2667,6 +2683,30 @@
     {
       "key": "SK_SNRY_M_06",
       "value": "Deals Light Dmg (L) to targets within range based on caster's MAG stat & reduces Hate to zero."
+    },
+    {
+      "key": "SK_CHRT_ATK",
+      "value": "Deals Dmg to target."
+    },
+    {
+      "key": "SK_CHRT_M_01",
+      "value": "Bestows a barrier on self that negates a certain amount of physical Dmg & bestows debuff effect (Barrier Destroy Sealing for 3 turns) to successful attacks for 3 turns."
+    },
+    {
+      "key": "SK_CHRT_M_02",
+      "value": "Deals Dmg (M) to target & significantly lowers Healing Power."
+    },
+    {
+      "key": "SK_CHRT_M_03",
+      "value": "Lowers a percentage of Area Attack Res of targets within range for 3 turns, then deals Dmg (S)."
+    },
+    {
+      "key": "SK_CHRT_M_04",
+      "value": "Deals Dmg (M) to targets within area around self based on caster's MAG stat & significantly lowers AGI for 3 turns."
+    },
+    {
+      "key": "SK_CHRT_M_05",
+      "value": "Deals Dmg (XL) to targets within range based on caster's MAG stat & chance of inflicting Frostbite for 3 turns."
     },
     {
       "key": "SK_DMNW_ATK",
@@ -4441,6 +4481,10 @@
       "value": "Evokes Dark Titan, lowers Area Attack Res of targets within range by a set percentage for 3 turns, then deals Earth Dmg (XL) & activates temporary Map Effects (raises allies' ATK/MAG & increases effect for Earth units & significantly lowers enemies' Earth Res)."
     },
     {
+      "key": "SK_SMN_CHRT",
+      "value": "Evokes Chariot, deals Ice Dmg (XL) to targets within range based on caster's MAG stat & chance of inflicting Frostbite for 3 turns & activates temporary Map Effects (raises allies' ATK/MAG & increased effect for Ice units & significantly lowers enemies' Ice Res)."
+    },
+    {
       "key": "SK_BTL_HP_100-99900_U",
       "value": "Quest-balancing skill"
     },
@@ -5654,6 +5698,14 @@
     },
     {
       "key": "SK_BTL_PIERCE_DARK_1-100_U",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_LW_PIERCE_RATK_1_100U",
+      "value": "Quest-balancing skill"
+    },
+    {
+      "key": "SK_LW_PIERCE_SATK_1_100U",
       "value": "Quest-balancing skill"
     },
     {
@@ -20441,6 +20493,10 @@
       "value": "Deals Dmg (M) to targets within range & lowers DEF Piercing Rate for 3 turns."
     },
     {
+      "key": "SK_LW_VRRE_M_1_B",
+      "value": "Deals Dmg (L) to targets within range & lowers DEF Piercing Rate for 3 turns & chance of inflicting Slow for 3 turns."
+    },
+    {
       "key": "SK_LW_VRRE_M_2",
       "value": "Increases own chance of being targeted & bestows distance-based Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels) for 3 turns & bestows Phys Dmg reduction to allies within area around self excluding self (shape: diamond & range: 4 & range height: 1) for 3 turns & bestows debuff effect (lowers target's Type Chain Res for 3 turns) for 3 turns (activates before attacking)."
     },
@@ -20955,6 +21011,74 @@
     {
       "key": "SK_LW_EC_GLMS_01_C_02B",
       "value": "Raises MAG/Slash Attack Res Piercing Rate/Unit Attack Res & nullifies CT Down."
+    },
+    {
+      "key": "SK_LW_VRRF_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VRRF_M_1",
+      "value": "Deals Dmg (L) to targets within range & lowers Slash Attack Res Piercing Rate for 3 turns & chance of inflicting Paralysis for 3 turns."
+    },
+    {
+      "key": "SK_LW_VRRF_M_2",
+      "value": "Destroys any barrier that reduces Phys Dmg on target, then deals Dmg (M) to targets within range & bestows a barrier on self that reduces Phys Dmg (2 times)."
+    },
+    {
+      "key": "SK_LW_VRRF_M_3",
+      "value": "Bestows Man Eater & raises Slash Attack Res on self and ally for 4 turns & will survive fatal Dmg to self 1 time & raises Phys Dmg for 4 turns & additional effect: bestows a damage reduction effect that reduces damage taken the larger the attack range while Courage/Physical Dmg Boost is in effect."
+    },
+    {
+      "key": "SK_LW_VRRF_S_1",
+      "value": "Deals Dmg (S) to target & significantly lowers Fire Res for 3 turns."
+    },
+    {
+      "key": "SK_LW_VRRF_S_2",
+      "value": "Raises own DEF Piercing Rate/Area Attack Res Piercing Rate for 4 turns & bestows a Reaction for 4 turns that has a chance of activating a non-elemental slash attack when taking Slash/Strike-type Dmg & absorbs portion of Dmg dealt (range shape: diamond & range: 4 & range height: 1)."
+    },
+    {
+      "key": "SK_LW_VRRF_S_3",
+      "value": "Deals Dmg (M) to target & recovers a set percentage of own HP (S)."
+    },
+    {
+      "key": "SK_LW_VRRF_S_4",
+      "value": "Nullifies Blind, Paralysis, Petrify, Gradual Petrify on self for 4 turns & bestows AP Auto-Restore (S)."
+    },
+    {
+      "key": "SK_LW_VRRF_R_1",
+      "value": "Chance of taking reduced Dmg."
+    },
+    {
+      "key": "SK_LW_VRRF_R_2",
+      "value": "Chance of Counterattack when taking Slash/Strike Dmg & absorbs portion of Dmg dealt."
+    },
+    {
+      "key": "SK_LW_VRRF_P_1",
+      "value": "Raises ATK/Slash Attack Res & additional effect: increases Phys Dmg if own Action Count is greater than 1 and a multiple of 3."
+    },
+    {
+      "key": "SK_LW_VRRF_P_2",
+      "value": "Raises Max HP/Initial AP."
+    },
+    {
+      "key": "SK_LW_VRRF_EN_A_01",
+      "value": "Raises own DEF Piercing Rate, then deals Dmg (L) to target & increases potency if own Action Count is greater than 1 and a multiple of 3."
+    },
+    {
+      "key": "SK_LW_EC_VRRF_C_01",
+      "value": "Enhances Big Swing to Brutal Swing. Lowers AP Consumption. Deals Dmg (L) to enemies within range & lowers Slash Attack Res Piercing Rate/Reaction Block Rate for 3 turns & chance of inflicting Paralysis for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_VRRF_C_01B",
+      "value": "Deals Dmg (L) to enemies within range & lowers Slash Attack Res Piercing Rate/Reaction Block Rate for 3 turns & chance of inflicting Paralysis for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_VRRF_C_02",
+      "value": "Enhances Flickering Fire to Flames of Flickering Crimson. Raises ATK/Slash Attack Res Piercing Rate/Slash Attack Res & additional effect: increases Phys Dmg if own Action Count is greater than 1 and a multiple of 3."
+    },
+    {
+      "key": "SK_LW_EC_VRRF_C_02B",
+      "value": "Raises ATK/Slash Attack Res Piercing Rate/Slash Attack Res & additional effect: increases Phys Dmg if own Action Count is greater than 1 and a multiple of 3."
     },
     {
       "key": "SK_LB_LW_MONT",
@@ -22157,6 +22281,26 @@
       "value": "Raises own Magic Attack Res Piercing Rate & lowers target's Unit Attack Res by a set percentage, then deals Dmg (L) based on caster's MAG stat & absorbs portion of Dmg dealt & chance of inflicting Charm for 3 turns & additional effect: raises ATK/MAG while charmed & significantly raises own Debuff Res for 3 turns."
     },
     {
+      "key": "SK_LB_LW_LNAN_B",
+      "value": "Raises own SPR Piercing Rate for 3 turns & removes Magic Dmg reduction for Wider Attack Area from targets within range, then deals Dmg (L) based on caster's MAG stat & seals barrier destruction for 3 turns & chance of inflicting Confusion for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_ASTR_B",
+      "value": "Activates additional Dmg effect when using own attack abilities for 3 turns (deals Non-Elemental Dmg (S) & does not affect chains & chance of inflicting Poison for 3 turns) & significantly lowers target's Slash Attack Res for 3 turns, then deals Dmg (L) & raises own CT (M)."
+    },
+    {
+      "key": "SK_LB_LW_ASTR_AD_B",
+      "value": "Deals Non-Elemental Dmg (S) to target & chance of inflicting Poison for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_PRNE_B",
+      "value": "Raises own Healing Power for 3 turns, then deals 3-Hit Dmg (XL) to target & bestows Haste on self for 3 turns & significantly raises own Max HP & recovers the amount of HP raised."
+    },
+    {
+      "key": "SK_LB_LW_LLGA_B",
+      "value": "Raises own ATK for 3 turns & lowers target's Unit Attack Res by a set percentage for 3 turns, then deals 3-Hit Dmg (XL) & inflicts Phys Dmg Reduction effect for 3 turns & seals Remove All Buffs for 3 turns & bestows AP Auto-Restore (M) on self for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Enhances Destiny's Cross. Lowers AP Consumption & enhances Area Height. Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -22507,6 +22651,22 @@
     {
       "key": "SK_LB_LW_SDLE_B_CH",
       "value": "Enhances Crystallite Reckoning. Raises own Magic Attack Res Piercing Rate & lowers target's Unit Attack Res by a set percentage, then deals Dmg (L) based on caster's MAG stat & absorbs portion of Dmg dealt & chance of inflicting Charm for 3 turns & additional effect: raises ATK/MAG while charmed & significantly raises own Debuff Res for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_LNAN_CH",
+      "value": "Enhances Fulgurous Thunderblast. Enhances Range. Raises own SPR Piercing Rate for 3 turns & removes Magic Dmg reduction for Wider Attack Area from targets within range, then deals Dmg (L) based on caster's MAG stat & seals barrier destruction for 3 turns & chance of inflicting Confusion for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_ASTR_CH",
+      "value": "Enhances Release the Void. Lowers AP Consumption & enhances Range. Activates additional Dmg effect when using own attack abilities for 3 turns (deals Non-Elemental Dmg (S) & does not affect chains & chance of inflicting Poison for 3 turns) & significantly lowers target's Slash Attack Res for 3 turns, then deals Dmg (L) & raises own CT (M)."
+    },
+    {
+      "key": "SK_LB_LW_PRNE_CH",
+      "value": "Enhances Motherly Punishment. Lowers AP Consumption. Raises own Healing Power for 3 turns, then deals 3-Hit Dmg (XL) to target & bestows Haste on self for 3 turns & significantly raises own Max HP & recovers the amount of HP raised."
+    },
+    {
+      "key": "SK_LB_LW_LLGA_CH",
+      "value": "Enhances Terrastormer. Raises own ATK for 3 turns & lowers target's Unit Attack Res by a set percentage for 3 turns, then deals 3-Hit Dmg (XL) & inflicts Phys Dmg Reduction effect for 3 turns & seals Remove All Buffs for 3 turns & bestows AP Auto-Restore (M) on self for 3 turns."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -26085,6 +26245,10 @@
       "value": "Ice Unit Allies' Max HP +10%/Ice Attack +15, own Critical Hit Rate +10/Reaction Block Rate +40/Debuff Reduction Rate +15"
     },
     {
+      "key": "SK_MA_LW_VRRF",
+      "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own Acquired AP +30%/Phys Dmg Reduction +10"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Raises own Slash Attack Res Piercing Rate, then deals Dmg (M) to enemies within area around self with high chance of Critical Hit."
     },
@@ -27811,6 +27975,10 @@
     {
       "key": "SK_UES_LW_GLMS_01",
       "value": "Removes Shell/Magic Damage reduction & lowers a set percentage of Area Attack Res of targets within range for 3 turns, then deals 2-Hit Dmg (L) based on caster's MAG stat & raises own CT (S) when enemy is KO'd (up to 2 enemies)."
+    },
+    {
+      "key": "SK_UES_LW_VRRE",
+      "value": "Enhances DEF Piercing Rate debuff. Deals Dmg (L) to targets within range & lowers DEF Piercing Rate for 3 turns & chance of inflicting Slow for 3 turns."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -30393,6 +30561,10 @@
       "value": "Bestows distance-based Dmg reduction effect (from 4 panels away and beyond; max effect at 7 panels) on self for 4 turns & Healing Power Down for 3 turns on successful attack for 4 turns."
     },
     {
+      "key": "SK_ACC_LW_VRRF_1",
+      "value": "Raises own Critical Evasion Rate/Strike Attack Res & bestows Regen for 4 turns."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -32021,6 +32193,26 @@
       "value": ""
     },
     {
+      "key": "SK_LW_FIS_016_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_016_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_016_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_016_1_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FIS_016_1_5_B",
+      "value": ""
+    },
+    {
       "key": "SK_NIER_BSW_000_1",
       "value": ""
     },
@@ -32661,6 +32853,10 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_029_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_FIS_017_1",
       "value": ""
     },
@@ -32694,6 +32890,22 @@
     },
     {
       "key": "SK_LW_KAT_004_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_004_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_004_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_004_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_004_1_5",
       "value": ""
     },
     {
@@ -38818,6 +39030,66 @@
     },
     {
       "key": "SK_GL_VC_FF7AC_MV3_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_CHRT_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_CHRT_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_CHRT_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_CHRT_PMAX_2",
       "value": ""
     },
     {

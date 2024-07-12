@@ -640,6 +640,12 @@
       "back_unit": "UN_LW_ST_030101"
     },
     {
+      "iname": "SE_ST_030901",
+      "chap": "CH_ST_0309",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_030101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -819,6 +825,40 @@
         "QE_ST_02070110"
       ],
       "is_switch_to_or_o_cond_q": 1
+    },
+    {
+      "iname": "SE_EV_FF8_01_CRF",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF8_crf_01",
+      "o_cond_q": [
+        "QE_EV_FF8_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
+    },
+    {
+      "iname": "SE_MU_FF8_01_CRF",
+      "hurl": "ev_FF8_crf_01",
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
+    },
+    {
+      "iname": "SE_EV_FF8_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF8_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF8_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
+    },
+    {
+      "iname": "SE_MU_FF8_01_EX",
+      "hurl": "ev_FF8_ex_01",
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
+    },
+    {
+      "iname": "SE_EV_FF8_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF8_01",
+      "won_dst_sheet_name": "bgm_ff8_The_Winner"
     },
     {
       "iname": "SE_EV_RTAL_01",
@@ -1783,26 +1823,6 @@
       "iname": "SE_EV_ART_CRF_37",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_arti_crft_37"
-    },
-    {
-      "iname": "SE_EV_FF8_01_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF8_01",
-      "won_dst_sheet_name": "bgm_ff8_The_Winner"
-    },
-    {
-      "iname": "SE_EV_FF8_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF8_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF8_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff8_The_Winner"
-    },
-    {
-      "iname": "SE_MU_FF8_01_EX",
-      "hurl": "ev_FF8_ex_01",
-      "won_dst_sheet_name": "bgm_ff8_The_Winner"
     },
     {
       "iname": "SE_MU_ART_CRF_36",

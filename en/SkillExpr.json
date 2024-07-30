@@ -233,6 +233,10 @@
       "value": ""
     },
     {
+      "key": "SK_UN_BD_EC_VRFB",
+      "value": ""
+    },
+    {
       "key": "SK_US_POTION",
       "value": "Recovers ally's HP (S)."
     },
@@ -597,12 +601,24 @@
       "value": "Deals Dmg (S) to target."
     },
     {
+      "key": "SK_OGRE_M_01_RP",
+      "value": "Deals Dmg (M) to target & lowers target's Strike Attack Res for 3 turns."
+    },
+    {
       "key": "SK_OGRE_M_02",
       "value": "Deals Dmg (S) to target."
     },
     {
+      "key": "SK_OGRE_M_02_RP",
+      "value": "Deals Dmg (S) to target & lowers CT (M)."
+    },
+    {
       "key": "SK_OGRE_M_03",
       "value": "Deals Dmg (M) to targets within range & chance of 1-panel Knockback."
+    },
+    {
+      "key": "SK_OGRE_M_03_RP",
+      "value": "Destroys physical barriers, then deals Dmg (M) to targets within range & chance of 1-panel Knockback."
     },
     {
       "key": "SK_WOLF_ATK",
@@ -1695,6 +1711,10 @@
     {
       "key": "SK_LAMA_M_02",
       "value": "Raises own Evasion Rate for 3 turns."
+    },
+    {
+      "key": "SK_LAMA_M_02_RP",
+      "value": "Raises own Evasion Rate/DEF/SPR for 3 turns."
     },
     {
       "key": "SK_LAMA_M_03",
@@ -19290,7 +19310,7 @@
     },
     {
       "key": "SK_LW_MDA_M_1_SUB",
-      "value": "Lowers target's Unit Attack Res for 3 turns, then deals Dmg (M) based on caster's MAG stat & sequentially activates Drain Decoration (bestows absorption of portion of Dmg dealt to self and ally & raises DEF Piercing Rate/SPR Piercing Rate for 1 turn)."
+      "value": "Lowers target's Unit Attack Res for 3 turns, then deals Dmg (M) based on caster's MAG stat & sequentially activates Drain Decoration (bestows absorption of portion of HP Dmg dealt to self and ally & raises DEF Piercing Rate/SPR Piercing Rate for 1 turn)."
     },
     {
       "key": "SK_LW_MDA_M_3_SUB",
@@ -21253,6 +21273,146 @@
       "value": ""
     },
     {
+      "key": "SK_LW_VRFB_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VRFB_M_1",
+      "value": "Lowers Unit Attack Res of up to 2 targets by a set percentage for 3 turns, then deals Dmg (L) & chance of inflicting Curse for 3 turns."
+    },
+    {
+      "key": "SK_LW_VRFB_M_2",
+      "value": "Lowers target's Elemental Chain Res for 3 turns, then deals 3-Hit Dmg (M)."
+    },
+    {
+      "key": "SK_LW_VRFB_M_3",
+      "value": "Raises Elemental Chain Res of allies within area around self for 4 turns & will survive fatal Dmg to self 1 time & additional effect: lowers AP Consumption while Courage is in effect & bestows debuff effect (lowers target's Critical Dmg Res for 3 turns) for 4 turns (activates before attacking)."
+    },
+    {
+      "key": "SK_LW_VRFB_S_1",
+      "value": "Lowers target's DEF for 3 turns, then deals Dmg (S)."
+    },
+    {
+      "key": "SK_LW_VRFB_S_2",
+      "value": "Significantly raises own Reaction Block Rate for 4 turns & bestows a reaction for 4 turns that has a chance of activating a non-elemental slash attack when taking Slash/Pierce-type Dmg (range shape: diamond & range: 4 & range height: 1) & bestows Reraise removal to successful attacks for 4 turns."
+    },
+    {
+      "key": "SK_LW_VRFB_S_3",
+      "value": "Deals Dmg (M) to targets within range & lowers Healing Power for 3 turns."
+    },
+    {
+      "key": "SK_LW_VRFB_S_4",
+      "value": "Deals Dmg (Max) to target."
+    },
+    {
+      "key": "SK_LW_VRFB_R_1",
+      "value": "Chance of Preemptive Strike when taking Phys Attack Dmg."
+    },
+    {
+      "key": "SK_LW_VRFB_R_2",
+      "value": "Chance of Counterattack when taking Slash/Pierce-type Dmg."
+    },
+    {
+      "key": "SK_LW_VRFB_P_1",
+      "value": "Raises ATK/DEF Piercing Rate."
+    },
+    {
+      "key": "SK_LW_VRFB_P_2",
+      "value": "Raises AGI/Initial AP."
+    },
+    {
+      "key": "SK_LW_VRFB_EN_A_01",
+      "value": "Destroys any barrier that reduces Phys Dmg, then deals Dmg (L) to targets within range."
+    },
+    {
+      "key": "SK_LW_EC_VRFB_C_01",
+      "value": "Enhances Dual Hexblade to Dual Demolition Blade. Removes all Buffs from up to 2 targets & lowers Unit Attack Res by a set percentage for 3 turns, then deals Dmg (L) & chance of inflicting Curse for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_VRFB_C_01B",
+      "value": "Removes all Buffs from up to 2 targets & lowers Unit Attack Res by a set percentage for 3 turns, then deals Dmg (L) & chance of inflicting Curse for 3 turns."
+    },
+    {
+      "key": "SK_LW_EC_VRFB_C_02",
+      "value": "Enhances Honed for Carnage to Master of Carnage. Raises ATK/DEF Piercing Rate/Slash Attack Res Piercing Rate & bestows a barrier at battle start that negates a certain amount of physical Dmg."
+    },
+    {
+      "key": "SK_LW_EC_VRFB_C_02B",
+      "value": "Raises ATK/DEF Piercing Rate/Slash Attack Res Piercing Rate & bestows a barrier at battle start that negates a certain amount of physical Dmg."
+    },
+    {
+      "key": "SK_LW_FINA_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_FINA_02_M_1",
+      "value": "Recovers HP (M) of allies within range & increases amount recovered for allies that are farther away (from 2 panels away and beyond; max effect at 6 panels) & bestows status effects (Protect/Shell) for 2 turns."
+    },
+    {
+      "key": "SK_LW_FINA_02_M_2",
+      "value": "Raises SPR/Area Attack Res/Debuff Reduction Rate of allies within range for 4 turns & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min))."
+    },
+    {
+      "key": "SK_LW_FINA_02_M_3",
+      "value": "Deals Dmg (M) to targets within range based on caster's MAG stat & lowers CT (M) & seals Debuffs for 3 turns."
+    },
+    {
+      "key": "SK_LW_FINA_02_S_1",
+      "value": "Recovers ally's HP (M) & removes Poison, Frostbite, Blind, Silence, Paralysis, Confusion and Berserk."
+    },
+    {
+      "key": "SK_LW_FINA_02_S_2",
+      "value": "Nullifies Curse/Charm/Stop on self & bestows distance-based Dmg reduction effect (from 4 panels away and beyond; max effect at 7 panels) for 4 turns."
+    },
+    {
+      "key": "SK_LW_FINA_02_S_3",
+      "value": "Deals 2-Hit Dark Dmg (M) to targets within range based on caster's MAG stat & chance of inflicting Stop."
+    },
+    {
+      "key": "SK_LW_FINA_02_S_4",
+      "value": "Removes all Buffs from target & nullifies Haste/Quicken/CT Up for 3 turns."
+    },
+    {
+      "key": "SK_LW_FINA_02_R_1",
+      "value": "Chance of inflicting Charm on target for 3 turns when taking Dmg."
+    },
+    {
+      "key": "SK_LW_FINA_02_P_1",
+      "value": "Range +2 & raises SPR Piercing Rate/Accuracy Rate."
+    },
+    {
+      "key": "SK_LW_FINA_02_P_2",
+      "value": "Raises Healing Power & lowers Hate."
+    },
+    {
+      "key": "SK_LW_FINA_02_EN_A_01",
+      "value": "Chance of recovering target from KO status and fully recovering HP."
+    },
+    {
+      "key": "SK_LW_EC_FINA_02_C_01",
+      "value": "Enhances Hope from Beyond to Prayer from Beyond. Reduces Activation Time."
+    },
+    {
+      "key": "SK_LW_EC_FINA_02_C_01B",
+      "value": "Recovers HP (M) of allies within range & increases amount recovered for allies that are farther away (from 2 panels away and beyond; max effect at 6 panels) & bestows status effects (Protect/Shell) for 2 turns."
+    },
+    {
+      "key": "SK_LW_EC_FINA_02_C_02",
+      "value": "Enhances Defiant Blossom to Shining Resistance. Raises SPR/Area Attack Res/Debuff Reduction Rate of allies within range for 4 turns & bestows a barrier on self that fully negates Dmg (1 time) & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & raises CT (M) after reviving with Reraise."
+    },
+    {
+      "key": "SK_LW_EC_FINA_02_C_02B",
+      "value": "Raises SPR/Area Attack Res/Debuff Reduction Rate of allies within range for 4 turns & bestows a barrier on self that fully negates Dmg (1 time) & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & raises CT (M) after reviving with Reraise."
+    },
+    {
+      "key": "SK_LW_EC_FINA_02_C_02B_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_FINA_02_C_02C",
+      "value": "Raises SPR/Area Attack Res/Debuff Reduction Rate of allies within range for 4 turns & bestows a barrier on self that fully negates Dmg (2 times) & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & raises CT (M) after reviving with Reraise."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Deals Dmg (L) to targets within range."
     },
@@ -22081,6 +22241,14 @@
       "value": "Removes all Buffs from target & lowers Unit Attack Res by a set percentage for 3 turns, then deals Dmg (XL) & recovers own AP."
     },
     {
+      "key": "SK_LB_LW_VRRE",
+      "value": "Deals Dmg (XL) to targets within range & lowers AGI for 3 turns & chance of inflicting Stun for 1 turn & bestows Regen on self for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_FINA_02",
+      "value": "Removes Curse from allies within range, then recovers HP (L) & bestows Phys Dmg reduction for 3 turns."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -22505,6 +22673,22 @@
       "value": "Raises own SPR Piercing Rate & increases Magic Dmg for 3 turns & destroys all barriers that reduce Dmg on targets within range, then deals Dmg (L) based on caster's MAG stat."
     },
     {
+      "key": "SK_LB_LW_RUFF_B",
+      "value": "Deals Dmg (L) to targets within range based on caster's MAG stat & reduces AP & elemental chain effect persists for 1 turn even if target performs an action & seals barrier destruction & lowers Debuff Reduction Rate for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_SHLS_B",
+      "value": "Raises own Area Attack Res Piercing Rate for 3 turns & removes all Buffs from targets within range, then deals Dmg (L) & chance of inflicting Stun for 1 turn & lowers Man Res for 3 turns & decreases own chance of being targeted & bestows Haste for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_IBRA_B",
+      "value": "Significantly lowers target's Lightning Res for 3 turns, then deals Dmg (XL) based on caster's MAG stat & significantly lowers ATK, MAG, AGI, DEX, Luck, Healing Power for 3 turns & lowers Elemental Chain Res for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_ESTR_B",
+      "value": "Raises own DEF Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & lowers Slash Res/DEF Piercing Rate for 3 turns & removes Haste & bestows AP Auto-Restore (S) on self for 3 turns & additional effect: raises Slash Attack/Critical Evasion Rate while AP Auto-Restore is in effect."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Enhances Destiny's Cross. Lowers AP Consumption & enhances Area Height. Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -22895,6 +23079,22 @@
     {
       "key": "SK_LB_LW_HWLT_01_B_CH",
       "value": "Enhances Magia Arte. Raises own SPR Piercing Rate & increases Magic Dmg for 3 turns & destroys all barriers that reduce Dmg on targets within range, then deals Dmg (L) based on caster's MAG stat."
+    },
+    {
+      "key": "SK_LB_LW_IBRA_B_CH",
+      "value": "Enhances Malevolent Lightning. Lowers AP Consumption. Significantly lowers target's Lightning Res for 3 turns, then deals Dmg (XL) based on caster's MAG stat & significantly lowers ATK, MAG, AGI, DEX, Luck, Healing Power for 3 turns & lowers Elemental Chain Res for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_RUFF_B_CH",
+      "value": "Enhances Diabolic Advent. Deals Dmg (L) to targets within range based on caster's MAG stat & reduces AP & elemental chain effect persists for 1 turn even if target performs an action & seals barrier destruction & lowers Debuff Reduction Rate for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_SHLS_B_CH",
+      "value": "Enhances Fall with the Stars. Lowers AP Consumption. Raises own Area Attack Res Piercing Rate for 3 turns & removes all Buffs from targets within range, then deals Dmg (L) & chance of inflicting Stun for 1 turn & lowers Man Res for 3 turns & decreases own chance of being targeted & bestows Haste for 3 turns."
+    },
+    {
+      "key": "SK_LB_LW_ESTR_B_CH",
+      "value": "Enhances Bunny Bolt Blitz. Raises own DEF Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & lowers Slash Res/DEF Piercing Rate for 3 turns & removes Haste & bestows AP Auto-Restore (S) on self for 3 turns & additional effect: raises Slash Attack/Critical Evasion Rate while AP Auto-Restore is in effect."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -26505,6 +26705,14 @@
       "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own Slash Attack Res Piercing Rate +20/Reaction Block Rate +40"
     },
     {
+      "key": "SK_MA_LW_VRFB",
+      "value": "Ice Unit Allies' Max HP +10%/Ice Attack +15, own Slash Attack Res Piercing Rate +10/Accuracy Rate +15/Additional effect: raises Curse activation rate while Courage is in effect"
+    },
+    {
+      "key": "SK_MA_LW_FINA_02",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Max HP +10%/Ability Activation Time -20%/Unit Attack Res +10"
+    },
+    {
       "key": "SK_UES_FF7_CLUD",
       "value": "Raises own Slash Attack Res Piercing Rate, then deals Dmg (M) to enemies within area around self with high chance of Critical Hit."
     },
@@ -28245,6 +28453,10 @@
       "value": "Ability Use +1 & enhances Range."
     },
     {
+      "key": "SK_UES_LW_FINA_02",
+      "value": "Raises SPR/Area Attack Res/Debuff Reduction Rate of allies within range for 4 turns & bestows a barrier on self that fully negates Dmg (2 times) & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & raises CT (M) after reviving with Reraise."
+    },
+    {
       "key": "SK_LW_SLASH_1",
       "value": "Slash ATK +2"
     },
@@ -29581,6 +29793,10 @@
       "value": ""
     },
     {
+      "key": "SK_GL_LW_ACC_090_6",
+      "value": "From commencement of battle: Stun Res +50 for 4 turns, Berserk Res +50 for 4 turns, Paralysis Res +50 for 4 turns."
+    },
+    {
       "key": "SK_GL_LW_GUN_013_1",
       "value": ""
     },
@@ -30437,6 +30653,10 @@
       "value": "Bestows Bravery Down for 3 turns to own successful attacks for 3 turns."
     },
     {
+      "key": "SK_ACC_LW_GRFD_1_ARENA",
+      "value": "Raises Ice/Wind Res of allies within area around self for 3 turns & raises own ATK for 3 turns."
+    },
+    {
       "key": "SK_SWO_LW_ADLD_1_1",
       "value": ""
     },
@@ -30843,6 +31063,14 @@
     {
       "key": "SK_CLT_FF8_SIFR_1",
       "value": "Raises own and ally's Reaction Block Rate & bestows Phys Dmg Debuff for 3 turns to successful attacks for 4 turns."
+    },
+    {
+      "key": "SK_ARM_LW_VRFB_1",
+      "value": "Raises own DEF/Unit Attack Res & bestows chance of inflicting Frostbite for 3 turns to successful attacks for 4 turns."
+    },
+    {
+      "key": "SK_CLT_LW_FINA_02_1",
+      "value": "Own Range +1 for 4 turns & bestows a damage reduction effect that reduces damage taken the larger the attack range for 4 turns."
     },
     {
       "key": "SK_LW_ACC_042_1",
@@ -31818,6 +32046,10 @@
     },
     {
       "key": "SK_LW_PLUS6_CRT_CTUP",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_PLUS6_CRT_DNMV_25",
       "value": ""
     },
     {
@@ -33321,6 +33553,46 @@
       "value": ""
     },
     {
+      "key": "SK_LW_BOW_022_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_022_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_022_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_022_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_BOW_022_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_134_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_134_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_134_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_134_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_ACC_134_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_KAT_004_2",
       "value": ""
     },
@@ -33369,6 +33641,22 @@
       "value": ""
     },
     {
+      "key": "SK_LW_SPE_025_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_SPE_025_1_5",
+      "value": ""
+    },
+    {
       "key": "SK_LW_AXE_012_2",
       "value": ""
     },
@@ -33382,6 +33670,22 @@
     },
     {
       "key": "SK_LW_AXE_012_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_1_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_1_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_1_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_AXE_012_1_5",
       "value": ""
     },
     {
@@ -39658,6 +39962,78 @@
     },
     {
       "key": "SK_GL_VC_FF8_MV3_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_FINA_02_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FINA_02_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FINA_02_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FINA_02_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FINA_02_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FINA_02_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_FINA_02_PMAX_3",
       "value": ""
     },
     {

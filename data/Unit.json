@@ -30666,7 +30666,8 @@
       "trust": "AF_ACC_LW_BRWL_1",
       "atkskl": "SK_LW_HSW_ATK",
       "mstskl": [
-        "SK_MA_LW_BRWL"
+        "SK_MA_LW_BRWL",
+        "SK_MA_LW_BRWL_2"
       ],
       "jobsets": [
         "JB_LW_HSW_DARK",
@@ -30790,7 +30791,8 @@
       "trust": "AF_FIS_LW_CMRL_1",
       "atkskl": "SK_LW_BFI_ATK",
       "mstskl": [
-        "SK_MA_LW_CMRL"
+        "SK_MA_LW_CMRL",
+        "SK_MA_LW_CMRL_2"
       ],
       "jobsets": [
         "JB_LW_BFI_FIRE",
@@ -34235,6 +34237,129 @@
       "limit": "SK_LB_LW_RSNC_02",
       "awake_tbl_id": "UN_AW_FIRE_UR",
       "unit_medal_num": 20
+    },
+    {
+      "iname": "UN_LW_P_SONL",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 2,
+      "charaId": "LAPSsonl",
+      "anm_type": 1,
+      "voiceId": "LAPSsonl_00",
+      "type": 0,
+      "elem": [
+        8
+      ],
+      "species": [
+        1
+      ],
+      "birth": 5,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 70,
+      "piece": "IT_PI_LW_SONL",
+      "piece_num": 40,
+      "db_num": 1,
+      "trust": "AF_SWO_LW_SONL_1",
+      "atkskl": "SK_LW_RAB_ATK",
+      "mstskl": [
+        "SK_MA_LW_SONL"
+      ],
+      "jobsets": [
+        "JB_LW_RAB_DARK",
+        "JB_LW_WGN_DARK",
+        "JB_LW_AXG_DARK"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_LW_SONL_M"
+        }
+      ],
+      "ex_star": {
+        "unlock_item_id": "UEX_RCP_DARK_UR",
+        "unlock_count": 1,
+        "id": "UES_LW_SONL",
+        "lvup_item_id": "UES_LU_DARK",
+        "re_id": "UES_RNC_CP_UR_DARK",
+        "skill_set_id": "UESSET_LW_SONL"
+      },
+      "ai": "AI_PLAYER_LW_RAB",
+      "buff_pri": "BUFFPRI_PHYATK",
+      "debuff_pri": "DEBUFFPRI_PHYATK",
+      "status": [
+        {
+          "hp": 350,
+          "mp": 59,
+          "ap": 70,
+          "atk": 94,
+          "def": 0,
+          "mag": 32,
+          "mnd": 0,
+          "dex": 81,
+          "spd": 31,
+          "luk": 78,
+          "esh": -10,
+          "asl": 15,
+          "api": -15,
+          "ash": 5,
+          "ama": 15,
+          "ccf": 10,
+          "cfr": 50,
+          "cda": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1217,
+          "mp": 92,
+          "ap": 87,
+          "atk": 159,
+          "def": 0,
+          "mag": 54,
+          "mnd": 0,
+          "dex": 122,
+          "spd": 36,
+          "luk": 110,
+          "esh": -10,
+          "asl": 15,
+          "api": -15,
+          "ash": 5,
+          "ama": 15,
+          "ccf": 10,
+          "cfr": 50,
+          "cda": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1277,
+          "mp": 96,
+          "ap": 91,
+          "atk": 206,
+          "def": 0,
+          "mag": 70,
+          "mnd": 0,
+          "dex": 146,
+          "spd": 36,
+          "luk": 121,
+          "esh": -10,
+          "asl": 15,
+          "api": -15,
+          "ash": 5,
+          "ama": 15,
+          "ccf": 10,
+          "cfr": 50,
+          "cda": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "awake_tbl_id": "UN_AW_DARK_UR",
+      "unit_medal_num": 0
     },
     {
       "iname": "UN_LW_EMPTI",
@@ -86935,6 +87060,102 @@
       "unit_medal_num": 0
     },
     {
+      "iname": "UN_LW_E_YNOC",
+      "sex": 3,
+      "size": 1,
+      "body_type": "NB_M",
+      "charaId": "LAPSynoc",
+      "anm_type": 2,
+      "type": 8,
+      "elem": [
+        1
+      ],
+      "species": [
+        2
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SR_DEFAULT",
+      "cost": 0,
+      "atkskl": "SK_YNOC_ATK",
+      "height": 280,
+      "ai": "AI_ENEMY_ATK_LV3",
+      "status": [
+        {
+          "hp": 241,
+          "mp": 60,
+          "ap": 58,
+          "atk": 56,
+          "def": 0,
+          "mag": 56,
+          "mnd": 0,
+          "dex": 104,
+          "spd": 19,
+          "luk": 96,
+          "eic": 20,
+          "ewa": -10,
+          "cpo": 999,
+          "cbl": 999,
+          "csl": 999,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 999,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "frz": 999,
+          "stn": 999,
+          "cdh": 999,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        },
+        {
+          "hp": 5218,
+          "mp": 150,
+          "ap": 144,
+          "atk": 152,
+          "def": 0,
+          "mag": 148,
+          "mnd": 0,
+          "dex": 243,
+          "spd": 71,
+          "luk": 229,
+          "eic": 20,
+          "ewa": -10,
+          "cpo": 999,
+          "cbl": 999,
+          "csl": 999,
+          "cmu": 999,
+          "cpa": 999,
+          "ccf": 999,
+          "cpe": 999,
+          "cfr": 999,
+          "csw": 999,
+          "cst": 999,
+          "cch": 999,
+          "cdm": 999,
+          "cda": 999,
+          "cbe": 999,
+          "cdo": 999,
+          "frz": 999,
+          "stn": 999,
+          "cdh": 999,
+          "mov": 5,
+          "jmp": 4,
+          "dmax": 9999
+        }
+      ],
+      "no_kb": 1,
+      "unit_medal_num": 0
+    },
+    {
       "iname": "UN_LW_E_ODIN",
       "sex": 3,
       "size": 1,
@@ -121038,6 +121259,170 @@
           "efi": -10,
           "ewi": 10,
           "cmu": 25,
+          "mov": 0,
+          "jmp": 0
+        }
+      ],
+      "unit_medal_num": 0,
+      "reset_type": 2
+    },
+    {
+      "iname": "UN_LW_S_YNOC",
+      "sex": 3,
+      "size": 0,
+      "body_type": "NB_M",
+      "charaId": "LAPSynoc",
+      "anm_type": 2,
+      "type": 1,
+      "elem": [
+        1
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SB_R1_DEFAULT",
+      "cost": 40,
+      "atkskl": "SK_SMN_YNOC",
+      "status": [
+        {
+          "hp": 87,
+          "mp": 24,
+          "ap": 24,
+          "atk": 17,
+          "mag": 40,
+          "dex": 30,
+          "spd": 11,
+          "luk": 26,
+          "eic": 10,
+          "ewa": -10,
+          "mov": 0,
+          "jmp": 0
+        },
+        {
+          "hp": 401,
+          "mp": 34,
+          "ap": 30,
+          "atk": 27,
+          "mag": 70,
+          "dex": 45,
+          "spd": 13,
+          "luk": 39,
+          "eic": 10,
+          "ewa": -10,
+          "mov": 0,
+          "jmp": 0
+        }
+      ],
+      "nb_exp_coef_id": "SB_EXP_FIRE_01",
+      "nb_lv_tbl": "SB_LVTBL_UR_01",
+      "nb_awake_id": [
+        "UN_LW_S_YNOC_AW1",
+        "UN_LW_S_YNOC_AW2"
+      ],
+      "unit_medal_num": 0,
+      "reset_type": 2
+    },
+    {
+      "iname": "UN_LW_S_YNOC_AW1",
+      "sex": 3,
+      "size": 0,
+      "body_type": "NB_M",
+      "charaId": "LAPSynoc",
+      "anm_type": 2,
+      "type": 11,
+      "elem": [
+        1
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SB_R2_DEFAULT",
+      "cost": 40,
+      "atkskl": "SK_SMN_YNOC",
+      "status": [
+        {
+          "hp": 420,
+          "mp": 35,
+          "ap": 31,
+          "atk": 28,
+          "mag": 73,
+          "dex": 48,
+          "spd": 13,
+          "luk": 40,
+          "eic": 10,
+          "ewa": -10,
+          "mov": 0,
+          "jmp": 0
+        },
+        {
+          "hp": 807,
+          "mp": 45,
+          "ap": 37,
+          "atk": 40,
+          "mag": 107,
+          "dex": 64,
+          "spd": 15,
+          "luk": 56,
+          "eic": 10,
+          "ewa": -10,
+          "mov": 0,
+          "jmp": 0
+        }
+      ],
+      "unit_medal_num": 0,
+      "reset_type": 2
+    },
+    {
+      "iname": "UN_LW_S_YNOC_AW2",
+      "sex": 3,
+      "size": 0,
+      "body_type": "NB_M",
+      "charaId": "LAPSynoc",
+      "anm_type": 2,
+      "type": 11,
+      "elem": [
+        1
+      ],
+      "species": [
+        5
+      ],
+      "birth": 1,
+      "rare": 0,
+      "grow": "SB_R3_DEFAULT",
+      "cost": 40,
+      "atkskl": "SK_SMN_YNOC",
+      "status": [
+        {
+          "hp": 827,
+          "mp": 46,
+          "ap": 37,
+          "atk": 41,
+          "mag": 111,
+          "dex": 66,
+          "spd": 15,
+          "luk": 57,
+          "eic": 10,
+          "ewa": -10,
+          "cdh": 5,
+          "mov": 0,
+          "jmp": 0
+        },
+        {
+          "hp": 1214,
+          "mp": 51,
+          "ap": 40,
+          "atk": 52,
+          "mag": 145,
+          "dex": 83,
+          "spd": 16,
+          "luk": 73,
+          "eic": 10,
+          "ewa": -10,
+          "cdh": 25,
           "mov": 0,
           "jmp": 0
         }

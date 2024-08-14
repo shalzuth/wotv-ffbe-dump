@@ -2729,6 +2729,30 @@
       "value": "Deals Dmg (XL) to targets within range based on caster's MAG stat & chance of inflicting Frostbite for 3 turns."
     },
     {
+      "key": "SK_YNOC_ATK",
+      "value": "Deals Dmg to target."
+    },
+    {
+      "key": "SK_YNOC_M_01",
+      "value": "Raises own ATK/MAG for 3 turns & activates additional Dmg effect when using own attack abilities for 3 turns (deals Non-Elemental Dmg (Min) & does not affect chains)."
+    },
+    {
+      "key": "SK_YNOC_M_01_AD",
+      "value": "Deals Non-Elemental Dmg (Min)."
+    },
+    {
+      "key": "SK_YNOC_M_03",
+      "value": "Deals Fire Dmg (M) to up to 3 targets based on caster's MAG stat & removes all Buffs."
+    },
+    {
+      "key": "SK_YNOC_M_04",
+      "value": "Deals Fire Dmg (XL) to targets within range based on caster's MAG stat & lowers DEF Piercing Rate/SPR Piercing Rate for 3 turns."
+    },
+    {
+      "key": "SK_YNOC_M_05",
+      "value": "Lowers Fire Res of enemies within area around self, then deals Fire Dmg (L) & chance of inflicting Stun for 1 turn (does not affect targets with Float status)."
+    },
+    {
       "key": "SK_DMNW_ATK",
       "value": ""
     },
@@ -4527,6 +4551,10 @@
     {
       "key": "SK_SMN_CHRT",
       "value": "Evokes Chariot, deals Ice Dmg (XL) to targets within range based on caster's MAG stat & chance of inflicting Frostbite for 3 turns & activates temporary Map Effects (raises allies' ATK/MAG & increased effect for Ice units & significantly lowers enemies' Ice Res)."
+    },
+    {
+      "key": "SK_SMN_YNOC",
+      "value": "Evokes Yatsuka-no-Orochi, deals Fire Dmg (XL) to targets within range based on caster's MAG stat & lowers DEF Piercing Rate/SPR Piercing Rate for 3 turns & activates temporary Map Effects (raises allies' ATK/MAG & increases effect for Fire units & significantly lowers enemies' Fire Res)."
     },
     {
       "key": "SK_BTL_HP_100-99900_U",
@@ -16613,6 +16641,26 @@
       "value": "Raises own DEF/SPR until damage is taken twice & raises Evasion Rate/Unit Attack Res for 3 turns."
     },
     {
+      "key": "SK_LW_EC_RAB_A_03",
+      "value": "Removes Phys Dmg Reduction for Wider Attack Area from targets within range, then deals Dmg (L)."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_05",
+      "value": "Enhances Fatal Pirouette to Fatal Rondo. Raises own Slash Res Piercing Rate for 3 turns, then deals Dmg (L) to enemies within area around self with high chance of Critical Hit & significantly lowers Critical Hit Rate for 3 turns & lowers Accuracy Rate for 1 turn upon Critical Hit."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_05B",
+      "value": "Raises own Slash Res Piercing Rate for 3 turns, then deals Dmg (L) to enemies within area around self with high chance of Critical Hit & significantly lowers Critical Hit Rate for 3 turns & lowers Accuracy Rate for 1 turn upon Critical Hit."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_06",
+      "value": "Enhances Defensive Footwork to Unfaltering Footwork. Bestows a barrier on self that reduces Phys Dmg (4 times) & raises Evasion Rate for 4 turns & significantly raises Unit Attack Res for 4 turns."
+    },
+    {
+      "key": "SK_LW_EC_RAB_C_06B",
+      "value": "Bestows a barrier on self that reduces Phys Dmg (4 times) & raises Evasion Rate for 4 turns & significantly raises Unit Attack Res for 4 turns."
+    },
+    {
       "key": "SK_LW_EC_CAL_A_01",
       "value": "Raises Pierce/Strike/Missile Attack Res of allies within range for 3 turns & increases effect on targets whose Height is a multiple of 3."
     },
@@ -26725,8 +26773,16 @@
       "value": "Fire Unit Allies' Max HP +10%/Paralysis Res +25, own Strike Attack Res Piercing Rate +10/Reaction Block Rate +20/Ice Eater +20"
     },
     {
+      "key": "SK_MA_LW_CMRL_2",
+      "value": "Fire Unit Allies' Max HP +10%/Paralysis Res +25, own Strike Attack Res Piercing Rate +30/Reaction Block Rate +20/Ice Eater +40"
+    },
+    {
       "key": "SK_MA_LW_BRWL",
       "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own DEF Piercing Rate +15/AP Consumption -10%"
+    },
+    {
+      "key": "SK_MA_LW_BRWL_2",
+      "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own DEF +15/DEF Piercing Rate +15/Slash Attack Res Piercing Rate +20/AP Consumption -10%/Additional effect: bestows debuff effect (lowers target's DEF Piercing Rate for 3 turns) to own successful attacks while Regen is in effect."
     },
     {
       "key": "SK_MA_NIER_N2TA",
@@ -26831,6 +26887,10 @@
     {
       "key": "SK_MA_LW_RSNC_02",
       "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own MAG +10%/Ability Activation Time -20%/Area Attack Res +10"
+    },
+    {
+      "key": "SK_MA_LW_SONL",
+      "value": "Dark Unit Allies' Max HP +10%/Dark Attack +15, own Slash Attack Res Piercing Rate +20/Critical Hit Rate +10"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -28579,6 +28639,14 @@
     {
       "key": "SK_UES_LW_RSNC_02",
       "value": "Raises Unit Attack Res/Accuracy Rate of allies within range for 4 turns & bestows effects (Barrier Destruction Sealing for 3 turns & Additional Dmg effect removal) to successful attacks for 4 turns & bestows a barrier on self that reduces Phys Dmg (4 times)."
+    },
+    {
+      "key": "SK_UES_LW_SONL",
+      "value": "Removes Phys Dmg Reduction for Wider Attack Area from targets within range, then deals Dmg (L) & increases in potency against more targets (standard damage for 3 targets or more)."
+    },
+    {
+      "key": "SK_LW_EC_RAB_A_03B",
+      "value": "Removes Phys Dmg Reduction for Wider Attack Area from targets within range, then deals Dmg (L) & increases in potency against more targets (standard damage for 3 targets or more)."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -30338,6 +30406,14 @@
     },
     {
       "key": "SK_FIS_LW_LMIG_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_SWO_LW_SONL_1_1",
+      "value": ""
+    },
+    {
+      "key": "SK_SWO_LW_SONL_1_2",
       "value": ""
     },
     {
@@ -40270,6 +40346,66 @@
     },
     {
       "key": "SK_GL_VC_LW_RSNC_02_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_YNOC_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_YNOC_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_YNOC_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_YNOC_PMAX_2",
       "value": ""
     },
     {

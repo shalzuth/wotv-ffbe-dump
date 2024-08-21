@@ -833,6 +833,28 @@
       "is_switch_to_or_o_cond_q": 1
     },
     {
+      "iname": "SE_EV_SRKN_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_srkn_01"
+    },
+    {
+      "iname": "SE_EV_21_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_21_01"
+    },
+    {
+      "iname": "SE_EV_21_EX_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_21_ex_01",
+      "o_cond_q": [
+        "QE_EV_21_10"
+      ]
+    },
+    {
+      "iname": "SE_MU_EV_21_EX",
+      "hurl": "ev_21_ex_01"
+    },
+    {
       "iname": "SE_EV_SONL",
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_sonl"

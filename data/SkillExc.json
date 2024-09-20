@@ -6,6 +6,11 @@
       "reduce_dmg_dist_max": 5
     },
     {
+      "iname": "SKE_DRFT_018_1",
+      "reduce_dmg_dist_min": 2,
+      "reduce_dmg_dist_max": 5
+    },
+    {
       "iname": "SKE_LGEN_M_05",
       "strcnd": [
         {
@@ -2633,6 +2638,41 @@
       "iname": "SKE_MA_LW_CHRZ_S_2",
       "reduce_dmg_dist_min": 4,
       "reduce_dmg_dist_max": 7
+    },
+    {
+      "iname": "SKE_LW_SWD_M_2_2",
+      "strcnd": [
+        {
+          "tar": 1,
+          "type": 104,
+          "calc": 4
+        }
+      ],
+      "targetBuff": [
+        {
+          "iname": "BUFF_LW_SWD_M_2_2"
+        }
+      ]
+    },
+    {
+      "iname": "SKE_LW_SWD_C_01B",
+      "strcnd": [
+        {
+          "tar": 1,
+          "type": 104,
+          "calc": 4
+        }
+      ],
+      "targetBuff": [
+        {
+          "iname": "BUFF_LW_SWD_C_01B_1"
+        }
+      ]
+    },
+    {
+      "iname": "SKE_LW_SWD_P_2",
+      "reduce_dmg_dist_min": 3,
+      "reduce_dmg_dist_max": 6
     }
   ]
 }

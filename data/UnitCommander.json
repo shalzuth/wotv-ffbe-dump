@@ -56,6 +56,33 @@
         }
       ],
       "ai": "AI_CMD_1"
+    },
+    {
+      "iname": "UN_LW_P_PRNE_01",
+      "target_scope": 3,
+      "party_ability": [
+        {
+          "cond_iname": "CMC_WIND",
+          "skl_iname": "SK_CMPA_LW_PRNE_01_1",
+          "ex_skl_iname": "SK_CMPA_LW_PRNE_01_1_EX"
+        },
+        {
+          "cond_iname": "CMC_BOW_FIS_KAT_RDA",
+          "skl_iname": "SK_CMPA_LW_PRNE_01_2",
+          "ex_skl_iname": "SK_CMPA_LW_PRNE_01_2_EX"
+        }
+      ],
+      "ability": [
+        {
+          "action_count": 1,
+          "count_target": 0,
+          "enchant_count_type": 1,
+          "cond_iname": "CMC_BOW_FIS_KAT_RDA",
+          "skl_iname": "SK_CMA_LW_PRNE_01",
+          "ex_skl_iname": "SK_CMA_LW_PRNE_01_EX"
+        }
+      ],
+      "ai": "AI_CMD_1"
     }
   ]
 }

@@ -31125,7 +31125,8 @@
       "trust": "AF_ACC_LW_VRHW_1",
       "atkskl": "SK_LW_VRHW_ATK",
       "mstskl": [
-        "SK_MA_LW_VRHW"
+        "SK_MA_LW_VRHW",
+        "SK_MA_LW_VRHW_2"
       ],
       "jobsets": [
         "JB_LW_VRHW",
@@ -35772,6 +35773,14 @@
           "m": "JB_LW_VRAS_M"
         }
       ],
+      "ex_star": {
+        "unlock_item_id": "UEX_RCP_SHINE_UR",
+        "unlock_count": 1,
+        "id": "UES_LW_VRAS",
+        "lvup_item_id": "UES_LU_SHINE",
+        "re_id": "UES_RNC_SHINE_UR",
+        "skill_set_id": "UESSET_LW_VRAS"
+      },
       "ai": "AI_PLAYER_LW_VRAS",
       "buff_pri": "BUFFPRI_MAGATK",
       "debuff_pri": "DEBUFFPRI_MAGATK",
@@ -55539,6 +55548,60 @@
           "ama": 10,
           "mov": 3,
           "jmp": 2,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_TH_00_CLR_01",
+      "base_unit_iname": "UN_LW_E_TH_00",
+      "type": 7,
+      "atkskl": "SK_LW_CLR_ATK",
+      "jobsets": [
+        "JB_LW_CLR_FIRE"
+      ],
+      "ai": "AI_ENEMY_ATK_LV3",
+      "steal": "ST_JB_MACE",
+      "status": [
+        {
+          "hp": 196,
+          "mp": 32,
+          "ap": 39,
+          "atk": 26,
+          "def": 0,
+          "mag": 58,
+          "mnd": 0,
+          "dex": 75,
+          "spd": 25,
+          "luk": 82,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1395,
+          "mp": 100,
+          "ap": 95,
+          "atk": 86,
+          "def": 0,
+          "mag": 178,
+          "mnd": 0,
+          "dex": 185,
+          "spd": 52,
+          "luk": 216,
+          "asl": -10,
+          "api": -10,
+          "abl": -10,
+          "ash": -10,
+          "ama": 10,
+          "mov": 3,
+          "jmp": 1,
           "dmax": 9999
         }
       ],

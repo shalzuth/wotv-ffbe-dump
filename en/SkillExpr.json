@@ -6218,7 +6218,7 @@
     },
     {
       "key": "SK_BTL_INV_HIT100",
-      "value": ""
+      "value": "Quest-balancing skill"
     },
     {
       "key": "SK_BTL_AP_LESS_1_100_U",
@@ -8926,11 +8926,11 @@
     },
     {
       "key": "SK_LW_YSTL_M_1",
-      "value": "Deals Fire Dmg (M) to targets within range based on caster's MAG stat."
+      "value": "Deals Fire Dmg (M) to targets within range based on caster's MAG stat & significantly lowers ATK/MAG for 3 turns if target is Ice Element."
     },
     {
       "key": "SK_LW_YSTL_M_2",
-      "value": "Reduces own Activation Time for 3 turns."
+      "value": "Reduces own Activation Time for 4 turns & raises Area Attack Res Piercing Rate for 4 turns."
     },
     {
       "key": "SK_LW_YSTL_M_4",
@@ -8946,7 +8946,7 @@
     },
     {
       "key": "SK_LW_YSTL_M_3",
-      "value": "Raises own MAG for 3 turns."
+      "value": "Significantly raises own MAG for 4 turns & bestows Shell for 4 turns."
     },
     {
       "key": "SK_LW_YSTL_S_3",
@@ -8962,23 +8962,27 @@
     },
     {
       "key": "SK_LW_EC_YSTL_A_01",
-      "value": "Raises own Magic Attack Res Piercing Rate for 3 turns, then deals Fire Dmg (M) to targets within range based on caster's MAG stat."
+      "value": "Raises own Magic Attack Res Piercing Rate for 3 turns, then deals Fire Dmg (M) to targets within range based on caster's MAG stat & deals significantly greater damage to targets affected by Reraise/Haste & removes Reraise/Haste."
     },
     {
       "key": "SK_LW_EC_YSTL_C_01",
-      "value": "Enhances Xenoglossy to Xenoglossy II. Deals Fire Dmg (L) to target based on caster's MAG stat & bestows Man Eater."
+      "value": "Enhances Xenoglossy to Xenoglossy II. Enhances Range. Destroys any barrier that reduces Magic Dmg on target, then deals Fire Dmg (L) based on caster's MAG stat & bestows Man Eater & deals extra damage to targets affected by Area Attack Res Up."
     },
     {
       "key": "SK_LW_EC_YSTL_C_01B",
-      "value": "Deals Fire Dmg (L) to target based on caster's MAG stat & bestows Man Eater."
+      "value": "Destroys any barrier that reduces Magic Dmg on target, then deals Fire Dmg (L) based on caster's MAG stat & bestows Man Eater & deals extra damage to targets affected by Area Attack Res Up."
     },
     {
       "key": "SK_LW_EC_YSTL_C_02",
-      "value": "Enhances Enochian to Enochian II. Raises MAG/Magic Attack Res Piercing Rate/Accuracy."
+      "value": "Enhances Enochian to Enochian II. Raises MAG, Magic Attack Res Piercing Rate, Accuracy Rate, Healing Power & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min))."
     },
     {
       "key": "SK_LW_EC_YSTL_C_02B",
-      "value": "Raises MAG/Magic Attack Res Piercing Rate/Accuracy."
+      "value": "Raises MAG, Magic Attack Res Piercing Rate, Accuracy Rate, Healing Power & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min))."
+    },
+    {
+      "key": "SK_LW_EC_YSTL_C_02C",
+      "value": "Raises MAG, Magic Attack Res Piercing Rate, Accuracy Rate, Healing Power & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (L))."
     },
     {
       "key": "SK_LW_TNCR_ATK",
@@ -8986,7 +8990,7 @@
     },
     {
       "key": "SK_LW_TNCR_S_3",
-      "value": "Deals Dmg (M) to target after movement to target panel."
+      "value": "Deals Dmg (M) to target after movement to target panel & Guaranteed Hit & raises own AGI for 3 turns & significantly raises Critical Evasion Rate for 1 turn."
     },
     {
       "key": "SK_LW_TNCR_M_3",
@@ -8994,11 +8998,11 @@
     },
     {
       "key": "SK_LW_TNCR_M_4",
-      "value": "Deals Dmg (L) to targets within range."
+      "value": "Removes Courage from targets within range, then deals Dmg (L) & lowers Evasion Rate of targets affected by AGI Up for 3 turns (activates before attacking)."
     },
     {
       "key": "SK_LW_TNCR_M_4_B",
-      "value": "Deals Dmg (L) to targets within range."
+      "value": "Removes Courage from targets within range, then deals Dmg (L) & lowers Evasion Rate of targets affected by AGI Up for 3 turns (activates before attacking)."
     },
     {
       "key": "SK_LW_TNCR_M_2",
@@ -9006,7 +9010,11 @@
     },
     {
       "key": "SK_LW_TNCR_S_1",
-      "value": "Raises own Slash ATK for 3 turns."
+      "value": "Recovers a set percentage of HP (M) when HP falls below 50% when taking damage (1 time) & raises own Slash Attack/Area Attack Res Piercing Rate/All Elemental Res for 4 turns & bestows Phys Dmg reduction for 4 turns."
+    },
+    {
+      "key": "SK_LW_TNCR_S_1_B",
+      "value": ""
     },
     {
       "key": "SK_LW_TNCR_M_1",
@@ -9030,27 +9038,47 @@
     },
     {
       "key": "SK_LW_TNCR_P_2",
-      "value": "Raises Pierce Res."
+      "value": "Raises Pierce Attack Res/Reaction Block Rate/Hate."
     },
     {
       "key": "SK_LW_EC_TNCR_A_01",
-      "value": "Lowers DEF of targets within range for 3 turns, then deals Dmg (M)."
+      "value": "Lowers DEF of targets within range for 3 turns, then deals Dmg (L) & absorbs portion of Dmg dealt & lowers Unit Attack Res Piercing Rate for 3 turns."
     },
     {
       "key": "SK_LW_EC_TNCR_C_01",
-      "value": "Enhances Superbolide to Superbolide II. Bestows a barrier on self that reduces Dmg (3 times) & lowers AP Consumption for 3 turns."
+      "value": "Enhances Superbolide to Superbolide II. Bestows a barrier on self that reduces Dmg (4 times) & lowers AP Consumption for 4 turns & bestows Magic Damage reduction to allies within area around self (shape: diamond & range: 4 & range height: 1) for 4 turns & raises Type Chain Res for 4 turns."
     },
     {
       "key": "SK_LW_EC_TNCR_C_01B",
-      "value": "Bestows a barrier on self that reduces Dmg (3 times) & lowers AP Consumption for 3 turns."
+      "value": "Bestows a barrier on self that reduces Dmg (4 times) & lowers AP Consumption for 4 turns & bestows Magic Damage reduction to allies within area around self (shape: diamond & range: 4 & range height: 1) for 4 turns & raises Type Chain Res for 4 turns."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01C",
+      "value": "Bestows a barrier on self that reduces Dmg (4 times) & lowers AP Consumption for 4 turns & bestows Magic Damage reduction to allies within area around self (shape: diamond & range: 4 & range height: 1) for 4 turns & raises ATK/Critical Evasion Rate/Type Chain Res for 4 turns."
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01B_B_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01B_B_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01B_C_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_EC_TNCR_C_01B_C_2",
+      "value": ""
     },
     {
       "key": "SK_LW_EC_TNCR_C_02",
-      "value": "Enhances Camouflage to Camouflage II. Raises Missile Attack Res/DEF Piercing Rate."
+      "value": "Enhances Camouflage to Camouflage II. Raises Missile Attack Res/DEF Piercing Rate/Slash Attack Res Piercing Rate/Unit Attack Res & bestows a damage reduction effect that reduces damage taken the larger the attack range."
     },
     {
       "key": "SK_LW_EC_TNCR_C_02B",
-      "value": "Raises Missile Attack Res/DEF Piercing Rate."
+      "value": "Raises Missile Attack Res/DEF Piercing Rate/Slash Attack Res Piercing Rate/Unit Attack Res & bestows a damage reduction effect that reduces damage taken the larger the attack range."
     },
     {
       "key": "SK_LW_VIK_ATK",
@@ -10677,6 +10705,10 @@
       "value": "Deals 2-Hit Dmg (M) to target & lowers Ice Res for 3 turns."
     },
     {
+      "key": "SK_LW_HSW_THUN_S_3",
+      "value": "Deals 2-Hit Dmg (M) to target & lowers Lightning Res for 3 turns."
+    },
+    {
       "key": "SK_LW_HSW_DARK_S_3",
       "value": "Deals 2-Hit Dmg (M) to target & lowers Dark Res for 3 turns."
     },
@@ -10715,6 +10747,10 @@
     {
       "key": "SK_LW_HSW_M_2_SUB",
       "value": "Removes Protect from target, then deals Dmg (L) & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_LW_HSW_M_3_SUB",
+      "value": "Raises Pierce Res of allies within area around self for 3 turns & bestows a barrier on self that reduces Phys Dmg (3 times)."
     },
     {
       "key": "SK_LW_HSW_EN_A_01",
@@ -23553,6 +23589,82 @@
       "value": "Raises own Accuracy Rate for 3 turns, then deals Dmg (M) to target & removes all Buffs."
     },
     {
+      "key": "SK_LW_VNLA_02_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VNLA_02_M_1",
+      "value": "Lowers a set percentage of DEF of targets within range for 3 turns, then deals 2-Hit Dmg (L) & lowers CT (S) & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_LW_VNLA_02_M_2",
+      "value": "Bestows a damage reduction effect for 4 turns that reduces damage taken the larger the attack range on allies within range & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & additional effect: raises Stun activation rate while Reraise/Dmg Reduction for Wider Attack Area is in effect & bestows Haste removal from target to successful attacks for 4 turns."
+    },
+    {
+      "key": "SK_LW_VNLA_02_M_3",
+      "value": "Deals Dmg to target (L) & chance of inflicting Poison for 3 turns & chance of inflicting Doom & additional effect: lowers Move by 1/lowers Healing Power while Poison/Doom is in effect."
+    },
+    {
+      "key": "SK_LW_VNLA_02_S_1",
+      "value": "Deals Dmg (S) to target & raises own CT (S)."
+    },
+    {
+      "key": "SK_LW_VNLA_02_S_2",
+      "value": "Recovers a set percentage of own HP (M) when HP falls below 50% when taking damage (1 time) & raises Unit Attack Evasion Rate for 4 turns & nullifies Guaranteed Hit against self for 4 turns & bestows a Reaction for 4 turns that increases own Phys Dmg for 1 turn when evading an attack."
+    },
+    {
+      "key": "SK_LW_VNLA_02_S_2_B",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_VNLA_02_S_3",
+      "value": "Reduces AP of targets within range & chance of inflicting Paralysis on targets within range for 3 turns."
+    },
+    {
+      "key": "SK_LW_VNLA_02_S_4",
+      "value": "Raises own Damage Limit, then deals Critical Dmg (L) to target."
+    },
+    {
+      "key": "SK_LW_VNLA_02_R_1",
+      "value": "Chance of Preemptive Strike when taking Slash/Magic-type Dmg. "
+    },
+    {
+      "key": "SK_LW_VNLA_02_R_2",
+      "value": "Increases own Phys Dmg for 1 turn when evading an attack."
+    },
+    {
+      "key": "SK_LW_VNLA_02_P_1",
+      "value": "Bestows distance-based Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels) (removed after taking damage 1 time) & raises Slash Attack Res Piercing Rate/Evasion Rate."
+    },
+    {
+      "key": "SK_LW_VNLA_02_P_2",
+      "value": "Raises ATK & lowers AP Consumption."
+    },
+    {
+      "key": "SK_LW_VNLA_02_EN_A_01",
+      "value": "Destroys any barrier that reduces Phys Dmg on targets within range, then deals Dmg (L) & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_LW_EC_VNLA_02_C_01",
+      "value": "Enhances Memories of an Assassin to True Moon. Bestows distance-based Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels) (removed after taking damage 1 time) & raises Slash Attack Res Piercing Rate/Evasion Rate & bestows a damage reduction effect that reduces damage taken the larger the attack range."
+    },
+    {
+      "key": "SK_LW_EC_VNLA_02_C_01B",
+      "value": "Bestows distance-based Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels) (removed after taking damage 1 time) & raises Slash Attack Res Piercing Rate/Evasion Rate & bestows a damage reduction effect that reduces damage taken the larger the attack range."
+    },
+    {
+      "key": "SK_LW_EC_VNLA_02_C_02",
+      "value": "Enhances Armor Blitz to Bulwark Blitz. Lowers a set percentage of DEF/Area Attack Res of targets within range for 3 turns, then deals 2-Hit Dmg (L) & lowers CT (S) & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_LW_EC_VNLA_02_C_02B",
+      "value": "Lowers a set percentage of DEF/Area Attack Res of targets within range for 3 turns, then deals 2-Hit Dmg (L) & lowers CT (S) & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_LW_EC_VNLA_02_C_02C",
+      "value": "Lowers a set percentage of DEF/Area Attack Res of targets within range for 3 turns, then deals 2-Hit Dmg (L) & lowers CT (S) & lowers Type Chain Res for 2 turns & chance of inflicting Stun for 1 turn."
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Deals Dmg (L) to targets within range."
     },
@@ -24475,6 +24587,10 @@
     {
       "key": "SK_LB_LW_PRNE_01_2",
       "value": "Recovers a set percentage of HP (M) of allies within area around self."
+    },
+    {
+      "key": "SK_LB_LW_VNLA_02",
+      "value": "Removes Protect from targets within range & lowers Critical Dmg Res for 3 turns, then deals 3-Hit Dmg (XL)."
     },
     {
       "key": "SK_LB_LW_MONT_B",
@@ -27401,6 +27517,10 @@
       "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Max HP +20%, Slash ATK +10, ATK +150, removes casting from Blasting Zone only during battle."
     },
     {
+      "key": "SK_MA_FF14_TNCR_3",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Max HP +20%, Slash Attack +10, ATK +150, Area Attack Res Piercing Rate +30, AGI +10%, Accuracy Rate +10, removes casting from Blasting Zone only during battle"
+    },
+    {
       "key": "SK_MA_LW_HLNA",
       "value": "MAG +30%, AGI +10%"
     },
@@ -27503,6 +27623,10 @@
     {
       "key": "SK_MA_FF14_YSTL_2",
       "value": "Fire Unit Allies' Max HP +10%/Confusion Res +25, own MAG +20%/SPR Piercing Rate +20/Max TP +15%/Acquired AP +30%/Magic Attack Res Piercing Rate +30"
+    },
+    {
+      "key": "SK_MA_FF14_YSTL_3",
+      "value": "Fire Unit Allies' Max HP +10%/Confusion Res +25, own Max HP +20%/MAG +30%/SPR Piercing Rate +20/Max TP +15%/Acquired AP +30%/Magic Attack Res Piercing Rate +30/Area Attack Res +20"
     },
     {
       "key": "SK_MA_LW_SZRT",
@@ -29359,6 +29483,10 @@
     {
       "key": "SK_MA_LW_PRNE_01",
       "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own Critical Hit Rate +20/Earth Res +15"
+    },
+    {
+      "key": "SK_MA_LW_VNLA_02",
+      "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own Evasion Rate +10/AP Consumption -25%"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -31233,6 +31361,18 @@
       "value": "Ability Use +1. Raises own Area Attack Res Piercing Rate for 3 turns & lowers Light Res of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & absorbs portion of Dmg dealt & chance of inflicting Poison for 3 turns & sequentially activates Photolysis (removes all Debuffs from ally & removes Blind, Immobilize, Berserk)."
     },
     {
+      "key": "SK_UES_LW_VNLA_02",
+      "value": "Lowers a set percentage of DEF/Area Attack Res of targets within range for 3 turns, then deals 2-Hit Dmg (L) & lowers CT (S) & lowers Type Chain Res for 2 turns & chance of inflicting Stun for 1 turn."
+    },
+    {
+      "key": "SK_UES_FF14_TNCR",
+      "value": "Bestows a barrier on self that reduces Dmg (4 times) & lowers AP Consumption for 4 turns & bestows Magic Damage reduction to allies within area around self (shape: diamond & range: 4 & range height: 1) for 4 turns & raises ATK/Critical Evasion Rate/Type Chain Res for 4 turns."
+    },
+    {
+      "key": "SK_UES_FF14_YSTL",
+      "value": "Raises MAG, Magic Attack Res Piercing Rate, Accuracy Rate, Healing Power & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (L))."
+    },
+    {
       "key": "SK_CMPA_LW_MONT_1",
       "value": ""
     },
@@ -31339,6 +31479,30 @@
     {
       "key": "SK_CMA_LW_PRNE_01_EX_EN2",
       "value": ""
+    },
+    {
+      "key": "SK_CMPA_LW_VNLA_02_1",
+      "value": ""
+    },
+    {
+      "key": "SK_CMPA_LW_VNLA_02_1_EX",
+      "value": ""
+    },
+    {
+      "key": "SK_CMPA_LW_VNLA_02_2",
+      "value": ""
+    },
+    {
+      "key": "SK_CMPA_LW_VNLA_02_2_EX",
+      "value": ""
+    },
+    {
+      "key": "SK_CMA_LW_VNLA_02",
+      "value": "Activates at beginning of battle: raises ATK/MAG of allies with a Spear/Fists/Dagger/Ninja Blade/Gloves-equippable Main Job for 5 turns."
+    },
+    {
+      "key": "SK_CMA_LW_VNLA_02_EX",
+      "value": "Activates at beginning of battle: raises ATK/MAG/Elemental Chain Res of allies with a Spear/Fists/Dagger/Ninja Blade/Gloves-equippable Main Job for 5 turns."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -32358,6 +32522,10 @@
     },
     {
       "key": "SK_FF14_HLM_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF14_HLM_001_6",
       "value": ""
     },
     {
@@ -34105,6 +34273,10 @@
       "value": "Raises Wind/Earth Res of allies within area around self for 4 turns & raises own Critical Evasion Rate for 4 turns."
     },
     {
+      "key": "SK_ACC_LW_VNLA_02_1",
+      "value": "Raises own Luck/Reaction Block Rate for 4 turns."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -34195,6 +34367,50 @@
     {
       "key": "SK_FF14_SWO_TNCR_5",
       "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_SWO_TNCR_6",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_TNCR_1",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_TNCR_2",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_TNCR_3",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_TNCR_4",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_TNCR_5",
+      "value": "Thancred Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_YSTL_1",
+      "value": "Y'shtola Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_YSTL_2",
+      "value": "Y'shtola Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_YSTL_3",
+      "value": "Y'shtola Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_YSTL_4",
+      "value": "Y'shtola Specific Passive Ability"
+    },
+    {
+      "key": "SK_FF14_ARW_001_YSTL_5",
+      "value": "Y'shtola Specific Passive Ability"
     },
     {
       "key": "SK_LW_ROD_013_1",
@@ -37518,6 +37734,26 @@
     },
     {
       "key": "SK_FFX2_CLT_002_3_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_019_1",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_019_2",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_019_3",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_019_4",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_DAG_019_5",
       "value": ""
     },
     {
@@ -45206,6 +45442,138 @@
     },
     {
       "key": "SK_GL_VC_FFX2_MV2_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV5_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV5_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV5_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV5_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF14_MV6_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV6_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV6_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV6_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV6_P_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV6_PAW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF14_MV6_PMAX_3",
       "value": ""
     },
     {

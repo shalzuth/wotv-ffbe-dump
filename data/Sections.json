@@ -688,6 +688,12 @@
       "back_unit": "UN_LW_ST_030101"
     },
     {
+      "iname": "SE_ST_031103",
+      "chap": "CH_ST_0311",
+      "skip_ticket": "IT_TICKET_STORY",
+      "back_unit": "UN_LW_ST_030101"
+    },
+    {
       "iname": "SE_WD_010101",
       "chap": "CH_WD_0101",
       "skip_ticket": "IT_TICKET_STORY"
@@ -885,6 +891,54 @@
       "limit": 1,
       "skip_ticket": "IT_GL_TICKET_EVENT",
       "hurl": "ev_visionday"
+    },
+    {
+      "iname": "SE_EV_FF5_03_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_ex_03",
+      "o_cond_q": [
+        "QE_EV_FF5_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF5_03_EX",
+      "hurl": "ev_FF5_ex_03",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF5_02_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_ex_02",
+      "o_cond_q": [
+        "QE_EV_FF5_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF5_02_EX",
+      "hurl": "ev_FF5_ex_02",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF5_01_EX",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_ex_01",
+      "o_cond_q": [
+        "QE_EV_FF5_10"
+      ],
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_MU_FF5_01_EX",
+      "hurl": "ev_FF5_ex_01",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
+    },
+    {
+      "iname": "SE_EV_FF5_01_01",
+      "skip_ticket": "IT_GL_TICKET_EVENT",
+      "hurl": "ev_FF5_01",
+      "won_dst_sheet_name": "bgm_ff5_Fanfare"
     },
     {
       "iname": "SE_EV_FF14_EX_01",
@@ -2036,40 +2090,6 @@
       "iname": "SE_MU_FF4_02_EX",
       "hurl": "ev_ff4_ex_02",
       "won_dst_sheet_name": "bgm_ff4_Victory"
-    },
-    {
-      "iname": "SE_EV_FF5_01_01",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF5_01",
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF5_01_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF5_ex_01",
-      "o_cond_q": [
-        "QE_EV_FF5_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF5_01_EX",
-      "hurl": "ev_FF5_ex_01",
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
-    },
-    {
-      "iname": "SE_EV_FF5_02_EX",
-      "skip_ticket": "IT_GL_TICKET_EVENT",
-      "hurl": "ev_FF5_ex_02",
-      "o_cond_q": [
-        "QE_EV_FF5_10"
-      ],
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
-    },
-    {
-      "iname": "SE_MU_FF5_02_EX",
-      "hurl": "ev_FF5_ex_02",
-      "won_dst_sheet_name": "bgm_ff5_Fanfare"
     },
     {
       "iname": "SE_EV_FF6_01_01",

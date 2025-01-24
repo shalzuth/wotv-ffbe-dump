@@ -4473,6 +4473,38 @@
       "value": "Lowers Area Attack Res of targets within range for 3 turns, then deals Dmg (L) based on caster's MAG stat & deals extra damage to targets affected by Charm."
     },
     {
+      "key": "SK_FF5_E_EXDT_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_E_EXDT_M_2",
+      "value": "Raises Unit Attack Res of allies within area around self for 4 turns & bestows debuff effect (Reraise Remove Sealing for 3 turns) to successful attacks for 4 turns & bestows Regen for 4 turns & bestows a barrier on self that reduces Dmg (4 times)."
+    },
+    {
+      "key": "SK_FF5_E_EXDT_M_3",
+      "value": "Destroys any barrier that reduces Magic Dmg on targets within range, then deals Dmg (M) based on caster's MAG stat."
+    },
+    {
+      "key": "SK_FF5_E_EXDT_S_1",
+      "value": "Deals Non-Elemental Dmg (S) to target based on caster's MAG stat & chance of inflicting Poison for 3 turns."
+    },
+    {
+      "key": "SK_FF5_E_EXDT_S_2",
+      "value": "Bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (Min)) & bestows distance-based Dmg reduction effect (from 2 panels away and beyond; max effect at 5 panels) for 4 turns & raises own CT (S) after reviving with Reraise."
+    },
+    {
+      "key": "SK_FF5_E_EXDT_S_2_B",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_E_EXDT_S_3",
+      "value": "Deals Earth Dmg (L) to targets within area around self based on caster's MAG stat (does not affect targets with Float status)."
+    },
+    {
+      "key": "SK_FF5_E_EXDT_R_1",
+      "value": "Chance of Counterattack & removing all Buffs when taking Dmg."
+    },
+    {
       "key": "SK_GBLN_ATK",
       "value": "Deals Dmg to target."
     },
@@ -9555,6 +9587,10 @@
     {
       "key": "SK_LW_RAIN_S_3",
       "value": "Increases own chance of being targeted & bestows a barrier on self that reduces Magic Dmg for 3 turns."
+    },
+    {
+      "key": "SK_LW_RAIN_S_3_B",
+      "value": "Increases own chance of being targeted & bestows a barrier on self that reduces Magic Dmg for 4 turns & raises MAG/Accuracy Rate/Debuff Reduction Rate for 4 turns & bestows distance-based Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels) for 4 turns."
     },
     {
       "key": "SK_LW_RAIN_S_4",
@@ -18397,6 +18433,10 @@
       "value": "Decreases own chance of being targeted & significantly raises SPR of allies within area around self for 3 turns."
     },
     {
+      "key": "SK_FF5_LENA_M_3_B",
+      "value": "Decreases own chance of being targeted & bestows Dmg reduction (removed after taking damage 3 times) & significantly raises SPR of allies within area around self for 4 turns & bestows debuff effect (Protect Remove Sealing for 3 turns) to own successful attacks for 4 turns."
+    },
+    {
       "key": "SK_FF5_LENA_S_1",
       "value": "Recovers ally's HP (M)."
     },
@@ -18471,6 +18511,10 @@
     {
       "key": "SK_FF5_FRIS_M_3",
       "value": "Raises Slash/Strike Attack Res of allies within area around self for 3 turns & bestows removal of all Buffs from target to own successful attacks for 3 turns."
+    },
+    {
+      "key": "SK_FF5_FRIS_M_3_B",
+      "value": "Raises Slash/Strike Attack Res of allies within area around self for 4 turns & bestows a barrier on self that negates a certain amount of physical Dmg & bestows removal of all Buffs from target to own successful attacks for 4 turns."
     },
     {
       "key": "SK_FF5_FRIS_S_1",
@@ -23665,6 +23709,90 @@
       "value": "Lowers a set percentage of DEF/Area Attack Res of targets within range for 3 turns, then deals 2-Hit Dmg (L) & lowers CT (S) & lowers Type Chain Res for 2 turns & chance of inflicting Stun for 1 turn."
     },
     {
+      "key": "SK_FF5_P_GLMS_ATK",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_GLMS_M_1",
+      "value": "Removes Courage from targets within range, then deals 2-Hit Dmg (L) & inflicts Magic Dmg Reduction effect for 3 turns & lowers Area Attack Res Piercing Rate for 3 turns."
+    },
+    {
+      "key": "SK_FF5_GLMS_M_2",
+      "value": "Lowers a set percentage of Slash Attack Res of targets within range, then deals high-accuracy Critical Dmg (L) & lowers Healing Power for 3 turns & chance of inflicting Poison for 3 turns."
+    },
+    {
+      "key": "SK_FF5_GLMS_M_3",
+      "value": "Raises Debuff Reduction Rate of allies within area around self for 4 turns & bestows debuff effect (Courage Remove Sealing for 3 turns) to successful attacks for 4 turns & bestows debuff effect (Debuff Reduction Rate Down for 3 turns) to successful attacks for 4 turns & bestows a barrier on self that reduces Dmg (4 times)."
+    },
+    {
+      "key": "SK_FF5_GLMS_S_1",
+      "value": "Deals Dmg (S) to target & Piercing & recovers set percentage of own HP (S) when enemy is KO'd (1 enemy)."
+    },
+    {
+      "key": "SK_FF5_GLMS_S_1_AD",
+      "value": "Recovers set percentage of own HP (S) when enemy is KO'd."
+    },
+    {
+      "key": "SK_FF5_GLMS_S_2",
+      "value": "Will survive fatal Dmg to self 1 time & activates additional Dmg effect when using own attack abilities for 4 turns (lowers Unit Attack Res by a set percentage, then deals Non-Elemental Dmg (Min) & does not affect chains) & raises Missile Attack Res/Area Attack Res for 4 turns & bestows debuff effect (Pierce Attack Res Down for 3 turns) to attacks for 4 turns (activates before attacking)."
+    },
+    {
+      "key": "SK_FF5_GLMS_S_2_AD",
+      "value": "Lowers target's Unit Attack Res by a set percentage, then deals Non-Elemental Dmg (Min)."
+    },
+    {
+      "key": "SK_FF5_GLMS_S_3",
+      "value": "Deals Dmg (M) to targets within range & chance of inflicting Paralysis for 3 turns."
+    },
+    {
+      "key": "SK_FF5_GLMS_S_4",
+      "value": "Lowers target's DEF by a set percentage for 3 turns after Jump delay, then deals Dmg (M) to target."
+    },
+    {
+      "key": "SK_FF5_GLMS_R_1",
+      "value": "Chance of Preemptive Strike when taking Slash/Pierce-type Dmg."
+    },
+    {
+      "key": "SK_FF5_GLMS_P_1",
+      "value": "Raises ATK/DEF Piercing Rate/Debuff Reduction Rate."
+    },
+    {
+      "key": "SK_FF5_GLMS_P_2",
+      "value": "Raises Slash Attack/Pierce Attack, Area Attack Res."
+    },
+    {
+      "key": "SK_FF5_GLMS_EN_A_01",
+      "value": "Removes Phys Dmg Reduction from targets within range after Jump delay, then deals Dmg (L)."
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_01",
+      "value": "Enhances Guardian's Pride to Guardian of Big Bridge. Raises ATK/DEF Piercing Rate/Area Attack Res Piercing Rate/Debuff Reduction Rate."
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_01B",
+      "value": "Raises ATK/DEF Piercing Rate/Area Attack Res Piercing Rate/Debuff Reduction Rate."
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_02",
+      "value": "Enhances Attempted Friendship to Could We Be FrNever Mind! Raises Debuff Reduction Rate of allies within area around self for 4 turns & bestows debuff effect (Courage Remove Sealing for 3 turns) to successful attacks for 4 turns & bestows debuff effect (Debuff Reduction Rate Down for 3 turns) to successful attacks for 4 turns & recovers own AP & bestows a barrier on self that reduces Dmg (4 times) & recovers a set percentage of own HP (M) when HP falls below 50% when taking damage (1 time)."
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_02B",
+      "value": "Raises Debuff Reduction Rate of allies within area around self for 4 turns & bestows debuff effect (Courage Remove Sealing for 3 turns) to successful attacks for 4 turns & bestows debuff effect (Debuff Reduction Rate Down for 3 turns) to successful attacks for 4 turns & recovers own AP & bestows a barrier on self that reduces Dmg (4 times) & recovers a set percentage of own HP (M) when HP falls below 50% when taking damage (1 time)."
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_02B_EN",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_02C",
+      "value": "Raises Debuff Reduction Rate of allies within area around self for 4 turns & bestows debuff effect (Courage Remove Sealing for 3 turns) to successful attacks for 4 turns & bestows debuff effect (Debuff Reduction Rate Down for 3 turns) to successful attacks for 4 turns & recovers own AP & bestows a barrier on self that reduces Dmg (4 times) & recovers a set percentage of own HP (M) when HP falls below 50% when taking damage (1 time) & bestows Magic Damage reduction for 3 turns (1 time)."
+    },
+    {
+      "key": "SK_FF5_EC_GLMS_C_02C_EN",
+      "value": ""
+    },
+    {
       "key": "SK_LB_LW_MONT",
       "value": "Deals Dmg (L) to targets within range."
     },
@@ -24593,6 +24721,10 @@
       "value": "Removes Protect from targets within range & lowers Critical Dmg Res for 3 turns, then deals 3-Hit Dmg (XL)."
     },
     {
+      "key": "SK_LB_FF5_GLMS",
+      "value": "Bestows status effects (Haste/Protect/Shell) on self for 3 turns & destroys any barrier that reduces Phys Dmg on target & lowers Unit Attack Res for 3 turns, then deals Dmg (XL)."
+    },
+    {
       "key": "SK_LB_LW_MONT_B",
       "value": "Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -25133,6 +25265,18 @@
       "value": "Lowers target's Pierce Attack Res for 3 turns, then deals 3-Hit Dmg (L) & Guaranteed Hit & deals greater Dmg if caster is bestowed with Haste & bestows Magic Damage reduction on self for 3 turns & bestows Regen for 3 turns."
     },
     {
+      "key": "SK_LB_FF5_BATZ_B",
+      "value": "Destroys any barrier that reduces Phys Dmg on target & lowers Slash Res, then deals Dmg (XL) & lowers AP Consumption/raises Dmg of Bladeblitz for 3 turns."
+    },
+    {
+      "key": "SK_LB_FF5_LENA_B",
+      "value": "Recovers HP (L) of allies within range & bestows status effects (Protect/Shell) for 3 turns."
+    },
+    {
+      "key": "SK_LB_FF5_FRIS_B",
+      "value": "Raises own DEF Piercing Rate/Area Attack Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & increases in potency against more targets (standard damage for 3 targets or more) & halves CT & lowers Area Attack Res Piercing Rate for 3 turns & raises own CT (S)."
+    },
+    {
       "key": "SK_LB_LW_MONT_B_CH",
       "value": "Enhances Destiny's Cross. Lowers AP Consumption & enhances Area Height. Deals Dmg (L) to targets within range & raises own CT (M) & lowers AP Consumption for 3 turns & recovers a set percentage of own HP (L) when HP falls below 50% when taking damage (1 time)."
     },
@@ -25635,6 +25779,18 @@
     {
       "key": "SK_LB_LW_VRHW_B_CH",
       "value": "Enhances Cruel Punishment. Lowers AP Consumption. Lowers target's Pierce Attack Res for 3 turns, then deals 3-Hit Dmg (L) & Guaranteed Hit & deals greater Dmg if caster is bestowed with Haste & bestows Magic Damage reduction on self for 3 turns & bestows Regen for 3 turns."
+    },
+    {
+      "key": "SK_LB_FF5_BATZ_B_CH",
+      "value": "Enhances Blades of Legend. Lowers AP Consumption. Destroys any barrier that reduces Phys Dmg on target & lowers Slash Res, then deals Dmg (XL) & lowers AP Consumption/raises Dmg of Bladeblitz for 3 turns."
+    },
+    {
+      "key": "SK_LB_FF5_LENA_B_CH",
+      "value": "Enhances Love's Zephyr. Ability Use +1 & enhances Range. Recovers HP (L) of allies within range & bestows status effects (Protect/Shell) for 3 turns."
+    },
+    {
+      "key": "SK_LB_FF5_FRIS_B_CH",
+      "value": "Enhances Storm on the High Seas. Enhances Range. Raises own DEF Piercing Rate/Area Attack Res Piercing Rate for 3 turns, then deals Dmg (L) to targets within range & increases in potency against more targets (standard damage for 3 targets or more) & halves CT & lowers Area Attack Res Piercing Rate for 3 turns & raises own CT (S)."
     },
     {
       "key": "SK_LW_EC_MONT_A_01",
@@ -27929,6 +28085,14 @@
       "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own Max HP +10%/SPR +15/Area Attack Res +15"
     },
     {
+      "key": "SK_MA_LW_RAIN_3",
+      "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own Max HP +40%/MAG +15%/SPR +15/Area Attack Res +15/bestows Regen to self for 4 turns when HP falls below 80% when taking damage/Enhances Astral Guard. Enhances Magic Barrier. Increases own chance of being targeted & bestows a barrier on self that reduces Magic Dmg for 4 turns & raises MAG/Accuracy Rate/Debuff Reduction Rate for 4 turns & bestows distance-based Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels) for 4 turns."
+    },
+    {
+      "key": "SK_MA_LW_RAIN_3_EN",
+      "value": ""
+    },
+    {
       "key": "SK_MA_LW_FRVA",
       "value": "Max HP +10%, Magic Attack Res +10"
     },
@@ -28833,6 +28997,10 @@
       "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own Pierce ATK +15/Critical Dmg +15%/Critical Hit Rate +30/Area Attack Res +10"
     },
     {
+      "key": "SK_MA_LW_GRSR_02_3",
+      "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own Pierce Attack +15/Critical Dmg +15%/Critical Hit Rate +30/Area Attack Res +10/Accuracy Rate +15/Area Attack Res Piercing Rate +20/absorbs portion of HP Dmg dealt for 5 turns from commencement of battle."
+    },
+    {
       "key": "SK_MA_LW_SHNC",
       "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own ATK +5%/Area Attack Res +10"
     },
@@ -29073,12 +29241,44 @@
       "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Slash Attack Res Piercing Rate +10/Area Attack Res +10"
     },
     {
+      "key": "SK_MA_FF5_BATZ_2",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Slash Attack Res Piercing Rate +10/Area Attack Res Piercing Rate +20/Area Attack Res +10/Accuracy Rate +15"
+    },
+    {
+      "key": "SK_MA_FF5_BATZ_3",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Slash Attack Res Piercing Rate +10/Area Attack Res Piercing Rate +20/Area Attack Res +10/Accuracy Rate +30/Magic Dmg Reduction +20 when HP is 50% or above/recovers a set percentage of own HP (M) when HP falls below 50% when taking damage (1 time)"
+    },
+    {
+      "key": "SK_MA_FF5_BATZ_3_EN",
+      "value": ""
+    },
+    {
       "key": "SK_MA_FF5_LENA",
       "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own Max HP +15%/Activation Time<br>-20%"
     },
     {
+      "key": "SK_MA_FF5_LENA_2",
+      "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own Max HP +20%/Activation Time<br>-20%/bestows distance-based Phys Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels)"
+    },
+    {
+      "key": "SK_MA_FF5_LENA_3",
+      "value": "Wind Unit Allies' Max HP +10%/Wind Attack +15, own Max HP +20%/Area Attack Res +20/Activation Time -20%/bestows distance-based Phys Dmg reduction effect (from 3 panels away and beyond; max effect at 6 panels)/removes all Debuffs from self when HP falls below 70% when taking damage (1 time)/enhances Tycoonian Defense. Enhances Range. Decreases own chance of being targeted & bestows Dmg reduction (removed after taking damage 3 times) & significantly raises SPR of allies within area around self for 4 turns & bestows debuff effect (Protect Remove Sealing for 3 turns) to own successful attacks for 4 turns."
+    },
+    {
+      "key": "SK_MA_FF5_LENA_3_EN",
+      "value": ""
+    },
+    {
       "key": "SK_MA_FF5_FRIS",
       "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own ATK +10%/Area Attack Res +10"
+    },
+    {
+      "key": "SK_MA_FF5_FRIS_2",
+      "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own ATK +20%/Area Attack Res +10/Debuff Reduction Rate +15/Reaction Block Rate +40"
+    },
+    {
+      "key": "SK_MA_FF5_FRIS_3",
+      "value": "Water Unit Allies' Max HP +10%/Water Attack +15, own ATK +20%/Slash Attack Res Piercing Rate +20/Phys Dmg +10%/Area Attack Res +10/Debuff Reduction Rate +30/Reaction Block Rate +40/enhances Captain's Protection. Raises Slash/Strike Attack Res of allies within area around self for 4 turns & bestows a barrier on self that negates a certain amount of physical Dmg & bestows removal of all Buffs from target to own successful attacks for 4 turns."
     },
     {
       "key": "SK_MA_LW_RUFF",
@@ -29203,6 +29403,10 @@
     {
       "key": "SK_MA_LW_HLNA_03",
       "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Unit Attack Res +10/Ability Activation Time -20%"
+    },
+    {
+      "key": "SK_MA_LW_HLNA_03_2",
+      "value": "Light Unit Allies' Max HP +10%/Light Attack +15, own Unit Attack Res +10/Ability Activation Time -20%/Magic Dmg +10%/bestows distance-based Magic Dmg reduction effect (from 4 panels away and beyond; max effect at 7 panels)"
     },
     {
       "key": "SK_MA_FF4_CECL_2",
@@ -29487,6 +29691,10 @@
     {
       "key": "SK_MA_LW_VNLA_02",
       "value": "Lightning Unit Allies' Max HP +10%/Lightning Attack +15, own Evasion Rate +10/AP Consumption -25%"
+    },
+    {
+      "key": "SK_MA_FF5_GLMS",
+      "value": "Fire Unit Allies' Max HP +10%/Fire Attack +15, own Area Attack Res +15/Critical Evasion Rate +20"
     },
     {
       "key": "SK_UES_FF7_CLUD",
@@ -31373,6 +31581,10 @@
       "value": "Raises MAG, Magic Attack Res Piercing Rate, Accuracy Rate, Healing Power & bestows Reraise on self, allows unit to automatically recover from KO status once per battle (HP recovery (L))."
     },
     {
+      "key": "SK_UES_FF5_GLMS",
+      "value": "Raises Debuff Reduction Rate of allies within area around self for 4 turns & bestows debuff effect (Courage Remove Sealing for 3 turns) to successful attacks for 4 turns & bestows debuff effect (Debuff Reduction Rate Down for 3 turns) to successful attacks for 4 turns & recovers own AP & bestows a barrier on self that reduces Dmg (4 times) & recovers a set percentage of own HP (M) when HP falls below 50% when taking damage (1 time) & bestows Magic Damage reduction for 3 turns (1 time)."
+    },
+    {
       "key": "SK_CMPA_LW_MONT_1",
       "value": ""
     },
@@ -31503,6 +31715,22 @@
     {
       "key": "SK_CMA_LW_VNLA_02_EX",
       "value": "Activates at beginning of battle: raises ATK/MAG/Elemental Chain Res of allies with a Spear/Fists/Dagger/Ninja Blade/Gloves-equippable Main Job for 5 turns."
+    },
+    {
+      "key": "SK_CMPA_FF5_GLMS_1",
+      "value": ""
+    },
+    {
+      "key": "SK_CMPA_FF5_GLMS_1_EX",
+      "value": ""
+    },
+    {
+      "key": "SK_CMA_FF5_GLMS",
+      "value": "Activates at beginning of battle: raises Pierce Attack/Max HP of allies with a Greatsword/Spear/Staff (Black Mage etc.)-equippable Main Job for 5 turns & recovers the amount of HP raised."
+    },
+    {
+      "key": "SK_CMA_FF5_GLMS_EX",
+      "value": "Activates at beginning of battle: raises Pierce Attack/Critical Evasion Rate/Max HP of allies with a Greatsword/Spear/Staff (Black Mage etc.)-equippable Main Job for 5 turns & recovers the amount of HP raised."
     },
     {
       "key": "SK_LW_SLASH_1",
@@ -34277,6 +34505,10 @@
       "value": "Raises own Luck/Reaction Block Rate for 4 turns."
     },
     {
+      "key": "SK_ARM_FF5_GLMS_1",
+      "value": "Bestows Man Eater Upon Phys Attack on self for 4 turns & bestows Phys Dmg reduction for 4 turns."
+    },
+    {
       "key": "SK_LW_ACC_042_1",
       "value": ""
     },
@@ -35345,6 +35577,10 @@
       "value": ""
     },
     {
+      "key": "SK_FF5_ROD_000_6",
+      "value": ""
+    },
+    {
       "key": "SK_FF5_SWO_000_1",
       "value": ""
     },
@@ -35365,6 +35601,10 @@
       "value": ""
     },
     {
+      "key": "SK_FF5_SWO_000_6",
+      "value": ""
+    },
+    {
       "key": "SK_FF5_SWO_001_1",
       "value": ""
     },
@@ -35382,6 +35622,10 @@
     },
     {
       "key": "SK_FF5_SWO_001_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_SWO_001_6",
       "value": ""
     },
     {
@@ -36366,6 +36610,10 @@
     },
     {
       "key": "SK_LW_KAT_021_5",
+      "value": ""
+    },
+    {
+      "key": "SK_LW_KAT_021_6",
       "value": ""
     },
     {
@@ -37754,6 +38002,26 @@
     },
     {
       "key": "SK_LW_DAG_019_5",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_SPE_000_1",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_SPE_000_2",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_SPE_000_3",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_SPE_000_4",
+      "value": ""
+    },
+    {
+      "key": "SK_FF5_SPE_000_5",
       "value": ""
     },
     {
@@ -45574,6 +45842,126 @@
     },
     {
       "key": "SK_GL_VC_FF14_MV6_PMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_LW_VNLA_02_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_VNLA_02_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_VNLA_02_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_LW_VNLA_02_PMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GS",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GS_AW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GSMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GS_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GS_AW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GSMAX_2",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GS_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GS_AW_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_GSMAX_3",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_P",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_PAW",
+      "value": ""
+    },
+    {
+      "key": "SK_VC_FF5_MV2_PMAX",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF5_MV2_P_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF5_MV2_PAW_2",
+      "value": ""
+    },
+    {
+      "key": "SK_GL_VC_FF5_MV2_PMAX_2",
       "value": ""
     },
     {

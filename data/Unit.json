@@ -19172,7 +19172,8 @@
       "atkskl": "SK_LW_MORE_ATK",
       "mstskl": [
         "SK_MA_LW_MORE_01",
-        "SK_MA_LW_MORE_01_2"
+        "SK_MA_LW_MORE_01_2",
+        "SK_MA_LW_MORE_01_3"
       ],
       "jobsets": [
         "JB_LW_MORE",
@@ -25087,7 +25088,8 @@
       "atkskl": "SK_LW_RSNC_ATK",
       "mstskl": [
         "SK_MA_LW_RSNC_01",
-        "SK_MA_LW_RSNC_01_2"
+        "SK_MA_LW_RSNC_01_2",
+        "SK_MA_LW_RSNC_01_3"
       ],
       "jobsets": [
         "JB_LW_RSNC",
@@ -31542,7 +31544,9 @@
       "trust": "AF_ACC_LW_OBRN_01_1",
       "atkskl": "SK_LW_OBRN_01_ATK",
       "mstskl": [
-        "SK_MA_LW_OBRN_01"
+        "SK_MA_LW_OBRN_01",
+        "SK_MA_LW_OBRN_01_2",
+        "SK_MA_LW_OBRN_01_3"
       ],
       "jobsets": [
         "JB_LW_OBRN_01",
@@ -35885,6 +35889,7 @@
           "dmax": 9999
         }
       ],
+      "limit": "SK_LB_LW_VRAS",
       "awake_tbl_id": "UN_AW_SHINE_UR",
       "unit_medal_num": 0
     },
@@ -36320,6 +36325,14 @@
           "m": "JB_LW_VRED_M"
         }
       ],
+      "ex_star": {
+        "unlock_item_id": "UEX_RCP_DARK_UR",
+        "unlock_count": 1,
+        "id": "UES_LW_VRED",
+        "lvup_item_id": "UES_LU_DARK",
+        "re_id": "UES_RNC_DARK_UR",
+        "skill_set_id": "UESSET_LW_VRED"
+      },
       "ai": "AI_PLAYER_LW_VRED",
       "buff_pri": "BUFFPRI_PHYATK",
       "debuff_pri": "DEBUFFPRI_PHYATK",
@@ -37169,6 +37182,135 @@
       ],
       "limit": "SK_LB_FF5_GLMS",
       "awake_tbl_id": "UN_AW_FIRE_UR",
+      "unit_medal_num": 20
+    },
+    {
+      "iname": "UN_FF5_P_EXDT",
+      "sex": 1,
+      "size": 0,
+      "body_type": "MM",
+      "personal": 0,
+      "collaboType": 1,
+      "charaId": "FF05exdt",
+      "anm_type": 5,
+      "anm_id": "exdt",
+      "voiceId": "FF05exdt_00",
+      "type": 0,
+      "elem": [
+        8
+      ],
+      "species": [
+        1
+      ],
+      "birth": 18,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "piece": "IT_PI_FF5_EXDT",
+      "piece_num": 40,
+      "db_num": 1,
+      "trust": "AF_ACC_FF5_EXDT_1",
+      "atkskl": "SK_FF5_EXDT_ATK",
+      "mstskl": [
+        "SK_MA_FF5_EXDT"
+      ],
+      "jobsets": [
+        "JB_FF5_EXDT",
+        "JB_LW_MKN_DARK",
+        "JB_LW_GRM_DARK"
+      ],
+      "ccsets": [
+        {
+          "m": "JB_FF5_EXDT_M"
+        }
+      ],
+      "ex_star": {
+        "unlock_item_id": "UEX_RCP_DARK_UR",
+        "unlock_count": 1,
+        "id": "UES_FF5_EXDT",
+        "lvup_item_id": "UES_LU_DARK",
+        "re_id": "UES_RNC_DARK_UR",
+        "skill_set_id": "UESSET_FF5_EXDT"
+      },
+      "ai": "AI_PLAYER_FF5_EXDT",
+      "buff_pri": "BUFFPRI_MAGATK",
+      "debuff_pri": "DEBUFFPRI_MAGATK",
+      "status": [
+        {
+          "hp": 424,
+          "mp": 61,
+          "ap": 74,
+          "atk": 32,
+          "def": 0,
+          "mag": 96,
+          "mnd": 0,
+          "dex": 77,
+          "spd": 31,
+          "luk": 72,
+          "esh": -10,
+          "asl": 15,
+          "api": -10,
+          "abl": -5,
+          "ash": 15,
+          "ama": 20,
+          "cbl": 50,
+          "csw": 10,
+          "cdm": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1495,
+          "mp": 96,
+          "ap": 90,
+          "atk": 55,
+          "def": 0,
+          "mag": 163,
+          "mnd": 0,
+          "dex": 114,
+          "spd": 37,
+          "luk": 101,
+          "esh": -10,
+          "asl": 15,
+          "api": -10,
+          "abl": -5,
+          "ash": 15,
+          "ama": 20,
+          "cbl": 50,
+          "csw": 10,
+          "cdm": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1569,
+          "mp": 100,
+          "ap": 94,
+          "atk": 71,
+          "def": 0,
+          "mag": 211,
+          "mnd": 0,
+          "dex": 136,
+          "spd": 37,
+          "luk": 111,
+          "esh": -10,
+          "asl": 15,
+          "api": -10,
+          "abl": -5,
+          "ash": 15,
+          "ama": 20,
+          "cbl": 50,
+          "csw": 10,
+          "cdm": 50,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "limit": "SK_LB_FF5_EXDT",
+      "awake_tbl_id": "UN_AW_DARK_UR",
       "unit_medal_num": 20
     },
     {
@@ -147753,6 +147895,88 @@
           "api": 10,
           "abl": -10,
           "ama": 20,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        }
+      ],
+      "unit_medal_num": 0
+    },
+    {
+      "iname": "UN_LW_E_RSNC_02",
+      "sex": 2,
+      "size": 0,
+      "body_type": "W",
+      "personal": 0,
+      "charaId": "LAPSrsnc",
+      "anm_type": 5,
+      "anm_id": "rsnc_02",
+      "voiceId": "LAPSrsnc_02",
+      "type": 7,
+      "elem": [
+        1
+      ],
+      "species": [
+        1
+      ],
+      "birth": 12,
+      "rare": 4,
+      "grow": "SR_DEFAULT",
+      "cost": 100,
+      "atkskl": "SK_LW_RSNC_02_ATK",
+      "jobsets": [
+        "JB_LW_RSNC_02",
+        "JB_LW_SSA_FIRE",
+        "JB_LW_CLR_FIRE"
+      ],
+      "ai": "AI_PLAYER_LW_RSNC_02",
+      "buff_pri": "BUFFPRI_HEALER",
+      "debuff_pri": "DEBUFFPRI_HEALER",
+      "status": [
+        {
+          "hp": 341,
+          "mp": 68,
+          "ap": 76,
+          "atk": 32,
+          "def": 0,
+          "mag": 101,
+          "mnd": 0,
+          "dex": 73,
+          "spd": 31,
+          "luk": 73,
+          "eic": 20,
+          "ewa": -10,
+          "asl": 10,
+          "abl": -10,
+          "ash": -5,
+          "ama": 10,
+          "cpo": 50,
+          "stn": 50,
+          "cdh": 10,
+          "mov": 3,
+          "jmp": 1,
+          "dmax": 9999
+        },
+        {
+          "hp": 1218,
+          "mp": 107,
+          "ap": 93,
+          "atk": 54,
+          "def": 0,
+          "mag": 170,
+          "mnd": 0,
+          "dex": 109,
+          "spd": 36,
+          "luk": 103,
+          "eic": 20,
+          "ewa": -10,
+          "asl": 10,
+          "abl": -10,
+          "ash": -5,
+          "ama": 10,
+          "cpo": 50,
+          "stn": 50,
+          "cdh": 10,
           "mov": 3,
           "jmp": 1,
           "dmax": 9999

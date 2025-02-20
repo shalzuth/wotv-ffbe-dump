@@ -186,6 +186,33 @@
           "ex_skl_iname": "SK_CMA_LW_MONT_03_EX"
         }
       ]
+    },
+    {
+      "iname": "UN_LW_P_MYVA",
+      "target_scope": 2,
+      "party_ability": [
+        {
+          "cond_iname": "CMC_ICE",
+          "skl_iname": "SK_CMPA_LW_MYVA_1",
+          "ex_skl_iname": "SK_CMPA_LW_MYVA_1_EX"
+        },
+        {
+          "cond_iname": "CMC_SWA_BOW_GUN_GLO",
+          "skl_iname": "SK_CMPA_LW_MYVA_2",
+          "ex_skl_iname": "SK_CMPA_LW_MYVA_2_EX"
+        }
+      ],
+      "ability": [
+        {
+          "action_count": 1,
+          "count_target": 0,
+          "enchant_count_type": 1,
+          "cond_iname": "CMC_SWA_BOW_GUN_GLO",
+          "skl_iname": "SK_CMA_LW_MYVA",
+          "ex_skl_iname": "SK_CMA_LW_MYVA_EX"
+        }
+      ],
+      "ai": "AI_CMD_1"
     }
   ]
 }
